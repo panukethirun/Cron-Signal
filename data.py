@@ -15,7 +15,8 @@ TD_KEY = os.environ.get("TWELVEDATA_API_KEY", "")
 SYMBOL_MAP = {
     "BTC": "BTC/USD",
     "ETH": "ETH/USD",
-    "XAU": "XAU/USD",  # ทองคำ
+    "USDJPY": "USD/JPY",  # คู่เงิน ดอลลาร์/เยน
+    "XAU": "XAU/USD",     # ทองคำ
 }
 
 

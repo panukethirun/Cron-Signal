@@ -16,7 +16,7 @@ from indicators import add_indicators
 from notify import send_line
 from strategy import decide, levels
 
-SYMBOLS = ["BTC", "ETH", "XAU"]
+SYMBOLS = ["BTC", "ETH", "USDJPY", "XAU"]
 STATE_FILE = Path("state.json")
 ALWAYS_SEND = os.environ.get("ALWAYS_SEND", "false").lower() == "true"
 
