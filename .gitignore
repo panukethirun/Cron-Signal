@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Claude local settings — อาจมี API key/secret อยู่ ห้าม commit
+.claude/
