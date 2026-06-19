@@ -45,6 +45,8 @@
   .chip { font-size: 11px; color: var(--muted); background: rgba(139,148,158,.12); padding: 3px 8px; border-radius: 6px; }
   .levels { display: flex; gap: 14px; font-size: 13px; border-top: 1px solid var(--border); padding-top: 10px; }
   .tp { color: var(--long); } .sl { color: var(--short); }
+  .ai { font-size: 12px; color: var(--muted); margin-top: 10px; line-height: 1.5; }
+  .ailegend { color: var(--muted); font-size: 12px; text-align: center; margin-top: 18px; line-height: 1.6; }
   .err { color: var(--short); font-size: 13px; margin-top: 10px; }
   footer { color: var(--muted); font-size: 12px; margin-top: 24px; text-align: center; line-height: 1.6; }
   #status { color: var(--muted); padding: 30px; text-align: center; }
@@ -62,6 +64,8 @@
 
 <div id="status">กำลังโหลดข้อมูล…</div>
 <div class="grid" id="grid"></div>
+
+<div class="ailegend" id="ailegend"></div>
 
 <footer>
   อัปเดตทุกชั่วโมงโดย GitHub Actions · อิงอินดิเคเตอร์ทางเทคนิค (EMA · MACD · RSI · ADX)<br>
@@ -95,6 +99,10 @@
   function render(data) {
     document.getElementById("status").style.display = "none";
     document.getElementById("updated").textContent = "อัปเดตล่าสุด: " + (data.updated_th || "-");
+    const hasAI = (data.signals || []).some((s) => s.ai);
+    document.getElementById("ailegend").innerHTML = hasAI
+      ? "🤖 <b>ข่าว</b> = sentiment จาก AI (ช่วง −1 ถึง +1) · − ข่าวโทนลบ (กดราคาลง) · + ข่าวโทนบวก (ดันราคาขึ้น) · ยิ่งใกล้ปลาย ยิ่งแรง"
+      : "";
     const grid = document.getElementById("grid");
     grid.innerHTML = "";
 
@@ -115,6 +123,10 @@
       const levels = (s.tp != null)
         ? `<div class="levels"><span class="tp">🎯 TP ${fmt(s.tp)}</span><span class="sl">🛑 SL ${fmt(s.sl)}</span></div>`
         : "";
+      const aiColor = s.ai ? (s.ai.score > 0.15 ? "var(--long)" : s.ai.score < -0.15 ? "var(--short)" : "var(--neutral)") : "";
+      const ai = s.ai
+        ? `<div class="ai">🤖 ข่าว: <b style="color:${aiColor}">${s.ai.label} (${s.ai.score > 0 ? "+" : ""}${s.ai.score})</b> ${s.ai.reason || ""}</div>`
+        : "";
 
       card.innerHTML = `
         <div class="top">
@@ -127,7 +139,7 @@
           <span class="conf-track"><span class="conf-fill" style="width:${conf}%;background:${color}"></span></span>
         </div>
         <div class="chips">${chips}</div>
-        ${levels}`;
+        ${levels}${ai}`;
       grid.appendChild(card);
     });
   }

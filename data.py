@@ -19,6 +19,8 @@ SYMBOL_MAP = {
     "XAU": "XAU/USD",     # ทองคำ
 }
 
+SYMBOLS_DEFAULT = ["BTC", "ETH", "USDJPY", "XAU"]
+
 
 def fetch_ohlc(symbol_key: str, interval: str = "1h", outputsize: int = 300) -> pd.DataFrame:
     """คืน DataFrame คอลัมน์ time/open/high/low/close เรียงจากเก่า -> ใหม่."""

@@ -11,8 +11,10 @@ import os
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from ai_sentiment import analyze_sentiment
 from data import SYMBOL_MAP, fetch_ohlc
 from indicators import add_indicators
+from news import fetch_headlines
 from notify import send_signal
 from strategy import decide, levels
 
@@ -46,40 +48,67 @@ def conf_bar(pct: int) -> str:
     return "▰" * filled + "▱" * (5 - filled)
 
 
-def format_block(key: str, signal: str, confidence: int, reasons: list[str], last) -> str:
+def ai_emoji(score: float) -> str:
+    return "🟢" if score > 0.15 else "🔴" if score < -0.15 else "⚪"
+
+
+def format_block(key: str, signal: str, confidence: int, reasons: list[str], last, ai=None) -> str:
     price = last.close
     tp, sl = levels(signal, price, last.atr)
     head = f"{EMOJI[signal]} {SYMBOL_MAP[key]} — {signal} · มั่นใจ {confidence}%"
     body = f"{conf_bar(confidence)}\nราคา {price:,.2f}\n{' · '.join(reasons)}"
     if tp is not None:
         body += f"\n🎯 TP {tp:,.2f} · 🛑 SL {sl:,.2f}"
+    if ai:
+        score = ai.get("score", 0)
+        body += f"\n🤖 ข่าว: {ai_emoji(score)} {ai.get('label', '-')} ({score:+.1f}) {ai.get('reason', '')}"
     return f"{head}\n{body}"
 
 
 def main() -> None:
     state = load_state()
     new_state: dict = {}
-    blocks: list[str] = []
-    cards: list[dict] = []
     changed = False
 
+    # 1) คำนวณสัญญาณเทคนิคของทุกสินทรัพย์
+    computed = []  # (key, signal, confidence, reasons, last) หรือ (key, None, error)
     for key in SYMBOLS:
         try:
             df = add_indicators(fetch_ohlc(key))
             signal, confidence, reasons, last = decide(df)
+            computed.append((key, signal, confidence, reasons, last))
+            new_state[key] = signal
+            if state.get(key) != signal:
+                changed = True
         except Exception as exc:  # noqa: BLE001
-            blocks.append(f"⚠️ {SYMBOL_MAP[key]}: ดึงข้อมูลไม่สำเร็จ ({exc})")
-            cards.append({"symbol": SYMBOL_MAP[key], "signal": "ERROR", "error": str(exc)})
+            computed.append((key, None, str(exc)))
+
+    # 2) AI วิเคราะห์ sentiment จากข่าว (ข้ามได้ถ้าไม่มี DEEPSEEK_API_KEY)
+    ai_by_asset = {}
+    if os.environ.get("DEEPSEEK_API_KEY"):
+        try:
+            news = {SYMBOL_MAP[k]: fetch_headlines(k) for k in SYMBOLS}
+            ai_by_asset = analyze_sentiment(news)
+        except Exception as exc:  # noqa: BLE001
+            print(f"[ai] ข้ามส่วน AI: {exc}")
+
+    # 3) ประกอบข้อความ + การ์ดสำหรับ dashboard
+    blocks: list[str] = []
+    cards: list[dict] = []
+    for item in computed:
+        key = item[0]
+        sym = SYMBOL_MAP[key]
+        if item[1] is None:  # ดึงข้อมูลไม่สำเร็จ
+            blocks.append(f"⚠️ {sym}: ดึงข้อมูลไม่สำเร็จ ({item[2]})")
+            cards.append({"symbol": sym, "signal": "ERROR", "error": item[2]})
             continue
 
-        new_state[key] = signal
-        if state.get(key) != signal:
-            changed = True
-        blocks.append(format_block(key, signal, confidence, reasons, last))
-
+        _, signal, confidence, reasons, last = item
+        ai = ai_by_asset.get(sym)
+        blocks.append(format_block(key, signal, confidence, reasons, last, ai))
         tp, sl = levels(signal, float(last.close), float(last.atr))
         cards.append({
-            "symbol": SYMBOL_MAP[key],
+            "symbol": sym,
             "signal": signal,
             "confidence": confidence,
             "price": round(float(last.close), 2),
@@ -88,9 +117,10 @@ def main() -> None:
             "rsi": round(float(last.rsi), 1),
             "adx": round(float(last.adx), 1),
             "reasons": reasons,
+            "ai": ai,
         })
 
-    # เขียนไฟล์ข้อมูลสำหรับ dashboard (เขียนทุกครั้ง แม้สัญญาณไม่เปลี่ยน)
+    # 4) เขียนไฟล์ข้อมูลสำหรับ dashboard (เขียนทุกครั้ง แม้สัญญาณไม่เปลี่ยน)
     SIGNALS_FILE.write_text(json.dumps({
         "updated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
         "updated_th": th_now(),
@@ -98,13 +128,17 @@ def main() -> None:
         "signals": cards,
     }, ensure_ascii=False, indent=2))
 
+    # 5) ส่งแจ้งเตือน
+    ai_legend = (
+        "\n\n🤖 ข่าว = sentiment จาก AI (ช่วง −1 ถึง +1)\n"
+        "− ข่าวโทนลบ (กดราคาลง) · + ข่าวโทนบวก (ดันราคาขึ้น) · ยิ่งใกล้ปลาย ยิ่งแรง"
+    ) if ai_by_asset else ""
     message = (
         "📊 สัญญาณเทรด (TF 1H)\n"
         f"🕐 {th_now()} (เวลาไทย)\n\n"
         + "\n\n".join(blocks)
-        + "\n\n— อิงอินดิเคเตอร์ทางเทคนิค ไม่ใช่คำแนะนำการลงทุน —"
+        + ai_legend
     )
-
     if changed or ALWAYS_SEND:
         send_signal(message)
     else:

@@ -36,22 +36,23 @@ def _adx_label(adx: float) -> str:
     return "แรงมาก ระวังกลับตัว"
 
 
-def decide(df: pd.DataFrame):
-    """คืน (signal, confidence, reasons, last_row)."""
-    last = df.iloc[-1]
+def evaluate(row):
+    """ตัดสินจากข้อมูลแถวเดียว — ใช้ทั้ง live และ backtest (causal ไม่มี lookahead).
 
+    คืน (signal, confidence, direction, adx, votes).
+    """
     votes = {
-        "ema_fast_slow": 1 if last.ema_fast > last.ema_slow else -1,
-        "ema_htf": 1 if last.ema_slow > last.ema200 else -1,
-        "macd_zero": 1 if last.macd > 0 else -1,
-        "macd_hist": 1 if last.macd_hist > 0 else -1,
-        "di": 1 if last.plus_di > last.minus_di else -1,
-        "rsi": 1 if last.rsi >= 55 else (-1 if last.rsi <= 45 else 0),
+        "ema_fast_slow": 1 if row.ema_fast > row.ema_slow else -1,
+        "ema_htf": 1 if row.ema_slow > row.ema200 else -1,
+        "macd_zero": 1 if row.macd > 0 else -1,
+        "macd_hist": 1 if row.macd_hist > 0 else -1,
+        "di": 1 if row.plus_di > row.minus_di else -1,
+        "rsi": 1 if row.rsi >= 55 else (-1 if row.rsi <= 45 else 0),
     }
 
     net = sum(votes[k] * WEIGHTS[k] for k in votes)
     agreement = abs(net) / TOTAL_W          # 0..1 อินดิเคเตอร์เห็นพ้องกันแค่ไหน
-    adx = float(last.adx)
+    adx = float(row.adx)
     trend_factor = min(adx, 40.0) / 40.0    # 0..1 เทรนด์แข็งแค่ไหน (ADX 40+ = เต็ม)
 
     direction = 1 if net > 0 else -1
@@ -63,6 +64,13 @@ def decide(df: pd.DataFrame):
     else:
         signal = "LONG" if direction > 0 else "SHORT"
 
+    return signal, confidence, direction, adx, votes
+
+
+def decide(df: pd.DataFrame):
+    """คืน (signal, confidence, reasons, last_row)."""
+    last = df.iloc[-1]
+    signal, confidence, direction, adx, votes = evaluate(last)
     reasons = _build_reasons(last, votes, direction, adx, signal)
     return signal, confidence, reasons, last
 
