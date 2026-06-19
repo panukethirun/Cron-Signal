@@ -1,71 +1,86 @@
-"""ตรรกะตัดสินสัญญาณ Long / Short / Neutral จากอินดิเคเตอร์.
+"""ตรรกะตัดสินสัญญาณ + Confidence score.
 
-ใช้ระบบให้คะแนนจาก 4 ปัจจัย:
-  1) เทรนด์   : EMA20 vs EMA50
-  2) โซน MACD : MACD line เหนือ/ใต้ศูนย์ (ยืนยันทิศทางหลัก)
-  3) โมเมนตัม : MACD histogram (MACD vs signal line)
-  4) แรงซื้อขาย: RSI(14)
+อิงเทคนิคที่ระบบเทรดเชิงปริมาณใช้กันจริง:
+- Multi-indicator confluence แบบ "ถ่วงน้ำหนัก" (ไม่ใช่นับ ±1 เท่ากันหมด)
+- ADX เป็น regime filter: ADX < 20 = ไซด์เวย์ -> เลี่ยงเทรด (NEUTRAL)
+- Confidence = (ความเห็นพ้องของอินดิเคเตอร์) x (ความแรงของเทรนด์จาก ADX)
 
-  คะแนน >= +2  -> LONG
-  คะแนน <= -2  -> SHORT
-  อื่น ๆ        -> NEUTRAL
-
-หมายเหตุ: แยก "โซน MACD" (line vs 0 = ทิศทางหลัก) ออกจาก "โมเมนตัม" (hist)
-เพราะในเทรนด์ที่กำลังชะลอตัว hist อาจสวนทางชั่วคราว ไม่ควรใช้ตัดสินทิศทางลำพัง
+Confidence แปลงเป็น 0-100% เพื่อบอกว่าสัญญาณ "น่าเชื่อ" แค่ไหน
 """
 from __future__ import annotations
 
 import pandas as pd
 
+# น้ำหนักของแต่ละปัจจัย (รวม = 9.0) — ปัจจัยเทรนด์ได้น้ำหนักมากสุด
+WEIGHTS = {
+    "ema_fast_slow": 2.0,  # เทรนด์ระยะสั้น/กลาง
+    "ema_htf": 2.0,        # เทรนด์ใหญ่ (EMA50 vs EMA200) = multi-timeframe
+    "macd_zero": 1.5,      # โซน MACD (เหนือ/ใต้ศูนย์)
+    "macd_hist": 1.0,      # โมเมนตัม
+    "rsi": 1.0,            # แรงซื้อ/ขาย
+    "di": 1.5,             # ทิศทางจาก +DI/-DI
+}
+TOTAL_W = sum(WEIGHTS.values())
+
+ADX_RANGING = 20   # ต่ำกว่านี้ = ไซด์เวย์ ไม่เทรดตามเทรนด์
+AGREE_MIN = 0.34   # ต้องเห็นพ้องอย่างน้อย ~1/3 ของน้ำหนักรวม จึงจะออกสัญญาณ
+
+
+def _adx_label(adx: float) -> str:
+    if adx < ADX_RANGING:
+        return "ไซด์เวย์"
+    if adx < 25:
+        return "เริ่มมีเทรนด์"
+    if adx < 50:
+        return "เทรนด์แข็ง"
+    return "แรงมาก ระวังกลับตัว"
+
 
 def decide(df: pd.DataFrame):
-    """คืน (signal, score, reasons, last_row)."""
+    """คืน (signal, confidence, reasons, last_row)."""
     last = df.iloc[-1]
-    score = 0
-    reasons: list[str] = []
 
-    # 1) เทรนด์จาก EMA
-    if last.ema_fast > last.ema_slow:
-        score += 1
-        reasons.append("EMA20>EMA50 ขาขึ้น")
-    else:
-        score -= 1
-        reasons.append("EMA20<EMA50 ขาลง")
+    votes = {
+        "ema_fast_slow": 1 if last.ema_fast > last.ema_slow else -1,
+        "ema_htf": 1 if last.ema_slow > last.ema200 else -1,
+        "macd_zero": 1 if last.macd > 0 else -1,
+        "macd_hist": 1 if last.macd_hist > 0 else -1,
+        "di": 1 if last.plus_di > last.minus_di else -1,
+        "rsi": 1 if last.rsi >= 55 else (-1 if last.rsi <= 45 else 0),
+    }
 
-    # 2) ทิศทางหลักจากตำแหน่ง MACD line เทียบศูนย์
-    if last.macd > 0:
-        score += 1
-        reasons.append("MACD เหนือ 0")
-    else:
-        score -= 1
-        reasons.append("MACD ใต้ 0")
+    net = sum(votes[k] * WEIGHTS[k] for k in votes)
+    agreement = abs(net) / TOTAL_W          # 0..1 อินดิเคเตอร์เห็นพ้องกันแค่ไหน
+    adx = float(last.adx)
+    trend_factor = min(adx, 40.0) / 40.0    # 0..1 เทรนด์แข็งแค่ไหน (ADX 40+ = เต็ม)
 
-    # 3) โมเมนตัมจาก MACD histogram (MACD line vs signal)
-    if last.macd_hist > 0:
-        score += 1
-        reasons.append("โมเมนตัมขึ้น")
-    else:
-        score -= 1
-        reasons.append("โมเมนตัมลง")
+    direction = 1 if net > 0 else -1
+    confidence = round(100 * agreement * trend_factor)
 
-    # 4) แรงซื้อ/ขายจาก RSI
-    if last.rsi >= 55:
-        score += 1
-        reasons.append(f"RSI {last.rsi:.0f} แรง")
-    elif last.rsi <= 45:
-        score -= 1
-        reasons.append(f"RSI {last.rsi:.0f} อ่อน")
-    else:
-        reasons.append(f"RSI {last.rsi:.0f} กลาง")
-
-    if score >= 2:
-        signal = "LONG"
-    elif score <= -2:
-        signal = "SHORT"
-    else:
+    # ADX ต่ำ = ไซด์เวย์ หรือ อินดิเคเตอร์ไม่เห็นพ้องพอ -> ไม่ออกสัญญาณ
+    if adx < ADX_RANGING or agreement < AGREE_MIN:
         signal = "NEUTRAL"
+    else:
+        signal = "LONG" if direction > 0 else "SHORT"
 
-    return signal, score, reasons, last
+    reasons = _build_reasons(last, votes, direction, adx, signal)
+    return signal, confidence, reasons, last
+
+
+def _build_reasons(last, votes, direction, adx, signal) -> list[str]:
+    r: list[str] = []
+    r.append("เทรนด์ขาขึ้น" if votes["ema_fast_slow"] > 0 else "เทรนด์ขาลง")
+
+    if signal != "NEUTRAL":
+        # เทรนด์ใหญ่หนุนทางเดียวกับสัญญาณไหม
+        if votes["ema_htf"] == direction:
+            r.append("เทรนด์ใหญ่หนุน")
+        else:
+            r.append("สวนเทรนด์ใหญ่")
+
+    r.append(f"ADX {adx:.0f} {_adx_label(adx)}")
+    r.append(f"RSI {last.rsi:.0f}")
+    return r
 
 
 def levels(signal: str, price: float, atr: float):

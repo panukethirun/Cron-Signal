@@ -13,7 +13,7 @@ from zoneinfo import ZoneInfo
 
 from data import SYMBOL_MAP, fetch_ohlc
 from indicators import add_indicators
-from notify import send_line
+from notify import send_signal
 from strategy import decide, levels
 
 SYMBOLS = ["BTC", "ETH", "USDJPY", "XAU"]
@@ -40,11 +40,16 @@ def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2))
 
 
-def format_block(key: str, signal: str, reasons: list[str], last) -> str:
+def conf_bar(pct: int) -> str:
+    filled = max(0, min(5, round(pct / 20)))
+    return "▰" * filled + "▱" * (5 - filled)
+
+
+def format_block(key: str, signal: str, confidence: int, reasons: list[str], last) -> str:
     price = last.close
     tp, sl = levels(signal, price, last.atr)
-    head = f"{EMOJI[signal]} {SYMBOL_MAP[key]} — {signal}"
-    body = f"ราคา {price:,.2f}\n{' · '.join(reasons)}"
+    head = f"{EMOJI[signal]} {SYMBOL_MAP[key]} — {signal} · มั่นใจ {confidence}%"
+    body = f"{conf_bar(confidence)}\nราคา {price:,.2f}\n{' · '.join(reasons)}"
     if tp is not None:
         body += f"\n🎯 TP {tp:,.2f} · 🛑 SL {sl:,.2f}"
     return f"{head}\n{body}"
@@ -59,7 +64,7 @@ def main() -> None:
     for key in SYMBOLS:
         try:
             df = add_indicators(fetch_ohlc(key))
-            signal, score, reasons, last = decide(df)
+            signal, confidence, reasons, last = decide(df)
         except Exception as exc:  # noqa: BLE001
             blocks.append(f"⚠️ {SYMBOL_MAP[key]}: ดึงข้อมูลไม่สำเร็จ ({exc})")
             continue
@@ -67,7 +72,7 @@ def main() -> None:
         new_state[key] = signal
         if state.get(key) != signal:
             changed = True
-        blocks.append(format_block(key, signal, reasons, last))
+        blocks.append(format_block(key, signal, confidence, reasons, last))
 
     message = (
         "📊 สัญญาณเทรด (TF 1H)\n"
@@ -77,7 +82,7 @@ def main() -> None:
     )
 
     if changed or ALWAYS_SEND:
-        send_line(message)
+        send_signal(message)
     else:
         print("[main] สัญญาณไม่เปลี่ยน ข้ามการส่ง LINE\n")
         print(message)

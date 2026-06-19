@@ -28,8 +28,10 @@ jobs:
       - name: Run signal bot
         env:
           TWELVEDATA_API_KEY: ${{ secrets.TWELVEDATA_API_KEY }}
-          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
-          LINE_TO: ${{ secrets.LINE_TO }}     # ไม่ใส่ก็ได้ (จะ broadcast แทน)
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}   # Telegram (แนะนำ)
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}  # ไม่ใส่ก็ได้
+          LINE_TO: ${{ secrets.LINE_TO }}
           ALWAYS_SEND: "false"                # เปลี่ยนเป็น "true" ถ้าอยากให้ส่งทุกชั่วโมง
         run: python main.py
 

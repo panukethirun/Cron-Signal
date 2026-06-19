@@ -20,7 +20,7 @@ SYMBOL_MAP = {
 }
 
 
-def fetch_ohlc(symbol_key: str, interval: str = "1h", outputsize: int = 200) -> pd.DataFrame:
+def fetch_ohlc(symbol_key: str, interval: str = "1h", outputsize: int = 300) -> pd.DataFrame:
     """คืน DataFrame คอลัมน์ time/open/high/low/close เรียงจากเก่า -> ใหม่."""
     if not TD_KEY:
         raise RuntimeError(
