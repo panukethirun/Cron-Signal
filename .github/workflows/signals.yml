@@ -33,7 +33,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}  # ไม่ใส่ก็ได้
           LINE_TO: ${{ secrets.LINE_TO }}
-          ALWAYS_SEND: "false"                # เปลี่ยนเป็น "true" ถ้าอยากให้ส่งทุกชั่วโมง
+          ALWAYS_SEND: "true"                 # ส่ง Telegram + ยิง DeepSeek ทุกรอบ (ไม่รอสัญญาณเปลี่ยน)
         run: python main.py
 
       - name: Persist state & dashboard data

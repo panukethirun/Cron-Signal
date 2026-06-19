@@ -1,3 +1,4 @@
 # state.json ถูกเขียนใหม่ทุกครั้งที่รัน — ให้ git เก็บฝั่งเราเสมอเวลา conflict
 # (ไม่ต้องแก้มือ เพราะรอบถัดไปก็ทับใหม่อยู่ดี)
 state.json merge=ours
+signals.json merge=ours
