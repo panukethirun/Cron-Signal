@@ -1,74 +1,90 @@
 {
-  "updated_utc": "2026-06-19T03:47:18+00:00",
-  "updated_th": "19 มิ.ย. 2569, 10:47 น.",
+  "updated_utc": "2026-06-19T05:30:32+00:00",
+  "updated_th": "19 มิ.ย. 2569, 12:30 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 60,
-      "price": 62604.07,
-      "tp": 61543.57,
-      "sl": 63240.37,
-      "rsi": 34.7,
-      "adx": 30.7,
+      "confidence": 62,
+      "price": 62536.19,
+      "tp": 61498.63,
+      "sl": 63158.73,
+      "rsi": 35.5,
+      "adx": 32.0,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 35"
+        "ADX 32 เทรนด์แข็ง",
+        "RSI 36"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "ข่าวเตือนปรับฐานและแรงขายจาก whale"
+      }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
       "confidence": 23,
-      "price": 1696.95,
+      "price": 1693.41,
       "tp": null,
       "sl": null,
-      "rsi": 37.4,
-      "adx": 27.3,
+      "rsi": 37.1,
+      "adx": 28.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 27 เทรนด์แข็ง",
+        "ADX 28 เทรนด์แข็ง",
         "RSI 37"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.4,
+        "label": "bearish",
+        "reason": "ราคาอ่อนตัวและมุมมอง bearish เพิ่มขึ้น"
+      }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
       "confidence": 78,
-      "price": 161.28,
-      "tp": 161.71,
-      "sl": 161.02,
-      "rsi": 58.7,
-      "adx": 43.1,
+      "price": 161.43,
+      "tp": 161.85,
+      "sl": 161.18,
+      "rsi": 63.3,
+      "adx": 42.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 43 เทรนด์แข็ง",
-        "RSI 59"
+        "ADX 42 เทรนด์แข็ง",
+        "RSI 63"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.2,
+        "label": "bullish",
+        "reason": "เยนอ่อนค่า แนวโน้มขึ้นต่อเนื่อง"
+      }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 95,
-      "price": 4162.78,
-      "tp": 4119.1,
-      "sl": 4188.98,
-      "rsi": 22.9,
-      "adx": 37.9,
+      "confidence": 100,
+      "price": 4132.38,
+      "tp": 4086.25,
+      "sl": 4160.07,
+      "rsi": 21.2,
+      "adx": 42.8,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 38 เทรนด์แข็ง",
-        "RSI 23"
+        "ADX 43 เทรนด์แข็ง",
+        "RSI 21"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "ทองคำปรับตัวลงหลัง Fed hawkish"
+      }
     }
   ]
 }
