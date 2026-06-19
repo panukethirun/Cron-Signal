@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cron-Signal Dashboard</title>
+<style>
+  :root {
+    --bg: #0e1117; --card: #161b22; --border: #30363d;
+    --text: #e6edf3; --muted: #8b949e;
+    --long: #2ea043; --short: #f85149; --neutral: #8b949e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, "Segoe UI", "Sarabun", Roboto, sans-serif;
+    padding: 20px; max-width: 1100px; margin: 0 auto;
+  }
+  header { margin-bottom: 20px; }
+  h1 { font-size: 22px; display: flex; align-items: center; gap: 8px; }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  .bar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+  .updated { color: var(--muted); font-size: 13px; }
+  button {
+    background: var(--card); color: var(--text); border: 1px solid var(--border);
+    padding: 7px 14px; border-radius: 8px; cursor: pointer; font-size: 13px;
+  }
+  button:hover { border-color: var(--muted); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+  .card.long { border-left: 4px solid var(--long); }
+  .card.short { border-left: 4px solid var(--short); }
+  .card.neutral { border-left: 4px solid var(--neutral); }
+  .top { display: flex; justify-content: space-between; align-items: center; }
+  .sym { font-size: 17px; font-weight: 700; }
+  .badge { font-size: 13px; font-weight: 700; padding: 4px 10px; border-radius: 6px; }
+  .badge.long { color: var(--long); background: rgba(46,160,67,.15); }
+  .badge.short { color: var(--short); background: rgba(248,81,73,.15); }
+  .badge.neutral { color: var(--neutral); background: rgba(139,148,158,.15); }
+  .price { font-size: 26px; font-weight: 700; margin: 12px 0 4px; }
+  .conf-row { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); margin-bottom: 10px; }
+  .conf-track { flex: 1; height: 6px; background: rgba(139,148,158,.2); border-radius: 4px; overflow: hidden; }
+  .conf-fill { height: 100%; border-radius: 4px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .chip { font-size: 11px; color: var(--muted); background: rgba(139,148,158,.12); padding: 3px 8px; border-radius: 6px; }
+  .levels { display: flex; gap: 14px; font-size: 13px; border-top: 1px solid var(--border); padding-top: 10px; }
+  .tp { color: var(--long); } .sl { color: var(--short); }
+  .err { color: var(--short); font-size: 13px; margin-top: 10px; }
+  footer { color: var(--muted); font-size: 12px; margin-top: 24px; text-align: center; line-height: 1.6; }
+  #status { color: var(--muted); padding: 30px; text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📊 Cron-Signal</h1>
+  <div class="sub">สัญญาณเทรด Timeframe 1 ชั่วโมง · ส่งเข้า Telegram อัตโนมัติทุกชั่วโมง</div>
+  <div class="bar">
+    <span class="updated" id="updated">กำลังโหลด…</span>
+    <button id="refresh">↻ รีเฟรช</button>
+  </div>
+</header>
+
+<div id="status">กำลังโหลดข้อมูล…</div>
+<div class="grid" id="grid"></div>
+
+<footer>
+  อัปเดตทุกชั่วโมงโดย GitHub Actions · อิงอินดิเคเตอร์ทางเทคนิค (EMA · MACD · RSI · ADX)<br>
+  ⚠️ เพื่อการศึกษา ไม่ใช่คำแนะนำการลงทุน · เทรดมีความเสี่ยง
+</footer>
+
+<script>
+  const RAW_URL = "https://raw.githubusercontent.com/panukethirun/Cron-Signal/main/signals.json";
+  const fmt = (n) => n == null ? "-" : Number(n).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const LABEL = { LONG: "▲ LONG", SHORT: "▼ SHORT", NEUTRAL: "● NEUTRAL" };
+
+  async function fetchJSON(url) {
+    const res = await fetch(url + "?t=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error(res.status);
+    return res.json();
+  }
+
+  async function load() {
+    let data;
+    try { data = await fetchJSON(RAW_URL); }
+    catch (e) {
+      try { data = await fetchJSON("./signals.json"); }
+      catch (e2) {
+        document.getElementById("status").textContent = "โหลดข้อมูลไม่สำเร็จ — ยังไม่มี signals.json (รอ GitHub Actions รันรอบแรก)";
+        return;
+      }
+    }
+    render(data);
+  }
+
+  function render(data) {
+    document.getElementById("status").style.display = "none";
+    document.getElementById("updated").textContent = "อัปเดตล่าสุด: " + (data.updated_th || "-");
+    const grid = document.getElementById("grid");
+    grid.innerHTML = "";
+
+    (data.signals || []).forEach((s) => {
+      const cls = (s.signal || "neutral").toLowerCase();
+      const card = document.createElement("div");
+      card.className = "card " + (["long","short","neutral"].includes(cls) ? cls : "neutral");
+
+      if (s.signal === "ERROR") {
+        card.innerHTML = `<div class="top"><span class="sym">${s.symbol}</span></div>
+          <div class="err">⚠️ ดึงข้อมูลไม่สำเร็จ</div>`;
+        grid.appendChild(card); return;
+      }
+
+      const conf = s.confidence || 0;
+      const color = cls === "long" ? "var(--long)" : cls === "short" ? "var(--short)" : "var(--neutral)";
+      const chips = (s.reasons || []).map((r) => `<span class="chip">${r}</span>`).join("");
+      const levels = (s.tp != null)
+        ? `<div class="levels"><span class="tp">🎯 TP ${fmt(s.tp)}</span><span class="sl">🛑 SL ${fmt(s.sl)}</span></div>`
+        : "";
+
+      card.innerHTML = `
+        <div class="top">
+          <span class="sym">${s.symbol}</span>
+          <span class="badge ${cls}">${LABEL[s.signal] || s.signal}</span>
+        </div>
+        <div class="price">${fmt(s.price)}</div>
+        <div class="conf-row">
+          <span>มั่นใจ ${conf}%</span>
+          <span class="conf-track"><span class="conf-fill" style="width:${conf}%;background:${color}"></span></span>
+        </div>
+        <div class="chips">${chips}</div>
+        ${levels}`;
+      grid.appendChild(card);
+    });
+  }
+
+  document.getElementById("refresh").addEventListener("click", load);
+  load();
+  setInterval(load, 5 * 60 * 1000); // auto-refresh ทุก 5 นาที
+</script>
+</body>
+</html>

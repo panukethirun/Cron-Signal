@@ -1,0 +1,70 @@
+{
+  "updated_utc": "2026-06-19T03:00:25+00:00",
+  "updated_th": "19 มิ.ย. 2569, 10:00 น.",
+  "timeframe": "1H",
+  "signals": [
+    {
+      "symbol": "BTC/USD",
+      "signal": "SHORT",
+      "confidence": 58,
+      "price": 62934.27,
+      "tp": 61919.0,
+      "sl": 63543.43,
+      "rsi": 39.2,
+      "adx": 29.9,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 39"
+      ]
+    },
+    {
+      "symbol": "ETH/USD",
+      "signal": "NEUTRAL",
+      "confidence": 22,
+      "price": 1707.26,
+      "tp": null,
+      "sl": null,
+      "rsi": 41.5,
+      "adx": 27.0,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 42"
+      ]
+    },
+    {
+      "symbol": "USD/JPY",
+      "signal": "LONG",
+      "confidence": 78,
+      "price": 161.24,
+      "tp": 161.69,
+      "sl": 160.97,
+      "rsi": 57.7,
+      "adx": 44.2,
+      "reasons": [
+        "เทรนด์ขาขึ้น",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 44 เทรนด์แข็ง",
+        "RSI 58"
+      ]
+    },
+    {
+      "symbol": "XAU/USD",
+      "signal": "SHORT",
+      "confidence": 90,
+      "price": 4176.73,
+      "tp": 4133.5,
+      "sl": 4202.66,
+      "rsi": 25.5,
+      "adx": 35.8,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 36 เทรนด์แข็ง",
+        "RSI 25"
+      ]
+    }
+  ]
+}

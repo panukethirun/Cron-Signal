@@ -18,6 +18,7 @@ from strategy import decide, levels
 
 SYMBOLS = ["BTC", "ETH", "USDJPY", "XAU"]
 STATE_FILE = Path("state.json")
+SIGNALS_FILE = Path("signals.json")  # ข้อมูลสำหรับ dashboard บนเว็บ
 ALWAYS_SEND = os.environ.get("ALWAYS_SEND", "false").lower() == "true"
 
 EMOJI = {"LONG": "🟢", "SHORT": "🔴", "NEUTRAL": "⚪"}
@@ -59,6 +60,7 @@ def main() -> None:
     state = load_state()
     new_state: dict = {}
     blocks: list[str] = []
+    cards: list[dict] = []
     changed = False
 
     for key in SYMBOLS:
@@ -67,12 +69,34 @@ def main() -> None:
             signal, confidence, reasons, last = decide(df)
         except Exception as exc:  # noqa: BLE001
             blocks.append(f"⚠️ {SYMBOL_MAP[key]}: ดึงข้อมูลไม่สำเร็จ ({exc})")
+            cards.append({"symbol": SYMBOL_MAP[key], "signal": "ERROR", "error": str(exc)})
             continue
 
         new_state[key] = signal
         if state.get(key) != signal:
             changed = True
         blocks.append(format_block(key, signal, confidence, reasons, last))
+
+        tp, sl = levels(signal, float(last.close), float(last.atr))
+        cards.append({
+            "symbol": SYMBOL_MAP[key],
+            "signal": signal,
+            "confidence": confidence,
+            "price": round(float(last.close), 2),
+            "tp": round(tp, 2) if tp is not None else None,
+            "sl": round(sl, 2) if sl is not None else None,
+            "rsi": round(float(last.rsi), 1),
+            "adx": round(float(last.adx), 1),
+            "reasons": reasons,
+        })
+
+    # เขียนไฟล์ข้อมูลสำหรับ dashboard (เขียนทุกครั้ง แม้สัญญาณไม่เปลี่ยน)
+    SIGNALS_FILE.write_text(json.dumps({
+        "updated_utc": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+        "updated_th": th_now(),
+        "timeframe": "1H",
+        "signals": cards,
+    }, ensure_ascii=False, indent=2))
 
     message = (
         "📊 สัญญาณเทรด (TF 1H)\n"
@@ -84,7 +108,7 @@ def main() -> None:
     if changed or ALWAYS_SEND:
         send_signal(message)
     else:
-        print("[main] สัญญาณไม่เปลี่ยน ข้ามการส่ง LINE\n")
+        print("[main] สัญญาณไม่เปลี่ยน ข้ามการส่งแจ้งเตือน\n")
         print(message)
 
     save_state(new_state)
