@@ -1,89 +1,89 @@
 {
-  "updated_utc": "2026-06-19T05:40:43+00:00",
-  "updated_th": "19 มิ.ย. 2569, 12:40 น.",
+  "updated_utc": "2026-06-19T07:21:22+00:00",
+  "updated_th": "19 มิ.ย. 2569, 14:21 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
       "confidence": 62,
-      "price": 62531.32,
-      "tp": 61493.44,
-      "sl": 63154.05,
-      "rsi": 35.4,
-      "adx": 32.0,
+      "price": 62663.76,
+      "tp": 61688.86,
+      "sl": 63248.7,
+      "rsi": 39.4,
+      "adx": 31.8,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
         "ADX 32 เทรนด์แข็ง",
-        "RSI 35"
+        "RSI 39"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ข่าวเตือนปรับฐานจาก Fed hawkish"
+        "reason": "ราคาร่วง แนวโน้มขาลงจาก Fed hawkish"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
       "confidence": 23,
-      "price": 1694.58,
+      "price": 1694.64,
       "tp": null,
       "sl": null,
-      "rsi": 37.8,
-      "adx": 28.0,
+      "rsi": 39.0,
+      "adx": 27.6,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 28 เทรนด์แข็ง",
-        "RSI 38"
+        "RSI 39"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.2,
         "label": "bearish",
-        "reason": "ราคาอ่อนตัว นักเทรดมองแง่ลบ"
+        "reason": "นักเทรดมองลบ ราคาใกล้แนวรับ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
       "confidence": 78,
-      "price": 161.4,
-      "tp": 161.81,
-      "sl": 161.15,
-      "rsi": 62.4,
-      "adx": 42.4,
+      "price": 161.31,
+      "tp": 161.7,
+      "sl": 161.07,
+      "rsi": 58.0,
+      "adx": 40.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 42 เทรนด์แข็ง",
-        "RSI 62"
+        "ADX 40 เทรนด์แข็ง",
+        "RSI 58"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.4,
         "label": "bullish",
-        "reason": "ดอลลาร์แข็งค่า ทะลุ 160 เยน"
+        "reason": "ดอลลาร์แข็งค่า เยนอ่อนต่อเนื่อง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
       "confidence": 100,
-      "price": 4131.23,
-      "tp": 4084.05,
-      "sl": 4159.53,
-      "rsi": 20.7,
-      "adx": 42.8,
+      "price": 4156.64,
+      "tp": 4110.92,
+      "sl": 4184.06,
+      "rsi": 32.4,
+      "adx": 44.7,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 43 เทรนด์แข็ง",
-        "RSI 21"
+        "ADX 45 เทรนด์แข็ง",
+        "RSI 32"
       ],
       "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ทองคำถูกกดดันจากดอลลาร์แข็ง"
+        "score": -0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสม ราคาผันผวนหลัง Fed"
       }
     }
   ]
