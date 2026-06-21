@@ -58,7 +58,7 @@
   <div class="sub">สัญญาณเทรด Timeframe 1 ชั่วโมง · ส่งเข้า Telegram อัตโนมัติทุกชั่วโมง</div>
   <div class="bar">
     <span class="updated" id="updated">กำลังโหลด…</span>
-    <button id="refresh">↻ รีเฟรช</button>
+    <button id="refresh">⚡ คำนวณสด</button>
   </div>
 </header>
 
@@ -74,6 +74,7 @@
 
 <script>
   const RAW_URL = "https://raw.githubusercontent.com/panukethirun/Cron-Signal/main/signals.json";
+  const API_URL = "/api/signals";   // serverless function คำนวณสด (ใช้ตอนกดปุ่ม)
   const fmt = (n) => n == null ? "-" : Number(n).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   const LABEL = { LONG: "▲ LONG", SHORT: "▼ SHORT", NEUTRAL: "● NEUTRAL" };
 
@@ -98,7 +99,7 @@
 
   function render(data) {
     document.getElementById("status").style.display = "none";
-    document.getElementById("updated").textContent = "อัปเดตล่าสุด: " + (data.updated_th || "-");
+    document.getElementById("updated").textContent = "อัปเดตล่าสุด: " + (data.updated_th || "-") + (data.live ? " · ⚡ คำนวณสด" : "");
     const hasAI = (data.signals || []).some((s) => s.ai);
     document.getElementById("ailegend").innerHTML = hasAI
       ? "🤖 <b>ข่าว</b> = sentiment จาก AI (ช่วง −1 ถึง +1) · − ข่าวโทนลบ (กดราคาลง) · + ข่าวโทนบวก (ดันราคาขึ้น) · ยิ่งใกล้ปลาย ยิ่งแรง"
@@ -144,9 +145,30 @@
     });
   }
 
-  document.getElementById("refresh").addEventListener("click", load);
-  load();
-  setInterval(load, 5 * 60 * 1000); // auto-refresh ทุก 5 นาที
+  async function refreshLive() {
+    const btn = document.getElementById("refresh");
+    const status = document.getElementById("status");
+    const orig = btn.textContent;
+    btn.disabled = true; btn.textContent = "⏳ กำลังคำนวณ…";
+    status.style.display = "block";
+    status.textContent = "⏳ ดึงราคาล่าสุด + วิเคราะห์ข่าวด้วย AI (~15 วินาที)…";
+    try {
+      const res = await fetch(API_URL, { method: "POST", cache: "no-store" });
+      const data = await res.json();
+      if (!res.ok || data.error) throw new Error(data.error || ("HTTP " + res.status));
+      render(data);
+    } catch (e) {
+      status.style.display = "block";
+      status.textContent = "⚠️ คำนวณสดไม่ได้ (" + e.message + ") — แสดงข้อมูลล่าสุดจากระบบแทน";
+      await load();
+    } finally {
+      btn.disabled = false; btn.textContent = orig;
+    }
+  }
+
+  document.getElementById("refresh").addEventListener("click", refreshLive);
+  load();                            // โหลดข้อมูลล่าสุด (static) ตอนเปิดหน้า — ฟรี ไม่เรียก AI
+  setInterval(load, 5 * 60 * 1000);  // auto-refresh แบบ static ทุก 5 นาที
 </script>
 </body>
 </html>

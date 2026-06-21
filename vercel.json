@@ -1,7 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "signals.json", "use": "@vercel/static" }
-  ]
+  "functions": {
+    "api/signals.py": { "maxDuration": 60 }
+  }
 }
