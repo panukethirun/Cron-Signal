@@ -74,7 +74,7 @@
 
 <script>
   const RAW_URL = "https://raw.githubusercontent.com/panukethirun/Cron-Signal/main/signals.json";
-  const API_URL = "/api/signals";   // serverless function คำนวณสด (ใช้ตอนกดปุ่ม)
+  const API_URL = "/api/signals.py";   // serverless function คำนวณสด (builds mode เสิร์ฟตามชื่อไฟล์)
   const fmt = (n) => n == null ? "-" : Number(n).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   const LABEL = { LONG: "▲ LONG", SHORT: "▼ SHORT", NEUTRAL: "● NEUTRAL" };
 
