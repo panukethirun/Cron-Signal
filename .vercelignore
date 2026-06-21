@@ -1,8 +1,0 @@
-# Vercel deploy เฉพาะ dashboard (index.html) + serverless function (api/signals.py)
-# กันไฟล์ Python ราก (main.py ฯลฯ) ไม่ให้ Vercel เข้าใจผิดว่าเป็น Python app
-*.py
-!api/signals.py
-.github/
-state.json
-.env
-__pycache__/
