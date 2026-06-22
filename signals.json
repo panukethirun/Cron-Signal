@@ -1,87 +1,71 @@
 {
-  "updated_utc": "2026-06-22T21:10:25+00:00",
-  "updated_th": "23 มิ.ย. 2569, 04:10 น.",
+  "updated_utc": "2026-06-22T23:38:57+00:00",
+  "updated_th": "23 มิ.ย. 2569, 06:38 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 32,
-      "price": 64318.4,
+      "confidence": 9,
+      "price": 63951.84,
       "tp": null,
       "sl": null,
-      "rsi": 49.6,
-      "adx": 19.2,
+      "rsi": 43.9,
+      "adx": 17.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 19 ไซด์เวย์",
-        "RSI 50"
+        "ADX 17 ไซด์เวย์",
+        "RSI 44"
       ],
-      "ai": {
-        "score": -0.4,
-        "label": "bearish",
-        "reason": "ข่าว bear flag และคำเตือนจาก JPMorgan"
-      }
+      "ai": null
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 29,
-      "price": 1736.41,
+      "confidence": 0,
+      "price": 1730.41,
       "tp": null,
       "sl": null,
-      "rsi": 47.7,
-      "adx": 17.5,
+      "rsi": 45.2,
+      "adx": 16.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 18 ไซด์เวย์",
-        "RSI 48"
+        "ADX 17 ไซด์เวย์",
+        "RSI 45"
       ],
-      "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม ราคาขึ้นแต่สัญญาณอนุพันธ์กังวล"
-      }
+      "ai": null
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 33,
-      "price": 161.55,
+      "confidence": 31,
+      "price": 161.56,
       "tp": null,
       "sl": null,
       "rsi": 49.9,
-      "adx": 41.3,
+      "adx": 37.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 41 เทรนด์แข็ง",
+        "ADX 37 เทรนด์แข็ง",
         "RSI 50"
       ],
-      "ai": {
-        "score": 0.6,
-        "label": "bullish",
-        "reason": "ดอลลาร์แข็งค่า ทะลุ 160 เยน"
-      }
+      "ai": null
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 10,
-      "price": 4191.59,
+      "confidence": 0,
+      "price": 4193.88,
       "tp": null,
       "sl": null,
-      "rsi": 54.1,
-      "adx": 17.7,
+      "rsi": 55.5,
+      "adx": 15.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 18 ไซด์เวย์",
-        "RSI 54"
+        "ADX 16 ไซด์เวย์",
+        "RSI 56"
       ],
-      "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "แรงกดดันจากคาดการณ์ขึ้นดอกเบี้ยเฟด"
-      }
+      "ai": null
     }
   ]
 }
