@@ -1,88 +1,87 @@
 {
-  "updated_utc": "2026-06-22T12:22:20+00:00",
-  "updated_th": "22 มิ.ย. 2569, 19:22 น.",
+  "updated_utc": "2026-06-22T17:45:57+00:00",
+  "updated_th": "23 มิ.ย. 2569, 00:45 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "NEUTRAL",
-      "confidence": 38,
-      "price": 64648.05,
-      "tp": null,
-      "sl": null,
-      "rsi": 61.6,
-      "adx": 15.2,
+      "signal": "LONG",
+      "confidence": 46,
+      "price": 64354.1,
+      "tp": 65415.24,
+      "sl": 63717.42,
+      "rsi": 50.4,
+      "adx": 20.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 62"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 21 เริ่มมีเทรนด์",
+        "RSI 50"
       ],
       "ai": {
-        "score": -0.7,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ข่าวเตือนราคาร่วง หลุดแนวรับสำคัญ"
+        "reason": "ข่าว bear flag และ JPMorgan เตือน crash"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 50,
-      "price": 1762.52,
+      "confidence": 33,
+      "price": 1734.6,
       "tp": null,
       "sl": null,
-      "rsi": 65.4,
-      "adx": 19.9,
+      "rsi": 46.5,
+      "adx": 19.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 20 ไซด์เวย์",
-        "RSI 65"
+        "RSI 47"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.2,
         "label": "bearish",
-        "reason": "ราคาลดลงหลังเฟด แต่มีสัญญาณฟื้นตัว"
+        "reason": "ข่าวคาด ETH ต่ำ $750 และ $1K"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "LONG",
-      "confidence": 100,
-      "price": 161.76,
-      "tp": 162.0,
-      "sl": 161.62,
-      "rsi": 73.3,
-      "adx": 60.2,
+      "signal": "NEUTRAL",
+      "confidence": 33,
+      "price": 161.54,
+      "tp": null,
+      "sl": null,
+      "rsi": 49.3,
+      "adx": 50.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 60 แรงมาก ระวังกลับตัว",
-        "RSI 73"
+        "ADX 51 แรงมาก ระวังกลับตัว",
+        "RSI 49"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.4,
         "label": "bullish",
-        "reason": "เยนอ่อนค่า แนวโน้มขึ้นต่อเนื่อง"
+        "reason": "เยนอ่อนค่าใกล้ 161.50 อาจแทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 44,
-      "price": 4206.53,
-      "tp": 4234.78,
-      "sl": 4189.58,
-      "rsi": 67.2,
-      "adx": 31.8,
+      "signal": "NEUTRAL",
+      "confidence": 6,
+      "price": 4181.59,
+      "tp": null,
+      "sl": null,
+      "rsi": 48.9,
+      "adx": 23.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 67"
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 49"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.2,
         "label": "bearish",
-        "reason": "แรงกดดันจากเฟดขึ้นดอกเบี้ย"
+        "reason": "ข่าว death cross และ Fed hike"
       }
     }
   ]
