@@ -1,71 +1,88 @@
 {
-  "updated_utc": "2026-06-22T23:38:57+00:00",
-  "updated_th": "23 มิ.ย. 2569, 06:38 น.",
+  "updated_utc": "2026-06-23T04:15:15+00:00",
+  "updated_th": "23 มิ.ย. 2569, 11:15 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 9,
-      "price": 63951.84,
+      "confidence": 3,
+      "price": 63972.78,
       "tp": null,
       "sl": null,
-      "rsi": 43.9,
-      "adx": 17.0,
+      "rsi": 44.5,
+      "adx": 12.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 17 ไซด์เวย์",
+        "ADX 12 ไซด์เวย์",
         "RSI 44"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.6,
+        "label": "bearish",
+        "reason": "ข่าว bear flag และคำเตือนจาก JPMorgan"
+      }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
       "confidence": 0,
-      "price": 1730.41,
+      "price": 1731.19,
       "tp": null,
       "sl": null,
-      "rsi": 45.2,
-      "adx": 16.8,
+      "rsi": 46.1,
+      "adx": 14.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 17 ไซด์เวย์",
-        "RSI 45"
+        "ADX 15 ไซด์เวย์",
+        "RSI 46"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "สัญญาณ bearish จาก derivatives และข่าวดัมพ์"
+      }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 31,
-      "price": 161.56,
+      "confidence": 24,
+      "price": 161.58,
       "tp": null,
       "sl": null,
-      "rsi": 49.9,
-      "adx": 37.2,
+      "rsi": 51.1,
+      "adx": 28.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 37 เทรนด์แข็ง",
-        "RSI 50"
+        "ADX 28 เทรนด์แข็ง",
+        "RSI 51"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.5,
+        "label": "bullish",
+        "reason": "ดอลลาร์แข็งค่า ทะลุ 160 เยน"
+      }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 4193.88,
-      "tp": null,
-      "sl": null,
-      "rsi": 55.5,
-      "adx": 15.6,
+      "signal": "SHORT",
+      "confidence": 61,
+      "price": 4142.15,
+      "tp": 4107.15,
+      "sl": 4163.15,
+      "rsi": 30.0,
+      "adx": 24.3,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 16 ไซด์เวย์",
-        "RSI 56"
+        "เทรนด์ขาลง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 30"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "แรงกดดันจากดอกเบี้ยขาขึ้นและ death cross"
+      }
     }
   ]
 }
