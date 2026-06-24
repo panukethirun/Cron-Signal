@@ -1,89 +1,89 @@
 {
-  "updated_utc": "2026-06-24T00:05:42+00:00",
-  "updated_th": "24 มิ.ย. 2569, 07:05 น.",
+  "updated_utc": "2026-06-24T05:07:16+00:00",
+  "updated_th": "24 มิ.ย. 2569, 12:07 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 66,
-      "price": 62671.81,
-      "tp": 61832.87,
-      "sl": 63175.17,
+      "confidence": 55,
+      "price": 62621.55,
+      "tp": 61787.52,
+      "sl": 63121.97,
       "rsi": 44.9,
-      "adx": 33.9,
+      "adx": 28.3,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 34 เทรนด์แข็ง",
+        "ADX 28 เทรนด์แข็ง",
         "RSI 45"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "JPMorgan warns crash, ETF outflows weigh"
+        "reason": "ข่าวผสม แต่มีแนวโน้มขาลงจากแรงขาย"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 66,
-      "price": 1668.22,
-      "tp": 1639.23,
-      "sl": 1685.62,
-      "rsi": 40.0,
-      "adx": 33.8,
+      "confidence": 54,
+      "price": 1668.39,
+      "tp": 1639.97,
+      "sl": 1685.44,
+      "rsi": 42.6,
+      "adx": 27.6,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 34 เทรนด์แข็ง",
-        "RSI 40"
+        "ADX 28 เทรนด์แข็ง",
+        "RSI 43"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ETF outflows but institutional buying supports"
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "ราคาอ่อนตัว มีความกังวลต่อแนวโน้ม"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 17,
-      "price": 161.58,
+      "confidence": 8,
+      "price": 161.56,
       "tp": null,
       "sl": null,
-      "rsi": 51.5,
-      "adx": 12.0,
+      "rsi": 49.4,
+      "adx": 9.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 12 ไซด์เวย์",
-        "RSI 51"
+        "ADX 10 ไซด์เวย์",
+        "RSI 49"
       ],
       "ai": {
         "score": 0.4,
         "label": "bullish",
-        "reason": "Yen weak, USD/JPY challenges highs"
+        "reason": "เยนอ่อนค่า แนวโน้มขึ้นต่อเนื่อง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 92,
-      "price": 4102.21,
-      "tp": 4064.08,
-      "sl": 4125.08,
-      "rsi": 34.8,
-      "adx": 36.8,
+      "confidence": 100,
+      "price": 4061.96,
+      "tp": 4018.41,
+      "sl": 4088.09,
+      "rsi": 24.4,
+      "adx": 44.3,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 37 เทรนด์แข็ง",
-        "RSI 35"
+        "ADX 44 เทรนด์แข็ง",
+        "RSI 24"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "Death cross target, bearish momentum"
+        "reason": "แรงกดดันจากดอกเบี้ยขาขึ้น"
       }
     }
   ]
