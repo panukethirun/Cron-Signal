@@ -1,72 +1,88 @@
 {
-  "updated_utc": "2026-06-25T08:29:26+00:00",
-  "updated_th": "25 มิ.ย. 2569, 15:29 น.",
+  "updated_utc": "2026-06-25T11:47:13+00:00",
+  "updated_th": "25 มิ.ย. 2569, 18:47 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 19,
-      "price": 61649.99,
+      "confidence": 32,
+      "price": 61213.5,
       "tp": null,
       "sl": null,
-      "rsi": 54.0,
-      "adx": 22.5,
+      "rsi": 47.7,
+      "adx": 19.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 54"
+        "ADX 19 ไซด์เวย์",
+        "RSI 48"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.6,
+        "label": "bearish",
+        "reason": "ข่าวส่วนใหญ่ชี้ลงต่อ มีแนวโน้มขาย"
+      }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 12,
-      "price": 1653.07,
+      "confidence": 30,
+      "price": 1632.96,
       "tp": null,
       "sl": null,
-      "rsi": 56.6,
-      "adx": 20.9,
+      "rsi": 47.3,
+      "adx": 18.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 21 เริ่มมีเทรนด์",
-        "RSI 57"
+        "ADX 18 ไซด์เวย์",
+        "RSI 47"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "ราคาลดลง แต่มีสัญญาณซื้อบ้าง"
+      }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 29,
-      "price": 161.8,
+      "confidence": 39,
+      "price": 161.93,
       "tp": null,
       "sl": null,
-      "rsi": 56.1,
-      "adx": 14.9,
+      "rsi": 67.0,
+      "adx": 15.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 56"
+        "ADX 16 ไซด์เวย์",
+        "RSI 67"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.2,
+        "label": "bullish",
+        "reason": "ดอลลาร์แข็งค่า เยนอ่อนตัว"
+      }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
       "confidence": 78,
-      "price": 3993.51,
-      "tp": 3937.01,
-      "sl": 4027.41,
-      "rsi": 42.9,
-      "adx": 44.2,
+      "price": 3985.86,
+      "tp": 3935.2,
+      "sl": 4016.26,
+      "rsi": 40.8,
+      "adx": 41.4,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 44 เทรนด์แข็ง",
-        "RSI 43"
+        "ADX 41 เทรนด์แข็ง",
+        "RSI 41"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.7,
+        "label": "bearish",
+        "reason": "ทองร่วงต่ำกว่า 4000 แนวโน้มขาย"
+      }
     }
   ]
 }
