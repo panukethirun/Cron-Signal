@@ -1,41 +1,41 @@
 {
-  "updated_utc": "2026-06-27T18:12:17+00:00",
-  "updated_th": "28 มิ.ย. 2569, 01:12 น.",
+  "updated_utc": "2026-06-27T20:15:42+00:00",
+  "updated_th": "28 มิ.ย. 2569, 03:15 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 60456.89,
+      "confidence": 3,
+      "price": 60159.48,
       "tp": null,
       "sl": null,
-      "rsi": 54.9,
-      "adx": 12.0,
+      "rsi": 48.1,
+      "adx": 12.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 12 ไซด์เวย์",
-        "RSI 55"
+        "RSI 48"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ข่าว crash และขายต่อเนื่อง"
+        "reason": "ข่าว crash และขาลงมากกว่าข่าวบวก"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 4,
-      "price": 1592.97,
+      "confidence": 20,
+      "price": 1582.29,
       "tp": null,
       "sl": null,
-      "rsi": 55.5,
+      "rsi": 48.3,
       "adx": 14.1,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 14 ไซด์เวย์",
-        "RSI 55"
+        "RSI 48"
       ],
       "ai": {
         "score": -0.5,
@@ -46,41 +46,41 @@
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 161.75,
+      "confidence": 18,
+      "price": 161.76,
       "tp": null,
       "sl": null,
-      "rsi": 53.5,
-      "adx": 16.0,
+      "rsi": 56.1,
+      "adx": 16.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 16 ไซด์เวย์",
-        "RSI 54"
+        "RSI 56"
       ],
       "ai": {
-        "score": 0.3,
+        "score": 0.2,
         "label": "bullish",
-        "reason": "ดอลลาร์แข็งค่า ทะลุแนวต้าน"
+        "reason": "ดอลลาร์แข็งค่า เยนอ่อนใกล้แทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 26,
-      "price": 4080.79,
+      "price": 4080.81,
       "tp": null,
       "sl": null,
-      "rsi": 61.5,
-      "adx": 31.4,
+      "rsi": 61.6,
+      "adx": 31.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 31 เทรนด์แข็ง",
+        "ADX 32 เทรนด์แข็ง",
         "RSI 62"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ทองหลุด 4000 แนวโน้มขาลง"
+        "reason": "ทอง跌破แนวรับ ดอลลาร์แข็งกดดัน"
       }
     }
   ]
