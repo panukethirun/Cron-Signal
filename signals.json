@@ -1,86 +1,86 @@
 {
-  "updated_utc": "2026-06-28T11:53:32+00:00",
-  "updated_th": "28 มิ.ย. 2569, 18:53 น.",
+  "updated_utc": "2026-06-28T14:07:46+00:00",
+  "updated_th": "28 มิ.ย. 2569, 21:07 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 9,
-      "price": 60181.66,
+      "confidence": 21,
+      "price": 60008.07,
       "tp": null,
       "sl": null,
-      "rsi": 51.2,
-      "adx": 10.3,
+      "rsi": 46.3,
+      "adx": 9.5,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 10 ไซด์เวย์",
-        "RSI 51"
+        "RSI 46"
       ],
       "ai": {
-        "score": -0.7,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ข่าวเชิงลบหลายสำนัก คาดราคาร่วง"
+        "reason": "ข่าวเชิงลบมากกว่า บ่งชี้ราคาอาจร่วง"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 29,
-      "price": 1580.49,
+      "confidence": 24,
+      "price": 1580.69,
       "tp": null,
       "sl": null,
-      "rsi": 51.6,
-      "adx": 17.3,
+      "rsi": 51.3,
+      "adx": 14.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 17 ไซด์เวย์",
-        "RSI 52"
+        "ADX 14 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ข่าวผสม แต่มีแนวโน้มลง"
+        "reason": "ข่าวส่วนใหญ่เป็นลบ ราคามีแนวโน้มลง"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 7,
-      "price": 161.75,
+      "confidence": 25,
+      "price": 161.77,
       "tp": null,
       "sl": null,
-      "rsi": 51.7,
-      "adx": 8.9,
+      "rsi": 61.8,
+      "adx": 9.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 9 ไซด์เวย์",
-        "RSI 52"
+        "ADX 10 ไซด์เวย์",
+        "RSI 62"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.2,
         "label": "bullish",
-        "reason": "ดอลลาร์แข็งค่า ทะลุ 160 เยน"
+        "reason": "ดอลลาร์แข็งค่า คาดขึ้นต่อ"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 27,
-      "price": 4080.9,
+      "price": 4080.79,
       "tp": null,
       "sl": null,
-      "rsi": 61.6,
+      "rsi": 60.6,
       "adx": 32.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 32 เทรนด์แข็ง",
-        "RSI 62"
+        "RSI 61"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "ทองคำ跌破แนวรับ 4,000 ดอลลาร์"
+        "reason": "ทองคำ跌破แนวรับ มีแนวโน้มลง"
       }
     }
   ]
