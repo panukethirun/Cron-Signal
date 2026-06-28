@@ -1,66 +1,66 @@
 {
-  "updated_utc": "2026-06-28T14:07:46+00:00",
-  "updated_th": "28 มิ.ย. 2569, 21:07 น.",
+  "updated_utc": "2026-06-28T16:20:59+00:00",
+  "updated_th": "28 มิ.ย. 2569, 23:20 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 21,
-      "price": 60008.07,
+      "confidence": 27,
+      "price": 59774.05,
       "tp": null,
       "sl": null,
-      "rsi": 46.3,
-      "adx": 9.5,
+      "rsi": 40.2,
+      "adx": 10.6,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 10 ไซด์เวย์",
-        "RSI 46"
+        "ADX 11 ไซด์เวย์",
+        "RSI 40"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "ข่าวเชิงลบมากกว่า บ่งชี้ราคาอาจร่วง"
+        "reason": "ข่าว crash และ跌破 $60,000"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 24,
-      "price": 1580.69,
+      "confidence": 21,
+      "price": 1579.66,
       "tp": null,
       "sl": null,
-      "rsi": 51.3,
-      "adx": 14.4,
+      "rsi": 50.2,
+      "adx": 12.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 14 ไซด์เวย์",
-        "RSI 51"
+        "ADX 12 ไซด์เวย์",
+        "RSI 50"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ข่าวส่วนใหญ่เป็นลบ ราคามีแนวโน้มลง"
+        "reason": "ราคาลดลง 4% และคาดดิ่งต่อ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 25,
-      "price": 161.77,
+      "confidence": 12,
+      "price": 161.76,
       "tp": null,
       "sl": null,
-      "rsi": 61.8,
-      "adx": 9.9,
+      "rsi": 56.5,
+      "adx": 10.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 10 ไซด์เวย์",
-        "RSI 62"
+        "RSI 56"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.3,
         "label": "bullish",
-        "reason": "ดอลลาร์แข็งค่า คาดขึ้นต่อ"
+        "reason": "เยนอ่อนค่า แนวโน้มขึ้นต่อ"
       }
     },
     {
@@ -71,7 +71,7 @@
       "tp": null,
       "sl": null,
       "rsi": 60.6,
-      "adx": 32.2,
+      "adx": 32.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 32 เทรนด์แข็ง",
@@ -80,7 +80,7 @@
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "ทองคำ跌破แนวรับ มีแนวโน้มลง"
+        "reason": "หลุด $4,000 แนวโน้มขาลง"
       }
     }
   ]
