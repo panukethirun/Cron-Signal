@@ -1,61 +1,61 @@
 {
-  "updated_utc": "2026-06-28T09:25:49+00:00",
-  "updated_th": "28 มิ.ย. 2569, 16:25 น.",
+  "updated_utc": "2026-06-28T11:53:32+00:00",
+  "updated_th": "28 มิ.ย. 2569, 18:53 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 10,
-      "price": 60260.71,
+      "confidence": 9,
+      "price": 60181.66,
       "tp": null,
       "sl": null,
-      "rsi": 53.4,
-      "adx": 11.6,
+      "rsi": 51.2,
+      "adx": 10.3,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 12 ไซด์เวย์",
-        "RSI 53"
+        "ADX 10 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.7,
         "label": "bearish",
-        "reason": "ข่าวเชิงลบมากมาย บ่งชี้แนวโน้มร่วง"
+        "reason": "ข่าวเชิงลบหลายสำนัก คาดราคาร่วง"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 41,
-      "price": 1582.04,
+      "confidence": 29,
+      "price": 1580.49,
       "tp": null,
       "sl": null,
-      "rsi": 52.8,
-      "adx": 18.5,
+      "rsi": 51.6,
+      "adx": 17.3,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 19 ไซด์เวย์",
-        "RSI 53"
+        "ADX 17 ไซด์เวย์",
+        "RSI 52"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ราคาลดลง นักลงทุนขายทำกำไร"
+        "reason": "ข่าวผสม แต่มีแนวโน้มลง"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 16,
+      "confidence": 7,
       "price": 161.75,
       "tp": null,
       "sl": null,
-      "rsi": 53.5,
-      "adx": 9.7,
+      "rsi": 51.7,
+      "adx": 8.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 10 ไซด์เวย์",
-        "RSI 54"
+        "ADX 9 ไซด์เวย์",
+        "RSI 52"
       ],
       "ai": {
         "score": 0.5,
@@ -67,20 +67,20 @@
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 27,
-      "price": 4080.8,
+      "price": 4080.9,
       "tp": null,
       "sl": null,
-      "rsi": 61.0,
-      "adx": 32.1,
+      "rsi": 61.6,
+      "adx": 32.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 32 เทรนด์แข็ง",
-        "RSI 61"
+        "RSI 62"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "ทองคำ跌破 $4,000 แนวโน้มขาลง"
+        "reason": "ทองคำ跌破แนวรับ 4,000 ดอลลาร์"
       }
     }
   ]
