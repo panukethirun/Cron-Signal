@@ -1,90 +1,74 @@
 {
-  "updated_utc": "2026-07-04T10:21:17+00:00",
-  "updated_th": "4 ก.ค. 2569, 17:21 น.",
+  "updated_utc": "2026-07-04T12:12:19+00:00",
+  "updated_th": "4 ก.ค. 2569, 19:12 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 75,
-      "price": 62436.55,
-      "tp": 63090.83,
-      "sl": 62043.98,
-      "rsi": 57.2,
-      "adx": 38.6,
+      "confidence": 72,
+      "price": 62509.77,
+      "tp": 63114.79,
+      "sl": 62146.76,
+      "rsi": 59.1,
+      "adx": 37.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 39 เทรนด์แข็ง",
-        "RSI 57"
+        "ADX 37 เทรนด์แข็ง",
+        "RSI 59"
       ],
-      "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ราคาขึ้นเหนือ $61K ข่าวบวกหนุน"
-      }
+      "ai": null
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
       "confidence": 78,
-      "price": 1759.59,
-      "tp": 1786.04,
-      "sl": 1743.72,
-      "rsi": 63.1,
-      "adx": 53.1,
+      "price": 1760.7,
+      "tp": 1784.93,
+      "sl": 1746.16,
+      "rsi": 63.0,
+      "adx": 52.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 53 แรงมาก ระวังกลับตัว",
+        "ADX 52 แรงมาก ระวังกลับตัว",
         "RSI 63"
       ],
-      "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "Citi ลดเป้าราคา ETF ไหลออก"
-      }
+      "ai": null
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 161.39,
+      "confidence": 20,
+      "price": 161.38,
       "tp": null,
       "sl": null,
-      "rsi": 55.1,
-      "adx": 24.0,
+      "rsi": 54.8,
+      "adx": 23.9,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 24 เริ่มมีเทรนด์",
         "RSI 55"
       ],
-      "ai": {
-        "score": 0.4,
-        "label": "bullish",
-        "reason": "เยนอ่อนค่าแตะระดับต่ำสุด 40 ปี"
-      }
+      "ai": null
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 61,
-      "price": 4175.0,
-      "tp": 4185.38,
-      "sl": 4168.78,
-      "rsi": 62.6,
-      "adx": 31.2,
+      "confidence": 60,
+      "price": 4174.91,
+      "tp": 4183.94,
+      "sl": 4169.49,
+      "rsi": 62.4,
+      "adx": 30.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 31 เทรนด์แข็ง",
-        "RSI 63"
+        "RSI 62"
       ],
-      "ai": {
-        "score": 0.2,
-        "label": "bullish",
-        "reason": "ทองคำปรับขึ้นหลัง NFP อ่อนแอ"
-      }
+      "ai": null
     }
   ]
 }
