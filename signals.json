@@ -1,89 +1,89 @@
 {
-  "updated_utc": "2026-07-05T23:10:47+00:00",
-  "updated_th": "6 ก.ค. 2569, 06:10 น.",
+  "updated_utc": "2026-07-06T04:21:59+00:00",
+  "updated_th": "6 ก.ค. 2569, 11:21 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 63,
-      "price": 63749.42,
-      "tp": 64489.24,
-      "sl": 63305.53,
-      "rsi": 73.1,
-      "adx": 25.3,
+      "confidence": 68,
+      "price": 63287.86,
+      "tp": 64082.75,
+      "sl": 62810.93,
+      "rsi": 57.2,
+      "adx": 27.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 25 เทรนด์แข็ง",
-        "RSI 73"
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 57"
       ],
       "ai": {
         "score": 0.3,
         "label": "bullish",
-        "reason": "ราคากลับมา 63K ข่าวเชิงบวก"
+        "reason": "ราคากลับมา $63k, สัญญาณซื้อจากข่าว"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 80,
-      "price": 1793.56,
-      "tp": 1821.66,
-      "sl": 1776.7,
-      "rsi": 68.5,
-      "adx": 32.1,
+      "confidence": 74,
+      "price": 1782.54,
+      "tp": 1812.49,
+      "sl": 1764.57,
+      "rsi": 55.2,
+      "adx": 29.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 69"
-      ],
-      "ai": {
-        "score": 0.2,
-        "label": "bullish",
-        "reason": "ข่าวบวกจาก Tom Lee และตลาดเขียว"
-      }
-    },
-    {
-      "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 20,
-      "price": 161.46,
-      "tp": null,
-      "sl": null,
-      "rsi": 56.4,
-      "adx": 36.5,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 37 เทรนด์แข็ง",
-        "RSI 56"
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 55"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "เยนอ่อนค่าแต่แรงกดดันแทรกแซง"
+        "reason": "ราคาชะงัก, คาดการณ์ต่ำ, ลดลง 22%"
       }
     },
     {
-      "symbol": "XAU/USD",
+      "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 99,
-      "price": 4189.65,
-      "tp": 4194.94,
-      "sl": 4186.48,
-      "rsi": 95.2,
-      "adx": 39.5,
+      "confidence": 40,
+      "price": 161.84,
+      "tp": 162.34,
+      "sl": 161.54,
+      "rsi": 65.8,
+      "adx": 28.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 39 เทรนด์แข็ง",
-        "RSI 95"
+        "สวนเทรนด์ใหญ่",
+        "ADX 29 เทรนด์แข็ง",
+        "RSI 66"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "ข่าวผสม ราคาแกว่งใกล้ 4000"
+        "reason": "เยนอ่อนค่าแต่แทรกแซง, สหรัฐฯหยุด"
+      }
+    },
+    {
+      "symbol": "XAU/USD",
+      "signal": "NEUTRAL",
+      "confidence": 22,
+      "price": 4164.04,
+      "tp": null,
+      "sl": null,
+      "rsi": 37.2,
+      "adx": 39.2,
+      "reasons": [
+        "เทรนด์ขาขึ้น",
+        "ADX 39 เทรนด์แข็ง",
+        "RSI 37"
+      ],
+      "ai": {
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ฟื้นตัวเหนือ SMA แต่แรงขายยังมี"
       }
     }
   ]
