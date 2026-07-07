@@ -1,87 +1,27 @@
 {
-  "updated_utc": "2026-07-07T15:47:41+00:00",
-  "updated_th": "7 ก.ค. 2569, 22:47 น.",
+  "updated_utc": "2026-07-07T18:10:27+00:00",
+  "updated_th": "8 ก.ค. 2569, 01:10 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "NEUTRAL",
-      "confidence": 30,
-      "price": 63938.7,
-      "tp": null,
-      "sl": null,
-      "rsi": 59.8,
-      "adx": 12.1,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 12 ไซด์เวย์",
-        "RSI 60"
-      ],
-      "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ขายลดความร้อนแรง ราคาร่วง"
-      }
+      "signal": "ERROR",
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "symbol": "ETH/USD",
-      "signal": "NEUTRAL",
-      "confidence": 32,
-      "price": 1799.3,
-      "tp": null,
-      "sl": null,
-      "rsi": 59.1,
-      "adx": 12.6,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 13 ไซด์เวย์",
-        "RSI 59"
-      ],
-      "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม ราคาแกว่งตัว"
-      }
+      "signal": "ERROR",
+      "error": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out."
     },
     {
       "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 161.89,
-      "tp": null,
-      "sl": null,
-      "rsi": 46.9,
-      "adx": 23.3,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 47"
-      ],
-      "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "เยนแข็งค่า ดอลลาร์อ่อนลง"
-      }
+      "signal": "ERROR",
+      "error": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out."
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 7,
-      "price": 4146.32,
-      "tp": null,
-      "sl": null,
-      "rsi": 48.9,
-      "adx": 23.7,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 49"
-      ],
-      "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ทองคำปรับตัวลง แนวโน้มอ่อนแอ"
-      }
+      "signal": "ERROR",
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   ]
 }
