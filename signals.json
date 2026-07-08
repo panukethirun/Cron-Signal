@@ -1,90 +1,89 @@
 {
-  "updated_utc": "2026-07-08T04:22:14+00:00",
-  "updated_th": "8 ก.ค. 2569, 11:22 น.",
+  "updated_utc": "2026-07-08T07:36:54+00:00",
+  "updated_th": "8 ก.ค. 2569, 14:36 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 52,
-      "price": 62770.64,
-      "tp": 64296.85,
-      "sl": 61854.92,
-      "rsi": 65.3,
-      "adx": 37.5,
+      "confidence": 87,
+      "price": 62793.64,
+      "tp": 64186.83,
+      "sl": 61957.72,
+      "rsi": 64.8,
+      "adx": 34.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 37 เทรนด์แข็ง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 35 เทรนด์แข็ง",
         "RSI 65"
       ],
       "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ข่าวขาย BTC และ pullback กดดัน"
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "ข่าว Bernstein ตั้งเป้า $150K และพาราโบลิก"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
       "confidence": 93,
-      "price": 1755.13,
-      "tp": 1808.73,
-      "sl": 1722.97,
-      "rsi": 70.7,
-      "adx": 37.4,
+      "price": 1755.92,
+      "tp": 1804.13,
+      "sl": 1727.0,
+      "rsi": 69.9,
+      "adx": 37.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 37 เทรนด์แข็ง",
-        "RSI 71"
+        "RSI 70"
       ],
       "ai": {
-        "score": -0.1,
+        "score": 0.1,
         "label": "neutral",
-        "reason": "ข่าวผสม อ่อนแรงเล็กน้อย"
+        "reason": "ข่าวผสม บ้างขึ้นบ้างลง ไม่ชัดเจน"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "LONG",
-      "confidence": 74,
-      "price": 162.39,
-      "tp": 162.73,
-      "sl": 162.18,
-      "rsi": 56.5,
-      "adx": 38.1,
+      "signal": "NEUTRAL",
+      "confidence": 27,
+      "price": 162.21,
+      "tp": null,
+      "sl": null,
+      "rsi": 45.1,
+      "adx": 32.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 38 เทรนด์แข็ง",
-        "RSI 57"
+        "ADX 32 เทรนด์แข็ง",
+        "RSI 45"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "bullish",
-        "reason": "เยนอ่อนค่า แนวโน้มแข็งแกร่ง"
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "เยนแข็งค่า ดอลลาร์อ่อนลงจากข้อมูลแรงงาน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 46,
-      "price": 4123.3,
-      "tp": 4170.37,
-      "sl": 4095.06,
-      "rsi": 69.9,
-      "adx": 33.1,
+      "confidence": 48,
+      "price": 4123.55,
+      "tp": 4166.73,
+      "sl": 4097.65,
+      "rsi": 68.4,
+      "adx": 34.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
-        "ADX 33 เทรนด์แข็ง",
-        "RSI 70"
+        "ADX 35 เทรนด์แข็ง",
+        "RSI 68"
       ],
       "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "ทองร่วงต่อ death cross กดดัน"
+        "score": 0.0,
+        "label": "neutral",
+        "reason": "ข่าวหลากหลาย ฟื้นตัวแต่ยังไม่แน่นอน"
       }
     }
   ]
