@@ -1,89 +1,90 @@
 {
-  "updated_utc": "2026-07-08T10:28:20+00:00",
-  "updated_th": "8 ก.ค. 2569, 17:28 น.",
+  "updated_utc": "2026-07-08T12:47:32+00:00",
+  "updated_th": "8 ก.ค. 2569, 19:47 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 39,
-      "price": 62019.23,
-      "tp": 60873.77,
-      "sl": 62706.5,
-      "rsi": 33.8,
-      "adx": 28.2,
+      "confidence": 41,
+      "price": 62031.76,
+      "tp": 60910.37,
+      "sl": 62704.59,
+      "rsi": 35.8,
+      "adx": 29.5,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 34"
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 36"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ข่าวขายของ Strategy และแรงกดดันจาก stablecoin"
+        "reason": "ขาย 216 ล้านดอลลาร์, ความกังวลเงินเฟ้อ"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 32,
-      "price": 1738.82,
-      "tp": 1700.42,
-      "sl": 1761.86,
-      "rsi": 36.3,
-      "adx": 23.2,
+      "confidence": 33,
+      "price": 1743.24,
+      "tp": 1705.85,
+      "sl": 1765.67,
+      "rsi": 40.0,
+      "adx": 23.5,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
         "ADX 23 เริ่มมีเทรนด์",
-        "RSI 36"
+        "RSI 40"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ETH อ่อนตัวลงตาม BTC และแรงขาย"
+        "reason": "ETH อ่อนแอ, เป้าหมายลดลง 47%"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 49,
-      "price": 162.44,
-      "tp": null,
-      "sl": null,
+      "signal": "LONG",
+      "confidence": 52,
+      "price": 162.49,
+      "tp": 162.83,
+      "sl": 162.28,
       "rsi": 64.7,
-      "adx": 19.7,
+      "adx": 20.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 20 ไซด์เวย์",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 21 เริ่มมีเทรนด์",
         "RSI 65"
       ],
       "ai": {
-        "score": -0.1,
-        "label": "bearish",
-        "reason": "เยนแข็งค่าขึ้นเล็กน้อย ดอลลาร์อ่อน"
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "เยนอ่อนค่า, ดอลลาร์แข็งแกร่ง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 36,
-      "price": 4051.36,
-      "tp": 4005.77,
-      "sl": 4078.72,
-      "rsi": 27.4,
-      "adx": 25.6,
+      "confidence": 37,
+      "price": 4077.11,
+      "tp": 4029.49,
+      "sl": 4105.69,
+      "rsi": 39.4,
+      "adx": 26.9,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 27"
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 39"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ทองคำฟื้นตัวแต่ยังมีแรงกดดัน"
+        "score": -0.1,
+        "label": "bearish",
+        "reason": "ทองคำร่วง, เส้นตายเสียชีวิต"
       }
     }
   ]
