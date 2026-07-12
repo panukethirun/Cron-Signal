@@ -1,6 +1,6 @@
 {
   "BTC": "NEUTRAL",
-  "ETH": "NEUTRAL",
-  "USDJPY": "NEUTRAL",
+  "ETH": "LONG",
+  "USDJPY": "SHORT",
   "XAU": "NEUTRAL"
 }
