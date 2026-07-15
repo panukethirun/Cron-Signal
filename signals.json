@@ -1,89 +1,56 @@
 {
-  "updated_utc": "2026-07-15T19:24:56+00:00",
-  "updated_th": "16 ก.ค. 2569, 02:24 น.",
+  "updated_utc": "2026-07-15T21:13:49+00:00",
+  "updated_th": "16 ก.ค. 2569, 04:13 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "LONG",
-      "confidence": 50,
-      "price": 64785.99,
-      "tp": 65694.58,
-      "sl": 64240.83,
-      "rsi": 52.5,
-      "adx": 30.2,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 52"
-      ],
-      "ai": {
-        "score": 0.6,
-        "label": "bullish",
-        "reason": "CPI ต่ำกว่าคาด หนุนราคาขึ้น"
-      }
+      "signal": "ERROR",
+      "error": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out."
     },
     {
       "symbol": "ETH/USD",
-      "signal": "LONG",
-      "confidence": 100,
-      "price": 1922.16,
-      "tp": 1961.96,
-      "sl": 1898.28,
-      "rsi": 66.5,
-      "adx": 42.4,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 42 เทรนด์แข็ง",
-        "RSI 66"
-      ],
-      "ai": {
-        "score": 0.5,
-        "label": "bullish",
-        "reason": "CPI ต่ำกว่าคาด หนุนราคาขึ้น"
-      }
+      "signal": "ERROR",
+      "error": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out."
     },
     {
       "symbol": "USD/JPY",
-      "signal": "SHORT",
-      "confidence": 35,
-      "price": 162.08,
-      "tp": 161.77,
-      "sl": 162.27,
-      "rsi": 43.1,
-      "adx": 25.1,
+      "signal": "NEUTRAL",
+      "confidence": 0,
+      "price": 162.16,
+      "tp": null,
+      "sl": null,
+      "rsi": 48.5,
+      "adx": 22.2,
       "reasons": [
-        "เทรนด์ขาลง",
-        "สวนเทรนด์ใหญ่",
-        "ADX 25 เทรนด์แข็ง",
-        "RSI 43"
+        "เทรนด์ขาขึ้น",
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 48"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "เยนอ่อนค่า แนวโน้มขาขึ้น"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "เยนอ่อนค่าแต่เสี่ยงแทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 4054.78,
+      "confidence": 27,
+      "price": 4060.86,
       "tp": null,
       "sl": null,
-      "rsi": 53.4,
-      "adx": 21.2,
+      "rsi": 55.6,
+      "adx": 19.7,
       "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 21 เริ่มมีเทรนด์",
-        "RSI 53"
+        "เทรนด์ขาขึ้น",
+        "ADX 20 ไซด์เวย์",
+        "RSI 56"
       ],
       "ai": {
-        "score": 0.4,
-        "label": "bullish",
-        "reason": "CPI ต่ำกว่าคาด หนุนทองคำ"
+        "score": -0.1,
+        "label": "neutral",
+        "reason": "ราคาผันผวนจาก CPI และความเสี่ยง"
       }
     }
   ]
