@@ -1,25 +1,25 @@
 {
-  "updated_utc": "2026-07-14T23:03:48+00:00",
-  "updated_th": "15 ก.ค. 2569, 06:03 น.",
+  "updated_utc": "2026-07-15T00:01:34+00:00",
+  "updated_th": "15 ก.ค. 2569, 07:01 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 89,
-      "price": 64799.99,
-      "tp": 65717.69,
-      "sl": 64249.37,
-      "rsi": 73.5,
-      "adx": 35.7,
+      "confidence": 92,
+      "price": 65036.3,
+      "tp": 65919.72,
+      "sl": 64506.25,
+      "rsi": 77.1,
+      "adx": 36.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 36 เทรนด์แข็ง",
-        "RSI 74"
+        "ADX 37 เทรนด์แข็ง",
+        "RSI 77"
       ],
       "ai": {
-        "score": 0.3,
+        "score": 0.4,
         "label": "bullish",
         "reason": "CPI ต่ำกว่าคาด หนุน Bitcoin ขึ้น"
       }
@@ -27,62 +27,62 @@
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 97,
-      "price": 1879.73,
-      "tp": 1914.59,
-      "sl": 1858.81,
-      "rsi": 75.3,
-      "adx": 38.9,
+      "confidence": 100,
+      "price": 1890.88,
+      "tp": 1925.28,
+      "sl": 1870.24,
+      "rsi": 78.8,
+      "adx": 40.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 39 เทรนด์แข็ง",
-        "RSI 75"
+        "ADX 40 เทรนด์แข็ง",
+        "RSI 79"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "Standard Chartered ลดเป้า ETH 47%"
+        "reason": "ข่าวปรับลดเป้าหมาย ETH กดดัน"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
       "confidence": 13,
-      "price": 162.24,
+      "price": 162.2,
       "tp": null,
       "sl": null,
-      "rsi": 52.3,
-      "adx": 23.5,
+      "rsi": 49.4,
+      "adx": 23.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 24 เริ่มมีเทรนด์",
-        "RSI 52"
+        "RSI 49"
       ],
       "ai": {
-        "score": 0.2,
-        "label": "bullish",
-        "reason": "เยนอ่อนค่าแตะ 40 ปีใหม่"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "เยนอ่อนแต่เสี่ยงแทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 4048.99,
+      "confidence": 18,
+      "price": 4052.31,
       "tp": null,
       "sl": null,
-      "rsi": 51.5,
-      "adx": 33.6,
+      "rsi": 53.2,
+      "adx": 32.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 34 เทรนด์แข็ง",
-        "RSI 51"
+        "ADX 32 เทรนด์แข็ง",
+        "RSI 53"
       ],
       "ai": {
         "score": 0.3,
         "label": "bullish",
-        "reason": "CPI ต่ำ ดันทองคำขึ้น"
+        "reason": "CPI อ่อน ดันทองคำขึ้น"
       }
     }
   ]
