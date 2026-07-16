@@ -1,89 +1,73 @@
 {
-  "updated_utc": "2026-07-16T18:13:20+00:00",
-  "updated_th": "17 ก.ค. 2569, 01:13 น.",
+  "updated_utc": "2026-07-16T20:07:17+00:00",
+  "updated_th": "17 ก.ค. 2569, 03:07 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 5,
-      "price": 64198.0,
+      "confidence": 0,
+      "price": 64246.0,
       "tp": null,
       "sl": null,
-      "rsi": 44.4,
-      "adx": 17.6,
+      "rsi": 45.5,
+      "adx": 17.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 18 ไซด์เวย์",
-        "RSI 44"
+        "ADX 17 ไซด์เวย์",
+        "RSI 45"
       ],
-      "ai": {
-        "score": 0.2,
-        "label": "bullish",
-        "reason": "ราคาฟื้นตัวใกล้ $65K มีข่าวบวก"
-      }
+      "ai": null
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
       "confidence": 8,
-      "price": 1874.69,
+      "price": 1874.94,
       "tp": null,
       "sl": null,
-      "rsi": 39.2,
-      "adx": 29.2,
+      "rsi": 39.5,
+      "adx": 30.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 29 เทรนด์แข็ง",
-        "RSI 39"
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 40"
       ],
-      "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ราคาขึ้น 7% มีแรงหนุนจากเงินเฟ้อ"
-      }
+      "ai": null
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
       "confidence": 54,
-      "price": 162.42,
-      "tp": 162.67,
-      "sl": 162.26,
-      "rsi": 61.8,
+      "price": 162.39,
+      "tp": 162.63,
+      "sl": 162.25,
+      "rsi": 59.5,
       "adx": 21.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 22 เริ่มมีเทรนด์",
-        "RSI 62"
+        "RSI 60"
       ],
-      "ai": {
-        "score": -0.4,
-        "label": "bearish",
-        "reason": "เยนแข็งค่า เสี่ยงแทรกแซงจาก BOJ"
-      }
+      "ai": null
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 59,
-      "price": 3988.42,
-      "tp": 3946.8,
-      "sl": 4013.39,
-      "rsi": 34.9,
-      "adx": 23.5,
+      "confidence": 65,
+      "price": 3978.61,
+      "tp": 3937.96,
+      "sl": 4003.0,
+      "rsi": 31.0,
+      "adx": 26.1,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 35"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 31"
       ],
-      "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ทองคำอ่อนตัวลง อยู่ต่ำกว่า EMA20"
-      }
+      "ai": null
     }
   ]
 }
