@@ -1,73 +1,89 @@
 {
-  "updated_utc": "2026-07-16T20:07:17+00:00",
-  "updated_th": "17 ก.ค. 2569, 03:07 น.",
+  "updated_utc": "2026-07-16T22:11:09+00:00",
+  "updated_th": "17 ก.ค. 2569, 05:11 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 64246.0,
+      "confidence": 19,
+      "price": 64193.4,
       "tp": null,
       "sl": null,
-      "rsi": 45.5,
-      "adx": 17.2,
+      "rsi": 45.0,
+      "adx": 17.3,
       "reasons": [
-        "เทรนด์ขาขึ้น",
+        "เทรนด์ขาลง",
         "ADX 17 ไซด์เวย์",
         "RSI 45"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "ข่าวถอยจากจุดสูงสุดรายเดือน"
+      }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
       "confidence": 8,
-      "price": 1874.94,
+      "price": 1880.67,
       "tp": null,
       "sl": null,
-      "rsi": 39.5,
-      "adx": 30.0,
+      "rsi": 44.6,
+      "adx": 29.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 40"
+        "ADX 29 เทรนด์แข็ง",
+        "RSI 45"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสม ราคาขึ้นแต่มีความเสี่ยง"
+      }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
       "confidence": 54,
-      "price": 162.39,
-      "tp": 162.63,
-      "sl": 162.25,
-      "rsi": 59.5,
-      "adx": 21.7,
+      "price": 162.35,
+      "tp": 162.59,
+      "sl": 162.21,
+      "rsi": 55.3,
+      "adx": 21.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 22 เริ่มมีเทรนด์",
-        "RSI 60"
+        "RSI 55"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "เยนอ่อนค่า แนวโน้มขึ้นต่อ"
+      }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 65,
-      "price": 3978.61,
-      "tp": 3937.96,
-      "sl": 4003.0,
-      "rsi": 31.0,
-      "adx": 26.1,
+      "confidence": 70,
+      "price": 3977.92,
+      "tp": 3940.27,
+      "sl": 4000.51,
+      "rsi": 31.6,
+      "adx": 27.9,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 31"
+        "ADX 28 เทรนด์แข็ง",
+        "RSI 32"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "ทองคำปรับตัวลง แนวโน้มขาลง"
+      }
     }
   ]
 }
