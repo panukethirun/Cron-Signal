@@ -1,77 +1,77 @@
 {
-  "updated_utc": "2026-07-18T16:05:43+00:00",
-  "updated_th": "18 ก.ค. 2569, 23:05 น.",
+  "updated_utc": "2026-07-18T18:00:52+00:00",
+  "updated_th": "19 ก.ค. 2569, 01:00 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 25,
-      "price": 64106.04,
+      "confidence": 30,
+      "price": 64480.29,
       "tp": null,
       "sl": null,
-      "rsi": 57.4,
-      "adx": 9.9,
+      "rsi": 70.2,
+      "adx": 12.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 10 ไซด์เวย์",
-        "RSI 57"
+        "ADX 12 ไซด์เวย์",
+        "RSI 70"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.2,
         "label": "bearish",
-        "reason": "ราคาลดลงต่ำกว่า 63,000 จากความตึงเครียด"
+        "reason": "ราคาลดลงจากความตึงเครียดตะวันออกกลาง"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 9,
-      "price": 1842.2,
+      "confidence": 21,
+      "price": 1852.82,
       "tp": null,
       "sl": null,
-      "rsi": 45.9,
-      "adx": 15.6,
+      "rsi": 59.2,
+      "adx": 15.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 16 ไซด์เวย์",
-        "RSI 46"
+        "ADX 15 ไซด์เวย์",
+        "RSI 59"
       ],
       "ai": {
-        "score": -0.2,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ข่าวการเทขายและความผันผวนสูง"
+        "reason": "ราคาอ่อนตัว ความขัดแย้งอิหร่านกดดัน"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 26,
-      "price": 162.41,
+      "confidence": 27,
+      "price": 162.4,
       "tp": null,
       "sl": null,
-      "rsi": 50.9,
-      "adx": 15.8,
+      "rsi": 49.5,
+      "adx": 16.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 16 ไซด์เวย์",
-        "RSI 51"
+        "RSI 50"
       ],
       "ai": {
         "score": 0.4,
         "label": "bullish",
-        "reason": "เยนอ่อนค่า แนวโน้มขึ้นต่อ"
+        "reason": "เยนอ่อนค่า แนวโน้มแทรกแซงจำกัด"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 2,
-      "price": 4010.6,
+      "price": 4010.62,
       "tp": null,
       "sl": null,
       "rsi": 53.7,
-      "adx": 4.4,
+      "adx": 4.2,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 4 ไซด์เวย์",
@@ -80,7 +80,7 @@
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ทองคำปรับตัวลงต่ำกว่า 4,000 ดอลลาร์"
+        "reason": "ทองไม่ทำ safe haven หลุด 4000"
       }
     }
   ]
