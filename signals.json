@@ -1,89 +1,89 @@
 {
-  "updated_utc": "2026-07-18T22:57:54+00:00",
-  "updated_th": "19 ก.ค. 2569, 05:57 น.",
+  "updated_utc": "2026-07-19T00:00:35+00:00",
+  "updated_th": "19 ก.ค. 2569, 07:00 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 55,
-      "price": 64834.0,
-      "tp": 65294.89,
-      "sl": 64557.46,
-      "rsi": 78.3,
-      "adx": 21.8,
+      "confidence": 59,
+      "price": 64843.29,
+      "tp": 65295.19,
+      "sl": 64572.15,
+      "rsi": 78.5,
+      "adx": 23.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 78"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 79"
       ],
       "ai": {
-        "score": 0.3,
+        "score": 0.2,
         "label": "bullish",
-        "reason": "Call spreads target $72k, adoption accelerating"
+        "reason": "ข่าว call spread และราคาขึ้น"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 31,
-      "price": 1864.39,
-      "tp": 1884.2,
-      "sl": 1852.51,
-      "rsi": 68.9,
-      "adx": 22.5,
+      "confidence": 33,
+      "price": 1862.75,
+      "tp": 1881.92,
+      "sl": 1851.25,
+      "rsi": 66.7,
+      "adx": 24.0,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 69"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 67"
       ],
       "ai": {
-        "score": -0.2,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "Thin volumes, risk drop below $1.8k"
+        "reason": "ข่าว liquidation และราคาติด EMA"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 34,
+      "confidence": 36,
       "price": 162.41,
       "tp": 162.52,
       "sl": 162.35,
-      "rsi": 51.6,
-      "adx": 20.5,
+      "rsi": 51.4,
+      "adx": 21.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 20 เริ่มมีเทรนด์",
-        "RSI 52"
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 51"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "Yen weak but intervention risk caps upside"
+        "reason": "ข่าวแทรกแซงและแข็งค่าสลับ"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 2,
-      "price": 4010.6,
+      "price": 4010.58,
       "tp": null,
       "sl": null,
-      "rsi": 53.7,
-      "adx": 3.4,
+      "rsi": 53.6,
+      "adx": 3.3,
       "reasons": [
-        "เทรนด์ขาลง",
+        "เทรนด์ขาขึ้น",
         "ADX 3 ไซด์เวย์",
         "RSI 54"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.2,
         "label": "bearish",
-        "reason": "Gold slips below $4k, risk-off weighs"
+        "reason": "ราคาต่ำกว่า 4000 และแรงขาย"
       }
     }
   ]
