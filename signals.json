@@ -1,85 +1,85 @@
 {
-  "updated_utc": "2026-07-21T14:12:15+00:00",
-  "updated_th": "21 ก.ค. 2569, 21:12 น.",
+  "updated_utc": "2026-07-21T16:37:15+00:00",
+  "updated_th": "21 ก.ค. 2569, 23:37 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 90,
-      "price": 66915.98,
-      "tp": 67759.1,
-      "sl": 66410.11,
-      "rsi": 74.3,
-      "adx": 36.0,
+      "confidence": 95,
+      "price": 66584.0,
+      "tp": 67426.16,
+      "sl": 66078.7,
+      "rsi": 66.0,
+      "adx": 37.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 36 เทรนด์แข็ง",
-        "RSI 74"
+        "ADX 38 เทรนด์แข็ง",
+        "RSI 66"
       ],
       "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "ราคาลดลง ETF ไหลออก MicroStrategy หยุดซื้อ"
+        "score": 0.4,
+        "label": "bullish",
+        "reason": "ข่าวบวกจากรัสเซียและตัวชี้วัดความผันผวน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 76,
-      "price": 1939.48,
-      "tp": 1972.43,
-      "sl": 1919.71,
-      "rsi": 65.0,
-      "adx": 38.9,
+      "confidence": 62,
+      "price": 1925.72,
+      "tp": 1959.09,
+      "sl": 1905.7,
+      "rsi": 54.8,
+      "adx": 37.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 39 เทรนด์แข็ง",
-        "RSI 65"
+        "ADX 37 เทรนด์แข็ง",
+        "RSI 55"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.3,
         "label": "bullish",
-        "reason": "แนวโน้มขาขึ้น AI คาดการณ์ราคาสูง"
+        "reason": "ราคาขึ้นและแนวโน้มขาขึ้นระยะยาว"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 67,
-      "price": 162.92,
-      "tp": 163.11,
-      "sl": 162.8,
-      "rsi": 80.5,
-      "adx": 26.7,
+      "confidence": 82,
+      "price": 162.98,
+      "tp": 163.2,
+      "sl": 162.85,
+      "rsi": 77.1,
+      "adx": 33.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 80"
+        "ADX 33 เทรนด์แข็ง",
+        "RSI 77"
       ],
       "ai": {
-        "score": 0.4,
+        "score": 0.2,
         "label": "bullish",
-        "reason": "เยนอ่อนค่า แนวโน้มขึ้นต่อ"
+        "reason": "เงินเยนอ่อนค่า แนวโน้มขึ้นต่อ"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 60,
-      "price": 4055.3,
-      "tp": 4085.69,
-      "sl": 4037.06,
-      "rsi": 59.7,
-      "adx": 30.7,
+      "confidence": 81,
+      "price": 4076.14,
+      "tp": 4108.12,
+      "sl": 4056.95,
+      "rsi": 68.0,
+      "adx": 32.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 60"
+        "ADX 32 เทรนด์แข็ง",
+        "RSI 68"
       ],
       "ai": {
         "score": -0.1,
