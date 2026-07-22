@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-07-22T00:00:17+00:00",
-  "updated_th": "22 ก.ค. 2569, 07:00 น.",
+  "updated_utc": "2026-07-22T03:32:56+00:00",
+  "updated_th": "22 ก.ค. 2569, 10:32 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 60,
-      "price": 66552.41,
-      "tp": 67310.69,
-      "sl": 66097.44,
-      "rsi": 61.6,
-      "adx": 30.9,
+      "confidence": 45,
+      "price": 66318.34,
+      "tp": 67044.83,
+      "sl": 65882.44,
+      "rsi": 54.2,
+      "adx": 26.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 62"
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 54"
       ],
       "ai": {
         "score": 0.3,
@@ -27,64 +27,64 @@
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 59,
-      "price": 1929.31,
-      "tp": 1958.38,
-      "sl": 1911.87,
-      "rsi": 57.0,
-      "adx": 30.1,
+      "confidence": 62,
+      "price": 1932.41,
+      "tp": 1961.0,
+      "sl": 1915.26,
+      "rsi": 56.6,
+      "adx": 31.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 30 เทรนด์แข็ง",
+        "ADX 32 เทรนด์แข็ง",
         "RSI 57"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.4,
         "label": "bullish",
-        "reason": "ข่าวบวกจาก CCN และ Finance Magnates"
+        "reason": "ข่าวบวกจาก FXStreet และ Finance Magnates"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 100,
-      "price": 163.21,
-      "tp": 163.42,
-      "sl": 163.08,
-      "rsi": 81.5,
-      "adx": 47.7,
+      "confidence": 78,
+      "price": 163.14,
+      "tp": 163.36,
+      "sl": 163.01,
+      "rsi": 69.5,
+      "adx": 41.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 48 เทรนด์แข็ง",
-        "RSI 82"
+        "ADX 41 เทรนด์แข็ง",
+        "RSI 70"
       ],
       "ai": {
-        "score": 0.4,
+        "score": 0.5,
         "label": "bullish",
-        "reason": "USD/JPY ทะลุ 163 แนวต้านสำคัญ"
+        "reason": "ดอลลาร์แข็งค่า เยนอ่อนลงต่อเนื่อง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 68,
-      "price": 4079.91,
-      "tp": 4107.1,
-      "sl": 4063.6,
-      "rsi": 64.1,
-      "adx": 35.1,
+      "confidence": 100,
+      "price": 4137.86,
+      "tp": 4169.86,
+      "sl": 4118.67,
+      "rsi": 81.0,
+      "adx": 42.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 35 เทรนด์แข็ง",
-        "RSI 64"
+        "ADX 43 เทรนด์แข็ง",
+        "RSI 81"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ทองคำผันผวน แนวโน้มยังกดดัน"
+        "reason": "ทองคำถูกกดดันจากดอลลาร์แข็ง"
       }
     }
   ]
