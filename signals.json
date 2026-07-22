@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-07-21T22:09:01+00:00",
-  "updated_th": "22 ก.ค. 2569, 05:09 น.",
+  "updated_utc": "2026-07-22T00:00:17+00:00",
+  "updated_th": "22 ก.ค. 2569, 07:00 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 62,
-      "price": 66322.69,
-      "tp": 67052.71,
-      "sl": 65884.68,
-      "rsi": 57.2,
-      "adx": 31.9,
+      "confidence": 60,
+      "price": 66552.41,
+      "tp": 67310.69,
+      "sl": 66097.44,
+      "rsi": 61.6,
+      "adx": 30.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 57"
+        "ADX 31 เทรนด์แข็ง",
+        "RSI 62"
       ],
       "ai": {
         "score": 0.3,
@@ -27,17 +27,17 @@
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 51,
-      "price": 1922.23,
-      "tp": 1950.07,
-      "sl": 1905.52,
-      "rsi": 52.0,
-      "adx": 30.8,
+      "confidence": 59,
+      "price": 1929.31,
+      "tp": 1958.38,
+      "sl": 1911.87,
+      "rsi": 57.0,
+      "adx": 30.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 52"
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 57"
       ],
       "ai": {
         "score": 0.2,
@@ -49,42 +49,42 @@
       "symbol": "USD/JPY",
       "signal": "LONG",
       "confidence": 100,
-      "price": 163.19,
-      "tp": 163.41,
-      "sl": 163.07,
+      "price": 163.21,
+      "tp": 163.42,
+      "sl": 163.08,
       "rsi": 81.5,
-      "adx": 46.6,
+      "adx": 47.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 47 เทรนด์แข็ง",
+        "ADX 48 เทรนด์แข็ง",
         "RSI 82"
       ],
       "ai": {
         "score": 0.4,
         "label": "bullish",
-        "reason": "USD/JPY ทะลุ 163 แนวโน้มแข็งค่า"
+        "reason": "USD/JPY ทะลุ 163 แนวต้านสำคัญ"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 67,
-      "price": 4078.43,
-      "tp": 4106.35,
-      "sl": 4061.69,
-      "rsi": 63.9,
-      "adx": 34.3,
+      "confidence": 68,
+      "price": 4079.91,
+      "tp": 4107.1,
+      "sl": 4063.6,
+      "rsi": 64.1,
+      "adx": 35.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 34 เทรนด์แข็ง",
+        "ADX 35 เทรนด์แข็ง",
         "RSI 64"
       ],
       "ai": {
-        "score": -0.1,
+        "score": -0.2,
         "label": "bearish",
-        "reason": "ข่าวกดดันจาก FOREX.com และ FXStreet"
+        "reason": "ทองคำผันผวน แนวโน้มยังกดดัน"
       }
     }
   ]
