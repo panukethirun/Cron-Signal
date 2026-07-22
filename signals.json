@@ -1,89 +1,88 @@
 {
-  "updated_utc": "2026-07-22T18:16:01+00:00",
-  "updated_th": "23 ก.ค. 2569, 01:16 น.",
+  "updated_utc": "2026-07-22T20:17:22+00:00",
+  "updated_th": "23 ก.ค. 2569, 03:17 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 66050.0,
+      "confidence": 0,
+      "price": 65932.98,
       "tp": null,
       "sl": null,
-      "rsi": 50.1,
-      "adx": 15.3,
+      "rsi": 47.8,
+      "adx": 13.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 50"
+        "ADX 14 ไซด์เวย์",
+        "RSI 48"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.3,
         "label": "bullish",
-        "reason": "ข่าวมีทั้งบวกและลบ แต่แรงหนุนจากข่าวใหญ่"
+        "reason": "ข่าวบวกจาก Forbes และ Treasury"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 62,
-      "price": 1938.03,
-      "tp": 1972.67,
-      "sl": 1917.25,
-      "rsi": 54.7,
-      "adx": 28.1,
+      "confidence": 41,
+      "price": 1928.9,
+      "tp": 1963.87,
+      "sl": 1907.92,
+      "rsi": 50.1,
+      "adx": 24.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 55"
+        "ADX 25 เริ่มมีเทรนด์",
+        "RSI 50"
       ],
       "ai": {
-        "score": 0.3,
+        "score": 0.5,
         "label": "bullish",
-        "reason": "ข่าวบวกหลายสำนัก คาดการณ์ราคาสูง"
+        "reason": "ขาขึ้นต่อเนื่อง มีสัญญาณซื้อ"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "LONG",
-      "confidence": 45,
-      "price": 163.16,
-      "tp": 163.39,
-      "sl": 163.02,
-      "rsi": 61.6,
-      "adx": 23.0,
+      "signal": "NEUTRAL",
+      "confidence": 39,
+      "price": 163.15,
+      "tp": null,
+      "sl": null,
+      "rsi": 60.1,
+      "adx": 20.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 62"
+        "ADX 20 ไซด์เวย์",
+        "RSI 60"
       ],
       "ai": {
         "score": 0.4,
         "label": "bullish",
-        "reason": "ดอลลาร์แข็งค่า ทะลุแนวต้านสำคัญ"
+        "reason": "แตะระดับสูงสุดรอบหลายปี"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
       "confidence": 78,
-      "price": 4138.56,
-      "tp": 4173.88,
-      "sl": 4117.37,
-      "rsi": 61.5,
-      "adx": 48.4,
+      "price": 4134.75,
+      "tp": 4167.8,
+      "sl": 4114.93,
+      "rsi": 59.1,
+      "adx": 45.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 48 เทรนด์แข็ง",
-        "RSI 62"
+        "ADX 46 เทรนด์แข็ง",
+        "RSI 59"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ราคาผันผวน แนวโน้มยังไม่ชัดเจน"
+        "score": 0.2,
+        "label": "bullish",
+        "reason": "ทองคำปรับตัวขึ้นจากความกังวลตะวันออกกลาง"
       }
     }
   ]
