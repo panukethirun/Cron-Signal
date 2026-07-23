@@ -1,73 +1,87 @@
 {
-  "updated_utc": "2026-07-23T00:09:19+00:00",
-  "updated_th": "23 ก.ค. 2569, 07:09 น.",
+  "updated_utc": "2026-07-23T04:22:38+00:00",
+  "updated_th": "23 ก.ค. 2569, 11:22 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 25,
-      "price": 66198.19,
+      "confidence": 3,
+      "price": 65689.69,
       "tp": null,
       "sl": null,
-      "rsi": 54.5,
-      "adx": 11.2,
+      "rsi": 41.6,
+      "adx": 12.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 11 ไซด์เวย์",
-        "RSI 55"
+        "ADX 12 ไซด์เวย์",
+        "RSI 42"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.5,
+        "label": "bullish",
+        "reason": "ข่าวดีจาก Forbes และ Treasury หนุนราคา"
+      }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "LONG",
-      "confidence": 38,
-      "price": 1935.71,
-      "tp": 1967.88,
-      "sl": 1916.41,
-      "rsi": 53.1,
-      "adx": 23.1,
+      "signal": "NEUTRAL",
+      "confidence": 0,
+      "price": 1922.99,
+      "tp": null,
+      "sl": null,
+      "rsi": 45.9,
+      "adx": 18.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 53"
+        "ADX 19 ไซด์เวย์",
+        "RSI 46"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.4,
+        "label": "bullish",
+        "reason": "แนวโน้มขาขึ้น ทำลายแนวต้าน"
+      }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 15,
-      "price": 163.1,
+      "confidence": 17,
+      "price": 163.06,
       "tp": null,
       "sl": null,
-      "rsi": 53.7,
-      "adx": 17.6,
+      "rsi": 49.4,
+      "adx": 20.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 18 ไซด์เวย์",
-        "RSI 54"
+        "ADX 21 เริ่มมีเทรนด์",
+        "RSI 49"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "ดอลลาร์แข็งค่า เยนอ่อนลงต่อ"
+      }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 73,
-      "price": 4128.98,
-      "tp": 4160.65,
-      "sl": 4109.98,
-      "rsi": 55.0,
-      "adx": 37.7,
+      "signal": "NEUTRAL",
+      "confidence": 24,
+      "price": 4125.99,
+      "tp": null,
+      "sl": null,
+      "rsi": 52.8,
+      "adx": 29.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 38 เทรนด์แข็ง",
-        "RSI 55"
+        "ADX 29 เทรนด์แข็ง",
+        "RSI 53"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.2,
+        "label": "bullish",
+        "reason": "ทองคำทรงตัวเหนือ 4000 ดอลลาร์"
+      }
     }
   ]
 }
