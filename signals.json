@@ -1,89 +1,73 @@
 {
-  "updated_utc": "2026-07-22T22:12:14+00:00",
-  "updated_th": "23 ก.ค. 2569, 05:12 น.",
+  "updated_utc": "2026-07-23T00:09:19+00:00",
+  "updated_th": "23 ก.ค. 2569, 07:09 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 10,
-      "price": 66013.32,
+      "confidence": 25,
+      "price": 66198.19,
       "tp": null,
       "sl": null,
-      "rsi": 49.8,
-      "adx": 12.5,
+      "rsi": 54.5,
+      "adx": 11.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 13 ไซด์เวย์",
-        "RSI 50"
+        "ADX 11 ไซด์เวย์",
+        "RSI 55"
       ],
-      "ai": {
-        "score": 0.2,
-        "label": "bullish",
-        "reason": "ข่าวบวกจาก Forbes และ Treasury กระตุ้นราคา"
-      }
+      "ai": null
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 41,
-      "price": 1936.1,
-      "tp": 1969.36,
-      "sl": 1916.14,
-      "rsi": 53.5,
-      "adx": 24.8,
+      "confidence": 38,
+      "price": 1935.71,
+      "tp": 1967.88,
+      "sl": 1916.41,
+      "rsi": 53.1,
+      "adx": 23.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 25 เริ่มมีเทรนด์",
-        "RSI 54"
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 53"
       ],
-      "ai": {
-        "score": 0.4,
-        "label": "bullish",
-        "reason": "ETH ขึ้น 20% ตามสัญญาณซื้อ"
-      }
+      "ai": null
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 20,
-      "price": 163.11,
+      "confidence": 15,
+      "price": 163.1,
       "tp": null,
       "sl": null,
-      "rsi": 55.4,
-      "adx": 18.4,
+      "rsi": 53.7,
+      "adx": 17.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 18 ไซด์เวย์",
-        "RSI 55"
+        "RSI 54"
       ],
-      "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "USD/JPY ทะลุแนวต้าน 162"
-      }
+      "ai": null
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 67,
-      "price": 4121.96,
-      "tp": 4153.85,
-      "sl": 4102.83,
-      "rsi": 52.1,
-      "adx": 42.5,
+      "confidence": 73,
+      "price": 4128.98,
+      "tp": 4160.65,
+      "sl": 4109.98,
+      "rsi": 55.0,
+      "adx": 37.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 42 เทรนด์แข็ง",
-        "RSI 52"
+        "ADX 38 เทรนด์แข็ง",
+        "RSI 55"
       ],
-      "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ทองผันผวนใกล้ 4000 รอทิศทาง"
-      }
+      "ai": null
     }
   ]
 }
