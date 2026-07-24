@@ -1,89 +1,88 @@
 {
-  "updated_utc": "2026-07-24T14:03:27+00:00",
-  "updated_th": "24 ก.ค. 2569, 21:03 น.",
+  "updated_utc": "2026-07-24T15:38:47+00:00",
+  "updated_th": "24 ก.ค. 2569, 22:38 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 32,
-      "price": 64113.58,
-      "tp": 63335.52,
-      "sl": 64580.41,
-      "rsi": 28.1,
-      "adx": 22.9,
+      "confidence": 35,
+      "price": 64243.44,
+      "tp": 63391.48,
+      "sl": 64754.62,
+      "rsi": 33.0,
+      "adx": 24.9,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 28"
+        "ADX 25 เริ่มมีเทรนด์",
+        "RSI 33"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ข่าวเชิงลบจาก Bloomberg และ CoinDesk"
+        "reason": "ราคาลดลงจากอัตราผลตอบแทนพันธบัตรสหรัฐฯ"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
       "confidence": 50,
-      "price": 1858.17,
-      "tp": 1827.68,
-      "sl": 1876.46,
-      "rsi": 31.8,
-      "adx": 36.0,
+      "price": 1867.08,
+      "tp": 1834.5,
+      "sl": 1886.63,
+      "rsi": 38.8,
+      "adx": 36.1,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
         "ADX 36 เทรนด์แข็ง",
-        "RSI 32"
+        "RSI 39"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.2,
         "label": "bearish",
-        "reason": "Standard Chartered ลดเป้าหมาย ETH 47%"
+        "reason": "ราคาลดลงตามตลาดคริปโตโดยรวม"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "LONG",
-      "confidence": 48,
-      "price": 163.77,
-      "tp": 164.01,
-      "sl": 163.64,
-      "rsi": 54.9,
-      "adx": 28.9,
+      "signal": "NEUTRAL",
+      "confidence": 22,
+      "price": 163.72,
+      "tp": null,
+      "sl": null,
+      "rsi": 50.7,
+      "adx": 26.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 29 เทรนด์แข็ง",
-        "RSI 55"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 51"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.4,
         "label": "bullish",
-        "reason": "ดอลลาร์แข็งค่า ญี่ปุ่นยอมให้อ่อนตัว"
+        "reason": "ดอลลาร์แข็งค่าจากผลตอบแทนพันธบัตรสูงขึ้น"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 11,
-      "price": 4067.75,
+      "price": 4074.4,
       "tp": null,
       "sl": null,
-      "rsi": 55.7,
-      "adx": 41.7,
+      "rsi": 59.1,
+      "adx": 38.8,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 42 เทรนด์แข็ง",
-        "RSI 56"
+        "ADX 39 เทรนด์แข็ง",
+        "RSI 59"
       ],
       "ai": {
-        "score": 0.2,
-        "label": "bullish",
-        "reason": "ทองคำทรงตัวเหนือ $4,000 แม้ดอลลาร์แข็ง"
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "ทองคำถูกกดดันจากดอลลาร์แข็งค่า"
       }
     }
   ]
