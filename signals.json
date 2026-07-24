@@ -1,89 +1,74 @@
 {
-  "updated_utc": "2026-07-24T15:38:47+00:00",
-  "updated_th": "24 ก.ค. 2569, 22:38 น.",
+  "updated_utc": "2026-07-24T17:45:12+00:00",
+  "updated_th": "25 ก.ค. 2569, 00:45 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 35,
-      "price": 64243.44,
-      "tp": 63391.48,
-      "sl": 64754.62,
-      "rsi": 33.0,
-      "adx": 24.9,
+      "confidence": 37,
+      "price": 64165.57,
+      "tp": 63314.23,
+      "sl": 64676.38,
+      "rsi": 33.5,
+      "adx": 27.0,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 25 เริ่มมีเทรนด์",
+        "ADX 27 เทรนด์แข็ง",
         "RSI 33"
       ],
-      "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "ราคาลดลงจากอัตราผลตอบแทนพันธบัตรสหรัฐฯ"
-      }
+      "ai": null
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
       "confidence": 50,
-      "price": 1867.08,
-      "tp": 1834.5,
-      "sl": 1886.63,
-      "rsi": 38.8,
-      "adx": 36.1,
+      "price": 1863.82,
+      "tp": 1831.44,
+      "sl": 1883.25,
+      "rsi": 38.5,
+      "adx": 35.8,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
         "ADX 36 เทรนด์แข็ง",
         "RSI 39"
       ],
-      "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ราคาลดลงตามตลาดคริปโตโดยรวม"
-      }
+      "ai": null
     },
     {
       "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 22,
-      "price": 163.72,
-      "tp": null,
-      "sl": null,
-      "rsi": 50.7,
-      "adx": 26.3,
+      "signal": "LONG",
+      "confidence": 45,
+      "price": 163.83,
+      "tp": 164.07,
+      "sl": 163.69,
+      "rsi": 58.9,
+      "adx": 23.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 51"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 59"
       ],
-      "ai": {
-        "score": 0.4,
-        "label": "bullish",
-        "reason": "ดอลลาร์แข็งค่าจากผลตอบแทนพันธบัตรสูงขึ้น"
-      }
+      "ai": null
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 11,
-      "price": 4074.4,
+      "confidence": 9,
+      "price": 4068.34,
       "tp": null,
       "sl": null,
-      "rsi": 59.1,
-      "adx": 38.8,
+      "rsi": 54.6,
+      "adx": 33.6,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 39 เทรนด์แข็ง",
-        "RSI 59"
+        "ADX 34 เทรนด์แข็ง",
+        "RSI 55"
       ],
-      "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ทองคำถูกกดดันจากดอลลาร์แข็งค่า"
-      }
+      "ai": null
     }
   ]
 }
