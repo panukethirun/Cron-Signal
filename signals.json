@@ -1,21 +1,22 @@
 {
-  "updated_utc": "2026-07-25T21:02:38+00:00",
-  "updated_th": "26 ก.ค. 2569, 04:02 น.",
+  "updated_utc": "2026-07-25T22:02:43+00:00",
+  "updated_th": "26 ก.ค. 2569, 05:02 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "NEUTRAL",
-      "confidence": 18,
-      "price": 64328.97,
-      "tp": null,
-      "sl": null,
-      "rsi": 52.8,
-      "adx": 22.2,
+      "signal": "SHORT",
+      "confidence": 28,
+      "price": 64383.0,
+      "tp": 64028.09,
+      "sl": 64595.95,
+      "rsi": 55.6,
+      "adx": 20.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 53"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 20 เริ่มมีเทรนด์",
+        "RSI 56"
       ],
       "ai": null
     },
@@ -23,31 +24,31 @@
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
       "confidence": 6,
-      "price": 1872.07,
+      "price": 1873.44,
       "tp": null,
       "sl": null,
-      "rsi": 56.7,
-      "adx": 22.2,
+      "rsi": 58.5,
+      "adx": 20.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 57"
+        "ADX 20 เริ่มมีเทรนด์",
+        "RSI 58"
       ],
       "ai": null
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 14,
-      "price": 163.86,
+      "confidence": 11,
+      "price": 163.84,
       "tp": null,
       "sl": null,
-      "rsi": 57.6,
-      "adx": 13.0,
+      "rsi": 50.4,
+      "adx": 13.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 13 ไซด์เวย์",
-        "RSI 58"
+        "ADX 14 ไซด์เวย์",
+        "RSI 50"
       ],
       "ai": null
     },
@@ -55,11 +56,11 @@
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 13,
-      "price": 4055.99,
+      "price": 4056.0,
       "tp": null,
       "sl": null,
       "rsi": 48.0,
-      "adx": 22.9,
+      "adx": 22.8,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 23 เริ่มมีเทรนด์",
