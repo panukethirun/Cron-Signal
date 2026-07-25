@@ -1,55 +1,55 @@
 {
-  "updated_utc": "2026-07-25T09:05:54+00:00",
-  "updated_th": "25 ก.ค. 2569, 16:05 น.",
+  "updated_utc": "2026-07-25T11:19:18+00:00",
+  "updated_th": "25 ก.ค. 2569, 18:19 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
       "confidence": 69,
-      "price": 63843.53,
-      "tp": 63371.55,
-      "sl": 64126.72,
-      "rsi": 29.8,
-      "adx": 35.2,
+      "price": 64063.6,
+      "tp": 63618.8,
+      "sl": 64330.48,
+      "rsi": 40.4,
+      "adx": 35.3,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
         "ADX 35 เทรนด์แข็ง",
-        "RSI 30"
+        "RSI 40"
       ],
       "ai": null
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 63,
-      "price": 1852.86,
-      "tp": 1834.6,
-      "sl": 1863.82,
-      "rsi": 34.1,
-      "adx": 32.6,
+      "confidence": 60,
+      "price": 1859.22,
+      "tp": 1841.9,
+      "sl": 1869.61,
+      "rsi": 42.6,
+      "adx": 31.1,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 33 เทรนด์แข็ง",
-        "RSI 34"
+        "ADX 31 เทรนด์แข็ง",
+        "RSI 43"
       ],
       "ai": null
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 27,
+      "confidence": 24,
       "price": 163.86,
       "tp": null,
       "sl": null,
-      "rsi": 60.4,
-      "adx": 13.7,
+      "rsi": 60.5,
+      "adx": 12.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 14 ไซด์เวย์",
-        "RSI 60"
+        "ADX 12 ไซด์เวย์",
+        "RSI 61"
       ],
       "ai": null
     },
@@ -57,14 +57,14 @@
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 14,
-      "price": 4055.97,
+      "price": 4055.91,
       "tp": null,
       "sl": null,
-      "rsi": 47.9,
-      "adx": 25.0,
+      "rsi": 47.8,
+      "adx": 24.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 25 เทรนด์แข็ง",
+        "ADX 25 เริ่มมีเทรนด์",
         "RSI 48"
       ],
       "ai": null
