@@ -1,37 +1,38 @@
 {
-  "updated_utc": "2026-07-24T23:10:38+00:00",
-  "updated_th": "25 ก.ค. 2569, 06:10 น.",
+  "updated_utc": "2026-07-25T03:31:01+00:00",
+  "updated_th": "25 ก.ค. 2569, 10:31 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 75,
-      "price": 64160.75,
-      "tp": 63509.4,
-      "sl": 64551.56,
-      "rsi": 34.9,
-      "adx": 30.1,
+      "confidence": 64,
+      "price": 64080.0,
+      "tp": 63519.19,
+      "sl": 64416.49,
+      "rsi": 34.0,
+      "adx": 33.1,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 35"
+        "ADX 33 เทรนด์แข็ง",
+        "RSI 34"
       ],
       "ai": null
     },
     {
       "symbol": "ETH/USD",
-      "signal": "NEUTRAL",
-      "confidence": 29,
-      "price": 1859.81,
-      "tp": null,
-      "sl": null,
-      "rsi": 38.3,
-      "adx": 34.9,
+      "signal": "SHORT",
+      "confidence": 63,
+      "price": 1859.32,
+      "tp": 1837.05,
+      "sl": 1872.68,
+      "rsi": 38.4,
+      "adx": 32.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 35 เทรนด์แข็ง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 33 เทรนด์แข็ง",
         "RSI 38"
       ],
       "ai": null
@@ -39,31 +40,31 @@
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 35,
+      "confidence": 32,
       "price": 163.85,
       "tp": null,
       "sl": null,
-      "rsi": 59.3,
-      "adx": 17.8,
+      "rsi": 60.1,
+      "adx": 16.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 18 ไซด์เวย์",
-        "RSI 59"
+        "ADX 16 ไซด์เวย์",
+        "RSI 60"
       ],
       "ai": null
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 16,
-      "price": 4055.9,
+      "confidence": 15,
+      "price": 4055.96,
       "tp": null,
       "sl": null,
       "rsi": 47.8,
-      "adx": 29.1,
+      "adx": 27.1,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 29 เทรนด์แข็ง",
+        "ADX 27 เทรนด์แข็ง",
         "RSI 48"
       ],
       "ai": null
