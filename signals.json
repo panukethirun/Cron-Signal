@@ -1,87 +1,87 @@
 {
-  "updated_utc": "2026-07-26T12:10:25+00:00",
-  "updated_th": "26 ก.ค. 2569, 19:10 น.",
+  "updated_utc": "2026-07-26T14:42:29+00:00",
+  "updated_th": "26 ก.ค. 2569, 21:42 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
       "confidence": 4,
-      "price": 64596.01,
+      "price": 64711.41,
       "tp": null,
       "sl": null,
-      "rsi": 61.0,
-      "adx": 13.3,
+      "rsi": 65.6,
+      "adx": 15.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 13 ไซด์เวย์",
-        "RSI 61"
+        "ADX 15 ไซด์เวย์",
+        "RSI 66"
       ],
       "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ETF outflow และแรงกดดันจาก CLARITY Act"
+        "score": 0.2,
+        "label": "bullish",
+        "reason": "มีสัญญาณกระทิงแม้ ETF ไหลออก"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 32,
-      "price": 1888.7,
-      "tp": 1903.01,
-      "sl": 1880.11,
-      "rsi": 67.2,
-      "adx": 23.0,
+      "confidence": 34,
+      "price": 1896.81,
+      "tp": 1912.34,
+      "sl": 1887.49,
+      "rsi": 74.7,
+      "adx": 24.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 67"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 75"
       ],
       "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "Standard Chartered ลดเป้า ETH 47%"
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "สัญญาณกลับตัวจากแนวรับสำคัญ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 8,
-      "price": 163.63,
+      "confidence": 22,
+      "price": 163.84,
       "tp": null,
       "sl": null,
-      "rsi": 12.6,
-      "adx": 29.8,
+      "rsi": 53.5,
+      "adx": 26.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 13"
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 53"
       ],
       "ai": {
-        "score": 0.4,
+        "score": 0.6,
         "label": "bullish",
-        "reason": "USD/JPY ทะลุสูงสุดรอบหลายสิบปี"
+        "reason": "เยนอ่อนค่าแตะระดับสูงสุดรอบ40ปี"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 12,
-      "price": 4056.0,
+      "price": 4055.91,
       "tp": null,
       "sl": null,
-      "rsi": 48.5,
-      "adx": 21.9,
+      "rsi": 47.5,
+      "adx": 21.8,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 22 เริ่มมีเทรนด์",
-        "RSI 49"
+        "RSI 47"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ทองคำยืนเหนือ $4,000 ท่ามกลางความขัดแย้ง"
+        "score": -0.1,
+        "label": "bearish",
+        "reason": "แรงกดดันจากดอลลาร์แข็งและเฟด"
       }
     }
   ]
