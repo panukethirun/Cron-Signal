@@ -1,42 +1,41 @@
 {
-  "updated_utc": "2026-07-27T12:33:42+00:00",
-  "updated_th": "27 ก.ค. 2569, 19:33 น.",
+  "updated_utc": "2026-07-27T15:48:34+00:00",
+  "updated_th": "27 ก.ค. 2569, 22:48 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 18,
-      "price": 64907.79,
+      "confidence": 8,
+      "price": 64590.01,
       "tp": null,
       "sl": null,
-      "rsi": 46.6,
-      "adx": 33.1,
+      "rsi": 38.6,
+      "adx": 28.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 33 เทรนด์แข็ง",
-        "RSI 47"
+        "ADX 28 เทรนด์แข็ง",
+        "RSI 39"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ETF outflow และแรงกดดันจากกฎหมาย CLARITY"
+        "reason": "ETF outflow และแรงกดดันจาก CLARITY Act"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "LONG",
-      "confidence": 78,
-      "price": 1945.21,
-      "tp": 1974.05,
-      "sl": 1927.91,
-      "rsi": 55.7,
-      "adx": 55.6,
+      "signal": "NEUTRAL",
+      "confidence": 33,
+      "price": 1930.43,
+      "tp": null,
+      "sl": null,
+      "rsi": 45.1,
+      "adx": 46.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 56 แรงมาก ระวังกลับตัว",
-        "RSI 56"
+        "ADX 47 เทรนด์แข็ง",
+        "RSI 45"
       ],
       "ai": {
         "score": -0.3,
@@ -47,42 +46,41 @@
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 17,
-      "price": 163.67,
+      "confidence": 15,
+      "price": 163.68,
       "tp": null,
       "sl": null,
-      "rsi": 51.8,
-      "adx": 31.4,
+      "rsi": 50.9,
+      "adx": 26.7,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 52"
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 51"
       ],
       "ai": {
         "score": 0.4,
         "label": "bullish",
-        "reason": "เยนอ่อนค่า นโยบายการเงินแตกต่าง"
+        "reason": "เยนอ่อนค่า ทะลุ 162.30"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 67,
-      "price": 4085.41,
-      "tp": 4112.56,
-      "sl": 4069.12,
-      "rsi": 53.0,
-      "adx": 51.3,
+      "signal": "NEUTRAL",
+      "confidence": 33,
+      "price": 4076.53,
+      "tp": null,
+      "sl": null,
+      "rsi": 46.4,
+      "adx": 41.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 51 แรงมาก ระวังกลับตัว",
-        "RSI 53"
+        "ADX 42 เทรนด์แข็ง",
+        "RSI 46"
       ],
       "ai": {
-        "score": -0.1,
-        "label": "bearish",
-        "reason": "แนวโน้มขาลง รอผล Fed"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "รอทิศทางจาก Fed และตะวันออกกลาง"
       }
     }
   ]
