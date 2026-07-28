@@ -1,66 +1,66 @@
 {
-  "updated_utc": "2026-07-28T06:35:18+00:00",
-  "updated_th": "28 ก.ค. 2569, 13:35 น.",
+  "updated_utc": "2026-07-28T09:41:45+00:00",
+  "updated_th": "28 ก.ค. 2569, 16:41 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 77,
-      "price": 63520.01,
-      "tp": 62741.61,
-      "sl": 63987.05,
-      "rsi": 33.2,
-      "adx": 30.8,
+      "confidence": 75,
+      "price": 63558.34,
+      "tp": 62830.12,
+      "sl": 63995.27,
+      "rsi": 37.2,
+      "adx": 30.1,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 33"
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 37"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ETF outflow, analyst predicts drop to $52K"
+        "reason": "ETF outflow, analyst sees drop to $52k"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 48,
-      "price": 1883.78,
-      "tp": 1848.33,
-      "sl": 1905.05,
-      "rsi": 33.6,
-      "adx": 34.8,
+      "confidence": 47,
+      "price": 1884.12,
+      "tp": 1852.12,
+      "sl": 1903.32,
+      "rsi": 35.4,
+      "adx": 34.1,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 35 เทรนด์แข็ง",
-        "RSI 34"
+        "ADX 34 เทรนด์แข็ง",
+        "RSI 35"
       ],
       "ai": {
-        "score": -0.2,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "Standard Chartered cuts target, resistance at $2K"
+        "reason": "Standard Chartered cuts target 47%, price below $1800"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 16,
-      "price": 163.71,
+      "confidence": 28,
+      "price": 163.84,
       "tp": null,
       "sl": null,
-      "rsi": 48.8,
-      "adx": 19.2,
+      "rsi": 60.9,
+      "adx": 16.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 19 ไซด์เวย์",
-        "RSI 49"
+        "ADX 17 ไซด์เวย์",
+        "RSI 61"
       ],
       "ai": {
-        "score": 0.4,
+        "score": 0.5,
         "label": "bullish",
         "reason": "Yen weakens, USD/JPY near 40-year high"
       }
@@ -69,21 +69,21 @@
       "symbol": "XAU/USD",
       "signal": "SHORT",
       "confidence": 38,
-      "price": 4049.6,
-      "tp": 4024.5,
-      "sl": 4064.67,
-      "rsi": 36.6,
-      "adx": 27.4,
+      "price": 4032.29,
+      "tp": 4006.34,
+      "sl": 4047.85,
+      "rsi": 27.4,
+      "adx": 27.3,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
         "ADX 27 เทรนด์แข็ง",
-        "RSI 37"
+        "RSI 27"
       ],
       "ai": {
-        "score": -0.1,
+        "score": 0.0,
         "label": "neutral",
-        "reason": "Mixed signals, Fed meeting in focus"
+        "reason": "Mixed signals, awaiting Fed decision"
       }
     }
   ]
