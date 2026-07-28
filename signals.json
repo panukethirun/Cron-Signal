@@ -1,88 +1,89 @@
 {
-  "updated_utc": "2026-07-28T20:21:27+00:00",
-  "updated_th": "29 ก.ค. 2569, 03:21 น.",
+  "updated_utc": "2026-07-28T22:11:58+00:00",
+  "updated_th": "29 ก.ค. 2569, 05:11 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 48,
-      "price": 63990.0,
-      "tp": 63140.67,
-      "sl": 64499.6,
-      "rsi": 52.6,
-      "adx": 28.8,
+      "confidence": 44,
+      "price": 63954.01,
+      "tp": 63171.21,
+      "sl": 64423.69,
+      "rsi": 51.9,
+      "adx": 26.5,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 29 เทรนด์แข็ง",
-        "RSI 53"
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 52"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ETF outflow, analyst predicts drop to $52k"
+        "reason": "ETF outflow, analyst sees drop to $52k"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 1922.27,
-      "tp": null,
-      "sl": null,
-      "rsi": 56.7,
-      "adx": 24.2,
+      "signal": "LONG",
+      "confidence": 29,
+      "price": 1922.94,
+      "tp": 1961.8,
+      "sl": 1899.62,
+      "rsi": 56.5,
+      "adx": 21.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 24 เริ่มมีเทรนด์",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 21 เริ่มมีเทรนด์",
         "RSI 57"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "Standard Chartered cuts target, bearish prediction"
+        "reason": "Standard Chartered cut target, price slide"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
       "confidence": 12,
-      "price": 163.84,
+      "price": 163.83,
       "tp": null,
       "sl": null,
-      "rsi": 53.8,
-      "adx": 14.1,
+      "rsi": 52.7,
+      "adx": 14.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 14 ไซด์เวย์",
-        "RSI 54"
+        "ADX 15 ไซด์เวย์",
+        "RSI 53"
       ],
       "ai": {
-        "score": 0.4,
+        "score": 0.2,
         "label": "bullish",
-        "reason": "Yen weakens, USD/JPY near record high"
+        "reason": "Yen weak, USD firm ahead FOMC"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 58,
-      "price": 4026.26,
-      "tp": 3997.11,
-      "sl": 4043.76,
-      "rsi": 39.8,
-      "adx": 29.8,
+      "confidence": 57,
+      "price": 4026.89,
+      "tp": 4000.47,
+      "sl": 4042.74,
+      "rsi": 40.2,
+      "adx": 29.3,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 30 เทรนด์แข็ง",
+        "ADX 29 เทรนด์แข็ง",
         "RSI 40"
       ],
       "ai": {
-        "score": 0.1,
+        "score": -0.1,
         "label": "neutral",
-        "reason": "Mixed signals, awaiting Fed decision"
+        "reason": "Mixed signals, focus on Fed"
       }
     }
   ]
