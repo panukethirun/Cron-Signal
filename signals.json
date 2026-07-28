@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-07-28T18:20:30+00:00",
-  "updated_th": "29 ก.ค. 2569, 01:20 น.",
+  "updated_utc": "2026-07-28T20:21:27+00:00",
+  "updated_th": "29 ก.ค. 2569, 03:21 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 51,
-      "price": 63690.0,
-      "tp": 62779.04,
-      "sl": 64236.58,
-      "rsi": 46.6,
-      "adx": 30.4,
+      "confidence": 48,
+      "price": 63990.0,
+      "tp": 63140.67,
+      "sl": 64499.6,
+      "rsi": 52.6,
+      "adx": 28.8,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 47"
+        "ADX 29 เทรนด์แข็ง",
+        "RSI 53"
       ],
       "ai": {
         "score": -0.3,
@@ -27,56 +27,56 @@
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 15,
-      "price": 1908.26,
+      "confidence": 13,
+      "price": 1922.27,
       "tp": null,
       "sl": null,
-      "rsi": 52.2,
-      "adx": 27.4,
+      "rsi": 56.7,
+      "adx": 24.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 52"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 57"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "Price slide ahead of Fed meeting"
+        "reason": "Standard Chartered cuts target, bearish prediction"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 163.79,
+      "confidence": 12,
+      "price": 163.84,
       "tp": null,
       "sl": null,
-      "rsi": 50.8,
-      "adx": 16.0,
+      "rsi": 53.8,
+      "adx": 14.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 16 ไซด์เวย์",
-        "RSI 51"
+        "ADX 14 ไซด์เวย์",
+        "RSI 54"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.4,
         "label": "bullish",
-        "reason": "Yen weakens, USD/JPY near 40-year high"
+        "reason": "Yen weakens, USD/JPY near record high"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 57,
-      "price": 4028.78,
-      "tp": 3998.28,
-      "sl": 4047.09,
+      "confidence": 58,
+      "price": 4026.26,
+      "tp": 3997.11,
+      "sl": 4043.76,
       "rsi": 39.8,
-      "adx": 29.2,
+      "adx": 29.8,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 29 เทรนด์แข็ง",
+        "ADX 30 เทรนด์แข็ง",
         "RSI 40"
       ],
       "ai": {
