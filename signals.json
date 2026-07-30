@@ -1,86 +1,87 @@
 {
-  "updated_utc": "2026-07-30T07:38:44+00:00",
-  "updated_th": "30 ก.ค. 2569, 14:38 น.",
+  "updated_utc": "2026-07-30T10:32:12+00:00",
+  "updated_th": "30 ก.ค. 2569, 17:32 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 19,
-      "price": 64008.01,
+      "confidence": 15,
+      "price": 64622.0,
       "tp": null,
       "sl": null,
-      "rsi": 49.2,
-      "adx": 8.5,
+      "rsi": 59.8,
+      "adx": 10.5,
       "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 9 ไซด์เวย์",
-        "RSI 49"
+        "เทรนด์ขาขึ้น",
+        "ADX 11 ไซด์เวย์",
+        "RSI 60"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ข่าวรอผลประชุมเฟด ราคาอ่อนตัว"
+        "reason": "ข่าว Fed และราคาร่วงก่อนประชุม"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 3,
-      "price": 1903.19,
+      "confidence": 31,
+      "price": 1920.4,
       "tp": null,
       "sl": null,
-      "rsi": 48.8,
-      "adx": 11.2,
+      "rsi": 56.0,
+      "adx": 12.4,
       "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 11 ไซด์เวย์",
-        "RSI 49"
+        "เทรนด์ขาขึ้น",
+        "ADX 12 ไซด์เวย์",
+        "RSI 56"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ราคาติดขัด รอเฟด สัญญาณหมี"
+        "reason": "ราคาชะงักรอ Fed และสัญญาณ bearish"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 7,
-      "price": 163.7,
-      "tp": null,
-      "sl": null,
-      "rsi": 56.0,
-      "adx": 25.9,
+      "signal": "SHORT",
+      "confidence": 37,
+      "price": 162.86,
+      "tp": 162.38,
+      "sl": 163.14,
+      "rsi": 28.1,
+      "adx": 26.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 56"
+        "สวนเทรนด์ใหญ่",
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 28"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "เยนอ่อนค่าแต่รอปัจจัยใหม่"
+        "reason": "เยนอ่อนค่าแต่รอปัจจัย BOJ"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 14,
-      "price": 4040.02,
+      "confidence": 20,
+      "price": 4076.73,
       "tp": null,
       "sl": null,
-      "rsi": 47.2,
-      "adx": 24.7,
+      "rsi": 57.6,
+      "adx": 24.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 25 เริ่มมีเทรนด์",
-        "RSI 47"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 58"
       ],
       "ai": {
         "score": 0.2,
         "label": "bullish",
-        "reason": "ทองขึ้นจากเฟดคงดอกเบี้ย"
+        "reason": "ทองขึ้นจากความตึงเครียดตะวันออกกลาง"
       }
     }
   ]
