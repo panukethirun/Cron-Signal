@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-07-30T10:32:12+00:00",
-  "updated_th": "30 ก.ค. 2569, 17:32 น.",
+  "updated_utc": "2026-07-30T12:49:25+00:00",
+  "updated_th": "30 ก.ค. 2569, 19:49 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 15,
-      "price": 64622.0,
+      "confidence": 19,
+      "price": 64888.54,
       "tp": null,
       "sl": null,
-      "rsi": 59.8,
-      "adx": 10.5,
+      "rsi": 63.9,
+      "adx": 13.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 11 ไซด์เวย์",
-        "RSI 60"
+        "ADX 14 ไซด์เวย์",
+        "RSI 64"
       ],
       "ai": {
         "score": -0.2,
@@ -26,62 +26,63 @@
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 31,
-      "price": 1920.4,
+      "confidence": 36,
+      "price": 1923.18,
       "tp": null,
       "sl": null,
-      "rsi": 56.0,
-      "adx": 12.4,
+      "rsi": 57.3,
+      "adx": 14.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 12 ไซด์เวย์",
-        "RSI 56"
+        "ADX 14 ไซด์เวย์",
+        "RSI 57"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ราคาชะงักรอ Fed และสัญญาณ bearish"
+        "reason": "สัญญาณ bearish และแรงเทขาย"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 37,
-      "price": 162.86,
-      "tp": 162.38,
-      "sl": 163.14,
+      "confidence": 43,
+      "price": 162.78,
+      "tp": 162.27,
+      "sl": 163.08,
       "rsi": 28.1,
-      "adx": 26.5,
+      "adx": 30.6,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 27 เทรนด์แข็ง",
+        "ADX 31 เทรนด์แข็ง",
         "RSI 28"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "เยนอ่อนค่าแต่รอปัจจัย BOJ"
+        "reason": "เยนอ่อนค่าแต่รอปัจจัยใหม่"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 20,
-      "price": 4076.73,
-      "tp": null,
-      "sl": null,
-      "rsi": 57.6,
-      "adx": 24.2,
+      "signal": "LONG",
+      "confidence": 35,
+      "price": 4074.0,
+      "tp": 4121.39,
+      "sl": 4045.57,
+      "rsi": 56.2,
+      "adx": 25.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 58"
+        "สวนเทรนด์ใหญ่",
+        "ADX 25 เทรนด์แข็ง",
+        "RSI 56"
       ],
       "ai": {
         "score": 0.2,
         "label": "bullish",
-        "reason": "ทองขึ้นจากความตึงเครียดตะวันออกกลาง"
+        "reason": "ทองขึ้นจาก Fed และตึงเครียด"
       }
     }
   ]
