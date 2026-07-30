@@ -1,88 +1,88 @@
 {
-  "updated_utc": "2026-07-29T23:05:24+00:00",
-  "updated_th": "30 ก.ค. 2569, 06:05 น.",
+  "updated_utc": "2026-07-30T00:07:13+00:00",
+  "updated_th": "30 ก.ค. 2569, 07:07 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 17,
-      "price": 63929.62,
+      "confidence": 16,
+      "price": 64008.01,
       "tp": null,
       "sl": null,
-      "rsi": 48.2,
-      "adx": 12.0,
+      "rsi": 49.4,
+      "adx": 11.8,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 12 ไซด์เวย์",
-        "RSI 48"
+        "RSI 49"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ราคาลดลงก่อนประชุมเฟด ความไม่แน่นอนสูง"
+        "reason": "ราคาร่วงก่อนประชุมเฟด ความไม่แน่นอนสูง"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
       "confidence": 5,
-      "price": 1904.65,
+      "price": 1909.8,
       "tp": null,
       "sl": null,
-      "rsi": 49.7,
+      "rsi": 51.5,
       "adx": 16.4,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 16 ไซด์เวย์",
-        "RSI 50"
+        "RSI 52"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "สัญญาณ bearish จาก FXStreet และราคาลดลง"
+        "reason": "สัญญาณ bearish จาก FXStreet และราคาร่วง"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 40,
-      "price": 163.36,
-      "tp": 163.01,
-      "sl": 163.56,
-      "rsi": 37.1,
-      "adx": 28.8,
+      "confidence": 43,
+      "price": 163.25,
+      "tp": 162.9,
+      "sl": 163.46,
+      "rsi": 33.8,
+      "adx": 30.7,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 29 เทรนด์แข็ง",
-        "RSI 37"
+        "ADX 31 เทรนด์แข็ง",
+        "RSI 34"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "เยนอ่อนค่า แนวโน้มดอลลาร์แข็งค่า"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "เยนพยายามฟื้นตัว แต่ยังกดดันจากเฟด"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 44,
-      "price": 4094.67,
-      "tp": 4145.77,
-      "sl": 4064.01,
-      "rsi": 62.7,
-      "adx": 32.0,
+      "confidence": 46,
+      "price": 4081.08,
+      "tp": 4130.26,
+      "sl": 4051.58,
+      "rsi": 59.3,
+      "adx": 33.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 63"
+        "ADX 33 เทรนด์แข็ง",
+        "RSI 59"
       ],
       "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ทองคำอ่อนแอ รอผลประชุมเฟด"
+        "score": -0.1,
+        "label": "neutral",
+        "reason": "รอการตัดสินใจเฟด ความผันผวนต่ำ"
       }
     }
   ]
