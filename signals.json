@@ -1,66 +1,66 @@
 {
-  "updated_utc": "2026-08-01T11:23:54+00:00",
-  "updated_th": "1 ส.ค. 2569, 18:23 น.",
+  "updated_utc": "2026-08-01T13:45:52+00:00",
+  "updated_th": "1 ส.ค. 2569, 20:45 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 28,
-      "price": 63075.12,
+      "confidence": 25,
+      "price": 63080.01,
       "tp": null,
       "sl": null,
-      "rsi": 42.7,
-      "adx": 14.5,
+      "rsi": 43.1,
+      "adx": 13.1,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 14 ไซด์เวย์",
+        "ADX 13 ไซด์เวย์",
         "RSI 43"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ข่าวลบ แนวโน้มราคาลง"
+        "reason": "ข่าวขายและราคาร่วง"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 50,
-      "price": 1866.78,
-      "tp": 1850.04,
-      "sl": 1876.82,
-      "rsi": 39.1,
-      "adx": 25.9,
+      "confidence": 49,
+      "price": 1869.02,
+      "tp": 1853.82,
+      "sl": 1878.14,
+      "rsi": 43.0,
+      "adx": 25.2,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 39"
+        "ADX 25 เทรนด์แข็ง",
+        "RSI 43"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.2,
         "label": "bearish",
-        "reason": "ราคาอ่อนตัว ความผันผวนสูง"
+        "reason": "ราคาติดแนวต้าน ความกลัว"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
       "confidence": 78,
-      "price": 157.66,
-      "tp": 156.23,
-      "sl": 158.51,
-      "rsi": 33.5,
-      "adx": 53.5,
+      "price": 157.65,
+      "tp": 156.36,
+      "sl": 158.43,
+      "rsi": 34.2,
+      "adx": 52.0,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 53 แรงมาก ระวังกลับตัว",
+        "ADX 52 แรงมาก ระวังกลับตัว",
         "RSI 34"
       ],
       "ai": {
-        "score": -0.7,
+        "score": -0.5,
         "label": "bearish",
         "reason": "เยนแข็งค่าจากการแทรกแซง"
       }
@@ -70,10 +70,10 @@
       "signal": "SHORT",
       "confidence": 45,
       "price": 4042.76,
-      "tp": 4030.78,
-      "sl": 4049.94,
+      "tp": 4032.35,
+      "sl": 4049.0,
       "rsi": 40.8,
-      "adx": 22.9,
+      "adx": 23.1,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
