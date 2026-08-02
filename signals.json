@@ -1,78 +1,78 @@
 {
-  "updated_utc": "2026-08-02T06:40:23+00:00",
-  "updated_th": "2 ส.ค. 2569, 13:40 น.",
+  "updated_utc": "2026-08-02T09:15:55+00:00",
+  "updated_th": "2 ส.ค. 2569, 16:15 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 6,
-      "price": 63468.0,
+      "confidence": 17,
+      "price": 63262.18,
       "tp": null,
       "sl": null,
-      "rsi": 62.2,
-      "adx": 23.1,
+      "rsi": 53.0,
+      "adx": 20.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 62"
+        "ADX 21 เริ่มมีเทรนด์",
+        "RSI 53"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "ข่าวขาย BTC และแฮก สร้างแรงกดดัน"
+        "reason": "ข่าวขายBTCและแฮกกดดันราคา"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 8,
-      "price": 1876.53,
+      "confidence": 20,
+      "price": 1870.33,
       "tp": null,
       "sl": null,
-      "rsi": 59.2,
-      "adx": 28.0,
+      "rsi": 53.1,
+      "adx": 23.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 59"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 53"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ราคาอ่อนตัว แม้มีข่าวบวกเล็กน้อย"
+        "reason": "ราคาอ่อนตัวแต่มีแรงซื้อบ้าง"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 77,
-      "price": 157.66,
-      "tp": 156.75,
-      "sl": 158.2,
-      "rsi": 39.6,
-      "adx": 39.6,
+      "confidence": 74,
+      "price": 157.6,
+      "tp": 156.81,
+      "sl": 158.08,
+      "rsi": 36.6,
+      "adx": 37.9,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 40 เทรนด์แข็ง",
-        "RSI 40"
+        "ADX 38 เทรนด์แข็ง",
+        "RSI 37"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจากการแทรกแซง คาดว่าย่อลง"
+        "reason": "เยนแข็งค่าจากการแทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
       "confidence": 46,
-      "price": 4042.66,
-      "tp": 4039.27,
-      "sl": 4044.69,
-      "rsi": 40.6,
-      "adx": 23.8,
+      "price": 4042.65,
+      "tp": 4039.82,
+      "sl": 4044.35,
+      "rsi": 40.7,
+      "adx": 23.9,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
@@ -80,9 +80,9 @@
         "RSI 41"
       ],
       "ai": {
-        "score": 0.3,
+        "score": 0.2,
         "label": "bullish",
-        "reason": "ความตึงเครียดและแรงซื้อจากธนาคารกลาง"
+        "reason": "ทองคำมีแรงหนุนจากความตึงเครียด"
       }
     }
   ]
