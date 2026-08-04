@@ -1,86 +1,88 @@
 {
-  "updated_utc": "2026-08-04T12:08:03+00:00",
-  "updated_th": "4 ส.ค. 2569, 19:08 น.",
+  "updated_utc": "2026-08-04T15:30:39+00:00",
+  "updated_th": "4 ส.ค. 2569, 22:30 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "NEUTRAL",
-      "confidence": 17,
-      "price": 63873.98,
-      "tp": null,
-      "sl": null,
-      "rsi": 57.4,
-      "adx": 20.9,
+      "signal": "LONG",
+      "confidence": 30,
+      "price": 63936.0,
+      "tp": 64715.92,
+      "sl": 63468.05,
+      "rsi": 56.1,
+      "adx": 21.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 21 เริ่มมีเทรนด์",
-        "RSI 57"
+        "สวนเทรนด์ใหญ่",
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 56"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ข่าวการโจมตีและแผนขาย BTC กดดันราคา"
+        "reason": "ข่าวขาย BTC และคำเตือนการโจมตี"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 1870.14,
+      "confidence": 21,
+      "price": 1866.16,
       "tp": null,
       "sl": null,
-      "rsi": 54.7,
-      "adx": 17.8,
+      "rsi": 50.9,
+      "adx": 19.0,
       "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 18 ไซด์เวย์",
-        "RSI 55"
+        "เทรนด์ขาขึ้น",
+        "ADX 19 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ราคาอ่อนตัวและความเสี่ยง跌破แนวรับ"
+        "reason": "แนวรับอ่อนแอ เสี่ยงลงต่อ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 5,
-      "price": 157.35,
+      "confidence": 4,
+      "price": 157.58,
       "tp": null,
       "sl": null,
-      "rsi": 48.0,
-      "adx": 17.1,
+      "rsi": 53.6,
+      "adx": 15.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 17 ไซด์เวย์",
-        "RSI 48"
+        "ADX 16 ไซด์เวย์",
+        "RSI 54"
       ],
       "ai": {
         "score": -0.6,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจากการแทรกแซงร่วม สกุลเงินดอลลาร์อ่อน"
+        "reason": "เยนแข็งค่าจากการแทรกแซงร่วม"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 26,
-      "price": 4069.34,
-      "tp": null,
-      "sl": null,
-      "rsi": 58.5,
-      "adx": 18.4,
+      "signal": "LONG",
+      "confidence": 33,
+      "price": 4077.3,
+      "tp": 4113.01,
+      "sl": 4055.88,
+      "rsi": 60.1,
+      "adx": 23.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 18 ไซด์เวย์",
-        "RSI 58"
+        "สวนเทรนด์ใหญ่",
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 60"
       ],
       "ai": {
         "score": 0.2,
         "label": "bullish",
-        "reason": "ความต้องการสินทรัพย์ปลอดภัยเพิ่มขึ้น ก่อน NFP"
+        "reason": "ความต้องการปลอดภัยเพิ่มขึ้น"
       }
     }
   ]
