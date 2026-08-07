@@ -1,64 +1,64 @@
 {
-  "updated_utc": "2026-08-07T11:01:00+00:00",
-  "updated_th": "7 ส.ค. 2569, 18:01 น.",
+  "updated_utc": "2026-08-07T11:51:36+00:00",
+  "updated_th": "7 ส.ค. 2569, 18:51 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 37,
-      "price": 64893.98,
+      "confidence": 43,
+      "price": 65044.3,
       "tp": null,
       "sl": null,
-      "rsi": 65.3,
-      "adx": 14.9,
+      "rsi": 69.0,
+      "adx": 17.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 65"
+        "ADX 17 ไซด์เวย์",
+        "RSI 69"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "ข่าวลบและความไม่แน่นอนจากกฎหมาย"
+        "reason": "ข่าวลบและความไม่แน่นอนกดดันราคา"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 35,
-      "price": 1912.85,
+      "confidence": 38,
+      "price": 1916.45,
       "tp": null,
       "sl": null,
-      "rsi": 58.7,
-      "adx": 14.0,
+      "rsi": 61.9,
+      "adx": 15.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 14 ไซด์เวย์",
-        "RSI 59"
+        "ADX 15 ไซด์เวย์",
+        "RSI 62"
       ],
       "ai": {
-        "score": 0.3,
+        "score": 0.2,
         "label": "bullish",
-        "reason": "ETF ไหลเข้าและวาฬสะสม"
+        "reason": "สัญญาณทางเทคนิคบวกและวาฬซื้อ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 17,
-      "price": 158.31,
+      "confidence": 16,
+      "price": 158.34,
       "tp": null,
       "sl": null,
-      "rsi": 52.8,
-      "adx": 30.4,
+      "rsi": 54.3,
+      "adx": 29.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 53"
+        "ADX 29 เทรนด์แข็ง",
+        "RSI 54"
       ],
       "ai": {
-        "score": -0.2,
+        "score": -0.3,
         "label": "bearish",
         "reason": "เยนแข็งค่าจากการแทรกแซงร่วม"
       }
@@ -66,22 +66,22 @@
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 68,
-      "price": 4317.06,
-      "tp": 4362.1,
-      "sl": 4290.04,
-      "rsi": 69.0,
-      "adx": 27.3,
+      "confidence": 71,
+      "price": 4323.72,
+      "tp": 4367.59,
+      "sl": 4297.4,
+      "rsi": 70.5,
+      "adx": 28.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 69"
+        "ADX 29 เทรนด์แข็ง",
+        "RSI 70"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.3,
         "label": "bullish",
-        "reason": "ทองคำทำ新高และแนวโน้มขาขึ้น"
+        "reason": "ทองคำแข็งแกร่งเหนือแนวรับสำคัญ"
       }
     }
   ]
