@@ -1,61 +1,61 @@
 {
-  "updated_utc": "2026-08-07T05:47:03+00:00",
-  "updated_th": "7 ส.ค. 2569, 12:47 น.",
+  "updated_utc": "2026-08-07T07:36:29+00:00",
+  "updated_th": "7 ส.ค. 2569, 14:36 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 3,
-      "price": 64259.78,
+      "confidence": 9,
+      "price": 64389.39,
       "tp": null,
       "sl": null,
-      "rsi": 40.4,
-      "adx": 11.4,
+      "rsi": 47.4,
+      "adx": 10.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 11 ไซด์เวย์",
-        "RSI 40"
+        "ADX 10 ไซด์เวย์",
+        "RSI 47"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ข่าวเตือนปรับตัวลง แต่มีสัญญาณบวกบ้าง"
+        "reason": "ข่าวเตือนราคาร่วงและนักขุดออก"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 4,
-      "price": 1898.0,
+      "confidence": 0,
+      "price": 1904.66,
       "tp": null,
       "sl": null,
-      "rsi": 43.8,
-      "adx": 14.6,
+      "rsi": 51.3,
+      "adx": 12.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 44"
+        "ADX 12 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "มีทั้งการสะสมและความเสี่ยง แต่ราคาคงที่"
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "วาฬสะสมและเงินไหลเข้า ETF"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 29,
-      "price": 158.37,
+      "confidence": 27,
+      "price": 158.42,
       "tp": null,
       "sl": null,
-      "rsi": 58.5,
-      "adx": 34.4,
+      "rsi": 60.5,
+      "adx": 32.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 34 เทรนด์แข็ง",
-        "RSI 58"
+        "ADX 32 เทรนด์แข็ง",
+        "RSI 61"
       ],
       "ai": {
         "score": -0.4,
@@ -66,22 +66,22 @@
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 58,
-      "price": 4271.54,
-      "tp": 4314.7,
-      "sl": 4245.65,
-      "rsi": 59.0,
-      "adx": 23.3,
+      "confidence": 60,
+      "price": 4286.31,
+      "tp": 4329.83,
+      "sl": 4260.2,
+      "rsi": 61.0,
+      "adx": 23.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 59"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 61"
       ],
       "ai": {
-        "score": 0.3,
+        "score": 0.2,
         "label": "bullish",
-        "reason": "ทองคำปรับตัวขึ้นเหนือแนวต้าน"
+        "reason": "ทองคำยืนเหนือแนวรับ รอ NFP"
       }
     }
   ]
