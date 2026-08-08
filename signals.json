@@ -1,16 +1,16 @@
 {
-  "updated_utc": "2026-08-08T13:04:47+00:00",
-  "updated_th": "8 ส.ค. 2569, 20:04 น.",
+  "updated_utc": "2026-08-08T13:53:12+00:00",
+  "updated_th": "8 ส.ค. 2569, 20:53 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
       "confidence": 29,
-      "price": 65008.34,
+      "price": 65015.28,
       "tp": null,
       "sl": null,
-      "rsi": 57.9,
+      "rsi": 58.3,
       "adx": 14.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
@@ -20,17 +20,17 @@
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ข่าวผสม มีความเสี่ยงจากกฎหมาย"
+        "reason": "ข่าวเตือนเสี่ยงและความไม่แน่นอน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
       "confidence": 83,
-      "price": 1919.84,
-      "tp": 1933.15,
-      "sl": 1911.86,
-      "rsi": 56.4,
+      "price": 1919.61,
+      "tp": 1933.11,
+      "sl": 1911.51,
+      "rsi": 56.1,
       "adx": 33.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
@@ -39,25 +39,25 @@
         "RSI 56"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ราคา sideways วาฬซื้อเล็กน้อย"
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "ETF ไหลเข้าและราคาฟื้นตัว"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
       "confidence": 47,
-      "price": 157.83,
-      "tp": 157.49,
-      "sl": 158.03,
-      "rsi": 47.1,
+      "price": 157.82,
+      "tp": 157.48,
+      "sl": 158.02,
+      "rsi": 46.5,
       "adx": 28.0,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
         "ADX 28 เทรนด์แข็ง",
-        "RSI 47"
+        "RSI 46"
       ],
       "ai": {
         "score": -0.4,
@@ -69,9 +69,9 @@
       "symbol": "XAU/USD",
       "signal": "LONG",
       "confidence": 75,
-      "price": 4342.36,
-      "tp": 4356.62,
-      "sl": 4333.8,
+      "price": 4342.32,
+      "tp": 4356.59,
+      "sl": 4333.76,
       "rsi": 64.8,
       "adx": 38.6,
       "reasons": [
@@ -81,9 +81,9 @@
         "RSI 65"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.6,
         "label": "bullish",
-        "reason": "ทองคำ breakout มีแนวโน้มขึ้น"
+        "reason": "ทองคำทะลุแนวต้านและมีโมเมนตัม"
       }
     }
   ]
