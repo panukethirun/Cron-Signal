@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-08-09T04:24:31+00:00",
-  "updated_th": "9 ส.ค. 2569, 11:24 น.",
+  "updated_utc": "2026-08-09T05:52:26+00:00",
+  "updated_th": "9 ส.ค. 2569, 12:52 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
       "confidence": 5,
-      "price": 64809.02,
+      "price": 64780.0,
       "tp": null,
       "sl": null,
-      "rsi": 39.0,
-      "adx": 17.5,
+      "rsi": 36.4,
+      "adx": 18.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 18 ไซด์เวย์",
-        "RSI 39"
+        "ADX 19 ไซด์เวย์",
+        "RSI 36"
       ],
       "ai": {
         "score": -0.2,
@@ -27,36 +27,36 @@
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
       "confidence": 7,
-      "price": 1914.54,
+      "price": 1914.17,
       "tp": null,
       "sl": null,
-      "rsi": 43.5,
-      "adx": 25.6,
+      "rsi": 43.3,
+      "adx": 23.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 26 เทรนด์แข็ง",
+        "ADX 24 เริ่มมีเทรนด์",
         "RSI 43"
       ],
       "ai": {
         "score": 0.3,
         "label": "bullish",
-        "reason": "ETF ไหลเข้าและราคาขยับขึ้น"
+        "reason": "ETF ไหลเข้าสูงและราคาขยับขึ้น"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 41,
+      "confidence": 43,
       "price": 157.83,
-      "tp": 157.65,
+      "tp": 157.66,
       "sl": 157.93,
-      "rsi": 47.5,
-      "adx": 24.9,
+      "rsi": 47.8,
+      "adx": 25.5,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 25 เริ่มมีเทรนด์",
-        "RSI 47"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 48"
       ],
       "ai": {
         "score": -0.4,
@@ -68,16 +68,16 @@
       "symbol": "XAU/USD",
       "signal": "LONG",
       "confidence": 76,
-      "price": 4342.33,
-      "tp": 4347.47,
-      "sl": 4339.26,
-      "rsi": 64.7,
+      "price": 4342.26,
+      "tp": 4347.07,
+      "sl": 4339.37,
+      "rsi": 64.3,
       "adx": 39.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 39 เทรนด์แข็ง",
-        "RSI 65"
+        "RSI 64"
       ],
       "ai": {
         "score": 0.5,
