@@ -1,63 +1,63 @@
 {
-  "updated_utc": "2026-08-09T10:43:09+00:00",
-  "updated_th": "9 ส.ค. 2569, 17:43 น.",
+  "updated_utc": "2026-08-09T11:37:16+00:00",
+  "updated_th": "9 ส.ค. 2569, 18:37 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 64944.01,
+      "confidence": 27,
+      "price": 64981.99,
       "tp": null,
       "sl": null,
-      "rsi": 53.3,
-      "adx": 16.2,
+      "rsi": 56.3,
+      "adx": 16.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 16 ไซด์เวย์",
-        "RSI 53"
+        "RSI 56"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ข่าวเตือนความเสี่ยงและกระแสเงินออก"
+        "reason": "ข่าวเตือนความเสี่ยงและ ETF ไหลออก"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 56,
-      "price": 1920.04,
-      "tp": 1931.77,
-      "sl": 1913.0,
-      "rsi": 54.3,
-      "adx": 25.3,
+      "confidence": 65,
+      "price": 1920.92,
+      "tp": 1932.07,
+      "sl": 1914.23,
+      "rsi": 55.8,
+      "adx": 26.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 25 เทรนด์แข็ง",
-        "RSI 54"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 56"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ETF ไหลเข้าและราคาเป้าหมายสูง"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสม อุปทานลด แต่ราคาไม่ชัด"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 47,
-      "price": 157.83,
+      "confidence": 48,
+      "price": 157.82,
       "tp": 157.7,
       "sl": 157.9,
-      "rsi": 47.9,
-      "adx": 28.1,
+      "rsi": 46.4,
+      "adx": 28.6,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 48"
+        "ADX 29 เทรนด์แข็ง",
+        "RSI 46"
       ],
       "ai": {
         "score": -0.4,
@@ -69,21 +69,21 @@
       "symbol": "XAU/USD",
       "signal": "LONG",
       "confidence": 76,
-      "price": 4342.35,
-      "tp": 4345.88,
-      "sl": 4340.24,
-      "rsi": 64.7,
+      "price": 4342.24,
+      "tp": 4345.56,
+      "sl": 4340.25,
+      "rsi": 63.9,
       "adx": 39.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 39 เทรนด์แข็ง",
-        "RSI 65"
+        "RSI 64"
       ],
       "ai": {
         "score": 0.5,
         "label": "bullish",
-        "reason": "ทองคำ breakout และดอลลาร์อ่อน"
+        "reason": "ทองคำ breakout แนวต้านและดอลลาร์อ่อน"
       }
     }
   ]
