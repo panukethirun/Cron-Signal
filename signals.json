@@ -1,78 +1,66 @@
 {
-  "updated_utc": "2026-08-09T11:37:16+00:00",
-  "updated_th": "9 ส.ค. 2569, 18:37 น.",
+  "updated_utc": "2026-08-09T13:07:33+00:00",
+  "updated_th": "9 ส.ค. 2569, 20:07 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 27,
-      "price": 64981.99,
+      "confidence": 41,
+      "price": 65032.51,
       "tp": null,
       "sl": null,
-      "rsi": 56.3,
-      "adx": 16.3,
+      "rsi": 60.3,
+      "adx": 16.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 16 ไซด์เวย์",
-        "RSI 56"
+        "ADX 17 ไซด์เวย์",
+        "RSI 60"
       ],
-      "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ข่าวเตือนความเสี่ยงและ ETF ไหลออก"
-      }
+      "ai": null
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 65,
-      "price": 1920.92,
-      "tp": 1932.07,
-      "sl": 1914.23,
-      "rsi": 55.8,
-      "adx": 26.1,
+      "confidence": 55,
+      "price": 1919.82,
+      "tp": 1930.56,
+      "sl": 1913.38,
+      "rsi": 53.6,
+      "adx": 24.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 56"
+        "ADX 25 เริ่มมีเทรนด์",
+        "RSI 54"
       ],
-      "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม อุปทานลด แต่ราคาไม่ชัด"
-      }
+      "ai": null
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 48,
+      "confidence": 46,
       "price": 157.82,
-      "tp": 157.7,
-      "sl": 157.9,
-      "rsi": 46.4,
-      "adx": 28.6,
+      "tp": 157.71,
+      "sl": 157.89,
+      "rsi": 46.2,
+      "adx": 27.6,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 29 เทรนด์แข็ง",
+        "ADX 28 เทรนด์แข็ง",
         "RSI 46"
       ],
-      "ai": {
-        "score": -0.4,
-        "label": "bearish",
-        "reason": "เยนแข็งค่าจากการแทรกแซงร่วม"
-      }
+      "ai": null
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
       "confidence": 76,
       "price": 4342.24,
-      "tp": 4345.56,
-      "sl": 4340.25,
-      "rsi": 63.9,
+      "tp": 4345.19,
+      "sl": 4340.47,
+      "rsi": 63.7,
       "adx": 39.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
@@ -80,11 +68,7 @@
         "ADX 39 เทรนด์แข็ง",
         "RSI 64"
       ],
-      "ai": {
-        "score": 0.5,
-        "label": "bullish",
-        "reason": "ทองคำ breakout แนวต้านและดอลลาร์อ่อน"
-      }
+      "ai": null
     }
   ]
 }
