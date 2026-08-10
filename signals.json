@@ -1,90 +1,87 @@
 {
-  "updated_utc": "2026-08-10T11:54:48+00:00",
-  "updated_th": "10 ส.ค. 2569, 18:54 น.",
+  "updated_utc": "2026-08-10T13:34:44+00:00",
+  "updated_th": "10 ส.ค. 2569, 20:34 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "LONG",
-      "confidence": 54,
-      "price": 65073.77,
-      "tp": 65538.47,
-      "sl": 64794.95,
-      "rsi": 49.9,
-      "adx": 32.5,
+      "signal": "NEUTRAL",
+      "confidence": 16,
+      "price": 64876.96,
+      "tp": null,
+      "sl": null,
+      "rsi": 43.0,
+      "adx": 29.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 50"
+        "ADX 29 เทรนด์แข็ง",
+        "RSI 43"
       ],
       "ai": {
-        "score": 0.3,
+        "score": 0.6,
         "label": "bullish",
-        "reason": "ETF inflows offset regulatory setback, price grinds higher"
+        "reason": "ETF inflows and price rally above $65k"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "LONG",
-      "confidence": 46,
-      "price": 1918.75,
-      "tp": 1939.26,
-      "sl": 1906.44,
-      "rsi": 48.2,
-      "adx": 27.7,
+      "signal": "NEUTRAL",
+      "confidence": 7,
+      "price": 1907.07,
+      "tp": null,
+      "sl": null,
+      "rsi": 39.5,
+      "adx": 25.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 48"
+        "ADX 25 เทรนด์แข็ง",
+        "RSI 40"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "Mixed signals, price holds but upside limited"
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "Mixed but positive price predictions"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 56,
-      "price": 158.86,
-      "tp": 159.2,
-      "sl": 158.66,
-      "rsi": 80.3,
-      "adx": 40.1,
+      "confidence": 54,
+      "price": 158.94,
+      "tp": 159.32,
+      "sl": 158.72,
+      "rsi": 81.7,
+      "adx": 39.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
-        "ADX 40 เทรนด์แข็ง",
-        "RSI 80"
+        "ADX 39 เทรนด์แข็ง",
+        "RSI 82"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "Intervention and yen strength pressure pair"
+        "reason": "Intervention and yen strength"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 47,
-      "price": 4335.84,
-      "tp": 4359.31,
-      "sl": 4321.75,
-      "rsi": 46.0,
-      "adx": 33.7,
+      "signal": "NEUTRAL",
+      "confidence": 8,
+      "price": 4333.36,
+      "tp": null,
+      "sl": null,
+      "rsi": 43.9,
+      "adx": 30.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 34 เทรนด์แข็ง",
-        "RSI 46"
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 44"
       ],
       "ai": {
-        "score": 0.4,
+        "score": 0.7,
         "label": "bullish",
-        "reason": "Buy-the-dip and bullish momentum persist"
+        "reason": "Buy-the-dip and resistance breakout"
       }
     }
   ]
