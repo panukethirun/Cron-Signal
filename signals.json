@@ -1,22 +1,22 @@
 {
-  "updated_utc": "2026-08-11T21:56:50+00:00",
-  "updated_th": "12 ส.ค. 2569, 04:56 น.",
+  "updated_utc": "2026-08-11T22:53:00+00:00",
+  "updated_th": "12 ส.ค. 2569, 05:53 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 73,
-      "price": 63668.02,
-      "tp": 63090.16,
-      "sl": 64014.74,
-      "rsi": 40.9,
-      "adx": 29.1,
+      "confidence": 72,
+      "price": 63639.93,
+      "tp": 63078.03,
+      "sl": 63977.07,
+      "rsi": 40.2,
+      "adx": 28.8,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
         "ADX 29 เทรนด์แข็ง",
-        "RSI 41"
+        "RSI 40"
       ],
       "ai": {
         "score": 0.2,
@@ -27,63 +27,63 @@
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 41,
-      "price": 1882.54,
-      "tp": 1859.12,
-      "sl": 1896.59,
-      "rsi": 51.2,
-      "adx": 24.7,
+      "confidence": 38,
+      "price": 1880.33,
+      "tp": 1857.14,
+      "sl": 1894.24,
+      "rsi": 49.2,
+      "adx": 22.9,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 25 เริ่มมีเทรนด์",
-        "RSI 51"
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 49"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "โมเมนตัมตาย ราคาร่วง แตะแนวรับสำคัญ"
+        "reason": "ราคาร่วง 2.6% แนวต้าน 1948 ไม่ผ่าน"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
       "confidence": 44,
-      "price": 159.29,
-      "tp": 159.56,
-      "sl": 159.13,
-      "rsi": 61.9,
-      "adx": 22.5,
+      "price": 159.28,
+      "tp": 159.54,
+      "sl": 159.12,
+      "rsi": 60.0,
+      "adx": 22.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 23 เริ่มมีเทรนด์",
-        "RSI 62"
+        "RSI 60"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจากการแทรกแซง ความเสี่ยง CPI"
+        "reason": "เยนแข็งค่าจากการแทรกแซง และ CPI"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 4368.5,
+      "confidence": 16,
+      "price": 4373.66,
       "tp": null,
       "sl": null,
-      "rsi": 45.5,
-      "adx": 19.5,
+      "rsi": 48.4,
+      "adx": 18.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 19 ไซด์เวย์",
-        "RSI 45"
+        "RSI 48"
       ],
       "ai": {
-        "score": 0.6,
+        "score": 0.5,
         "label": "bullish",
-        "reason": "ทองคำ breakout ทะลุ 4400 แนวโน้มขาขึ้น"
+        "reason": "ทองคำ breakout สัปดาห์ที่ดีที่สุด ราคาเหนือ 4400"
       }
     }
   ]
