@@ -1,90 +1,89 @@
 {
-  "updated_utc": "2026-08-14T15:58:22+00:00",
-  "updated_th": "14 ส.ค. 2569, 22:58 น.",
+  "updated_utc": "2026-08-14T17:01:22+00:00",
+  "updated_th": "15 ส.ค. 2569, 00:01 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 66,
-      "price": 63035.02,
-      "tp": 62436.56,
-      "sl": 63394.1,
-      "rsi": 46.2,
-      "adx": 29.7,
+      "confidence": 48,
+      "price": 63133.48,
+      "tp": 62533.35,
+      "sl": 63493.56,
+      "rsi": 49.5,
+      "adx": 28.6,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 46"
+        "ADX 29 เทรนด์แข็ง",
+        "RSI 50"
       ],
       "ai": {
-        "score": 0.2,
-        "label": "bullish",
-        "reason": "BlackRock เรียกจุดต่ำสุด และ Grayscale มองโครงสร้างดี"
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "ราคาถูกกดต่ำกว่า 68.7K และคาดการณ์อาจทดสอบ 65K"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 49,
-      "price": 1882.53,
-      "tp": 1861.8,
-      "sl": 1894.97,
-      "rsi": 52.0,
-      "adx": 22.2,
+      "confidence": 35,
+      "price": 1885.41,
+      "tp": 1864.53,
+      "sl": 1897.94,
+      "rsi": 54.3,
+      "adx": 20.8,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 52"
+        "ADX 21 เริ่มมีเทรนด์",
+        "RSI 54"
       ],
       "ai": {
-        "score": -0.1,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ราคาร่วง跌破แนวรับ มีสัญญาณผสม"
+        "reason": "ราคาลดลงแตะ 1,875 ดอลลาร์ แนวต้าน 1,900"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "SHORT",
-      "confidence": 44,
-      "price": 159.2,
-      "tp": 158.81,
-      "sl": 159.44,
-      "rsi": 47.5,
-      "adx": 41.4,
+      "signal": "NEUTRAL",
+      "confidence": 11,
+      "price": 159.37,
+      "tp": null,
+      "sl": null,
+      "rsi": 55.9,
+      "adx": 40.3,
       "reasons": [
         "เทรนด์ขาลง",
-        "สวนเทรนด์ใหญ่",
-        "ADX 41 เทรนด์แข็ง",
-        "RSI 47"
+        "ADX 40 เทรนด์แข็ง",
+        "RSI 56"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ดอลลาร์แข็งค่า แนวโน้มขึ้นสู่ 160"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ข่าวแทรกแซงและความผันผวน แต่ยังมีแรงซื้อ"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 33,
-      "price": 4390.74,
-      "tp": 4429.72,
-      "sl": 4367.36,
-      "rsi": 63.6,
-      "adx": 23.8,
+      "confidence": 34,
+      "price": 4385.33,
+      "tp": 4424.01,
+      "sl": 4362.13,
+      "rsi": 60.2,
+      "adx": 24.2,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
         "ADX 24 เริ่มมีเทรนด์",
-        "RSI 64"
+        "RSI 60"
       ],
       "ai": {
-        "score": 0.4,
+        "score": 0.6,
         "label": "bullish",
-        "reason": "ทองคำทำจุดสูงสุด แนวโน้ม bullish"
+        "reason": "ทองคำยืนเหนือ 4,380 และมีแนวโน้มขึ้นต่อ"
       }
     }
   ]
