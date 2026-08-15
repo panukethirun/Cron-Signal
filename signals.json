@@ -1,86 +1,86 @@
 {
-  "updated_utc": "2026-08-15T20:31:37+00:00",
-  "updated_th": "16 ส.ค. 2569, 03:31 น.",
+  "updated_utc": "2026-08-15T21:28:12+00:00",
+  "updated_th": "16 ส.ค. 2569, 04:28 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 63078.63,
+      "confidence": 8,
+      "price": 63145.45,
       "tp": null,
       "sl": null,
-      "rsi": 50.7,
-      "adx": 15.1,
+      "rsi": 55.2,
+      "adx": 14.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 15 ไซด์เวย์",
-        "RSI 51"
+        "ADX 14 ไซด์เวย์",
+        "RSI 55"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "ข่าวเชิงลบและราคาลดลง"
+        "reason": "ข่าวลบและราคาร่วง"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
       "confidence": 3,
-      "price": 1883.21,
+      "price": 1884.62,
       "tp": null,
       "sl": null,
-      "rsi": 51.7,
-      "adx": 11.7,
+      "rsi": 54.3,
+      "adx": 11.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 12 ไซด์เวย์",
-        "RSI 52"
+        "ADX 11 ไซด์เวย์",
+        "RSI 54"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม ไม่มีทิศทางชัดเจน"
+        "score": 0.2,
+        "label": "bullish",
+        "reason": "มีข่าวบวกบ้างแต่ไม่ชัด"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 28,
-      "price": 159.31,
+      "confidence": 29,
+      "price": 159.32,
       "tp": null,
       "sl": null,
-      "rsi": 48.3,
-      "adx": 34.2,
+      "rsi": 51.4,
+      "adx": 35.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 34 เทรนด์แข็ง",
-        "RSI 48"
+        "ADX 35 เทรนด์แข็ง",
+        "RSI 51"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.3,
         "label": "bullish",
-        "reason": "เยนอ่อนค่า แนวโน้มขึ้น"
+        "reason": "ดอลลาร์แข็งค่าและยืนเหนือเยน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 26,
-      "price": 4375.66,
+      "price": 4375.56,
       "tp": null,
       "sl": null,
-      "rsi": 54.7,
-      "adx": 15.6,
+      "rsi": 54.4,
+      "adx": 15.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 16 ไซด์เวย์",
-        "RSI 55"
+        "ADX 15 ไซด์เวย์",
+        "RSI 54"
       ],
       "ai": {
-        "score": 0.3,
+        "score": 0.5,
         "label": "bullish",
-        "reason": "ทองคำแข็งแกร่ง แนวโน้มขึ้น"
+        "reason": "ทองคำมีแนวโน้มขึ้นต่อ"
       }
     }
   ]
