@@ -1,71 +1,87 @@
 {
-  "updated_utc": "2026-08-15T19:27:29+00:00",
-  "updated_th": "16 ส.ค. 2569, 02:27 น.",
+  "updated_utc": "2026-08-15T20:31:37+00:00",
+  "updated_th": "16 ส.ค. 2569, 03:31 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
       "confidence": 13,
-      "price": 63105.0,
+      "price": 63078.63,
       "tp": null,
       "sl": null,
-      "rsi": 52.8,
-      "adx": 15.4,
+      "rsi": 50.7,
+      "adx": 15.1,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 15 ไซด์เวย์",
-        "RSI 53"
+        "RSI 51"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.4,
+        "label": "bearish",
+        "reason": "ข่าวเชิงลบและราคาลดลง"
+      }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 10,
-      "price": 1884.01,
+      "confidence": 3,
+      "price": 1883.21,
       "tp": null,
       "sl": null,
-      "rsi": 53.4,
-      "adx": 11.8,
+      "rsi": 51.7,
+      "adx": 11.7,
       "reasons": [
-        "เทรนด์ขาลง",
+        "เทรนด์ขาขึ้น",
         "ADX 12 ไซด์เวย์",
-        "RSI 53"
+        "RSI 52"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสม ไม่มีทิศทางชัดเจน"
+      }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
       "confidence": 28,
-      "price": 159.32,
+      "price": 159.31,
       "tp": null,
       "sl": null,
-      "rsi": 51.2,
-      "adx": 33.2,
+      "rsi": 48.3,
+      "adx": 34.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 33 เทรนด์แข็ง",
-        "RSI 51"
+        "ADX 34 เทรนด์แข็ง",
+        "RSI 48"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.2,
+        "label": "bullish",
+        "reason": "เยนอ่อนค่า แนวโน้มขึ้น"
+      }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 26,
-      "price": 4375.57,
+      "price": 4375.66,
       "tp": null,
       "sl": null,
-      "rsi": 54.4,
-      "adx": 15.7,
+      "rsi": 54.7,
+      "adx": 15.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 16 ไซด์เวย์",
-        "RSI 54"
+        "RSI 55"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "ทองคำแข็งแกร่ง แนวโน้มขึ้น"
+      }
     }
   ]
 }
