@@ -1,42 +1,42 @@
 {
-  "updated_utc": "2026-08-18T14:41:40+00:00",
-  "updated_th": "18 ส.ค. 2569, 21:41 น.",
+  "updated_utc": "2026-08-18T15:39:20+00:00",
+  "updated_th": "18 ส.ค. 2569, 22:39 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 78,
-      "price": 64742.26,
-      "tp": 65355.14,
-      "sl": 64374.53,
-      "rsi": 67.7,
-      "adx": 40.3,
+      "confidence": 100,
+      "price": 64821.16,
+      "tp": 65430.09,
+      "sl": 64455.8,
+      "rsi": 69.1,
+      "adx": 41.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 40 เทรนด์แข็ง",
-        "RSI 68"
+        "ADX 41 เทรนด์แข็ง",
+        "RSI 69"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ข่าวเตือนขาดผู้ซื้อและราคาอาจลง"
+        "reason": "ข่าวเตือนขาดผู้ซื้อ และราคาอาจลงต่อ"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 41,
-      "price": 1912.71,
+      "confidence": 45,
+      "price": 1917.86,
       "tp": null,
       "sl": null,
-      "rsi": 60.4,
-      "adx": 16.5,
+      "rsi": 63.8,
+      "adx": 17.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 17 ไซด์เวย์",
-        "RSI 60"
+        "ADX 18 ไซด์เวย์",
+        "RSI 64"
       ],
       "ai": {
         "score": 0.1,
@@ -46,42 +46,44 @@
     },
     {
       "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 23,
-      "price": 159.55,
-      "tp": null,
-      "sl": null,
-      "rsi": 51.5,
-      "adx": 27.3,
+      "signal": "LONG",
+      "confidence": 29,
+      "price": 159.6,
+      "tp": 159.9,
+      "sl": 159.43,
+      "rsi": 55.1,
+      "adx": 26.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 52"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 55"
       ],
       "ai": {
-        "score": 0.3,
+        "score": 0.2,
         "label": "bullish",
-        "reason": "เยนอ่อนค่าหลังการแทรกแซง"
+        "reason": "เยนอ่อนค่า แม้มีการแทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 6,
-      "price": 4383.44,
-      "tp": null,
-      "sl": null,
-      "rsi": 38.7,
-      "adx": 21.7,
+      "signal": "SHORT",
+      "confidence": 34,
+      "price": 4358.43,
+      "tp": 4321.66,
+      "sl": 4380.49,
+      "rsi": 28.5,
+      "adx": 24.7,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 39"
+        "เทรนด์ขาลง",
+        "สวนเทรนด์ใหญ่",
+        "ADX 25 เริ่มมีเทรนด์",
+        "RSI 29"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "ราคาผันผวน แนวโน้ม bullish เล็กน้อย"
+        "reason": "ยืนเหนือ 4400 แต่ไร้แรงขับ"
       }
     }
   ]
