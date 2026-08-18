@@ -1,38 +1,38 @@
 {
-  "updated_utc": "2026-08-18T20:32:48+00:00",
-  "updated_th": "19 ส.ค. 2569, 03:32 น.",
+  "updated_utc": "2026-08-18T21:31:19+00:00",
+  "updated_th": "19 ส.ค. 2569, 04:31 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 100,
-      "price": 64601.06,
-      "tp": 65138.33,
-      "sl": 64278.7,
-      "rsi": 58.2,
-      "adx": 43.7,
+      "confidence": 78,
+      "price": 64624.38,
+      "tp": 65140.03,
+      "sl": 64314.99,
+      "rsi": 58.7,
+      "adx": 43.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 44 เทรนด์แข็ง",
-        "RSI 58"
+        "ADX 43 เทรนด์แข็ง",
+        "RSI 59"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ข่าวผสม มีทั้งบวกและลบ แต่มีแรงกดดัน"
+        "reason": "ข่าวผสม แต่มีแรงกดดันจาก yields และ oil"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 57,
-      "price": 1913.06,
-      "tp": 1933.23,
-      "sl": 1900.96,
-      "rsi": 56.9,
-      "adx": 22.6,
+      "confidence": 58,
+      "price": 1913.37,
+      "tp": 1932.67,
+      "sl": 1901.79,
+      "rsi": 57.1,
+      "adx": 23.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
@@ -48,42 +48,42 @@
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 38,
-      "price": 159.66,
+      "confidence": 20,
+      "price": 159.63,
       "tp": null,
       "sl": null,
-      "rsi": 59.0,
-      "adx": 19.6,
+      "rsi": 56.3,
+      "adx": 18.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 20 ไซด์เวย์",
-        "RSI 59"
+        "ADX 18 ไซด์เวย์",
+        "RSI 56"
       ],
       "ai": {
         "score": 0.3,
         "label": "bullish",
-        "reason": "เยนอ่อนค่า แม้มีการแทรกแซง"
+        "reason": "เยนอ่อนค่าหลังการแทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 48,
-      "price": 4337.02,
-      "tp": 4302.48,
-      "sl": 4357.75,
-      "rsi": 21.5,
-      "adx": 34.9,
+      "confidence": 52,
+      "price": 4334.4,
+      "tp": 4301.33,
+      "sl": 4354.25,
+      "rsi": 20.8,
+      "adx": 37.2,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 35 เทรนด์แข็ง",
-        "RSI 22"
+        "ADX 37 เทรนด์แข็ง",
+        "RSI 21"
       ],
       "ai": {
         "score": -0.1,
         "label": "neutral",
-        "reason": "ติดแนวต้าน แต่ยังมีแรงหนุน"
+        "reason": "ติดแนวต้าน แต่ bullish bias ยังคงอยู่"
       }
     }
   ]
