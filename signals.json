@@ -1,88 +1,88 @@
 {
-  "updated_utc": "2026-08-18T10:37:08+00:00",
-  "updated_th": "18 ส.ค. 2569, 17:37 น.",
+  "updated_utc": "2026-08-18T11:32:50+00:00",
+  "updated_th": "18 ส.ค. 2569, 18:32 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
       "confidence": 78,
-      "price": 64195.02,
-      "tp": 64689.82,
-      "sl": 63898.14,
-      "rsi": 55.1,
+      "price": 64353.32,
+      "tp": 64847.47,
+      "sl": 64056.83,
+      "rsi": 59.9,
       "adx": 40.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 41 เทรนด์แข็ง",
-        "RSI 55"
+        "RSI 60"
       ],
       "ai": {
         "score": -0.1,
         "label": "neutral",
-        "reason": "ข่าวผสม ราคาไซด์เวย์ ไม่มีทิศทางชัดเจน"
+        "reason": "ข่าวผสม ราคาคงที่ ไม่มีทิศทางชัดเจน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 1897.58,
+      "confidence": 28,
+      "price": 1904.35,
       "tp": null,
       "sl": null,
-      "rsi": 47.5,
-      "adx": 16.9,
+      "rsi": 54.1,
+      "adx": 16.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 17 ไซด์เวย์",
-        "RSI 47"
+        "RSI 54"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "มีมุมมองบวกเล็กน้อย แต่ราคาลงเล็กน้อย"
+        "score": 0.2,
+        "label": "bullish",
+        "reason": "มีมุมมองบวกจาก tokenization และคาดการณ์ราคา"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 77,
-      "price": 159.68,
-      "tp": 159.97,
-      "sl": 159.5,
-      "rsi": 62.3,
-      "adx": 30.9,
+      "confidence": 78,
+      "price": 159.74,
+      "tp": 160.03,
+      "sl": 159.57,
+      "rsi": 65.1,
+      "adx": 31.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 31 เทรนด์แข็ง",
-        "RSI 62"
+        "RSI 65"
       ],
       "ai": {
-        "score": 0.2,
-        "label": "bullish",
-        "reason": "เยนอ่อนค่า แนวโน้มขาขึ้น แม้มีการแทรกแซง"
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "เยนแข็งค่าจากการแทรกแซง และความเสี่ยงเพิ่ม"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 4394.19,
+      "confidence": 6,
+      "price": 4391.27,
       "tp": null,
       "sl": null,
-      "rsi": 45.2,
-      "adx": 22.7,
+      "rsi": 43.8,
+      "adx": 21.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 45"
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 44"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ทองคำมีแรงหนุน แม้ติดแนวต้าน แต่ทรงตัวสูง"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ราคาผันผวน แนวโน้มไม่ชัดเจน"
       }
     }
   ]
