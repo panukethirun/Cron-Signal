@@ -1,17 +1,17 @@
 {
-  "updated_utc": "2026-08-19T03:05:19+00:00",
-  "updated_th": "19 ส.ค. 2569, 10:05 น.",
+  "updated_utc": "2026-08-19T03:54:29+00:00",
+  "updated_th": "19 ส.ค. 2569, 10:54 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 62,
-      "price": 64356.49,
-      "tp": 64792.52,
-      "sl": 64094.87,
-      "rsi": 48.1,
-      "adx": 37.1,
+      "confidence": 61,
+      "price": 64355.24,
+      "tp": 64812.86,
+      "sl": 64080.67,
+      "rsi": 48.0,
+      "adx": 36.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
@@ -21,46 +21,46 @@
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ข่าวเตือนการปรับฐานและสภาพคล่องต่ำ"
+        "reason": "ข่าวเตือนถึงการปรับลงและกับดักสภาพคล่อง"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
       "confidence": 40,
-      "price": 1909.01,
-      "tp": 1926.24,
-      "sl": 1898.67,
-      "rsi": 50.7,
-      "adx": 23.9,
+      "price": 1912.66,
+      "tp": 1931.3,
+      "sl": 1901.48,
+      "rsi": 54.1,
+      "adx": 24.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 24 เริ่มมีเทรนด์",
-        "RSI 51"
+        "RSI 54"
       ],
       "ai": {
         "score": -0.1,
         "label": "bearish",
-        "reason": "ราคาลดลงเล็กน้อยและกังวลจุดต่ำสุด"
+        "reason": "ราคาอ่อนตัวและกังวลจุดต่ำสุด"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
       "confidence": 6,
-      "price": 159.35,
+      "price": 159.42,
       "tp": null,
       "sl": null,
-      "rsi": 34.5,
+      "rsi": 41.1,
       "adx": 22.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 23 เริ่มมีเทรนด์",
-        "RSI 35"
+        "RSI 41"
       ],
       "ai": {
-        "score": 0.1,
+        "score": 0.3,
         "label": "bullish",
         "reason": "เยนอ่อนค่าหลังการแทรกแซงไม่ยั่งยืน"
       }
@@ -69,20 +69,20 @@
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 29,
-      "price": 4353.29,
+      "price": 4357.54,
       "tp": null,
       "sl": null,
-      "rsi": 40.4,
+      "rsi": 43.4,
       "adx": 34.7,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 35 เทรนด์แข็ง",
-        "RSI 40"
+        "RSI 43"
       ],
       "ai": {
-        "score": -0.1,
-        "label": "bearish",
-        "reason": "ทองคำถูกกดดันจากผลตอบแทนพันธบัตรสหรัฐฯ"
+        "score": 0.0,
+        "label": "neutral",
+        "reason": "ราคาคงที่ รอปัจจัยใหม่"
       }
     }
   ]
