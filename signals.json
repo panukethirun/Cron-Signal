@@ -1,57 +1,57 @@
 {
-  "updated_utc": "2026-08-22T09:34:59+00:00",
-  "updated_th": "22 ส.ค. 2569, 16:34 น.",
+  "updated_utc": "2026-08-22T10:32:03+00:00",
+  "updated_th": "22 ส.ค. 2569, 17:32 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 30,
-      "price": 77241.15,
+      "confidence": 28,
+      "price": 76916.4,
       "tp": null,
       "sl": null,
-      "rsi": 52.8,
-      "adx": 35.4,
+      "rsi": 49.2,
+      "adx": 34.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 35 เทรนด์แข็ง",
-        "RSI 53"
+        "ADX 34 เทรนด์แข็ง",
+        "RSI 49"
       ],
       "ai": {
         "score": 0.8,
         "label": "bullish",
-        "reason": "ข่าวบวกหลายแหล่ง คาดถึง 100K"
+        "reason": "ข่าวดีหลายแหล่ง คาดราคาพุ่งถึง 100K"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 33,
-      "price": 2425.37,
+      "confidence": 22,
+      "price": 2406.88,
       "tp": null,
       "sl": null,
-      "rsi": 47.8,
-      "adx": 44.3,
+      "rsi": 43.5,
+      "adx": 42.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 44 เทรนด์แข็ง",
-        "RSI 48"
+        "ADX 43 เทรนด์แข็ง",
+        "RSI 43"
       ],
       "ai": {
         "score": 0.7,
         "label": "bullish",
-        "reason": "ราคาพุ่งจากนโยบาย Treasury สหรัฐฯ"
+        "reason": "ราคาพุ่ง 20% จากนโยบายกระทรวงการคลังสหรัฐ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 2,
+      "confidence": 0,
       "price": 158.99,
       "tp": null,
       "sl": null,
-      "rsi": 54.6,
-      "adx": 5.8,
+      "rsi": 55.2,
+      "adx": 5.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 6 ไซด์เวย์",
@@ -60,28 +60,28 @@
       "ai": {
         "score": -0.6,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจากการแทรกแซงร่วม"
+        "reason": "เยนแข็งค่าจากการแทรกแซงร่วมของสหรัฐและญี่ปุ่น"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
       "confidence": 73,
-      "price": 4608.27,
-      "tp": 4626.3,
-      "sl": 4597.45,
+      "price": 4608.28,
+      "tp": 4625.08,
+      "sl": 4598.2,
       "rsi": 64.3,
-      "adx": 37.7,
+      "adx": 37.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 38 เทรนด์แข็ง",
+        "ADX 37 เทรนด์แข็ง",
         "RSI 64"
       ],
       "ai": {
-        "score": 0.4,
+        "score": 0.3,
         "label": "bullish",
-        "reason": "ทองคำปรับตัวขึ้นจากความกังวลหนี้สหรัฐฯ"
+        "reason": "ทองคำปรับตัวขึ้นจากความกังวลหนี้สหรัฐ แต่มีแรงต้าน"
       }
     }
   ]
