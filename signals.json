@@ -1,57 +1,58 @@
 {
-  "updated_utc": "2026-08-22T05:34:38+00:00",
-  "updated_th": "22 ส.ค. 2569, 12:34 น.",
+  "updated_utc": "2026-08-22T06:53:22+00:00",
+  "updated_th": "22 ส.ค. 2569, 13:53 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "NEUTRAL",
-      "confidence": 33,
-      "price": 77289.55,
-      "tp": null,
-      "sl": null,
-      "rsi": 53.6,
-      "adx": 47.2,
+      "signal": "LONG",
+      "confidence": 44,
+      "price": 77530.8,
+      "tp": 79717.68,
+      "sl": 76218.67,
+      "rsi": 55.7,
+      "adx": 43.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 47 เทรนด์แข็ง",
-        "RSI 54"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 44 เทรนด์แข็ง",
+        "RSI 56"
       ],
       "ai": {
-        "score": 0.8,
+        "score": 0.7,
         "label": "bullish",
-        "reason": "ราคาทะลุ 75K และ 77K ข่าวบวกหนุน"
+        "reason": "ราคาพุ่งทะลุ 79K มีแนวโน้มขึ้นต่อ"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
       "confidence": 33,
-      "price": 2437.88,
+      "price": 2437.96,
       "tp": null,
       "sl": null,
       "rsi": 50.7,
-      "adx": 54.5,
+      "adx": 51.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 54 แรงมาก ระวังกลับตัว",
+        "ADX 52 แรงมาก ระวังกลับตัว",
         "RSI 51"
       ],
       "ai": {
-        "score": 0.7,
+        "score": 0.6,
         "label": "bullish",
-        "reason": "ราคาพุ่ง 20% จากการประกาศนโยบาย"
+        "reason": "ข่าวดีจากนโยบาย Treasury หนุนราคา"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 0,
+      "confidence": 2,
       "price": 158.99,
       "tp": null,
       "sl": null,
-      "rsi": 55.2,
-      "adx": 7.0,
+      "rsi": 54.9,
+      "adx": 6.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 7 ไซด์เวย์",
@@ -66,12 +67,12 @@
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 76,
-      "price": 4608.27,
-      "tp": 4632.26,
-      "sl": 4593.88,
+      "confidence": 75,
+      "price": 4608.26,
+      "tp": 4630.59,
+      "sl": 4594.87,
       "rsi": 64.3,
-      "adx": 39.0,
+      "adx": 38.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
@@ -79,9 +80,9 @@
         "RSI 64"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.3,
         "label": "bullish",
-        "reason": "ทองคำปรับขึ้นจากดอลลาร์อ่อน"
+        "reason": "ทองคำปรับตัวขึ้น แต่มีแรงต้าน"
       }
     }
   ]
