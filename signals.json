@@ -1,46 +1,46 @@
 {
-  "updated_utc": "2026-08-23T16:35:04+00:00",
-  "updated_th": "23 ส.ค. 2569, 23:35 น.",
+  "updated_utc": "2026-08-23T17:27:48+00:00",
+  "updated_th": "24 ส.ค. 2569, 00:27 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 38,
-      "price": 77357.24,
+      "confidence": 32,
+      "price": 77278.01,
       "tp": null,
       "sl": null,
-      "rsi": 56.5,
-      "adx": 15.0,
+      "rsi": 54.7,
+      "adx": 14.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 56"
+        "ADX 14 ไซด์เวย์",
+        "RSI 55"
       ],
       "ai": {
         "score": 0.8,
         "label": "bullish",
-        "reason": "ราคาพุ่งทะลุ 71K และมีแรงซื้อหนุน"
+        "reason": "ราคาพุ่งทะลุแนวต้าน ข่าวบวกหนุน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 47,
-      "price": 2448.73,
+      "confidence": 45,
+      "price": 2442.73,
       "tp": null,
       "sl": null,
-      "rsi": 58.1,
-      "adx": 18.7,
+      "rsi": 55.7,
+      "adx": 18.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 19 ไซด์เวย์",
-        "RSI 58"
+        "ADX 18 ไซด์เวย์",
+        "RSI 56"
       ],
       "ai": {
         "score": 0.7,
         "label": "bullish",
-        "reason": "ETF ไหลเข้าและราคาพุ่ง 26%"
+        "reason": "ETF ไหลเข้า ราคาพุ่งแรง"
       }
     },
     {
@@ -50,13 +50,13 @@
       "price": 158.99,
       "tp": 158.83,
       "sl": 159.08,
-      "rsi": 53.9,
-      "adx": 44.0,
+      "rsi": 53.4,
+      "adx": 46.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 44 เทรนด์แข็ง",
-        "RSI 54"
+        "ADX 47 เทรนด์แข็ง",
+        "RSI 53"
       ],
       "ai": {
         "score": -0.6,
@@ -69,9 +69,9 @@
       "signal": "LONG",
       "confidence": 67,
       "price": 4608.15,
-      "tp": 4610.59,
-      "sl": 4606.69,
-      "rsi": 62.7,
+      "tp": 4610.46,
+      "sl": 4606.76,
+      "rsi": 62.5,
       "adx": 34.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
@@ -82,7 +82,7 @@
       "ai": {
         "score": 0.5,
         "label": "bullish",
-        "reason": "ทองคำปรับขึ้นจากความกังวลหนี้สหรัฐ"
+        "reason": "ทองคำปรับตัวขึ้นจากดอลลาร์อ่อน"
       }
     }
   ]
