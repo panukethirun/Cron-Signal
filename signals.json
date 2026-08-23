@@ -1,46 +1,46 @@
 {
-  "updated_utc": "2026-08-23T04:45:43+00:00",
-  "updated_th": "23 ส.ค. 2569, 11:45 น.",
+  "updated_utc": "2026-08-23T05:36:48+00:00",
+  "updated_th": "23 ส.ค. 2569, 12:36 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 4,
-      "price": 76821.23,
+      "confidence": 5,
+      "price": 76302.32,
       "tp": null,
       "sl": null,
-      "rsi": 44.9,
-      "adx": 14.6,
+      "rsi": 37.4,
+      "adx": 17.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 45"
+        "ADX 17 ไซด์เวย์",
+        "RSI 37"
       ],
       "ai": {
         "score": 0.8,
         "label": "bullish",
-        "reason": "ราคาทะลุแนวต้าน ดีมานด์สถาบันหนุน"
+        "reason": "ข่าวบวกหลายแหล่ง คาดราคาพุ่งต่อ"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 6,
-      "price": 2402.46,
+      "confidence": 7,
+      "price": 2382.5,
       "tp": null,
       "sl": null,
-      "rsi": 41.9,
-      "adx": 23.3,
+      "rsi": 37.3,
+      "adx": 25.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 42"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 37"
       ],
       "ai": {
         "score": 0.7,
         "label": "bullish",
-        "reason": "ข่าวบวก ราคาพุ่งเหนือ 2500"
+        "reason": "ข่าวบวก ทะลุแนวต้านสำคัญ"
       }
     },
     {
@@ -51,11 +51,11 @@
       "tp": null,
       "sl": null,
       "rsi": 54.5,
-      "adx": 19.8,
+      "adx": 21.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 20 ไซด์เวย์",
-        "RSI 54"
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 55"
       ],
       "ai": {
         "score": -0.6,
@@ -68,10 +68,10 @@
       "signal": "LONG",
       "confidence": 68,
       "price": 4608.28,
-      "tp": 4613.22,
-      "sl": 4605.32,
+      "tp": 4612.92,
+      "sl": 4605.5,
       "rsi": 64.2,
-      "adx": 34.9,
+      "adx": 34.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
