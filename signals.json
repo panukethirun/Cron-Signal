@@ -1,37 +1,33 @@
 {
-  "updated_utc": "2026-08-24T21:36:50+00:00",
-  "updated_th": "25 ส.ค. 2569, 04:36 น.",
+  "updated_utc": "2026-08-24T22:35:21+00:00",
+  "updated_th": "25 ส.ค. 2569, 05:35 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
       "confidence": 56,
-      "price": 78940.0,
-      "tp": 80604.96,
-      "sl": 77941.02,
-      "rsi": 59.6,
-      "adx": 22.5,
+      "price": 78849.99,
+      "tp": 80439.42,
+      "sl": 77896.33,
+      "rsi": 58.1,
+      "adx": 22.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 60"
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 58"
       ],
-      "ai": {
-        "score": 0.8,
-        "label": "bullish",
-        "reason": "ข่าวดี ETF ไหลเข้า แนวโน้มขาขึ้น"
-      }
+      "ai": null
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 33,
-      "price": 2480.18,
-      "tp": 2547.56,
-      "sl": 2439.75,
-      "rsi": 54.7,
+      "confidence": 34,
+      "price": 2481.19,
+      "tp": 2546.35,
+      "sl": 2442.09,
+      "rsi": 54.8,
       "adx": 20.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
@@ -39,52 +35,40 @@
         "ADX 20 เริ่มมีเทรนด์",
         "RSI 55"
       ],
-      "ai": {
-        "score": 0.6,
-        "label": "bullish",
-        "reason": "ETF ไหลเข้า แต่สัญญาณ RSI สูง"
-      }
+      "ai": null
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
       "confidence": 11,
-      "price": 159.07,
+      "price": 159.11,
       "tp": null,
       "sl": null,
-      "rsi": 49.5,
-      "adx": 40.2,
+      "rsi": 52.5,
+      "adx": 39.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 40 เทรนด์แข็ง",
-        "RSI 50"
+        "RSI 52"
       ],
-      "ai": {
-        "score": -0.7,
-        "label": "bearish",
-        "reason": "เยนแข็งค่าจากการแทรกแซง"
-      }
+      "ai": null
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
       "confidence": 78,
-      "price": 4651.9,
-      "tp": 4692.26,
-      "sl": 4627.68,
-      "rsi": 57.5,
-      "adx": 48.7,
+      "price": 4658.52,
+      "tp": 4697.52,
+      "sl": 4635.12,
+      "rsi": 60.8,
+      "adx": 47.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 49 เทรนด์แข็ง",
-        "RSI 58"
+        "ADX 48 เทรนด์แข็ง",
+        "RSI 61"
       ],
-      "ai": {
-        "score": 0.7,
-        "label": "bullish",
-        "reason": "ทองคำขึ้นต่อ ดอลลาร์อ่อน"
-      }
+      "ai": null
     }
   ]
 }
