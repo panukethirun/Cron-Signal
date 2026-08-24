@@ -1,74 +1,89 @@
 {
-  "updated_utc": "2026-08-24T22:35:21+00:00",
-  "updated_th": "25 ส.ค. 2569, 05:35 น.",
+  "updated_utc": "2026-08-24T23:28:44+00:00",
+  "updated_th": "25 ส.ค. 2569, 06:28 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 56,
-      "price": 78849.99,
-      "tp": 80439.42,
-      "sl": 77896.33,
-      "rsi": 58.1,
-      "adx": 22.3,
+      "confidence": 42,
+      "price": 78912.01,
+      "tp": 80460.97,
+      "sl": 77982.64,
+      "rsi": 58.4,
+      "adx": 21.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 22 เริ่มมีเทรนด์",
         "RSI 58"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "ราคาขึ้นจากดีมานด์สถาบันและข่าวบวก"
+      }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "LONG",
-      "confidence": 34,
-      "price": 2481.19,
-      "tp": 2546.35,
-      "sl": 2442.09,
-      "rsi": 54.8,
-      "adx": 20.1,
+      "signal": "NEUTRAL",
+      "confidence": 38,
+      "price": 2483.42,
+      "tp": null,
+      "sl": null,
+      "rsi": 55.2,
+      "adx": 19.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 20 เริ่มมีเทรนด์",
+        "ADX 19 ไซด์เวย์",
         "RSI 55"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.5,
+        "label": "bullish",
+        "reason": "ETF ไหลเข้าและราคาพุ่ง 26%"
+      }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 11,
-      "price": 159.11,
+      "confidence": 33,
+      "price": 159.12,
       "tp": null,
       "sl": null,
-      "rsi": 52.5,
-      "adx": 39.9,
+      "rsi": 53.1,
+      "adx": 39.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 40 เทรนด์แข็ง",
-        "RSI 52"
+        "RSI 53"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.7,
+        "label": "bearish",
+        "reason": "เยนแข็งค่าจากการแทรกแซงและ BoJ"
+      }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 78,
-      "price": 4658.52,
-      "tp": 4697.52,
-      "sl": 4635.12,
-      "rsi": 60.8,
-      "adx": 47.9,
+      "confidence": 100,
+      "price": 4672.3,
+      "tp": 4711.69,
+      "sl": 4648.67,
+      "rsi": 66.4,
+      "adx": 48.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 48 เทรนด์แข็ง",
-        "RSI 61"
+        "RSI 66"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.6,
+        "label": "bullish",
+        "reason": "ทองคำทะลุ 4600 ดอลลาร์ ทิศทางบวก"
+      }
     }
   ]
 }
