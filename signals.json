@@ -1,86 +1,86 @@
 {
-  "updated_utc": "2026-08-25T15:51:45+00:00",
-  "updated_th": "25 ส.ค. 2569, 22:51 น.",
+  "updated_utc": "2026-08-25T16:47:52+00:00",
+  "updated_th": "25 ส.ค. 2569, 23:47 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 19,
-      "price": 79328.0,
+      "confidence": 18,
+      "price": 79344.0,
       "tp": null,
       "sl": null,
-      "rsi": 51.7,
-      "adx": 22.7,
+      "rsi": 51.6,
+      "adx": 21.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 23 เริ่มมีเทรนด์",
+        "ADX 22 เริ่มมีเทรนด์",
         "RSI 52"
       ],
       "ai": {
-        "score": 0.6,
+        "score": 0.7,
         "label": "bullish",
-        "reason": "ราคาทะลุ 81k และมีกระแสข่าวบวก"
+        "reason": "ราคาทะลุ 81K แรงซื้อ ETF หนุน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 17,
-      "price": 2474.62,
+      "confidence": 16,
+      "price": 2478.45,
       "tp": null,
       "sl": null,
-      "rsi": 48.4,
-      "adx": 19.9,
+      "rsi": 49.8,
+      "adx": 19.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 20 ไซด์เวย์",
-        "RSI 48"
+        "RSI 50"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "สัญญาณ overbought อาจพักฐาน"
+        "reason": "สัญญาณ overbought เสี่ยงปรับลง"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
       "confidence": 16,
-      "price": 159.22,
+      "price": 159.27,
       "tp": null,
       "sl": null,
-      "rsi": 49.5,
+      "rsi": 53.0,
       "adx": 19.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 19 ไซด์เวย์",
-        "RSI 49"
+        "RSI 53"
       ],
       "ai": {
-        "score": -0.7,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจากการแทรกแซงและ BoJ"
+        "reason": "เยนแข็งค่าจากการแทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 0,
-      "price": 4652.94,
+      "price": 4642.74,
       "tp": null,
       "sl": null,
-      "rsi": 54.4,
-      "adx": 22.5,
+      "rsi": 50.9,
+      "adx": 21.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 54"
+        "ADX 21 เริ่มมีเทรนด์",
+        "RSI 51"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.6,
         "label": "bullish",
-        "reason": "ทองคำขึ้นต่อเนื่อง ทะลุแนวต้าน"
+        "reason": "ทองคำทำ新高 ดอลลาร์อ่อนหนุน"
       }
     }
   ]
