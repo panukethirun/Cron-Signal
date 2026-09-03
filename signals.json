@@ -1,89 +1,57 @@
 {
-  "updated_utc": "2026-09-02T21:44:04+00:00",
-  "updated_th": "3 ก.ย. 2569, 04:44 น.",
+  "updated_utc": "2026-09-03T00:02:18+00:00",
+  "updated_th": "3 ก.ย. 2569, 07:02 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "SHORT",
-      "confidence": 40,
-      "price": 77409.94,
-      "tp": 76344.24,
-      "sl": 78049.36,
-      "rsi": 51.4,
-      "adx": 24.2,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 51"
-      ],
-      "ai": {
-        "score": -0.6,
-        "label": "bearish",
-        "reason": "ราคาร่วงจากสงครามอิหร่านและแรงขาย"
-      }
+      "signal": "ERROR",
+      "error": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=30)"
     },
     {
       "symbol": "ETH/USD",
-      "signal": "SHORT",
-      "confidence": 53,
-      "price": 2394.54,
-      "tp": 2350.74,
-      "sl": 2420.82,
-      "rsi": 44.2,
-      "adx": 27.5,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 44"
-      ],
-      "ai": {
-        "score": -0.4,
-        "label": "bearish",
-        "reason": "ราคาร่วงตามตลาด โมเมนตัมชะลอ"
-      }
+      "signal": "ERROR",
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
       "confidence": 100,
-      "price": 158.72,
-      "tp": 158.16,
-      "sl": 159.05,
-      "rsi": 28.2,
-      "adx": 47.7,
+      "price": 158.91,
+      "tp": 158.42,
+      "sl": 159.21,
+      "rsi": 37.1,
+      "adx": 48.9,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 48 เทรนด์แข็ง",
-        "RSI 28"
+        "ADX 49 เทรนด์แข็ง",
+        "RSI 37"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจากการแทรกแซงและคาดการณ์ BOJ"
+        "reason": "เยนแข็งค่าจากการแทรกแซงและ BOJ"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 9,
-      "price": 4387.52,
+      "price": 4386.3,
       "tp": null,
       "sl": null,
-      "rsi": 63.0,
-      "adx": 32.9,
+      "rsi": 62.1,
+      "adx": 32.5,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 33 เทรนด์แข็ง",
-        "RSI 63"
+        "RSI 62"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ทองคำรับแรงหนุนจากความตึงเครียดทางภูมิรัฐศาสตร์"
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "แรงกดดันจากเฟด hawkish แต่มีแนวรับ"
       }
     }
   ]
