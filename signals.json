@@ -1,88 +1,88 @@
 {
-  "updated_utc": "2026-09-04T21:21:48+00:00",
-  "updated_th": "5 ก.ย. 2569, 04:21 น.",
+  "updated_utc": "2026-09-04T23:55:21+00:00",
+  "updated_th": "5 ก.ย. 2569, 06:55 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
       "confidence": 0,
-      "price": 79807.13,
+      "price": 79638.63,
       "tp": null,
       "sl": null,
-      "rsi": 47.7,
-      "adx": 28.8,
+      "rsi": 45.6,
+      "adx": 27.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 29 เทรนด์แข็ง",
-        "RSI 48"
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 46"
       ],
       "ai": {
         "score": 0.3,
         "label": "bullish",
-        "reason": "ข่าวเชิงบวกและราคาทะลุ 80K"
+        "reason": "ข่าวเชิงบวกหลายข่าว คาดราคาขึ้นต่อ"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 9,
-      "price": 2454.91,
+      "confidence": 8,
+      "price": 2454.36,
       "tp": null,
       "sl": null,
       "rsi": 44.0,
-      "adx": 31.1,
+      "adx": 28.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 44"
-      ],
-      "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม ไม่มีทิศทางชัดเจน"
-      }
-    },
-    {
-      "symbol": "USD/JPY",
-      "signal": "SHORT",
-      "confidence": 66,
-      "price": 156.27,
-      "tp": 155.55,
-      "sl": 156.7,
-      "rsi": 49.9,
-      "adx": 39.5,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 40 เทรนด์แข็ง",
-        "RSI 50"
-      ],
-      "ai": {
-        "score": 0,
-        "label": "neutral",
-        "reason": "ไม่มีข่าวให้วิเคราะห์"
-      }
-    },
-    {
-      "symbol": "XAU/USD",
-      "signal": "SHORT",
-      "confidence": 54,
-      "price": 4428.9,
-      "tp": 4376.55,
-      "sl": 4460.31,
-      "rsi": 44.1,
-      "adx": 39.1,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 39 เทรนด์แข็ง",
+        "ADX 29 เทรนด์แข็ง",
         "RSI 44"
       ],
       "ai": {
         "score": -0.1,
         "label": "neutral",
-        "reason": "รอ NFP และแรงกดดันทางเทคนิค"
+        "reason": "ข่าวผสม ราคาร่วงจากสงครามและเงินเฟ้อ"
+      }
+    },
+    {
+      "symbol": "USD/JPY",
+      "signal": "SHORT",
+      "confidence": 64,
+      "price": 156.26,
+      "tp": 155.59,
+      "sl": 156.66,
+      "rsi": 49.3,
+      "adx": 38.2,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 38 เทรนด์แข็ง",
+        "RSI 49"
+      ],
+      "ai": {
+        "score": -0.6,
+        "label": "bearish",
+        "reason": "เยนแข็งค่าหนุนข่าว แนวโน้มลง"
+      }
+    },
+    {
+      "symbol": "XAU/USD",
+      "signal": "SHORT",
+      "confidence": 52,
+      "price": 4428.91,
+      "tp": 4383.68,
+      "sl": 4456.05,
+      "rsi": 44.1,
+      "adx": 37.7,
+      "reasons": [
+        "เทรนด์ขาขึ้น",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 38 เทรนด์แข็ง",
+        "RSI 44"
+      ],
+      "ai": {
+        "score": 0.2,
+        "label": "bullish",
+        "reason": "ทองดีดตัว แต่รอ NFP ก่อน"
       }
     }
   ]
