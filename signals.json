@@ -1,89 +1,88 @@
 {
-  "updated_utc": "2026-09-04T09:29:13+00:00",
-  "updated_th": "4 ก.ย. 2569, 16:29 น.",
+  "updated_utc": "2026-09-04T14:11:43+00:00",
+  "updated_th": "4 ก.ย. 2569, 21:11 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "LONG",
-      "confidence": 78,
-      "price": 81009.89,
-      "tp": 82230.62,
-      "sl": 80277.45,
-      "rsi": 61.4,
-      "adx": 41.2,
+      "signal": "NEUTRAL",
+      "confidence": 20,
+      "price": 79279.14,
+      "tp": null,
+      "sl": null,
+      "rsi": 38.0,
+      "adx": 36.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 41 เทรนด์แข็ง",
-        "RSI 61"
+        "ADX 37 เทรนด์แข็ง",
+        "RSI 38"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.6,
         "label": "bullish",
-        "reason": "ข่าวเชิงบวกมีมากกว่า แต่ราคาลดลงจากเหตุการณ์อิหร่าน"
+        "reason": "ข่าวเชิงบวกและคาดการณ์ราคาสูง"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "LONG",
-      "confidence": 78,
-      "price": 2523.78,
-      "tp": 2572.98,
-      "sl": 2494.26,
-      "rsi": 67.0,
-      "adx": 44.3,
+      "signal": "NEUTRAL",
+      "confidence": 22,
+      "price": 2450.51,
+      "tp": null,
+      "sl": null,
+      "rsi": 38.8,
+      "adx": 40.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 44 เทรนด์แข็ง",
-        "RSI 67"
+        "ADX 40 เทรนด์แข็ง",
+        "RSI 39"
       ],
       "ai": {
-        "score": -0.1,
-        "label": "bearish",
-        "reason": "ราคาร่วงตามสงครามและความกังวลเงินเฟ้อ"
+        "score": 0.2,
+        "label": "neutral",
+        "reason": "ข่าวผสม รอปัจจัย NFP"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 67,
-      "price": 156.32,
-      "tp": 155.54,
-      "sl": 156.79,
-      "rsi": 47.1,
-      "adx": 46.5,
+      "confidence": 78,
+      "price": 156.07,
+      "tp": 155.09,
+      "sl": 156.66,
+      "rsi": 44.2,
+      "adx": 43.3,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 46 เทรนด์แข็ง",
-        "RSI 47"
+        "ADX 43 เทรนด์แข็ง",
+        "RSI 44"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจากการแทรกแซงและคาดการณ์ BOJ"
+        "reason": "เยนแข็งค่า แรงขายดอลลาร์"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 22,
-      "price": 4464.88,
-      "tp": null,
-      "sl": null,
-      "rsi": 51.7,
-      "adx": 46.5,
+      "signal": "SHORT",
+      "confidence": 56,
+      "price": 4424.7,
+      "tp": 4361.85,
+      "sl": 4462.4,
+      "rsi": 40.3,
+      "adx": 43.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 47 เทรนด์แข็ง",
-        "RSI 52"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 44 เทรนด์แข็ง",
+        "RSI 40"
       ],
       "ai": {
         "score": 0.4,
         "label": "bullish",
-        "reason": "ทองคำดีดตัวขึ้นจากความหวังเฟดชะลอขึ้นดอกเบี้ย"
+        "reason": "ทอง rebound รอ NFP"
       }
     }
   ]
