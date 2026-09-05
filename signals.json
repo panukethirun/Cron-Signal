@@ -1,88 +1,88 @@
 {
-  "updated_utc": "2026-09-05T04:13:41+00:00",
-  "updated_th": "5 ก.ย. 2569, 11:13 น.",
+  "updated_utc": "2026-09-05T08:57:06+00:00",
+  "updated_th": "5 ก.ย. 2569, 15:57 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 7,
-      "price": 79525.12,
+      "confidence": 12,
+      "price": 79622.22,
       "tp": null,
       "sl": null,
-      "rsi": 44.0,
-      "adx": 24.0,
+      "rsi": 46.5,
+      "adx": 21.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 44"
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 47"
       ],
       "ai": {
         "score": 0.6,
         "label": "bullish",
-        "reason": "ข่าวเชิงบวก ราคาทะลุ 80K มีแนวโน้มขึ้นต่อ"
+        "reason": "ETF ไหลเข้าและราคาทะลุ 80K"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 7,
-      "price": 2450.74,
+      "confidence": 11,
+      "price": 2455.62,
       "tp": null,
       "sl": null,
-      "rsi": 42.8,
-      "adx": 23.6,
+      "rsi": 46.5,
+      "adx": 20.4,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 43"
+        "เทรนด์ขาลง",
+        "ADX 20 เริ่มมีเทรนด์",
+        "RSI 46"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ราคาถูกปฏิเสธที่ 2.5K และมีแรงขายวาฬ"
+        "reason": "ข่าว shakeout และราคาร่วง"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 58,
+      "confidence": 55,
       "price": 156.24,
-      "tp": 155.75,
-      "sl": 156.53,
+      "tp": 155.86,
+      "sl": 156.46,
       "rsi": 48.7,
-      "adx": 34.9,
+      "adx": 33.2,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 35 เทรนด์แข็ง",
+        "ADX 33 เทรนด์แข็ง",
         "RSI 49"
       ],
       "ai": {
         "score": -0.7,
         "label": "bearish",
-        "reason": "เยนแข็งค่าหนัก คาดการณ์ USD/JPY ร่วงต่อ"
+        "reason": "เยนแข็งค่า คาดถึง 155"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 88,
-      "price": 4429.0,
-      "tp": 4397.57,
-      "sl": 4447.86,
+      "confidence": 65,
+      "price": 4429.01,
+      "tp": 4405.47,
+      "sl": 4443.14,
       "rsi": 44.2,
-      "adx": 35.0,
+      "adx": 33.5,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 35 เทรนด์แข็ง",
+        "ADX 33 เทรนด์แข็ง",
         "RSI 44"
       ],
       "ai": {
         "score": 0.3,
         "label": "bullish",
-        "reason": "ทองคำรีบาวด์กลับเหนือ 4500 รอ NFP"
+        "reason": "รีบาวด์แต่รอ NFP"
       }
     }
   ]
