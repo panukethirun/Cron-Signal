@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-09-06T09:17:46+00:00",
-  "updated_th": "6 ก.ย. 2569, 16:17 น.",
+  "updated_utc": "2026-09-06T13:33:51+00:00",
+  "updated_th": "6 ก.ย. 2569, 20:33 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
       "confidence": 20,
-      "price": 79935.99,
+      "price": 79802.0,
       "tp": null,
       "sl": null,
-      "rsi": 53.4,
-      "adx": 12.0,
+      "rsi": 47.7,
+      "adx": 11.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 12 ไซด์เวย์",
-        "RSI 53"
+        "RSI 48"
       ],
       "ai": {
         "score": 0.2,
@@ -26,53 +26,53 @@
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 88,
-      "price": 2500.59,
-      "tp": 2530.8,
-      "sl": 2482.46,
-      "rsi": 59.4,
-      "adx": 35.1,
+      "confidence": 54,
+      "price": 2491.9,
+      "tp": 2519.33,
+      "sl": 2475.44,
+      "rsi": 51.9,
+      "adx": 32.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 35 เทรนด์แข็ง",
-        "RSI 59"
+        "ADX 32 เทรนด์แข็ง",
+        "RSI 52"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "ข่าวผสม ราคาอาจแกว่ง"
+        "reason": "ข่าวผสม ราคายังต่ำกว่า 3000"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 33,
-      "price": 156.24,
+      "confidence": 14,
+      "price": 156.25,
       "tp": null,
       "sl": null,
-      "rsi": 48.6,
-      "adx": 19.6,
+      "rsi": 52.9,
+      "adx": 16.6,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 20 ไซด์เวย์",
-        "RSI 49"
+        "ADX 17 ไซด์เวย์",
+        "RSI 53"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "เยนแข็ง คาดดอลลาร์อ่อนลง"
+        "reason": "เยนแข็งค่า คาดการณ์跌破 155"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 58,
-      "price": 4429.05,
-      "tp": 4424.8,
-      "sl": 4431.6,
-      "rsi": 44.7,
-      "adx": 29.7,
+      "confidence": 57,
+      "price": 4429.0,
+      "tp": 4425.67,
+      "sl": 4431.0,
+      "rsi": 44.5,
+      "adx": 29.5,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
@@ -80,9 +80,9 @@
         "RSI 45"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ทองดีดตัว แม้เฟดคุมเข้ม"
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "ทองคำปรับลง ทดสอบแนวรับ"
       }
     }
   ]
