@@ -1,24 +1,24 @@
 {
-  "updated_utc": "2026-09-05T23:45:28+00:00",
-  "updated_th": "6 ก.ย. 2569, 06:45 น.",
+  "updated_utc": "2026-09-06T04:22:06+00:00",
+  "updated_th": "6 ก.ย. 2569, 11:22 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 29,
-      "price": 79820.68,
+      "confidence": 31,
+      "price": 79919.5,
       "tp": null,
       "sl": null,
-      "rsi": 50.9,
-      "adx": 13.1,
+      "rsi": 53.0,
+      "adx": 14.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 13 ไซด์เวย์",
-        "RSI 51"
+        "ADX 14 ไซด์เวย์",
+        "RSI 53"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.3,
         "label": "bullish",
         "reason": "ETF ไหลเข้าและราคาเหนือ 81K"
       }
@@ -26,54 +26,54 @@
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 57,
-      "price": 2480.95,
-      "tp": 2506.0,
-      "sl": 2465.92,
-      "rsi": 59.6,
-      "adx": 22.7,
+      "confidence": 84,
+      "price": 2504.63,
+      "tp": 2531.76,
+      "sl": 2488.35,
+      "rsi": 67.0,
+      "adx": 33.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 60"
+        "ADX 34 เทรนด์แข็ง",
+        "RSI 67"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ETF ไหลเข้าแต่ยังต่ำกว่า 3000"
+        "score": 0.2,
+        "label": "bullish",
+        "reason": "ETF ไหลเข้าและสัญญาณกระทิง"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 45,
-      "price": 156.23,
-      "tp": 156.08,
-      "sl": 156.33,
-      "rsi": 48.0,
-      "adx": 27.2,
+      "confidence": 37,
+      "price": 156.25,
+      "tp": 156.14,
+      "sl": 156.32,
+      "rsi": 52.9,
+      "adx": 22.0,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 48"
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 53"
       ],
       "ai": {
         "score": -0.6,
         "label": "bearish",
-        "reason": "เยนแข็งค่าและมีการชอร์ตคัฟเวอร์"
+        "reason": "เยนแข็งค่าและ short covering"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 59,
-      "price": 4428.92,
-      "tp": 4420.72,
-      "sl": 4433.83,
-      "rsi": 44.0,
-      "adx": 30.5,
+      "confidence": 58,
+      "price": 4429.04,
+      "tp": 4423.18,
+      "sl": 4432.56,
+      "rsi": 44.5,
+      "adx": 30.0,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
@@ -81,9 +81,9 @@
         "RSI 44"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ดีดตัวจากแนวรับก่อน NFP"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสม รอ NFP"
       }
     }
   ]
