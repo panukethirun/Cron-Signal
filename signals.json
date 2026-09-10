@@ -1,87 +1,73 @@
 {
-  "updated_utc": "2026-09-10T09:34:31+00:00",
-  "updated_th": "10 ก.ย. 2569, 16:34 น.",
+  "updated_utc": "2026-09-10T14:16:41+00:00",
+  "updated_th": "10 ก.ย. 2569, 21:16 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 61,
-      "price": 78096.01,
-      "tp": 77168.92,
-      "sl": 78652.26,
-      "rsi": 42.0,
-      "adx": 24.3,
+      "confidence": 81,
+      "price": 77085.9,
+      "tp": 75993.73,
+      "sl": 77741.2,
+      "rsi": 31.8,
+      "adx": 32.6,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 42"
-      ],
-      "ai": {
-        "score": 0.2,
-        "label": "neutral",
-        "reason": "ข่าวผสม มีมุมมองบวกแต่ยังกังวลเฟด"
-      }
-    },
-    {
-      "symbol": "ETH/USD",
-      "signal": "NEUTRAL",
-      "confidence": 10,
-      "price": 2473.8,
-      "tp": null,
-      "sl": null,
-      "rsi": 46.8,
-      "adx": 18.8,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 19 ไซด์เวย์",
-        "RSI 47"
+        "ADX 33 เทรนด์แข็ง",
+        "RSI 32"
       ],
       "ai": {
         "score": 0.15,
         "label": "neutral",
-        "reason": "ข่าวผสม มีแรงซื้อแต่ราคายังผันผวน"
+        "reason": "ข่าวผสม มีมุมมองบวกแต่ยังไร้ทิศทางชัด"
       }
+    },
+    {
+      "symbol": "ETH/USD",
+      "signal": "ERROR",
+      "error": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out."
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 10,
-      "price": 153.76,
+      "confidence": 0,
+      "price": 153.87,
       "tp": null,
       "sl": null,
-      "rsi": 55.9,
-      "adx": 18.0,
+      "rsi": 53.7,
+      "adx": 22.6,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 18 ไซด์เวย์",
-        "RSI 56"
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 54"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "เยนแข็งค่า ญี่ปุ่นแทรกแซง กดดอลลาร์"
+        "reason": "เยนแข็งค่า หลุดแนวรับ เสี่ยงแทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 6,
-      "price": 4391.69,
-      "tp": null,
-      "sl": null,
-      "rsi": 44.1,
-      "adx": 10.7,
+      "signal": "SHORT",
+      "confidence": 52,
+      "price": 4360.35,
+      "tp": 4309.27,
+      "sl": 4391.0,
+      "rsi": 38.6,
+      "adx": 20.9,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 11 ไซด์เวย์",
-        "RSI 44"
+        "เทรนด์ขาลง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 21 เริ่มมีเทรนด์",
+        "RSI 39"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "ทองแกว่งกรอบ รอข้อมูลเงินเฟ้อ"
+        "reason": "ทองแกว่งกรอบ ข่าวผสมทั้งบวกและลบ"
       }
     }
   ]
