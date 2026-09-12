@@ -1,82 +1,82 @@
 {
-  "updated_utc": "2026-09-12T13:59:26+00:00",
-  "updated_th": "12 ก.ย. 2569, 20:59 น.",
+  "updated_utc": "2026-09-12T16:55:57+00:00",
+  "updated_th": "12 ก.ย. 2569, 23:55 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 7,
-      "price": 77347.67,
+      "confidence": 8,
+      "price": 77344.0,
       "tp": null,
       "sl": null,
-      "rsi": 49.5,
-      "adx": 8.9,
+      "rsi": 49.0,
+      "adx": 9.3,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 9 ไซด์เวย์",
         "RSI 49"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม ทั้งพุ่งและร่วงจากเงินเฟ้อ ไม่ชัดเจน"
+        "score": -0.15,
+        "label": "bearish",
+        "reason": "ข่าวผสม มีคำเตือนกฎระเบียบและความเสี่ยงการเมืองกดดัน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 54,
-      "price": 2543.23,
-      "tp": 2581.62,
-      "sl": 2520.2,
-      "rsi": 60.5,
-      "adx": 21.6,
+      "confidence": 37,
+      "price": 2531.73,
+      "tp": 2566.34,
+      "sl": 2510.96,
+      "rsi": 54.0,
+      "adx": 22.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 22 เริ่มมีเทรนด์",
-        "RSI 60"
+        "RSI 54"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.1,
         "label": "neutral",
-        "reason": "ETH ทะลุ 2600 แต่น้ำมันกดดันความเสี่ยง"
+        "reason": "ข่าวผสม ETF inflows บวก แต่ความเสี่ยงราคาน้ำมันกดดัน"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 58,
+      "confidence": 61,
       "price": 153.57,
-      "tp": 153.23,
-      "sl": 153.77,
-      "rsi": 39.3,
-      "adx": 29.9,
+      "tp": 153.28,
+      "sl": 153.75,
+      "rsi": 39.9,
+      "adx": 31.2,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 39"
+        "ADX 31 เทรนด์แข็ง",
+        "RSI 40"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "เยนแข็งค่า ญี่ปุ่นแทรกแซง เบรกแนวรับสำคัญ"
+        "reason": "เยนแข็งค่า ญี่ปุ่นแทรกแซง USD/JPY หลุดแนวรับสำคัญ"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 18,
-      "price": 4348.44,
+      "confidence": 17,
+      "price": 4348.35,
       "tp": null,
       "sl": null,
-      "rsi": 47.7,
-      "adx": 10.9,
+      "rsi": 47.5,
+      "adx": 10.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 11 ไซด์เวย์",
+        "ADX 10 ไซด์เวย์",
         "RSI 48"
       ],
       "ai": {
