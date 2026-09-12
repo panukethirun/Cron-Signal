@@ -1,79 +1,16 @@
 {
-  "updated_utc": "2026-09-11T21:39:51+00:00",
-  "updated_th": "12 ก.ย. 2569, 04:39 น.",
+  "updated_utc": "2026-09-12T00:06:01+00:00",
+  "updated_th": "12 ก.ย. 2569, 07:06 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "SHORT",
-      "confidence": 31,
-      "price": 77387.04,
-      "tp": 75904.9,
-      "sl": 78276.32,
-      "rsi": 48.2,
-      "adx": 22.6,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 48"
-      ],
-      "ai": {
-        "score": 0.15,
-        "label": "neutral",
-        "reason": "ข่าวผสม ทั้ง CPI และความเสี่ยงการเมือง กดดันระยะสั้น"
-      }
-    },
-    {
-      "symbol": "ETH/USD",
-      "signal": "LONG",
-      "confidence": 70,
-      "price": 2537.7,
-      "tp": 2615.16,
-      "sl": 2491.22,
-      "rsi": 55.8,
-      "adx": 28.0,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 56"
-      ],
-      "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ทะลุ 2,600 หลัง CPI ดี แตะระดับสูงสุดในรอบ 8 เดือน"
-      }
-    },
-    {
-      "symbol": "USD/JPY",
-      "signal": "SHORT",
-      "confidence": 68,
-      "price": 153.59,
-      "tp": 152.99,
-      "sl": 153.95,
-      "rsi": 40.2,
-      "adx": 27.0,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 40"
-      ],
-      "ai": {
-        "score": -0.4,
-        "label": "bearish",
-        "reason": "เยนแข็งค่า ทะลุแนวรับสำคัญ หลังญี่ปุ่นแทรกแซง"
-      }
-    },
-    {
-      "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 30,
-      "price": 4348.34,
+      "confidence": 40,
+      "price": 77300.01,
       "tp": null,
       "sl": null,
-      "rsi": 47.6,
+      "rsi": 47.8,
       "adx": 18.2,
       "reasons": [
         "เทรนด์ขาลง",
@@ -81,9 +18,71 @@
         "RSI 48"
       ],
       "ai": {
-        "score": -0.2,
+        "score": 0.2,
+        "label": "neutral",
+        "reason": "ข่าวผสม ทั้งบวกและลบ ไร้ทิศทางชัด"
+      }
+    },
+    {
+      "symbol": "ETH/USD",
+      "signal": "LONG",
+      "confidence": 41,
+      "price": 2516.83,
+      "tp": 2585.95,
+      "sl": 2475.36,
+      "rsi": 51.5,
+      "adx": 24.4,
+      "reasons": [
+        "เทรนด์ขาขึ้น",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 52"
+      ],
+      "ai": {
+        "score": 0.3,
+        "label": "neutral",
+        "reason": "ETH แซง BTC แต่มีข่าวลบกดดัน"
+      }
+    },
+    {
+      "symbol": "USD/JPY",
+      "signal": "SHORT",
+      "confidence": 70,
+      "price": 153.62,
+      "tp": 153.02,
+      "sl": 153.97,
+      "rsi": 41.5,
+      "adx": 27.8,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 28 เทรนด์แข็ง",
+        "RSI 42"
+      ],
+      "ai": {
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ทองร่วงหลุดแนวรับ จับตาข้อมูล CPI กดดันราคา"
+        "reason": "เยนแข็งค่า ทะลุแนวรับ carry trade  unwind"
+      }
+    },
+    {
+      "symbol": "XAU/USD",
+      "signal": "NEUTRAL",
+      "confidence": 36,
+      "price": 4348.34,
+      "tp": null,
+      "sl": null,
+      "rsi": 47.5,
+      "adx": 16.1,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "ADX 16 ไซด์เวย์",
+        "RSI 48"
+      ],
+      "ai": {
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ทองแกว่งแคบ ยืนแนวรับ รอ CPI"
       }
     }
   ]
