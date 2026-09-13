@@ -1,24 +1,24 @@
 {
-  "updated_utc": "2026-09-13T19:18:29+00:00",
-  "updated_th": "14 ก.ย. 2569, 02:18 น.",
+  "updated_utc": "2026-09-13T22:19:52+00:00",
+  "updated_th": "14 ก.ย. 2569, 05:19 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 29,
-      "price": 77262.93,
+      "confidence": 33,
+      "price": 76784.0,
       "tp": null,
       "sl": null,
-      "rsi": 54.2,
-      "adx": 17.4,
+      "rsi": 38.2,
+      "adx": 17.2,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 17 ไซด์เวย์",
-        "RSI 54"
+        "RSI 38"
       ],
       "ai": {
-        "score": 0.1,
+        "score": -0.1,
         "label": "neutral",
         "reason": "ข่าวผสม ทั้งเตือนความเสี่ยงและราคาพุ่งหลังเงินเฟ้อ"
       }
@@ -26,21 +26,21 @@
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 2508.93,
+      "confidence": 18,
+      "price": 2480.71,
       "tp": null,
       "sl": null,
-      "rsi": 52.1,
-      "adx": 23.8,
+      "rsi": 37.9,
+      "adx": 21.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 52"
+        "ADX 21 เริ่มมีเทรนด์",
+        "RSI 38"
       ],
       "ai": {
         "score": 0.2,
-        "label": "neutral",
-        "reason": "ข่าวบวกเรื่องราคาพุ่ง แต่มีข่าวลบราคาร่วง"
+        "label": "bullish",
+        "reason": "ETH ทะลุ 2,600 ดอลลาร์ ครั้งแรกในรอบ 8 เดือน"
       }
     },
     {
@@ -48,40 +48,40 @@
       "signal": "SHORT",
       "confidence": 67,
       "price": 153.56,
-      "tp": 152.21,
-      "sl": 154.37,
-      "rsi": 52.3,
-      "adx": 46.2,
+      "tp": 152.26,
+      "sl": 154.34,
+      "rsi": 52.2,
+      "adx": 40.3,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 46 เทรนด์แข็ง",
+        "ADX 40 เทรนด์แข็ง",
         "RSI 52"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "เยนแข็งค่า ญี่ปุ่นแทรกแซง ดอลลาร์อ่อน"
+        "reason": "เยนแข็งค่า ญี่ปุ่นอาจแทรกแซง ดอลลาร์อ่อน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 4348.45,
+      "confidence": 38,
+      "price": 4331.05,
       "tp": null,
       "sl": null,
-      "rsi": 48.2,
-      "adx": 8.0,
+      "rsi": 8.1,
+      "adx": 15.3,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 8 ไซด์เวย์",
-        "RSI 48"
+        "ADX 15 ไซด์เวย์",
+        "RSI 8"
       ],
       "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ทองขาดโมเมนตัม ยืนเหนือแนวรับสำคัญ"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ทองยืนแนวรับ แต่น้ำมันและบอนด์ยีลด์กดดัน"
       }
     }
   ]
