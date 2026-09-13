@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-09-13T00:48:36+00:00",
-  "updated_th": "13 ก.ย. 2569, 07:48 น.",
+  "updated_utc": "2026-09-13T05:56:26+00:00",
+  "updated_th": "13 ก.ย. 2569, 12:56 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 77230.01,
+      "confidence": 12,
+      "price": 77322.76,
       "tp": null,
       "sl": null,
-      "rsi": 46.9,
-      "adx": 7.6,
+      "rsi": 51.6,
+      "adx": 7.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 8 ไซด์เวย์",
-        "RSI 47"
+        "ADX 7 ไซด์เวย์",
+        "RSI 52"
       ],
       "ai": {
         "score": 0.1,
@@ -26,62 +26,62 @@
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 25,
-      "price": 2525.03,
+      "confidence": 19,
+      "price": 2523.22,
       "tp": null,
       "sl": null,
-      "rsi": 50.9,
-      "adx": 15.2,
+      "rsi": 49.9,
+      "adx": 11.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 51"
+        "ADX 12 ไซด์เวย์",
+        "RSI 50"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.15,
         "label": "neutral",
-        "reason": "ETH ทะลุ 2600 แต่น้ำมันแพงกดความเสี่ยง"
+        "reason": "พุ่งแรงแต่มีข่าวร่วง 5% ปะปน"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 69,
+      "confidence": 71,
       "price": 153.57,
-      "tp": 153.33,
-      "sl": 153.71,
-      "rsi": 40.6,
-      "adx": 35.7,
+      "tp": 153.4,
+      "sl": 153.67,
+      "rsi": 41.6,
+      "adx": 36.4,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
         "ADX 36 เทรนด์แข็ง",
-        "RSI 41"
+        "RSI 42"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "เยนแข็งค่า ญี่ปุ่นแทรกแซง USD/JPY หลุดแนวรับ"
+        "reason": "เยนแข็งค่า ญี่ปุ่นแทรกแซง หลุดแนวรับสำคัญ"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 15,
+      "confidence": 14,
       "price": 4348.42,
       "tp": null,
       "sl": null,
-      "rsi": 47.6,
-      "adx": 9.1,
+      "rsi": 47.7,
+      "adx": 8.6,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 9 ไซด์เวย์",
         "RSI 48"
       ],
       "ai": {
-        "score": 0.1,
+        "score": -0.1,
         "label": "neutral",
-        "reason": "ทองทรงตัวแถวแนวรับ รอข้อมูลเงินเฟ้อ"
+        "reason": "ยืนแนวรับสำคัญ แต่ดอลลาร์และยีลด์กดดัน"
       }
     }
   ]
