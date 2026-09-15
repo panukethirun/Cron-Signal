@@ -1,90 +1,89 @@
 {
-  "updated_utc": "2026-09-15T18:06:09+00:00",
-  "updated_th": "16 ก.ย. 2569, 01:06 น.",
+  "updated_utc": "2026-09-15T22:05:28+00:00",
+  "updated_th": "16 ก.ย. 2569, 05:05 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 76,
-      "price": 76882.01,
-      "tp": 75678.92,
-      "sl": 77603.86,
-      "rsi": 44.2,
-      "adx": 30.4,
+      "confidence": 89,
+      "price": 75515.25,
+      "tp": 74040.8,
+      "sl": 76399.92,
+      "rsi": 32.5,
+      "adx": 35.6,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 44"
+        "ADX 36 เทรนด์แข็ง",
+        "RSI 33"
       ],
       "ai": {
-        "score": -0.35,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "ราคาร่วงก่อนโหวต CLARITY และประชุม Fed กดดัน"
+        "reason": "ข่าวลบ ลดลงแตะ 75,000 รอ CLARITY Act"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 59,
-      "price": 2438.58,
-      "tp": 2382.16,
-      "sl": 2472.43,
-      "rsi": 37.1,
-      "adx": 23.6,
+      "confidence": 78,
+      "price": 2393.66,
+      "tp": 2329.42,
+      "sl": 2432.21,
+      "rsi": 31.6,
+      "adx": 31.1,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 37"
+        "ADX 31 เทรนด์แข็ง",
+        "RSI 32"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ราคาสไลด์ตามตลาดคริปโตก่อนประชุม Fed"
+        "reason": "ราคาร่วงก่อนประชุม Fed ตามตลาดคริปโต"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 84,
-      "price": 155.2,
-      "tp": 155.71,
-      "sl": 154.9,
-      "rsi": 69.3,
-      "adx": 33.5,
+      "confidence": 70,
+      "price": 155.08,
+      "tp": 155.52,
+      "sl": 154.82,
+      "rsi": 62.4,
+      "adx": 35.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 33 เทรนด์แข็ง",
-        "RSI 69"
+        "ADX 36 เทรนด์แข็ง",
+        "RSI 62"
       ],
       "ai": {
-        "score": -0.25,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ญี่ปุ่นแทรกแซงหนุนเยน ดอลลาร์อ่อนค่า"
+        "reason": "เยนแข็งจากการแทรกแซง กดดอลลาร์"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "SHORT",
-      "confidence": 44,
-      "price": 4293.43,
-      "tp": 4258.73,
-      "sl": 4314.26,
+      "signal": "NEUTRAL",
+      "confidence": 16,
+      "price": 4294.25,
+      "tp": null,
+      "sl": null,
       "rsi": 49.6,
-      "adx": 26.4,
+      "adx": 19.3,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 26 เทรนด์แข็ง",
+        "ADX 19 ไซด์เวย์",
         "RSI 50"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ยีลด์และน้ำมันพุ่ง กดดันทองคำก่อน Fed"
+        "reason": "ทองกดต่ำกว่า 4,400 จาก yield พุ่ง"
       }
     }
   ]
