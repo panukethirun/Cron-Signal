@@ -1,87 +1,86 @@
 {
-  "updated_utc": "2026-09-17T20:09:54+00:00",
-  "updated_th": "18 ก.ย. 2569, 03:09 น.",
+  "updated_utc": "2026-09-17T23:29:43+00:00",
+  "updated_th": "18 ก.ย. 2569, 06:29 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 11,
-      "price": 76634.0,
+      "confidence": 6,
+      "price": 76490.01,
       "tp": null,
       "sl": null,
-      "rsi": 55.4,
-      "adx": 13.1,
+      "rsi": 51.2,
+      "adx": 11.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 13 ไซด์เวย์",
-        "RSI 55"
+        "ADX 11 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
         "score": -0.1,
         "label": "neutral",
-        "reason": "ข่าวผสม เฟดขึ้นดอกเบี้ยกดดัน แต่ราคายังทรงตัว"
+        "reason": "ข่าวผสม เฟดขึ้นดอกเบี้ยกดดัน แต่ราคาฟื้นตัว"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 25,
-      "price": 2452.64,
+      "confidence": 15,
+      "price": 2448.69,
       "tp": null,
       "sl": null,
-      "rsi": 56.3,
-      "adx": 29.7,
+      "rsi": 53.5,
+      "adx": 27.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 56"
+        "ADX 28 เทรนด์แข็ง",
+        "RSI 53"
       ],
       "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ETH อ่อนตัวก่อนเฟดขึ้นดอกเบี้ย กดดันระยะสั้น"
+        "score": -0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสม ราคาร่วงแต่วาฬสะสม"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 27,
+      "confidence": 13,
       "price": 155.99,
       "tp": null,
       "sl": null,
-      "rsi": 56.7,
-      "adx": 13.9,
+      "rsi": 56.6,
+      "adx": 11.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 14 ไซด์เวย์",
+        "ADX 12 ไซด์เวย์",
         "RSI 57"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจากการแทรกแซง กดดัน USD/JPY"
+        "reason": "ญี่ปุ่นแทรกแซง เยนแข็งค่า"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 40,
-      "price": 4345.61,
-      "tp": 4391.82,
-      "sl": 4317.88,
-      "rsi": 54.9,
-      "adx": 35.9,
+      "signal": "NEUTRAL",
+      "confidence": 20,
+      "price": 4344.54,
+      "tp": null,
+      "sl": null,
+      "rsi": 54.5,
+      "adx": 35.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
         "ADX 36 เทรนด์แข็ง",
         "RSI 55"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "เฟดสายเหยี่ยวกดดันทองคำ ฟื้นตัวจำกัด"
+        "reason": "เฟดสายเหยี่ยวกดดันทองคำ"
       }
     }
   ]
