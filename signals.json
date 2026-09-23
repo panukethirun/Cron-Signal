@@ -1,63 +1,61 @@
 {
-  "updated_utc": "2026-09-23T05:48:56+00:00",
-  "updated_th": "23 ก.ย. 2569, 12:48 น.",
+  "updated_utc": "2026-09-23T11:22:28+00:00",
+  "updated_th": "23 ก.ย. 2569, 18:22 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "LONG",
-      "confidence": 65,
-      "price": 86756.01,
-      "tp": 88012.47,
-      "sl": 86002.14,
-      "rsi": 61.2,
-      "adx": 33.3,
+      "signal": "NEUTRAL",
+      "confidence": 13,
+      "price": 85590.01,
+      "tp": null,
+      "sl": null,
+      "rsi": 41.1,
+      "adx": 23.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 33 เทรนด์แข็ง",
-        "RSI 61"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 41"
       ],
       "ai": {
-        "score": 0.3,
+        "score": 0.5,
         "label": "bullish",
-        "reason": "ข่าวบวกหลายชิ้น เป้า 100k และออปชันเดิมพันขาขึ้น"
+        "reason": "ราคาฟื้นเหนือ 85,000 ดอลลาร์ แรงซื้อ Saylor หนุน"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "LONG",
-      "confidence": 69,
-      "price": 2770.38,
-      "tp": 2822.45,
-      "sl": 2739.14,
-      "rsi": 60.7,
-      "adx": 27.5,
+      "signal": "NEUTRAL",
+      "confidence": 6,
+      "price": 2724.76,
+      "tp": null,
+      "sl": null,
+      "rsi": 39.0,
+      "adx": 20.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 61"
+        "ADX 20 เริ่มมีเทรนด์",
+        "RSI 39"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ETF inflow สูงสุดปี 2026 ราคาถือเหนือ 2,757"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสม ทั้งพุ่งและชะลอที่ 2,800 ดอลลาร์"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 31,
-      "price": 157.67,
+      "confidence": 44,
+      "price": 157.91,
       "tp": null,
       "sl": null,
-      "rsi": 60.1,
-      "adx": 12.5,
+      "rsi": 68.7,
+      "adx": 17.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 12 ไซด์เวย์",
-        "RSI 60"
+        "ADX 17 ไซด์เวย์",
+        "RSI 69"
       ],
       "ai": {
         "score": -0.4,
@@ -67,22 +65,23 @@
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 45,
-      "price": 4331.81,
-      "tp": null,
-      "sl": null,
-      "rsi": 43.2,
-      "adx": 18.1,
+      "signal": "SHORT",
+      "confidence": 59,
+      "price": 4310.79,
+      "tp": 4279.82,
+      "sl": 4329.38,
+      "rsi": 34.6,
+      "adx": 23.8,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 18 ไซด์เวย์",
-        "RSI 43"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 35"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวขัดแย้ง ทองแกว่งตัวระหว่างแนวรับแนวต้าน"
+        "score": -0.4,
+        "label": "bearish",
+        "reason": "ทองแตะจุดต่ำสุด 6 สัปดาห์ หลัง Fed ขึ้นดอกเบี้ย"
       }
     }
   ]
