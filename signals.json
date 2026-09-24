@@ -1,87 +1,88 @@
 {
-  "updated_utc": "2026-09-24T19:00:18+00:00",
-  "updated_th": "25 ก.ย. 2569, 02:00 น.",
+  "updated_utc": "2026-09-24T22:12:27+00:00",
+  "updated_th": "25 ก.ย. 2569, 05:12 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
       "confidence": 7,
-      "price": 84495.36,
+      "price": 84328.01,
       "tp": null,
       "sl": null,
-      "rsi": 52.2,
-      "adx": 27.0,
+      "rsi": 50.1,
+      "adx": 24.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 52"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 50"
       ],
       "ai": {
-        "score": 0.4,
+        "score": 0.3,
         "label": "bullish",
-        "reason": "ข่าวบวกหลายชิ้น ราคาพุ่งสูงสุดรอบใหม่"
+        "reason": "ข่าวบวกจาก BlackRock และราคาสูงสุดรอบใหม่"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 6,
-      "price": 2692.7,
+      "confidence": 5,
+      "price": 2685.3,
       "tp": null,
       "sl": null,
-      "rsi": 53.9,
-      "adx": 23.0,
+      "rsi": 51.0,
+      "adx": 18.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 54"
+        "ADX 18 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม ทั้งพุ่งและอ่อนตัวจากดอกเบี้ย"
+        "score": 0.2,
+        "label": "bullish",
+        "reason": "Tom Lee คาดราคาพุ่ง แต่ข่าวผสม"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 68,
-      "price": 158.84,
-      "tp": 159.42,
-      "sl": 158.48,
-      "rsi": 61.2,
-      "adx": 27.3,
+      "confidence": 49,
+      "price": 158.83,
+      "tp": 159.34,
+      "sl": 158.52,
+      "rsi": 59.9,
+      "adx": 25.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 61"
+        "ADX 25 เริ่มมีเทรนด์",
+        "RSI 60"
       ],
       "ai": {
         "score": 0.4,
         "label": "bullish",
-        "reason": "เฟดสายเหยี่ยว ดอกเบี้ยหนุนดอลลาร์แข็งค่า"
+        "reason": "Fed สายเหยี่ยว หนุนดอลลาร์แข็งค่า"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 26,
-      "price": 4273.96,
-      "tp": null,
-      "sl": null,
-      "rsi": 47.6,
-      "adx": 31.2,
+      "signal": "SHORT",
+      "confidence": 39,
+      "price": 4271.46,
+      "tp": 4231.22,
+      "sl": 4295.6,
+      "rsi": 46.5,
+      "adx": 23.6,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 48"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 47"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ผลตอบแทนพันธบัตรพุ่ง กดดันราคาทองคำ"
+        "reason": "ราคาทองร่วง หลังผลตอบแทนพันธบัตรพุ่ง"
       }
     }
   ]
