@@ -1,87 +1,87 @@
 {
-  "updated_utc": "2026-09-25T18:28:31+00:00",
-  "updated_th": "26 ก.ย. 2569, 01:28 น.",
+  "updated_utc": "2026-09-25T22:12:16+00:00",
+  "updated_th": "26 ก.ย. 2569, 05:12 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 21,
-      "price": 83904.01,
+      "confidence": 18,
+      "price": 83927.14,
       "tp": null,
       "sl": null,
-      "rsi": 43.7,
-      "adx": 15.2,
+      "rsi": 45.4,
+      "adx": 16.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 15 ไซด์เวย์",
-        "RSI 44"
+        "ADX 16 ไซด์เวย์",
+        "RSI 45"
       ],
       "ai": {
         "score": 0.6,
         "label": "bullish",
-        "reason": "ข่าวบวกหลายสำนัก ราคาพุ่งและลุ้นเบรกเอาต์"
+        "reason": "ข่าวบวกหลายสำนัก ราคาพุ่ง ความต้องการสูงขึ้น"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 6,
-      "price": 2690.63,
+      "confidence": 3,
+      "price": 2685.58,
       "tp": null,
       "sl": null,
-      "rsi": 50.4,
-      "adx": 10.6,
+      "rsi": 47.8,
+      "adx": 9.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 11 ไซด์เวย์",
-        "RSI 50"
+        "ADX 10 ไซด์เวย์",
+        "RSI 48"
       ],
       "ai": {
         "score": 0.3,
         "label": "bullish",
-        "reason": "ข่าวบวกปานกลาง แต่มีแรงกดดันจากคาดการณ์ขึ้นดอกเบี้ย"
+        "reason": "ข่าวบวกรวม แต่บางช่วงราคาอ่อนจากคาดขึ้นดอกเบี้ย"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
       "confidence": 56,
-      "price": 157.24,
-      "tp": 156.58,
-      "sl": 157.63,
-      "rsi": 29.0,
-      "adx": 47.9,
+      "price": 157.28,
+      "tp": 156.65,
+      "sl": 157.65,
+      "rsi": 33.4,
+      "adx": 49.8,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 48 เทรนด์แข็ง",
-        "RSI 29"
+        "ADX 50 เทรนด์แข็ง",
+        "RSI 33"
       ],
       "ai": {
-        "score": 0.4,
-        "label": "bullish",
-        "reason": "เฟดสายเหยี่ยว หนุนดอลลาร์ แต่ยังเสี่ยงแทรกแซงเยน"
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "เสี่ยงแทรกแซงเยน ญี่ปุ่น อาจกดดอลลาร์ลง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 19,
-      "price": 4288.09,
+      "confidence": 14,
+      "price": 4286.22,
       "tp": null,
       "sl": null,
-      "rsi": 52.1,
-      "adx": 13.4,
+      "rsi": 50.6,
+      "adx": 10.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 13 ไซด์เวย์",
-        "RSI 52"
+        "ADX 10 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "เฟดเหยี่ยว ดอลลาร์แข็ง บอนด์ยีลด์สูง กดดันทองคำ"
+        "reason": "ผลตอบแทนพันธบัตรและดอลลาร์แข็ง กดราคาทอง"
       }
     }
   ]
