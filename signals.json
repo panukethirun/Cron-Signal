@@ -1,86 +1,86 @@
 {
-  "updated_utc": "2026-09-26T07:29:44+00:00",
-  "updated_th": "26 ก.ย. 2569, 14:29 น.",
+  "updated_utc": "2026-09-26T12:58:34+00:00",
+  "updated_th": "26 ก.ย. 2569, 19:58 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 10,
-      "price": 84014.03,
+      "confidence": 8,
+      "price": 84052.0,
       "tp": null,
       "sl": null,
-      "rsi": 48.8,
-      "adx": 18.3,
+      "rsi": 49.1,
+      "adx": 13.6,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 18 ไซด์เวย์",
+        "ADX 14 ไซด์เวย์",
         "RSI 49"
       ],
       "ai": {
         "score": 0.6,
         "label": "bullish",
-        "reason": "ข่าวบวกหลายสำนัก ราคาพุ่ง ความเชื่อมั่นสูง"
+        "reason": "ข่าวบวกหลายสำนัก ราคาพุ่ง มองเป้า 250,000"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
       "confidence": 11,
-      "price": 2690.21,
+      "price": 2688.16,
       "tp": null,
       "sl": null,
-      "rsi": 50.7,
-      "adx": 10.3,
+      "rsi": 49.4,
+      "adx": 9.5,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 10 ไซด์เวย์",
-        "RSI 51"
+        "RSI 49"
       ],
       "ai": {
-        "score": 0.2,
-        "label": "neutral",
-        "reason": "ข่าวผสม ฝ่าวแนวโน้มลงแต่ยังติดต้าน"
+        "score": 0.4,
+        "label": "bullish",
+        "reason": "ETH ยืนแนวรับ มองเป้า 3,000 ทิศทางบวก"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
       "confidence": 33,
-      "price": 157.3,
+      "price": 157.29,
       "tp": null,
       "sl": null,
       "rsi": 34.5,
-      "adx": 43.9,
+      "adx": 41.6,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 44 เทรนด์แข็ง",
-        "RSI 35"
+        "ADX 42 เทรนด์แข็ง",
+        "RSI 34"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.2,
         "label": "bearish",
-        "reason": "เสี่ยงแทรกแซงเยน ญี่ปุ่นกดดอลลาร์"
+        "reason": "ญี่ปุ่นแทรกแซงค่าเงินเยน กดดอลลาร์"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 8,
-      "price": 4286.13,
+      "confidence": 6,
+      "price": 4286.11,
       "tp": null,
       "sl": null,
-      "rsi": 50.6,
-      "adx": 6.0,
+      "rsi": 50.5,
+      "adx": 4.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 6 ไซด์เวย์",
+        "ADX 5 ไซด์เวย์",
         "RSI 51"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "ดอลลาร์แข็ง ผลตอบแทนพันธบัตรกดทอง"
+        "reason": "ผลตอบแทนพันธบัตรและดอลลาร์แข็ง กดทองคำ"
       }
     }
   ]
