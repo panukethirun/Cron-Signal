@@ -1,86 +1,86 @@
 {
-  "updated_utc": "2026-09-27T13:49:27+00:00",
-  "updated_th": "27 ก.ย. 2569, 20:49 น.",
+  "updated_utc": "2026-09-27T18:15:30+00:00",
+  "updated_th": "28 ก.ย. 2569, 01:15 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 42,
-      "price": 84910.0,
+      "confidence": 10,
+      "price": 84604.44,
       "tp": null,
       "sl": null,
-      "rsi": 66.2,
-      "adx": 16.8,
+      "rsi": 53.1,
+      "adx": 12.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 17 ไซด์เวย์",
-        "RSI 66"
+        "ADX 12 ไซด์เวย์",
+        "RSI 53"
       ],
       "ai": {
-        "score": 0.6,
+        "score": 0.4,
         "label": "bullish",
-        "reason": "ข่าวบวกหลายสำนัก ราคาพุ่ง ทะลุแนวต้านสำคัญ"
+        "reason": "ข่าวบ่งชี้ราคาพุ่งและโมเดลมองตลาดกระทิง"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 35,
-      "price": 2707.31,
+      "confidence": 0,
+      "price": 2692.6,
       "tp": null,
       "sl": null,
-      "rsi": 56.5,
-      "adx": 13.8,
+      "rsi": 46.2,
+      "adx": 13.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 14 ไซด์เวย์",
-        "RSI 56"
+        "ADX 13 ไซด์เวย์",
+        "RSI 46"
       ],
       "ai": {
         "score": 0.2,
         "label": "neutral",
-        "reason": "ข่าวผสม มีแนวต้าน 2800-3000 รอเบรกเอาต์"
+        "reason": "ข่าวผสม ทั้งคาดการณ์บวกและแรงขายทำกำไร"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 33,
-      "price": 157.25,
+      "confidence": 9,
+      "price": 157.3,
       "tp": null,
       "sl": null,
-      "rsi": 25.6,
-      "adx": 43.8,
+      "rsi": 50.1,
+      "adx": 34.1,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 44 เทรนด์แข็ง",
-        "RSI 26"
+        "ADX 34 เทรนด์แข็ง",
+        "RSI 50"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ญี่ปุ่นแทรกแซงค่าเงินเยน เงินเยนแข็งค่า"
+        "reason": "ญี่ปุ่นแทรกแซงหนุนเยน ดอลลาร์อ่อนลง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 3,
-      "price": 4286.23,
+      "confidence": 2,
+      "price": 4286.19,
       "tp": null,
       "sl": null,
-      "rsi": 51.1,
-      "adx": 1.8,
+      "rsi": 50.5,
+      "adx": 1.7,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 2 ไซด์เวย์",
         "RSI 51"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ผลตอบแทนพันธบัตรและดอลลาร์แข็ง กดดันทองคำ"
+        "reason": "ผลตอบแทนพันธบัตรและดอลลาร์แข็งกดดันทองคำ"
       }
     }
   ]
