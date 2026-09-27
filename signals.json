@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-09-26T22:39:08+00:00",
-  "updated_th": "27 ก.ย. 2569, 05:39 น.",
+  "updated_utc": "2026-09-27T01:17:59+00:00",
+  "updated_th": "27 ก.ย. 2569, 08:17 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 19,
-      "price": 84278.97,
+      "confidence": 16,
+      "price": 84368.0,
       "tp": null,
       "sl": null,
-      "rsi": 57.1,
-      "adx": 13.5,
+      "rsi": 58.2,
+      "adx": 11.7,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 13 ไซด์เวย์",
-        "RSI 57"
+        "ADX 12 ไซด์เวย์",
+        "RSI 58"
       ],
       "ai": {
         "score": 0.6,
@@ -26,39 +26,39 @@
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 14,
-      "price": 2687.76,
+      "confidence": 4,
+      "price": 2694.37,
       "tp": null,
       "sl": null,
-      "rsi": 50.0,
+      "rsi": 55.0,
       "adx": 13.0,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 13 ไซด์เวย์",
-        "RSI 50"
+        "RSI 55"
       ],
       "ai": {
         "score": 0.3,
         "label": "bullish",
-        "reason": "คาดการณ์บวก แต่มีแนวต้านสำคัญ"
+        "reason": "สัญญาณบนเชนหนุน แต่มีแนวต้านสำคัญ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
       "confidence": 33,
-      "price": 157.29,
+      "price": 157.3,
       "tp": null,
       "sl": null,
-      "rsi": 34.3,
-      "adx": 40.9,
+      "rsi": 35.7,
+      "adx": 41.2,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 41 เทรนด์แข็ง",
-        "RSI 34"
+        "RSI 36"
       ],
       "ai": {
-        "score": -0.2,
+        "score": -0.3,
         "label": "bearish",
         "reason": "ญี่ปุ่นแทรกแซง เยนแข็งค่า"
       }
@@ -70,17 +70,17 @@
       "price": 4286.24,
       "tp": null,
       "sl": null,
-      "rsi": 50.7,
-      "adx": 2.9,
+      "rsi": 50.8,
+      "adx": 2.5,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 3 ไซด์เวย์",
         "RSI 51"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "ดอลลาร์แข็ง บอนด์ยีลด์กดทอง"
+        "reason": "ดอลลาร์แข็ง ผลตอบแทนพันธบัตรกดทอง"
       }
     }
   ]
