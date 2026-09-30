@@ -1,87 +1,88 @@
 {
-  "updated_utc": "2026-09-30T06:34:31+00:00",
-  "updated_th": "30 ก.ย. 2569, 13:34 น.",
+  "updated_utc": "2026-09-30T13:34:15+00:00",
+  "updated_th": "30 ก.ย. 2569, 20:34 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 18,
-      "price": 83100.0,
+      "confidence": 49,
+      "price": 85378.53,
       "tp": null,
       "sl": null,
-      "rsi": 41.2,
-      "adx": 13.3,
+      "rsi": 72.6,
+      "adx": 19.7,
       "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 13 ไซด์เวย์",
-        "RSI 41"
+        "เทรนด์ขาขึ้น",
+        "ADX 20 ไซด์เวย์",
+        "RSI 73"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.1,
         "label": "neutral",
-        "reason": "บวกเล็กน้อยจาก Q3 แข็งแกร่ง แต่มีแรงขายทำกำไร"
+        "reason": "ข่าวผสม ดึงกลับจาก 87K แต่ยังมีแรงหนุน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 17,
-      "price": 2662.58,
+      "confidence": 43,
+      "price": 2730.04,
       "tp": null,
       "sl": null,
-      "rsi": 39.7,
-      "adx": 12.1,
+      "rsi": 67.4,
+      "adx": 17.3,
       "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 12 ไซด์เวย์",
-        "RSI 40"
+        "เทรนด์ขาขึ้น",
+        "ADX 17 ไซด์เวย์",
+        "RSI 67"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม มีแรงขายทำกำไรใกล้ 2,700"
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "แรงขายเพิ่ม เสี่ยงทดสอบ 2,600"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 58,
-      "price": 156.91,
-      "tp": 156.25,
-      "sl": 157.3,
-      "rsi": 41.8,
-      "adx": 23.2,
+      "confidence": 57,
+      "price": 156.82,
+      "tp": 156.19,
+      "sl": 157.2,
+      "rsi": 40.8,
+      "adx": 22.9,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
         "ADX 23 เริ่มมีเทรนด์",
-        "RSI 42"
+        "RSI 41"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "ข่าวผสม กังวลแทรกแซงแต่ดอลลาร์แข็ง"
+        "reason": "ข่าวผสม กลัวแทรกแซง แต่ดอลลาร์แข็ง"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 6,
-      "price": 4180.11,
-      "tp": null,
-      "sl": null,
-      "rsi": 57.2,
-      "adx": 23.2,
+      "signal": "LONG",
+      "confidence": 33,
+      "price": 4193.91,
+      "tp": 4231.63,
+      "sl": 4171.28,
+      "rsi": 58.0,
+      "adx": 23.5,
       "reasons": [
-        "เทรนด์ขาลง",
+        "เทรนด์ขาขึ้น",
+        "สวนเทรนด์ใหญ่",
         "ADX 23 เริ่มมีเทรนด์",
-        "RSI 57"
+        "RSI 58"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ผลตอบแทนพันธบัตรและดอลลาร์กดดันทองคำ"
+        "reason": "ยีลด์สูง เฟดสายเหยี่ยว กดดันทองคำ"
       }
     }
   ]
