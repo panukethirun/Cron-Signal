@@ -1,86 +1,86 @@
 {
-  "updated_utc": "2026-09-29T20:39:19+00:00",
-  "updated_th": "30 ก.ย. 2569, 03:39 น.",
+  "updated_utc": "2026-09-30T00:17:50+00:00",
+  "updated_th": "30 ก.ย. 2569, 07:17 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 19,
-      "price": 83605.48,
+      "confidence": 15,
+      "price": 83542.09,
       "tp": null,
       "sl": null,
-      "rsi": 49.7,
-      "adx": 16.9,
+      "rsi": 48.6,
+      "adx": 13.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 17 ไซด์เวย์",
-        "RSI 50"
+        "ADX 14 ไซด์เวย์",
+        "RSI 49"
       ],
       "ai": {
         "score": 0.2,
         "label": "neutral",
-        "reason": "ข่าวบวกลบผสม ดึงกลับจากจุดสูงแต่ยังมีแรงหนุน"
+        "reason": "บวกเล็กน้อยจาก Q3 แรง แต่ดึงกลับจาก 87K"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 24,
-      "price": 2692.03,
+      "confidence": 3,
+      "price": 2672.28,
       "tp": null,
       "sl": null,
-      "rsi": 49.9,
-      "adx": 14.6,
+      "rsi": 43.0,
+      "adx": 12.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 50"
+        "ADX 12 ไซด์เวย์",
+        "RSI 43"
       ],
       "ai": {
-        "score": 0.1,
+        "score": -0.1,
         "label": "neutral",
-        "reason": "ข่าวผสม มีแนวต้านแข็ง อาจย่อก่อน"
+        "reason": "มีแรงขายทำกำไรแถว 2,700 ภาพผสม"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 157.32,
+      "confidence": 18,
+      "price": 157.41,
       "tp": null,
       "sl": null,
-      "rsi": 47.2,
-      "adx": 18.0,
+      "rsi": 50.7,
+      "adx": 16.1,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 18 ไซด์เวย์",
-        "RSI 47"
+        "เทรนด์ขาลง",
+        "ADX 16 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "กังวลแทรกแซงเยนและเป้า Goldman ลดลง"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "กังวลแทรกแซงสู้ดอลลาร์แข็ง คาดการณ์ผสม"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 7,
-      "price": 4179.27,
+      "confidence": 8,
+      "price": 4183.48,
       "tp": null,
       "sl": null,
-      "rsi": 60.6,
-      "adx": 25.9,
+      "rsi": 60.8,
+      "adx": 28.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 26 เทรนด์แข็ง",
+        "ADX 28 เทรนด์แข็ง",
         "RSI 61"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "แรงกดดันจาก Fed สายเหยี่ยวและยีลด์พุ่ง"
+        "reason": "แรงกดดันจากเฟดสายเหยี่ยวและยีลด์สูง"
       }
     }
   ]
