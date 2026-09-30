@@ -1,86 +1,87 @@
 {
-  "updated_utc": "2026-09-30T00:17:50+00:00",
-  "updated_th": "30 ก.ย. 2569, 07:17 น.",
+  "updated_utc": "2026-09-30T06:34:31+00:00",
+  "updated_th": "30 ก.ย. 2569, 13:34 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 15,
-      "price": 83542.09,
+      "confidence": 18,
+      "price": 83100.0,
       "tp": null,
       "sl": null,
-      "rsi": 48.6,
-      "adx": 13.9,
+      "rsi": 41.2,
+      "adx": 13.3,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 14 ไซด์เวย์",
-        "RSI 49"
+        "ADX 13 ไซด์เวย์",
+        "RSI 41"
       ],
       "ai": {
         "score": 0.2,
         "label": "neutral",
-        "reason": "บวกเล็กน้อยจาก Q3 แรง แต่ดึงกลับจาก 87K"
+        "reason": "บวกเล็กน้อยจาก Q3 แข็งแกร่ง แต่มีแรงขายทำกำไร"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 3,
-      "price": 2672.28,
+      "confidence": 17,
+      "price": 2662.58,
       "tp": null,
       "sl": null,
-      "rsi": 43.0,
-      "adx": 12.5,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 12 ไซด์เวย์",
-        "RSI 43"
-      ],
-      "ai": {
-        "score": -0.1,
-        "label": "neutral",
-        "reason": "มีแรงขายทำกำไรแถว 2,700 ภาพผสม"
-      }
-    },
-    {
-      "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 18,
-      "price": 157.41,
-      "tp": null,
-      "sl": null,
-      "rsi": 50.7,
-      "adx": 16.1,
+      "rsi": 39.7,
+      "adx": 12.1,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 16 ไซด์เวย์",
-        "RSI 51"
+        "ADX 12 ไซด์เวย์",
+        "RSI 40"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "กังวลแทรกแซงสู้ดอลลาร์แข็ง คาดการณ์ผสม"
+        "reason": "ข่าวผสม มีแรงขายทำกำไรใกล้ 2,700"
+      }
+    },
+    {
+      "symbol": "USD/JPY",
+      "signal": "SHORT",
+      "confidence": 58,
+      "price": 156.91,
+      "tp": 156.25,
+      "sl": 157.3,
+      "rsi": 41.8,
+      "adx": 23.2,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 42"
+      ],
+      "ai": {
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสม กังวลแทรกแซงแต่ดอลลาร์แข็ง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 8,
-      "price": 4183.48,
+      "confidence": 6,
+      "price": 4180.11,
       "tp": null,
       "sl": null,
-      "rsi": 60.8,
-      "adx": 28.0,
+      "rsi": 57.2,
+      "adx": 23.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 61"
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 57"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "แรงกดดันจากเฟดสายเหยี่ยวและยีลด์สูง"
+        "reason": "ผลตอบแทนพันธบัตรและดอลลาร์กดดันทองคำ"
       }
     }
   ]
