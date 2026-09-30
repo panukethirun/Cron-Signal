@@ -1,88 +1,87 @@
 {
-  "updated_utc": "2026-09-30T13:34:15+00:00",
-  "updated_th": "30 ก.ย. 2569, 20:34 น.",
+  "updated_utc": "2026-09-30T19:04:47+00:00",
+  "updated_th": "1 ต.ค. 2569, 02:04 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "NEUTRAL",
-      "confidence": 49,
-      "price": 85378.53,
-      "tp": null,
-      "sl": null,
-      "rsi": 72.6,
-      "adx": 19.7,
+      "signal": "LONG",
+      "confidence": 48,
+      "price": 83920.01,
+      "tp": 85255.14,
+      "sl": 83118.93,
+      "rsi": 51.1,
+      "adx": 21.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 20 ไซด์เวย์",
-        "RSI 73"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 51"
       ],
       "ai": {
-        "score": 0.1,
+        "score": 0.2,
         "label": "neutral",
-        "reason": "ข่าวผสม ดึงกลับจาก 87K แต่ยังมีแรงหนุน"
+        "reason": "ข่าวผสม ดึงกลับจากยอดแต่ยังมีแรงหนุน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 43,
-      "price": 2730.04,
+      "confidence": 27,
+      "price": 2679.49,
       "tp": null,
       "sl": null,
-      "rsi": 67.4,
-      "adx": 17.3,
+      "rsi": 47.3,
+      "adx": 16.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 17 ไซด์เวย์",
-        "RSI 67"
-      ],
-      "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "แรงขายเพิ่ม เสี่ยงทดสอบ 2,600"
-      }
-    },
-    {
-      "symbol": "USD/JPY",
-      "signal": "SHORT",
-      "confidence": 57,
-      "price": 156.82,
-      "tp": 156.19,
-      "sl": 157.2,
-      "rsi": 40.8,
-      "adx": 22.9,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 41"
-      ],
-      "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม กลัวแทรกแซง แต่ดอลลาร์แข็ง"
-      }
-    },
-    {
-      "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 33,
-      "price": 4193.91,
-      "tp": 4231.63,
-      "sl": 4171.28,
-      "rsi": 58.0,
-      "adx": 23.5,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 58"
+        "ADX 16 ไซด์เวย์",
+        "RSI 47"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ยีลด์สูง เฟดสายเหยี่ยว กดดันทองคำ"
+        "reason": "แรงขายเพิ่ม เสี่ยงทดสอบ 2,600 ดอลลาร์"
+      }
+    },
+    {
+      "symbol": "USD/JPY",
+      "signal": "NEUTRAL",
+      "confidence": 5,
+      "price": 157.36,
+      "tp": null,
+      "sl": null,
+      "rsi": 57.1,
+      "adx": 16.3,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "ADX 16 ไซด์เวย์",
+        "RSI 57"
+      ],
+      "ai": {
+        "score": -0.2,
+        "label": "neutral",
+        "reason": "กังวลแทรกแซงเยน แต่ส่วนต่างดอกเบี้ยยังหนุน"
+      }
+    },
+    {
+      "symbol": "XAU/USD",
+      "signal": "NEUTRAL",
+      "confidence": 45,
+      "price": 4152.94,
+      "tp": null,
+      "sl": null,
+      "rsi": 41.2,
+      "adx": 18.1,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "ADX 18 ไซด์เวย์",
+        "RSI 41"
+      ],
+      "ai": {
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "เฟดสายเหยี่ยว กดดันทองคำก่อนข้อมูล PCE"
       }
     }
   ]
