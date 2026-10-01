@@ -1,86 +1,87 @@
 {
-  "updated_utc": "2026-10-01T02:00:07+00:00",
-  "updated_th": "1 ต.ค. 2569, 09:00 น.",
+  "updated_utc": "2026-10-01T08:43:01+00:00",
+  "updated_th": "1 ต.ค. 2569, 15:43 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
       "confidence": 4,
-      "price": 83520.0,
+      "price": 83491.11,
       "tp": null,
       "sl": null,
-      "rsi": 46.3,
-      "adx": 15.5,
+      "rsi": 45.6,
+      "adx": 14.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 15 ไซด์เวย์",
         "RSI 46"
       ],
       "ai": {
-        "score": 0.2,
-        "label": "neutral",
-        "reason": "ข่าวผสม ดึงกลับจาก 87K แต่ยังมีแรงหนุนจากเงินเฟ้อ"
+        "score": 0.4,
+        "label": "bullish",
+        "reason": "ข่าวบวกหลายชิ้น ราคาทะลุ 85,000 จากเงินเฟ้อต่ำ"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 20,
-      "price": 2690.36,
+      "confidence": 24,
+      "price": 2684.93,
       "tp": null,
       "sl": null,
-      "rsi": 52.0,
-      "adx": 14.7,
+      "rsi": 47.8,
+      "adx": 17.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 52"
+        "ADX 17 ไซด์เวย์",
+        "RSI 48"
       ],
       "ai": {
         "score": -0.2,
-        "label": "neutral",
-        "reason": "ข่าวผสม หยุดพักใกล้ highs แต่มีแรงขายกดดัน"
+        "label": "bearish",
+        "reason": "โมเมนตัมซื้ออ่อนลง แรงขายกดดัน"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 26,
-      "price": 158.16,
-      "tp": null,
-      "sl": null,
-      "rsi": 74.0,
-      "adx": 19.0,
+      "signal": "LONG",
+      "confidence": 73,
+      "price": 158.32,
+      "tp": 158.87,
+      "sl": 157.99,
+      "rsi": 67.3,
+      "adx": 29.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 19 ไซด์เวย์",
-        "RSI 74"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 29 เทรนด์แข็ง",
+        "RSI 67"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "ข่าวผสม กลัวแทรกแซงแต่ดอกเบี้ยยังหนุนดอลลาร์"
+        "reason": "ข่าวผสม ทั้งความกลัวแทรกแซงและดอลลาร์แข็ง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 30,
-      "price": 4159.25,
+      "confidence": 11,
+      "price": 4159.02,
       "tp": null,
       "sl": null,
-      "rsi": 47.2,
-      "adx": 13.7,
+      "rsi": 45.7,
+      "adx": 13.6,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 14 ไซด์เวย์",
-        "RSI 47"
+        "RSI 46"
       ],
       "ai": {
-        "score": -0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม ทองอ่อนแอ รอข้อมูล PCE"
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "แนวต้าน 4200 กดดัน เสี่ยงลงทดสอบ 4000"
       }
     }
   ]
