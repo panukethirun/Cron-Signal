@@ -1,87 +1,88 @@
 {
-  "updated_utc": "2026-10-02T01:32:39+00:00",
-  "updated_th": "2 ต.ค. 2569, 08:32 น.",
+  "updated_utc": "2026-10-02T08:21:59+00:00",
+  "updated_th": "2 ต.ค. 2569, 15:21 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 51,
-      "price": 84606.0,
-      "tp": 85674.98,
-      "sl": 83964.61,
-      "rsi": 56.7,
-      "adx": 20.4,
+      "confidence": 84,
+      "price": 86425.02,
+      "tp": 87640.18,
+      "sl": 85695.92,
+      "rsi": 70.7,
+      "adx": 33.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 20 เริ่มมีเทรนด์",
-        "RSI 57"
+        "ADX 34 เทรนด์แข็ง",
+        "RSI 71"
       ],
       "ai": {
-        "score": 0.35,
+        "score": 0.4,
         "label": "bullish",
-        "reason": "Citi ปรับเป้า 113K หนุน sentiment บวก"
+        "reason": "ข่าวบวกจาก Citi และ Fidelity หนุนราคาทะลุ 86,000"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "NEUTRAL",
-      "confidence": 21,
-      "price": 2701.33,
-      "tp": null,
-      "sl": null,
-      "rsi": 52.7,
-      "adx": 9.6,
+      "signal": "LONG",
+      "confidence": 56,
+      "price": 2745.37,
+      "tp": 2788.9,
+      "sl": 2719.25,
+      "rsi": 65.1,
+      "adx": 22.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 10 ไซด์เวย์",
-        "RSI 53"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 65"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "เป้า Citi แค่ 3,028 โมเมนตัมแบน"
+        "reason": "ข่าวผสม Citi ขึ้นเป้า แต่เลเวอเรจลดและยังแกว่ง"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 17,
-      "price": 158.16,
+      "confidence": 5,
+      "price": 157.61,
       "tp": null,
       "sl": null,
-      "rsi": 57.8,
-      "adx": 15.2,
+      "rsi": 39.4,
+      "adx": 18.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 58"
+        "ADX 19 ไซด์เวย์",
+        "RSI 39"
       ],
       "ai": {
-        "score": 0.2,
-        "label": "neutral",
-        "reason": "BOJ ส่งสัญญาณขึ้นดอกเบี้ย แต่กลัวแทรกแซง"
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "ความเสี่ยงแทรกแซงเยนกดดันขาขึ้น USD/JPY"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 28,
-      "price": 4148.83,
+      "confidence": 3,
+      "price": 4183.95,
       "tp": null,
       "sl": null,
-      "rsi": 39.3,
-      "adx": 11.3,
+      "rsi": 54.6,
+      "adx": 10.0,
       "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 11 ไซด์เวย์",
-        "RSI 39"
+        "เทรนด์ขาขึ้น",
+        "ADX 10 ไซด์เวย์",
+        "RSI 55"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "ทองร่วงแรง เสี่ยงหลุด 4,000"
+        "reason": "ทองร่วงหนัก หวั่นหลุด 4,000 ก่อนตัวเลข NFP"
       }
     }
   ]
