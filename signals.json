@@ -1,88 +1,87 @@
 {
-  "updated_utc": "2026-10-03T00:22:36+00:00",
-  "updated_th": "3 ต.ค. 2569, 07:22 น.",
+  "updated_utc": "2026-10-03T06:20:44+00:00",
+  "updated_th": "3 ต.ค. 2569, 13:20 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 7,
-      "price": 84545.99,
+      "confidence": 5,
+      "price": 84655.17,
       "tp": null,
       "sl": null,
-      "rsi": 41.5,
-      "adx": 26.2,
+      "rsi": 44.5,
+      "adx": 18.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 41"
+        "ADX 19 ไซด์เวย์",
+        "RSI 45"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.6,
         "label": "bullish",
-        "reason": "ซิตี้ปรับเป้าขึ้นเป็น 113K หนุน sentiment"
+        "reason": "Citi ปรับเป้า BTC ขึ้นเป็น 113K หนุน sentiment"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "SHORT",
-      "confidence": 35,
-      "price": 2669.57,
-      "tp": 2626.28,
-      "sl": 2695.54,
-      "rsi": 36.9,
-      "adx": 24.9,
+      "signal": "NEUTRAL",
+      "confidence": 15,
+      "price": 2676.93,
+      "tp": null,
+      "sl": null,
+      "rsi": 42.2,
+      "adx": 18.1,
       "reasons": [
         "เทรนด์ขาลง",
-        "สวนเทรนด์ใหญ่",
-        "ADX 25 เริ่มมีเทรนด์",
-        "RSI 37"
+        "ADX 18 ไซด์เวย์",
+        "RSI 42"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ราคาพุ่งก่อนรายงานจ้างงาน ซิตี้ปรับเป้า ETH ขึ้น"
+        "score": 0.2,
+        "label": "neutral",
+        "reason": "ข่าวผสม ทั้งเป้า 5K และ leverage ลดลง"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 32,
+      "confidence": 31,
       "price": 157.86,
-      "tp": 158.34,
-      "sl": 157.57,
-      "rsi": 52.9,
-      "adx": 23.3,
+      "tp": 158.24,
+      "sl": 157.63,
+      "rsi": 52.6,
+      "adx": 22.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 23 เริ่มมีเทรนด์",
+        "ADX 22 เริ่มมีเทรนด์",
         "RSI 53"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "เยนพุ่ง เก็งญี่ปุ่นแทรกแซง กดดัน USD/JPY"
+        "reason": "ญี่ปุ่นอาจแทรกแซง เยนแข็งค่าขึ้น"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 35,
+      "confidence": 28,
       "price": 4137.62,
       "tp": null,
       "sl": null,
       "rsi": 41.0,
-      "adx": 13.8,
+      "adx": 14.4,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 14 ไซด์เวย์",
         "RSI 41"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "ทองกดดัน อยู่ใต้แนวต้าน รอ NFP"
+        "reason": "ทองร่วง แรงกดดันขาย รอ NFP"
       }
     }
   ]
