@@ -1,87 +1,86 @@
 {
-  "updated_utc": "2026-10-03T12:25:43+00:00",
-  "updated_th": "3 ต.ค. 2569, 19:25 น.",
+  "updated_utc": "2026-10-03T17:10:28+00:00",
+  "updated_th": "4 ต.ค. 2569, 00:10 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 4,
-      "price": 84860.92,
+      "confidence": 19,
+      "price": 84884.98,
       "tp": null,
       "sl": null,
-      "rsi": 51.6,
-      "adx": 13.9,
+      "rsi": 52.3,
+      "adx": 14.0,
       "reasons": [
-        "เทรนด์ขาลง",
+        "เทรนด์ขาขึ้น",
         "ADX 14 ไซด์เวย์",
         "RSI 52"
       ],
       "ai": {
-        "score": 0.5,
-        "label": "bullish",
-        "reason": "ซิตี้ปรับเป้าเป็น 113K กระแส ETF กลับมา"
+        "score": 0.2,
+        "label": "neutral",
+        "reason": "ข่าวผสม มีทั้งเป้าซิตี้สูงและราคาผันผวน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 3,
-      "price": 2686.58,
+      "confidence": 7,
+      "price": 2683.9,
       "tp": null,
       "sl": null,
-      "rsi": 49.1,
-      "adx": 12.5,
+      "rsi": 47.9,
+      "adx": 8.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 12 ไซด์เวย์",
-        "RSI 49"
+        "ADX 9 ไซด์เวย์",
+        "RSI 48"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "ข่าวผสม มีแนวต้าน 2,800 รอเบรกเอาต์"
+        "reason": "ชนแนวต้าน 2800 รอเบรกเอาต์ ทิศทางไม่ชัด"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "LONG",
-      "confidence": 29,
-      "price": 157.86,
-      "tp": 158.13,
-      "sl": 157.7,
-      "rsi": 52.7,
-      "adx": 20.7,
+      "signal": "NEUTRAL",
+      "confidence": 24,
+      "price": 157.84,
+      "tp": null,
+      "sl": null,
+      "rsi": 50.2,
+      "adx": 28.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 21 เริ่มมีเทรนด์",
-        "RSI 53"
+        "ADX 29 เทรนด์แข็ง",
+        "RSI 50"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "เยนพุ่ง เก็งญี่ปุ่นแทรกแซง"
+        "reason": "เยนพุ่ง เกรงญี่ปุ่นแทรกแซง กดดอลลาร์"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 29,
-      "price": 4137.57,
+      "price": 4137.6,
       "tp": null,
       "sl": null,
-      "rsi": 41.0,
-      "adx": 14.7,
+      "rsi": 41.1,
+      "adx": 14.9,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 15 ไซด์เวย์",
         "RSI 41"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ทองกดดัน รอข้อมูล NFP-PCE"
+        "reason": "ทองร่วงหนัก ใต้แรงกดดันก่อนข้อมูล NFP"
       }
     }
   ]
