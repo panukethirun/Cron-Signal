@@ -1,88 +1,88 @@
 {
-  "updated_utc": "2026-10-04T18:05:06+00:00",
-  "updated_th": "5 ต.ค. 2569, 01:05 น.",
+  "updated_utc": "2026-10-04T21:16:39+00:00",
+  "updated_th": "5 ต.ค. 2569, 04:16 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 61,
-      "price": 85332.89,
-      "tp": 85770.42,
-      "sl": 85070.37,
-      "rsi": 63.5,
-      "adx": 24.4,
+      "confidence": 76,
+      "price": 85997.39,
+      "tp": 86518.08,
+      "sl": 85684.98,
+      "rsi": 79.7,
+      "adx": 30.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 63"
+        "ADX 31 เทรนด์แข็ง",
+        "RSI 80"
       ],
       "ai": {
-        "score": 0.6,
+        "score": 0.4,
         "label": "bullish",
-        "reason": "ราคาดีดขึ้น พร้อมเป้าหมายซิตี้ 113K เงินทุน ETF ไหลกลับ"
+        "reason": "ข่าวบวก Citi ปรับเป้า 113K เงินไหลเข้า ETF"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 33,
-      "price": 2701.36,
-      "tp": 2718.82,
-      "sl": 2690.88,
-      "rsi": 57.7,
-      "adx": 23.6,
+      "confidence": 36,
+      "price": 2706.65,
+      "tp": 2723.66,
+      "sl": 2696.44,
+      "rsi": 63.4,
+      "adx": 25.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 58"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 63"
       ],
       "ai": {
-        "score": 0.4,
-        "label": "bullish",
-        "reason": "Bitmine ซื้อหนัก หนุนทดสอบแนวต้าน 2,800-3,000"
+        "score": 0.2,
+        "label": "neutral",
+        "reason": "ทรงตัวแถว 2,700 รอตัวกระตุ้น Glamsterdam"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 33,
-      "price": 157.85,
+      "confidence": 11,
+      "price": 157.74,
       "tp": null,
       "sl": null,
-      "rsi": 47.5,
-      "adx": 57.8,
+      "rsi": 31.2,
+      "adx": 61.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 58 แรงมาก ระวังกลับตัว",
-        "RSI 48"
+        "ADX 61 แรงมาก ระวังกลับตัว",
+        "RSI 31"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "เยนพุ่ง นักวิเคราะห์สงสัยญี่ปุ่นแทรกแซง"
+        "reason": "เยนแข็ง คาดญี่ปุ่นแทรกแซง กดดอลลาร์"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 30,
-      "price": 4137.51,
+      "confidence": 28,
+      "price": 4137.62,
       "tp": null,
       "sl": null,
-      "rsi": 40.9,
-      "adx": 15.3,
+      "rsi": 41.9,
+      "adx": 14.6,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 15 ไซด์เวย์",
-        "RSI 41"
+        "RSI 42"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ทองร่วง แรงกดดันลบ รอข้อมูล NFP"
+        "reason": "แรงกดดันขาย ทองรอ NFP ตัดสินทิศทาง"
       }
     }
   ]
