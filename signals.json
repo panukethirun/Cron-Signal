@@ -1,46 +1,46 @@
 {
-  "updated_utc": "2026-10-04T00:28:43+00:00",
-  "updated_th": "4 ต.ค. 2569, 07:28 น.",
+  "updated_utc": "2026-10-04T06:44:00+00:00",
+  "updated_th": "4 ต.ค. 2569, 13:44 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 16,
-      "price": 84808.95,
+      "confidence": 26,
+      "price": 84959.58,
       "tp": null,
       "sl": null,
-      "rsi": 49.5,
-      "adx": 11.3,
+      "rsi": 57.0,
+      "adx": 10.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 11 ไซด์เวย์",
-        "RSI 50"
+        "RSI 57"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม ทั้งแรงซื้อ ETF และแรงขายจุดคุ้มทุน"
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "ข่าว ETF inflows และราคาฟื้นตัวหนุน sentiment"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 6,
-      "price": 2691.09,
+      "confidence": 0,
+      "price": 2692.68,
       "tp": null,
       "sl": null,
-      "rsi": 55.4,
-      "adx": 10.6,
+      "rsi": 54.6,
+      "adx": 16.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 11 ไซด์เวย์",
+        "ADX 16 ไซด์เวย์",
         "RSI 55"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "ชนกำแพง 2800 แต่มีปัจจัยหนุนขึ้น 3000"
+        "reason": "ข่าวผสม ทั้งแนวต้านและแรงหนุน testnet"
       }
     },
     {
@@ -50,37 +50,37 @@
       "price": 157.86,
       "tp": null,
       "sl": null,
-      "rsi": 52.6,
-      "adx": 50.0,
+      "rsi": 53.1,
+      "adx": 61.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 50 เทรนด์แข็ง",
+        "ADX 61 แรงมาก ระวังกลับตัว",
         "RSI 53"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "เยนแข็งค่า หลังเสี่ยงทางการแทรกแซง"
+        "reason": "ความเสี่ยงแทรกแซงญี่ปุ่นกดดันเงินเยนแข็งค่า"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 29,
+      "confidence": 30,
       "price": 4137.53,
       "tp": null,
       "sl": null,
       "rsi": 40.9,
-      "adx": 15.1,
+      "adx": 15.2,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 15 ไซด์เวย์",
         "RSI 41"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ทองกดดันหนัก จ่อหลุดแนวรับ 4000"
+        "reason": "แรงกดดันขาลงและแนวต้าน 4200 กดราคาทอง"
       }
     }
   ]
