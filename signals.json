@@ -1,88 +1,89 @@
 {
-  "updated_utc": "2026-10-04T21:16:39+00:00",
-  "updated_th": "5 ต.ค. 2569, 04:16 น.",
+  "updated_utc": "2026-10-05T00:43:24+00:00",
+  "updated_th": "5 ต.ค. 2569, 07:43 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 76,
-      "price": 85997.39,
-      "tp": 86518.08,
-      "sl": 85684.98,
-      "rsi": 79.7,
-      "adx": 30.6,
+      "confidence": 96,
+      "price": 86524.81,
+      "tp": 87195.69,
+      "sl": 86122.28,
+      "rsi": 85.4,
+      "adx": 38.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 80"
+        "ADX 38 เทรนด์แข็ง",
+        "RSI 85"
       ],
       "ai": {
-        "score": 0.4,
-        "label": "bullish",
-        "reason": "ข่าวบวก Citi ปรับเป้า 113K เงินไหลเข้า ETF"
+        "score": 0.2,
+        "label": "neutral",
+        "reason": "ข่าวผสม ทั้งขึ้นและลง ไม่มีทิศทางชัดเจน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 36,
-      "price": 2706.65,
-      "tp": 2723.66,
-      "sl": 2696.44,
-      "rsi": 63.4,
-      "adx": 25.8,
+      "confidence": 82,
+      "price": 2726.3,
+      "tp": 2750.33,
+      "sl": 2711.88,
+      "rsi": 70.7,
+      "adx": 32.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 63"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 33 เทรนด์แข็ง",
+        "RSI 71"
       ],
       "ai": {
-        "score": 0.2,
-        "label": "neutral",
-        "reason": "ทรงตัวแถว 2,700 รอตัวกระตุ้น Glamsterdam"
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "มีคิวถอน ETH มูลค่าสูง กดดันราคาระยะสั้น"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 11,
-      "price": 157.74,
-      "tp": null,
-      "sl": null,
-      "rsi": 31.2,
-      "adx": 61.2,
+      "signal": "SHORT",
+      "confidence": 56,
+      "price": 157.71,
+      "tp": 157.35,
+      "sl": 157.92,
+      "rsi": 35.8,
+      "adx": 60.2,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 61 แรงมาก ระวังกลับตัว",
-        "RSI 31"
+        "เทรนด์ขาลง",
+        "สวนเทรนด์ใหญ่",
+        "ADX 60 แรงมาก ระวังกลับตัว",
+        "RSI 36"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "เยนแข็ง คาดญี่ปุ่นแทรกแซง กดดอลลาร์"
+        "reason": "ข่าวแทรกแซงเยน ญี่ปุ่น เสี่ยงกดดัน USD/JPY ลง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 28,
-      "price": 4137.62,
+      "confidence": 5,
+      "price": 4152.66,
       "tp": null,
       "sl": null,
-      "rsi": 41.9,
-      "adx": 14.6,
+      "rsi": 74.3,
+      "adx": 18.3,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 15 ไซด์เวย์",
-        "RSI 42"
+        "ADX 18 ไซด์เวย์",
+        "RSI 74"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "แรงกดดันขาย ทองรอ NFP ตัดสินทิศทาง"
+        "reason": "แรงกดดันขาลง ทองคำใต้แนวต้าน รอข้อมูล PCE"
       }
     }
   ]
