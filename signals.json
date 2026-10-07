@@ -1,88 +1,87 @@
 {
-  "updated_utc": "2026-10-06T21:33:59+00:00",
-  "updated_th": "7 ต.ค. 2569, 04:33 น.",
+  "updated_utc": "2026-10-07T01:23:57+00:00",
+  "updated_th": "7 ต.ค. 2569, 08:23 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 85600.8,
+      "confidence": 17,
+      "price": 85350.0,
       "tp": null,
       "sl": null,
-      "rsi": 45.7,
-      "adx": 11.2,
+      "rsi": 40.5,
+      "adx": 12.4,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 11 ไซด์เวย์",
-        "RSI 46"
+        "เทรนด์ขาลง",
+        "ADX 12 ไซด์เวย์",
+        "RSI 41"
       ],
       "ai": {
         "score": -0.15,
         "label": "bearish",
-        "reason": "ข่าวผสม แต่มีสัญญาณลบเรื่องการย่อตัวและแรงต้าน"
+        "reason": "ข่าวผสม แต่ราคาไม่ผ่านแนวต้านและถูกกดดันจากหุ้นเทค"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 29,
-      "price": 2697.69,
-      "tp": 2668.63,
-      "sl": 2715.13,
-      "rsi": 44.8,
-      "adx": 20.8,
+      "confidence": 31,
+      "price": 2687.99,
+      "tp": 2662.02,
+      "sl": 2703.57,
+      "rsi": 38.6,
+      "adx": 22.3,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 21 เริ่มมีเทรนด์",
-        "RSI 45"
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 39"
       ],
       "ai": {
-        "score": -0.25,
-        "label": "bearish",
-        "reason": "เสี่ยงย่อลง $2,400 ปริมาณซื้อขายลด แรงต้านสำคัญ"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ข่าว Glamsterdam หนุน แต่ยังเสี่ยงย่อจากวอลุ่มลด"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 15,
-      "price": 158.13,
+      "confidence": 45,
+      "price": 158.43,
       "tp": null,
       "sl": null,
-      "rsi": 52.8,
-      "adx": 17.9,
+      "rsi": 67.0,
+      "adx": 18.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 18 ไซด์เวย์",
-        "RSI 53"
-      ],
-      "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "ญี่ปุ่นอาจแทรกแซงค่าเงิน เยนแข็งค่าฉับพลัน"
-      }
-    },
-    {
-      "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 28,
-      "price": 4164.46,
-      "tp": 4195.03,
-      "sl": 4146.12,
-      "rsi": 55.5,
-      "adx": 20.3,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 20 เริ่มมีเทรนด์",
-        "RSI 55"
+        "RSI 67"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ทองอ่อนใต้ $4,200 ผลตอบแทนพันธบัตรสูงกดดัน"
+        "reason": " fears การแทรกแซงและเยนแข็งค่าฉับพลัน กดดันคู่"
+      }
+    },
+    {
+      "symbol": "XAU/USD",
+      "signal": "NEUTRAL",
+      "confidence": 11,
+      "price": 4150.11,
+      "tp": null,
+      "sl": null,
+      "rsi": 46.9,
+      "adx": 20.1,
+      "reasons": [
+        "เทรนด์ขาขึ้น",
+        "ADX 20 เริ่มมีเทรนด์",
+        "RSI 47"
+      ],
+      "ai": {
+        "score": -0.25,
+        "label": "bearish",
+        "reason": "ทองร่วงใต้ 4,200 จากบอนด์ยีลด์สูง กดดันราคา"
       }
     }
   ]
