@@ -1,88 +1,89 @@
 {
-  "updated_utc": "2026-10-08T16:21:29+00:00",
-  "updated_th": "8 ต.ค. 2569, 23:21 น.",
+  "updated_utc": "2026-10-08T21:58:29+00:00",
+  "updated_th": "9 ต.ค. 2569, 04:58 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 100,
-      "price": 81442.56,
-      "tp": 80022.55,
-      "sl": 82294.57,
-      "rsi": 32.8,
-      "adx": 50.7,
+      "confidence": 78,
+      "price": 81733.07,
+      "tp": 80393.34,
+      "sl": 82536.91,
+      "rsi": 40.5,
+      "adx": 48.4,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 51 แรงมาก ระวังกลับตัว",
-        "RSI 33"
+        "ADX 48 เทรนด์แข็ง",
+        "RSI 41"
       ],
       "ai": {
         "score": -0.6,
         "label": "bearish",
-        "reason": "ข่าวลบหนัก ราคาหลุด 83K มีล้างพอร์ต"
+        "reason": "ข่าวลบหนัก ราคาหลุด 83K หลังข่าวโจมตีอิหร่าน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
       "confidence": 100,
-      "price": 2438.97,
-      "tp": 2378.2,
-      "sl": 2475.43,
-      "rsi": 17.1,
-      "adx": 58.7,
+      "price": 2480.38,
+      "tp": 2421.35,
+      "sl": 2515.8,
+      "rsi": 38.6,
+      "adx": 57.0,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 59 แรงมาก ระวังกลับตัว",
-        "RSI 17"
-      ],
-      "ai": {
-        "score": -0.4,
-        "label": "bearish",
-        "reason": "ราคาร่วงตามตลาด ความเสี่ยงลดลง"
-      }
-    },
-    {
-      "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 21,
-      "price": 158.23,
-      "tp": null,
-      "sl": null,
-      "rsi": 52.2,
-      "adx": 15.0,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 52"
+        "ADX 57 แรงมาก ระวังกลับตัว",
+        "RSI 39"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "ญี่ปุ่นแทรกแซง เยนแข็งค่า"
+        "reason": "ETH ร่วง 10% ต่อสัปดาห์ ETF ไหลออก 202 ล้าน"
+      }
+    },
+    {
+      "symbol": "USD/JPY",
+      "signal": "SHORT",
+      "confidence": 34,
+      "price": 157.83,
+      "tp": 157.41,
+      "sl": 158.08,
+      "rsi": 40.0,
+      "adx": 24.7,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "สวนเทรนด์ใหญ่",
+        "ADX 25 เริ่มมีเทรนด์",
+        "RSI 40"
+      ],
+      "ai": {
+        "score": -0.4,
+        "label": "bearish",
+        "reason": "เยนพุ่งหลังญี่ปุ่นแทรกแซงค่าเงิน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 23,
-      "price": 4121.13,
+      "confidence": 4,
+      "price": 4134.86,
       "tp": null,
       "sl": null,
-      "rsi": 49.1,
-      "adx": 13.5,
+      "rsi": 55.6,
+      "adx": 13.3,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 14 ไซด์เวย์",
-        "RSI 49"
+        "ADX 13 ไซด์เวย์",
+        "RSI 56"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ทองร่วง ใกล้ lows ผลตอบแทนพันธบัตรสูง"
+        "reason": "ทองร่วงใกล้จุดต่ำสุด 2 เดือน กดดันจากเฟด"
       }
     }
   ]
