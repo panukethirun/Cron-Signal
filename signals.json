@@ -1,66 +1,66 @@
 {
-  "updated_utc": "2026-10-10T06:55:34+00:00",
-  "updated_th": "10 ต.ค. 2569, 13:55 น.",
+  "updated_utc": "2026-10-10T13:31:26+00:00",
+  "updated_th": "10 ต.ค. 2569, 20:31 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 82790.3,
+      "confidence": 3,
+      "price": 82847.8,
       "tp": null,
       "sl": null,
-      "rsi": 54.6,
-      "adx": 12.2,
+      "rsi": 55.3,
+      "adx": 10.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 12 ไซด์เวย์",
+        "ADX 10 ไซด์เวย์",
         "RSI 55"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "ข่าวลบกดดัน ราคาหลุด 83K เสี่ยงภูมิรัฐศาสตร์"
+        "reason": "ข่าวลบรุนแรง ราคาหลุด 83K เสี่ยงโจมตีอิหร่าน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 26,
-      "price": 2494.93,
+      "confidence": 0,
+      "price": 2499.51,
       "tp": null,
       "sl": null,
-      "rsi": 50.7,
-      "adx": 15.4,
+      "rsi": 54.5,
+      "adx": 10.3,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 15 ไซด์เวย์",
-        "RSI 51"
+        "ADX 10 ไซด์เวย์",
+        "RSI 55"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "BitMine หยุดซื้อ ETH ราคาร่วงตามตลาด"
+        "reason": "ETF ไหลออกหนัก ราคาอ่อนตัวต่ำกว่าเส้นค่าเฉลี่ย"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 16,
-      "price": 158.32,
+      "confidence": 15,
+      "price": 158.29,
       "tp": null,
       "sl": null,
-      "rsi": 55.6,
-      "adx": 14.6,
+      "rsi": 51.0,
+      "adx": 18.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 15 ไซด์เวย์",
-        "RSI 56"
+        "ADX 18 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
-        "score": 0.0,
-        "label": "neutral",
-        "reason": "ข่าวกดดันสองทาง ญี่ปุ่นแทรกแซงแต่ดอกเบี้ยต่างกัน"
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "ญี่ปุ่นแทรกแซงค่าเงิน เยนแข็งค่าฉับพลัน"
       }
     },
     {
@@ -68,20 +68,20 @@
       "signal": "LONG",
       "confidence": 78,
       "price": 4195.89,
-      "tp": 4210.43,
-      "sl": 4187.16,
-      "rsi": 65.7,
-      "adx": 41.4,
+      "tp": 4204.8,
+      "sl": 4190.54,
+      "rsi": 65.5,
+      "adx": 42.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 41 เทรนด์แข็ง",
+        "ADX 42 เทรนด์แข็ง",
         "RSI 66"
       ],
       "ai": {
         "score": 0.2,
-        "label": "bullish",
-        "reason": "ทองดีดกลับเหนือ 4,200 จากบอนด์ยีลด์ลด"
+        "label": "neutral",
+        "reason": "ข่าวผสม ทั้งร่วงและรีบาวด์ เหนือ 4,200"
       }
     }
   ]
