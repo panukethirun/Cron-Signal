@@ -1,88 +1,72 @@
 {
-  "updated_utc": "2026-10-10T13:31:26+00:00",
-  "updated_th": "10 ต.ค. 2569, 20:31 น.",
+  "updated_utc": "2026-10-10T18:25:33+00:00",
+  "updated_th": "11 ต.ค. 2569, 01:25 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 3,
-      "price": 82847.8,
+      "confidence": 20,
+      "price": 83020.92,
       "tp": null,
       "sl": null,
-      "rsi": 55.3,
-      "adx": 10.0,
+      "rsi": 58.4,
+      "adx": 14.6,
       "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 10 ไซด์เวย์",
-        "RSI 55"
+        "เทรนด์ขาขึ้น",
+        "ADX 15 ไซด์เวย์",
+        "RSI 58"
       ],
-      "ai": {
-        "score": -0.6,
-        "label": "bearish",
-        "reason": "ข่าวลบรุนแรง ราคาหลุด 83K เสี่ยงโจมตีอิหร่าน"
-      }
+      "ai": null
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 2499.51,
+      "confidence": 5,
+      "price": 2509.18,
       "tp": null,
       "sl": null,
-      "rsi": 54.5,
-      "adx": 10.3,
+      "rsi": 59.8,
+      "adx": 16.8,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 10 ไซด์เวย์",
-        "RSI 55"
+        "ADX 17 ไซด์เวย์",
+        "RSI 60"
       ],
-      "ai": {
-        "score": -0.5,
-        "label": "bearish",
-        "reason": "ETF ไหลออกหนัก ราคาอ่อนตัวต่ำกว่าเส้นค่าเฉลี่ย"
-      }
+      "ai": null
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 15,
-      "price": 158.29,
+      "confidence": 30,
+      "price": 158.3,
       "tp": null,
       "sl": null,
-      "rsi": 51.0,
-      "adx": 18.3,
+      "rsi": 51.7,
+      "adx": 36.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 18 ไซด์เวย์",
-        "RSI 51"
+        "ADX 36 เทรนด์แข็ง",
+        "RSI 52"
       ],
-      "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "ญี่ปุ่นแทรกแซงค่าเงิน เยนแข็งค่าฉับพลัน"
-      }
+      "ai": null
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
       "confidence": 78,
-      "price": 4195.89,
-      "tp": 4204.8,
-      "sl": 4190.54,
-      "rsi": 65.5,
-      "adx": 42.1,
+      "price": 4195.87,
+      "tp": 4202.22,
+      "sl": 4192.06,
+      "rsi": 65.6,
+      "adx": 42.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 42 เทรนด์แข็ง",
         "RSI 66"
       ],
-      "ai": {
-        "score": 0.2,
-        "label": "neutral",
-        "reason": "ข่าวผสม ทั้งร่วงและรีบาวด์ เหนือ 4,200"
-      }
+      "ai": null
     }
   ]
 }
