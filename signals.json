@@ -1,86 +1,85 @@
 {
-  "updated_utc": "2026-10-10T00:41:09+00:00",
-  "updated_th": "10 ต.ค. 2569, 07:41 น.",
+  "updated_utc": "2026-10-10T06:55:34+00:00",
+  "updated_th": "10 ต.ค. 2569, 13:55 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 22,
-      "price": 82566.01,
+      "confidence": 0,
+      "price": 82790.3,
       "tp": null,
       "sl": null,
-      "rsi": 49.9,
-      "adx": 15.9,
+      "rsi": 54.6,
+      "adx": 12.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 16 ไซด์เวย์",
-        "RSI 50"
-      ],
-      "ai": {
-        "score": -0.6,
-        "label": "bearish",
-        "reason": "ข่าวร่วงหลุด 83K หลังความเสี่ยงสงคราม"
-      }
-    },
-    {
-      "symbol": "ETH/USD",
-      "signal": "SHORT",
-      "confidence": 36,
-      "price": 2489.23,
-      "tp": 2455.91,
-      "sl": 2509.22,
-      "rsi": 47.2,
-      "adx": 21.7,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 47"
+        "ADX 12 ไซด์เวย์",
+        "RSI 55"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "ราคาร่วงตามตลาด ข่าว BitMine หยุดซื้อ"
+        "reason": "ข่าวลบกดดัน ราคาหลุด 83K เสี่ยงภูมิรัฐศาสตร์"
+      }
+    },
+    {
+      "symbol": "ETH/USD",
+      "signal": "NEUTRAL",
+      "confidence": 26,
+      "price": 2494.93,
+      "tp": null,
+      "sl": null,
+      "rsi": 50.7,
+      "adx": 15.4,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "ADX 15 ไซด์เวย์",
+        "RSI 51"
+      ],
+      "ai": {
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "BitMine หยุดซื้อ ETH ราคาร่วงตามตลาด"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 12,
-      "price": 158.31,
+      "confidence": 16,
+      "price": 158.32,
       "tp": null,
       "sl": null,
-      "rsi": 54.7,
-      "adx": 13.9,
+      "rsi": 55.6,
+      "adx": 14.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 14 ไซด์เวย์",
-        "RSI 55"
+        "ADX 15 ไซด์เวย์",
+        "RSI 56"
       ],
       "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "ญี่ปุ่นแทรกแซงค่าเงินเยน อาจกดดอลลาร์"
+        "score": 0.0,
+        "label": "neutral",
+        "reason": "ข่าวกดดันสองทาง ญี่ปุ่นแทรกแซงแต่ดอกเบี้ยต่างกัน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
       "confidence": 78,
-      "price": 4195.88,
-      "tp": 4218.21,
-      "sl": 4182.49,
+      "price": 4195.89,
+      "tp": 4210.43,
+      "sl": 4187.16,
       "rsi": 65.7,
-      "adx": 40.3,
+      "adx": 41.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 40 เทรนด์แข็ง",
+        "ADX 41 เทรนด์แข็ง",
         "RSI 66"
       ],
       "ai": {
-        "score": 0.3,
+        "score": 0.2,
         "label": "bullish",
         "reason": "ทองดีดกลับเหนือ 4,200 จากบอนด์ยีลด์ลด"
       }
