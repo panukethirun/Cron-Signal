@@ -1,77 +1,77 @@
 {
-  "updated_utc": "2026-10-11T01:46:37+00:00",
-  "updated_th": "11 ต.ค. 2569, 08:46 น.",
+  "updated_utc": "2026-10-11T08:39:26+00:00",
+  "updated_th": "11 ต.ค. 2569, 15:39 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 83018.15,
+      "confidence": 11,
+      "price": 83100.0,
       "tp": null,
       "sl": null,
-      "rsi": 56.1,
-      "adx": 15.8,
+      "rsi": 55.5,
+      "adx": 13.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 16 ไซด์เวย์",
+        "ADX 13 ไซด์เวย์",
         "RSI 56"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "ข่าวลบกดดัน ราคาหลุด 83K เสี่ยงทดสอบ 80K"
+        "reason": "ข่าวลบกดดัน ราคาหลุด 83,000 เงินเดิมพันถูกกวาด"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 5,
-      "price": 2509.0,
+      "confidence": 21,
+      "price": 2501.87,
       "tp": null,
       "sl": null,
-      "rsi": 56.3,
-      "adx": 19.3,
+      "rsi": 48.1,
+      "adx": 14.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 19 ไซด์เวย์",
-        "RSI 56"
+        "ADX 15 ไซด์เวย์",
+        "RSI 48"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "ETF ขายต่อเนื่อง ราคาแตะแนวรับสำคัญ"
+        "reason": "ETF ไหลออกต่อเนื่อง 9 วัน ราคาใกล้แนวรับสำคัญ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 33,
-      "price": 158.31,
+      "confidence": 11,
+      "price": 158.28,
       "tp": null,
       "sl": null,
-      "rsi": 52.2,
-      "adx": 49.8,
+      "rsi": 44.9,
+      "adx": 57.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 50 เทรนด์แข็ง",
-        "RSI 52"
+        "ADX 58 แรงมาก ระวังกลับตัว",
+        "RSI 45"
       ],
       "ai": {
-        "score": -0.2,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ญี่ปุ่นแทรกแซงค่าเงิน เยนแข็ง เงินดอลล์อ่อน"
+        "reason": "เยนแข็งค่าจากคาดการณ์ทางการญี่ปุ่นแทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
       "confidence": 78,
-      "price": 4195.79,
-      "tp": 4199.82,
-      "sl": 4193.37,
+      "price": 4195.84,
+      "tp": 4198.5,
+      "sl": 4194.25,
       "rsi": 64.9,
-      "adx": 42.6,
+      "adx": 42.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
@@ -79,9 +79,9 @@
         "RSI 65"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ทองดีดกลับเหนือ 4,200 หลังยืนแนวรับ 4,100"
+        "score": 0.2,
+        "label": "neutral",
+        "reason": "ทองดีดกลับแต่ยังผันผวนใกล้แนวรับ สัญญาณก้ำกึ่ง"
       }
     }
   ]
