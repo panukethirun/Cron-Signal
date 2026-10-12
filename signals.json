@@ -1,89 +1,89 @@
 {
-  "updated_utc": "2026-10-12T00:25:37+00:00",
-  "updated_th": "12 ต.ค. 2569, 07:25 น.",
+  "updated_utc": "2026-10-12T07:13:40+00:00",
+  "updated_th": "12 ต.ค. 2569, 14:13 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 37,
-      "price": 83792.0,
-      "tp": 84331.75,
-      "sl": 83468.15,
-      "rsi": 65.0,
-      "adx": 26.3,
+      "confidence": 35,
+      "price": 84230.43,
+      "tp": 85011.56,
+      "sl": 83761.75,
+      "rsi": 64.7,
+      "adx": 25.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
-        "ADX 26 เทรนด์แข็ง",
+        "ADX 25 เทรนด์แข็ง",
         "RSI 65"
       ],
       "ai": {
         "score": -0.35,
         "label": "bearish",
-        "reason": "ข่าวลบเด่น BTC ร่วงถึง 80,000 เตือน crash"
+        "reason": "ข่าวราคาร่วงแตะ 80,000 หลัง ETF ชะลอ"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 29,
-      "price": 2540.08,
-      "tp": 2564.76,
-      "sl": 2525.27,
-      "rsi": 63.5,
-      "adx": 20.5,
+      "confidence": 43,
+      "price": 2575.31,
+      "tp": 2609.95,
+      "sl": 2554.53,
+      "rsi": 74.5,
+      "adx": 30.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
-        "ADX 21 เริ่มมีเทรนด์",
-        "RSI 63"
-      ],
-      "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ETF ชะลอ ราคาร่วง แต่ Tom Lee ยังมองบวก"
-      }
-    },
-    {
-      "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 8,
-      "price": 158.15,
-      "tp": null,
-      "sl": null,
-      "rsi": 35.4,
-      "adx": 29.0,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 29 เทรนด์แข็ง",
-        "RSI 35"
+        "ADX 31 เทรนด์แข็ง",
+        "RSI 74"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "เยนพุ่งหลังญี่ปุ่นอาจแทรกแซง กดดอลลาร์"
+        "reason": "ETF ไหลออก 9 วัน ราคาอ่อนตามตลาด"
+      }
+    },
+    {
+      "symbol": "USD/JPY",
+      "signal": "LONG",
+      "confidence": 54,
+      "price": 158.46,
+      "tp": 158.77,
+      "sl": 158.27,
+      "rsi": 61.3,
+      "adx": 21.7,
+      "reasons": [
+        "เทรนด์ขาขึ้น",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 61"
+      ],
+      "ai": {
+        "score": -0.25,
+        "label": "bearish",
+        "reason": "เยนแข็ง คาดญี่ปุ่นแทรกแซงตลาด"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 100,
-      "price": 4210.38,
-      "tp": 4220.52,
-      "sl": 4204.3,
-      "rsi": 74.0,
-      "adx": 39.8,
+      "signal": "NEUTRAL",
+      "confidence": 10,
+      "price": 4185.65,
+      "tp": null,
+      "sl": null,
+      "rsi": 38.2,
+      "adx": 35.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 40 เทรนด์แข็ง",
-        "RSI 74"
+        "ADX 35 เทรนด์แข็ง",
+        "RSI 38"
       ],
       "ai": {
-        "score": 0.15,
-        "label": "neutral",
-        "reason": "ทองดีดกลับจากแนวรับ แต่ยังผันผวนสองทาง"
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "ทองดีดกลับหลังยืนแนวรับสำคัญได้"
       }
     }
   ]
