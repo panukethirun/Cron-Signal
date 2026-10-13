@@ -1,87 +1,87 @@
 {
-  "updated_utc": "2026-10-13T15:51:12+00:00",
-  "updated_th": "13 ต.ค. 2569, 22:51 น.",
+  "updated_utc": "2026-10-13T21:09:19+00:00",
+  "updated_th": "14 ต.ค. 2569, 04:09 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 19,
-      "price": 83308.96,
+      "confidence": 7,
+      "price": 83410.0,
       "tp": null,
       "sl": null,
-      "rsi": 51.3,
-      "adx": 17.2,
+      "rsi": 53.2,
+      "adx": 12.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 17 ไซด์เวย์",
-        "RSI 51"
+        "ADX 13 ไซด์เวย์",
+        "RSI 53"
       ],
       "ai": {
-        "score": -0.35,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "BTC หลุด 83K จากบอนด์ยีลด์และน้ำมันสูง"
+        "reason": "BTC หลุด 83K จากแรงกดดันน้ำมันและบอนด์"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 15,
-      "price": 2508.52,
+      "confidence": 24,
+      "price": 2510.16,
       "tp": null,
       "sl": null,
-      "rsi": 49.1,
-      "adx": 17.4,
+      "rsi": 49.8,
+      "adx": 14.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 17 ไซด์เวย์",
-        "RSI 49"
+        "ADX 14 ไซด์เวย์",
+        "RSI 50"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ฟื้นตัวเช้านี้ แต่ยังแพ้ BTC และข่าวผสม"
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "ETH ปรับลงตาม BTC กังวล CPI และน้ำมัน"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 18,
-      "price": 158.4,
+      "confidence": 14,
+      "price": 158.36,
       "tp": null,
       "sl": null,
-      "rsi": 53.7,
-      "adx": 32.4,
+      "rsi": 51.6,
+      "adx": 26.1,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 54"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 52"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "เยนพุ่ง ญี่ปุ่นอาจแทรกแซงค่าเงิน"
+        "reason": "เยนพุ่งหลังญี่ปุ่นอาจแทรกแซงค่าเงิน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 32,
-      "price": 4159.12,
-      "tp": 4132.89,
-      "sl": 4174.86,
-      "rsi": 35.6,
-      "adx": 22.7,
+      "confidence": 36,
+      "price": 4158.03,
+      "tp": 4133.83,
+      "sl": 4172.56,
+      "rsi": 40.2,
+      "adx": 26.0,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 36"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 40"
       ],
       "ai": {
-        "score": 0.4,
+        "score": 0.5,
         "label": "bullish",
-        "reason": "ทองดีดกลับ ยีลด์สหรัฐลดลง หนุนราคา"
+        "reason": "ทองดีดกลับหลังบอนด์ยีลด์และน้ำมันผ่อนคลาย"
       }
     }
   ]
