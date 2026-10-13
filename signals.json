@@ -1,63 +1,61 @@
 {
-  "updated_utc": "2026-10-13T07:36:28+00:00",
-  "updated_th": "13 ต.ค. 2569, 14:36 น.",
+  "updated_utc": "2026-10-13T15:51:12+00:00",
+  "updated_th": "13 ต.ค. 2569, 22:51 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 6,
-      "price": 83859.14,
+      "confidence": 19,
+      "price": 83308.96,
       "tp": null,
       "sl": null,
-      "rsi": 60.7,
-      "adx": 21.5,
+      "rsi": 51.3,
+      "adx": 17.2,
       "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 61"
+        "เทรนด์ขาขึ้น",
+        "ADX 17 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.35,
         "label": "bearish",
-        "reason": "BTC หลุด 83K ETF ไหลออก กดดันระยะสั้น"
+        "reason": "BTC หลุด 83K จากบอนด์ยีลด์และน้ำมันสูง"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "SHORT",
-      "confidence": 34,
-      "price": 2530.8,
-      "tp": 2478.11,
-      "sl": 2562.42,
-      "rsi": 55.3,
-      "adx": 24.6,
+      "signal": "NEUTRAL",
+      "confidence": 15,
+      "price": 2508.52,
+      "tp": null,
+      "sl": null,
+      "rsi": 49.1,
+      "adx": 17.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 25 เริ่มมีเทรนด์",
-        "RSI 55"
+        "ADX 17 ไซด์เวย์",
+        "RSI 49"
       ],
       "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "ETH ร่วงตาม BTC bond yield กดดัน"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ฟื้นตัวเช้านี้ แต่ยังแพ้ BTC และข่าวผสม"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "SHORT",
-      "confidence": 43,
-      "price": 158.17,
-      "tp": 157.88,
-      "sl": 158.34,
-      "rsi": 30.6,
-      "adx": 30.8,
+      "signal": "NEUTRAL",
+      "confidence": 18,
+      "price": 158.4,
+      "tp": null,
+      "sl": null,
+      "rsi": 53.7,
+      "adx": 32.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "สวนเทรนด์ใหญ่",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 31"
+        "ADX 32 เทรนด์แข็ง",
+        "RSI 54"
       ],
       "ai": {
         "score": -0.5,
@@ -67,23 +65,23 @@
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 41,
-      "price": 4189.93,
-      "tp": 4213.77,
-      "sl": 4175.63,
-      "rsi": 57.4,
-      "adx": 29.5,
+      "signal": "SHORT",
+      "confidence": 32,
+      "price": 4159.12,
+      "tp": 4132.89,
+      "sl": 4174.86,
+      "rsi": 35.6,
+      "adx": 22.7,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 29 เทรนด์แข็ง",
-        "RSI 57"
+        "สวนเทรนด์ใหญ่",
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 36"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.4,
         "label": "bullish",
-        "reason": "ทองดีดจากแนวรับ yield ลดลง"
+        "reason": "ทองดีดกลับ ยีลด์สหรัฐลดลง หนุนราคา"
       }
     }
   ]
