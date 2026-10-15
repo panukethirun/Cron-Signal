@@ -1,88 +1,87 @@
 {
-  "updated_utc": "2026-10-15T19:01:19+00:00",
-  "updated_th": "16 ต.ค. 2569, 02:01 น.",
+  "updated_utc": "2026-10-15T22:07:34+00:00",
+  "updated_th": "16 ต.ค. 2569, 05:07 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 15,
-      "price": 82409.99,
+      "confidence": 6,
+      "price": 82470.0,
       "tp": null,
       "sl": null,
       "rsi": 56.9,
-      "adx": 26.2,
+      "adx": 20.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 26 เทรนด์แข็ง",
+        "ADX 20 เริ่มมีเทรนด์",
         "RSI 57"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "CPI สูงกดดัน ราคาร่วงสู่ 81,500 ดอลลาร์"
+        "reason": "ข่าวเงินเฟ้อสูงกดราคาร่วง แม้มีสัญญาณบวกปน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 21,
-      "price": 2451.58,
+      "confidence": 9,
+      "price": 2462.88,
       "tp": null,
       "sl": null,
-      "rsi": 60.3,
-      "adx": 38.0,
+      "rsi": 62.8,
+      "adx": 32.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 38 เทรนด์แข็ง",
-        "RSI 60"
+        "ADX 32 เทรนด์แข็ง",
+        "RSI 63"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "หลุด 2,500 จาก CPI ร้อน เสี่ยง liquidation"
+        "reason": "PPI ร้อน ราคาหลุด 2,350 ข่าวลบชัด"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "SHORT",
-      "confidence": 35,
-      "price": 158.14,
-      "tp": 157.57,
-      "sl": 158.49,
-      "rsi": 53.2,
-      "adx": 20.8,
+      "signal": "NEUTRAL",
+      "confidence": 29,
+      "price": 158.02,
+      "tp": null,
+      "sl": null,
+      "rsi": 49.0,
+      "adx": 17.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 21 เริ่มมีเทรนด์",
-        "RSI 53"
+        "ADX 17 ไซด์เวย์",
+        "RSI 49"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ญี่ปุ่นแทรกแซง เยนแข็งค่า หลังถูกปฏิเสธ 159"
+        "reason": "เยนแข็งหลังญี่ปุ่นแทรกแซง กดดอลลาร์"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 32,
-      "price": 4157.29,
-      "tp": 4190.61,
-      "sl": 4137.3,
-      "rsi": 58.5,
-      "adx": 23.2,
+      "confidence": 36,
+      "price": 4170.38,
+      "tp": 4199.82,
+      "sl": 4152.71,
+      "rsi": 62.5,
+      "adx": 26.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 59"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 63"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.1,
         "label": "neutral",
-        "reason": "ยืนแนวรับสำคัญ แต่ถูกกดจาก CPI ร้อน"
+        "reason": "ทองแกว่งกรอบ ข่าวผสมทั้งบวกและลบ"
       }
     }
   ]
