@@ -1,74 +1,90 @@
 {
-  "updated_utc": "2026-10-15T04:24:03+00:00",
-  "updated_th": "15 ต.ค. 2569, 11:24 น.",
+  "updated_utc": "2026-10-15T09:45:16+00:00",
+  "updated_th": "15 ต.ค. 2569, 16:45 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 81,
-      "price": 81139.72,
-      "tp": 79843.13,
-      "sl": 81917.67,
-      "rsi": 30.4,
-      "adx": 32.5,
+      "confidence": 64,
+      "price": 81316.01,
+      "tp": 79894.57,
+      "sl": 82168.88,
+      "rsi": 42.6,
+      "adx": 32.8,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 30"
+        "ADX 33 เทรนด์แข็ง",
+        "RSI 43"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.5,
+        "label": "bearish",
+        "reason": "CPI สูงกดราคาร่วง ETF ไหลออกหนัก"
+      }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
       "confidence": 100,
-      "price": 2371.43,
-      "tp": 2308.67,
-      "sl": 2409.09,
-      "rsi": 24.9,
-      "adx": 42.8,
+      "price": 2372.9,
+      "tp": 2310.88,
+      "sl": 2410.11,
+      "rsi": 35.5,
+      "adx": 47.2,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 43 เทรนด์แข็ง",
-        "RSI 25"
+        "ADX 47 เทรนด์แข็ง",
+        "RSI 35"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.6,
+        "label": "bearish",
+        "reason": "ETH ร่วง 6% CPI ร้อน เสี่ยง liquidation"
+      }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 45,
-      "price": 157.86,
-      "tp": 157.35,
-      "sl": 158.16,
-      "rsi": 37.9,
-      "adx": 32.2,
+      "confidence": 77,
+      "price": 157.72,
+      "tp": 157.21,
+      "sl": 158.02,
+      "rsi": 35.8,
+      "adx": 30.8,
       "reasons": [
         "เทรนด์ขาลง",
-        "สวนเทรนด์ใหญ่",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 38"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 31 เทรนด์แข็ง",
+        "RSI 36"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "ญี่ปุ่นแทรกแซงเยน เสี่ยงผันผวน"
+      }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 20,
-      "price": 4145.26,
+      "confidence": 8,
+      "price": 4158.84,
       "tp": null,
       "sl": null,
-      "rsi": 57.5,
-      "adx": 35.2,
+      "rsi": 61.8,
+      "adx": 30.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 35 เทรนด์แข็ง",
-        "RSI 57"
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 62"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.2,
+        "label": "neutral",
+        "reason": "ทองดีดกลับแต่ดอลลาร์แข็ง กดดันสลับ"
+      }
     }
   ]
 }
