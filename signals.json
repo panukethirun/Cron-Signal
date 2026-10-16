@@ -1,86 +1,87 @@
 {
-  "updated_utc": "2026-10-16T01:09:31+00:00",
-  "updated_th": "16 ต.ค. 2569, 08:09 น.",
+  "updated_utc": "2026-10-16T07:01:13+00:00",
+  "updated_th": "16 ต.ค. 2569, 14:01 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
       "confidence": 14,
-      "price": 82308.63,
+      "price": 82180.01,
       "tp": null,
       "sl": null,
-      "rsi": 54.5,
-      "adx": 17.2,
+      "rsi": 52.8,
+      "adx": 16.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 17 ไซด์เวย์",
-        "RSI 54"
+        "ADX 16 ไซด์เวย์",
+        "RSI 53"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.45,
         "label": "bearish",
-        "reason": "ข่าวลบจาก CPI สูงและ ETF ไหลออก กดดันราคา"
+        "reason": "ข่าว CPI สูงกดดัน ราคาร่วงหลุด 83,000"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 7,
-      "price": 2441.86,
+      "confidence": 5,
+      "price": 2449.43,
       "tp": null,
       "sl": null,
-      "rsi": 55.4,
-      "adx": 27.0,
+      "rsi": 57.7,
+      "adx": 19.8,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 55"
+        "ADX 20 ไซด์เวย์",
+        "RSI 58"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "เสี่ยง liquidation สูง ราคาทดสอบแนวรับ กดดันระยะสั้น"
+        "reason": "CPI ร้อน เงินไหลออก ETF เสี่ยง liquidation"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 158.18,
+      "confidence": 32,
+      "price": 157.93,
       "tp": null,
       "sl": null,
-      "rsi": 54.7,
+      "rsi": 46.0,
       "adx": 14.3,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 14 ไซด์เวย์",
-        "RSI 55"
+        "RSI 46"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ญี่ปุ่นแทรกแซงค่าเงิน เยนแข็ง กดดัน USD/JPY"
+        "reason": "ญี่ปุ่นแทรกแซง เยนแข็งค่า หลังชน 159"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 12,
-      "price": 4155.3,
-      "tp": null,
-      "sl": null,
-      "rsi": 52.5,
-      "adx": 21.9,
+      "signal": "LONG",
+      "confidence": 31,
+      "price": 4177.15,
+      "tp": 4209.54,
+      "sl": 4157.72,
+      "rsi": 60.3,
+      "adx": 22.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
+        "สวนเทรนด์ใหญ่",
         "ADX 22 เริ่มมีเทรนด์",
-        "RSI 52"
+        "RSI 60"
       ],
       "ai": {
-        "score": 0.2,
+        "score": 0.15,
         "label": "neutral",
-        "reason": "ทรงตัวแถวแนวรับ ข่าวผสม ทิศทางไม่ชัด"
+        "reason": "ทรงตัวแถวรับสำคัญ ข่าวผสมทั้งสองทาง"
       }
     }
   ]
