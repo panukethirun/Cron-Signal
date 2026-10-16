@@ -1,86 +1,86 @@
 {
-  "updated_utc": "2026-10-16T17:18:45+00:00",
-  "updated_th": "17 ต.ค. 2569, 00:18 น.",
+  "updated_utc": "2026-10-16T20:54:38+00:00",
+  "updated_th": "17 ต.ค. 2569, 03:54 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 35,
-      "price": 80942.34,
+      "confidence": 34,
+      "price": 81759.56,
       "tp": null,
       "sl": null,
-      "rsi": 34.7,
-      "adx": 14.0,
+      "rsi": 48.4,
+      "adx": 15.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 14 ไซด์เวย์",
-        "RSI 35"
+        "ADX 15 ไซด์เวย์",
+        "RSI 48"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ข่าวลบ ราคาร่วงหลุด 78,000 ETF ไหลออก"
+        "reason": "ข่าวลบ ถอน ETF ไหลออก CPI สูง กดดันราคา"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 27,
-      "price": 2401.6,
+      "confidence": 43,
+      "price": 2416.26,
       "tp": null,
       "sl": null,
-      "rsi": 35.9,
-      "adx": 16.3,
+      "rsi": 41.7,
+      "adx": 17.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 16 ไซด์เวย์",
-        "RSI 36"
+        "ADX 17 ไซด์เวย์",
+        "RSI 42"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "ETH ร่วง เสี่ยง liquidation แตะแนวรับ 2,350"
+        "reason": "ข่าวลบ ถอน ETF ไหลออก เสี่ยงล้างพอร์ต"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 3,
-      "price": 158.2,
+      "confidence": 0,
+      "price": 157.98,
       "tp": null,
       "sl": null,
-      "rsi": 56.8,
-      "adx": 12.1,
+      "rsi": 48.5,
+      "adx": 11.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 12 ไซด์เวย์",
-        "RSI 57"
+        "ADX 11 ไซด์เวย์",
+        "RSI 48"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "เยนแข็งหลังญี่ปุ่นแทรกแซง โมเมนตัมขาขึ้นชะลอ"
+        "reason": "ญี่ปุ่นแทรกแซง เยนแข็ง คาดผันผวน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 17,
-      "price": 4158.62,
+      "confidence": 14,
+      "price": 4166.74,
       "tp": null,
       "sl": null,
-      "rsi": 45.6,
-      "adx": 20.3,
+      "rsi": 49.9,
+      "adx": 16.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 20 เริ่มมีเทรนด์",
-        "RSI 46"
+        "ADX 17 ไซด์เวย์",
+        "RSI 50"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.4,
         "label": "bullish",
-        "reason": "ทองดีดตัวเข้าใกล้ 4,200 ดอลลาร์อ่อนหนุน"
+        "reason": "ทองดีดตัว หนุนจากดอลลาร์อ่อน"
       }
     }
   ]
