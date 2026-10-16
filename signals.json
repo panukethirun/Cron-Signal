@@ -1,87 +1,86 @@
 {
-  "updated_utc": "2026-10-15T22:07:34+00:00",
-  "updated_th": "16 ต.ค. 2569, 05:07 น.",
+  "updated_utc": "2026-10-16T01:09:31+00:00",
+  "updated_th": "16 ต.ค. 2569, 08:09 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 6,
-      "price": 82470.0,
+      "confidence": 14,
+      "price": 82308.63,
       "tp": null,
       "sl": null,
-      "rsi": 56.9,
-      "adx": 20.4,
+      "rsi": 54.5,
+      "adx": 17.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 20 เริ่มมีเทรนด์",
-        "RSI 57"
+        "ADX 17 ไซด์เวย์",
+        "RSI 54"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ข่าวเงินเฟ้อสูงกดราคาร่วง แม้มีสัญญาณบวกปน"
+        "reason": "ข่าวลบจาก CPI สูงและ ETF ไหลออก กดดันราคา"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 9,
-      "price": 2462.88,
+      "confidence": 7,
+      "price": 2441.86,
       "tp": null,
       "sl": null,
-      "rsi": 62.8,
-      "adx": 32.4,
+      "rsi": 55.4,
+      "adx": 27.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 63"
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 55"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "PPI ร้อน ราคาหลุด 2,350 ข่าวลบชัด"
+        "reason": "เสี่ยง liquidation สูง ราคาทดสอบแนวรับ กดดันระยะสั้น"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 29,
-      "price": 158.02,
+      "confidence": 0,
+      "price": 158.18,
       "tp": null,
       "sl": null,
-      "rsi": 49.0,
-      "adx": 17.2,
+      "rsi": 54.7,
+      "adx": 14.3,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 17 ไซด์เวย์",
-        "RSI 49"
+        "ADX 14 ไซด์เวย์",
+        "RSI 55"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "เยนแข็งหลังญี่ปุ่นแทรกแซง กดดอลลาร์"
+        "reason": "ญี่ปุ่นแทรกแซงค่าเงิน เยนแข็ง กดดัน USD/JPY"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 36,
-      "price": 4170.38,
-      "tp": 4199.82,
-      "sl": 4152.71,
-      "rsi": 62.5,
-      "adx": 26.2,
+      "signal": "NEUTRAL",
+      "confidence": 12,
+      "price": 4155.3,
+      "tp": null,
+      "sl": null,
+      "rsi": 52.5,
+      "adx": 21.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 63"
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 52"
       ],
       "ai": {
-        "score": 0.1,
+        "score": 0.2,
         "label": "neutral",
-        "reason": "ทองแกว่งกรอบ ข่าวผสมทั้งบวกและลบ"
+        "reason": "ทรงตัวแถวแนวรับ ข่าวผสม ทิศทางไม่ชัด"
       }
     }
   ]
