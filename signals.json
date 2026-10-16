@@ -1,86 +1,86 @@
 {
-  "updated_utc": "2026-10-16T20:54:38+00:00",
-  "updated_th": "17 ต.ค. 2569, 03:54 น.",
+  "updated_utc": "2026-10-16T23:26:37+00:00",
+  "updated_th": "17 ต.ค. 2569, 06:26 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
       "confidence": 34,
-      "price": 81759.56,
+      "price": 81744.07,
       "tp": null,
       "sl": null,
-      "rsi": 48.4,
-      "adx": 15.4,
+      "rsi": 48.3,
+      "adx": 15.3,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 15 ไซด์เวย์",
         "RSI 48"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "ข่าวลบ ถอน ETF ไหลออก CPI สูง กดดันราคา"
+        "reason": "ข่าวลบหนัก CPI สูง ETF ไหลออก หลุด 78,000"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 43,
-      "price": 2416.26,
+      "confidence": 36,
+      "price": 2424.3,
       "tp": null,
       "sl": null,
-      "rsi": 41.7,
-      "adx": 17.2,
+      "rsi": 45.8,
+      "adx": 16.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 17 ไซด์เวย์",
-        "RSI 42"
+        "ADX 16 ไซด์เวย์",
+        "RSI 46"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "ข่าวลบ ถอน ETF ไหลออก เสี่ยงล้างพอร์ต"
+        "reason": "ตาม BTC ลง เสี่ยง liquidation 8.71B ทดสอบแนวรับ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
       "confidence": 0,
-      "price": 157.98,
+      "price": 158.02,
       "tp": null,
       "sl": null,
-      "rsi": 48.5,
-      "adx": 11.4,
+      "rsi": 50.4,
+      "adx": 10.8,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 11 ไซด์เวย์",
-        "RSI 48"
+        "RSI 50"
       ],
       "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "ญี่ปุ่นแทรกแซง เยนแข็ง คาดผันผวน"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสม ญี่ปุ่นแทรกแซง แต่ส่วนต่างดอกเบี้ยยังหนุน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 14,
-      "price": 4166.74,
+      "confidence": 11,
+      "price": 4164.64,
       "tp": null,
       "sl": null,
-      "rsi": 49.9,
-      "adx": 16.7,
+      "rsi": 48.8,
+      "adx": 13.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 17 ไซด์เวย์",
-        "RSI 50"
+        "ADX 14 ไซด์เวย์",
+        "RSI 49"
       ],
       "ai": {
         "score": 0.4,
         "label": "bullish",
-        "reason": "ทองดีดตัว หนุนจากดอลลาร์อ่อน"
+        "reason": "ยืนแนวรับสำคัญ ลุ้นเบรกเอาท์ขึ้นทดสอบ 4,200"
       }
     }
   ]
