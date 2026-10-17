@@ -1,86 +1,86 @@
 {
-  "updated_utc": "2026-10-17T16:58:42+00:00",
-  "updated_th": "17 ต.ค. 2569, 23:58 น.",
+  "updated_utc": "2026-10-17T19:11:36+00:00",
+  "updated_th": "18 ต.ค. 2569, 02:11 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 48,
-      "price": 81206.28,
+      "confidence": 32,
+      "price": 81504.12,
       "tp": null,
       "sl": null,
-      "rsi": 36.6,
-      "adx": 19.2,
+      "rsi": 47.0,
+      "adx": 19.5,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 19 ไซด์เวย์",
-        "RSI 37"
+        "RSI 47"
       ],
       "ai": {
         "score": -0.6,
         "label": "bearish",
-        "reason": "ข่าวลบเด่น น้ำมันแตะ $100 เฟดสายเหยี่ยว ราคาร่วง"
+        "reason": "ข่าวลบเด่น CPIสูง ดอกเบี้ยhawkish ราคาร่วง"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 33,
-      "price": 2402.01,
+      "confidence": 38,
+      "price": 2415.49,
       "tp": null,
       "sl": null,
-      "rsi": 33.4,
-      "adx": 13.2,
+      "rsi": 43.2,
+      "adx": 15.3,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 13 ไซด์เวย์",
-        "RSI 33"
+        "ADX 15 ไซด์เวย์",
+        "RSI 43"
       ],
       "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "แรงซื้อสหรัฐอ่อน แต่ยังพยุงแนวรับ $2.4K"
+        "score": -0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสมกัน ยืนแนวรับได้ แต่แรงซื้ออ่อน"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 4,
+      "confidence": 8,
       "price": 158.03,
       "tp": null,
       "sl": null,
-      "rsi": 50.3,
-      "adx": 6.5,
+      "rsi": 51.0,
+      "adx": 5.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 7 ไซด์เวย์",
-        "RSI 50"
+        "ADX 6 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "เยนพุ่ง นักวิเคราะห์สงสัยญี่ปุ่นแทรกแซง"
+        "reason": "เยนแข็งจากคาดการณ์แทรกแซง เงินดอลลาร์อ่อน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 0,
-      "price": 4164.73,
+      "price": 4164.66,
       "tp": null,
       "sl": null,
-      "rsi": 48.9,
-      "adx": 4.3,
+      "rsi": 48.7,
+      "adx": 3.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 4 ไซด์เวย์",
         "RSI 49"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.4,
         "label": "bullish",
-        "reason": "ทองดีดตัว ยืนแนวรับสำคัญ จ่อเบรกเอาท์"
+        "reason": "ทองดีดตัวจากบอนด์ยีลด์ร่วง ดอลลาร์อ่อน"
       }
     }
   ]
