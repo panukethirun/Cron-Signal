@@ -1,86 +1,86 @@
 {
-  "updated_utc": "2026-10-17T09:10:26+00:00",
-  "updated_th": "17 ต.ค. 2569, 16:10 น.",
+  "updated_utc": "2026-10-17T13:36:10+00:00",
+  "updated_th": "17 ต.ค. 2569, 20:36 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 28,
-      "price": 81728.01,
+      "confidence": 34,
+      "price": 81517.39,
       "tp": null,
       "sl": null,
-      "rsi": 50.3,
-      "adx": 16.8,
+      "rsi": 44.3,
+      "adx": 17.4,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 17 ไซด์เวย์",
-        "RSI 50"
+        "RSI 44"
       ],
       "ai": {
-        "score": -0.45,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "ETF ไหลออก ราคาหลุด 78,000 หลังถ้อยแถลง Hawkish"
+        "reason": "ข่าวลบเด่น CPIร้อน วอร์ชฮอว์ก ราคาร่วงต่ำกว่า 78,000"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 9,
-      "price": 2436.22,
+      "confidence": 18,
+      "price": 2425.68,
       "tp": null,
       "sl": null,
-      "rsi": 53.9,
-      "adx": 11.1,
+      "rsi": 45.4,
+      "adx": 10.6,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 11 ไซด์เวย์",
-        "RSI 54"
+        "RSI 45"
       ],
       "ai": {
-        "score": -0.35,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ETF ไหลออก เสี่ยง liquidation ทดสอบแนวรับสำคัญ"
+        "reason": "อีเธอเรียมร่วงตามตลาด ETF ไหลออก แต่มีแรงรับที่แนวรับ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 0,
+      "confidence": 4,
       "price": 158.03,
       "tp": null,
       "sl": null,
-      "rsi": 50.9,
-      "adx": 8.8,
+      "rsi": 50.8,
+      "adx": 7.8,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 9 ไซด์เวย์",
+        "ADX 8 ไซด์เวย์",
         "RSI 51"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "เยนพุ่งจากการแทรกแซง ถูกปฏิเสธที่ 159"
+        "reason": "เยนแข็งค่าจากคาดการณ์แทรกแซงญี่ปุ่น กดดอลลาร์"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 0,
-      "price": 4164.76,
+      "price": 4164.73,
       "tp": null,
       "sl": null,
-      "rsi": 48.9,
-      "adx": 6.8,
+      "rsi": 48.8,
+      "adx": 5.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 7 ไซด์เวย์",
+        "ADX 5 ไซด์เวย์",
         "RSI 49"
       ],
       "ai": {
-        "score": 0.5,
-        "label": "bullish",
-        "reason": "ทองดีดตัวจากแนวรับ ผลตอบแทนพันธบัตรลด"
+        "score": 0.2,
+        "label": "neutral",
+        "reason": "ทองแกว่งไร้ทิศชัด ทดสอบแนวรับสำคัญและแนวต้าน"
       }
     }
   ]
