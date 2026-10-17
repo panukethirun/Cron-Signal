@@ -1,21 +1,21 @@
 {
-  "updated_utc": "2026-10-16T23:26:37+00:00",
-  "updated_th": "17 ต.ค. 2569, 06:26 น.",
+  "updated_utc": "2026-10-17T04:09:25+00:00",
+  "updated_th": "17 ต.ค. 2569, 11:09 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 34,
-      "price": 81744.07,
+      "confidence": 39,
+      "price": 81556.35,
       "tp": null,
       "sl": null,
-      "rsi": 48.3,
-      "adx": 15.3,
+      "rsi": 45.5,
+      "adx": 17.8,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 15 ไซด์เวย์",
-        "RSI 48"
+        "ADX 18 ไซด์เวย์",
+        "RSI 46"
       ],
       "ai": {
         "score": -0.6,
@@ -26,61 +26,61 @@
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 36,
-      "price": 2424.3,
+      "confidence": 31,
+      "price": 2426.46,
       "tp": null,
       "sl": null,
-      "rsi": 45.8,
-      "adx": 16.2,
+      "rsi": 47.8,
+      "adx": 14.1,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 16 ไซด์เวย์",
-        "RSI 46"
+        "ADX 14 ไซด์เวย์",
+        "RSI 48"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "ตาม BTC ลง เสี่ยง liquidation 8.71B ทดสอบแนวรับ"
+        "reason": "ราคาร่วง liquidation ระยะยาว เสี่ยงทดสอบแนวรับ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
       "confidence": 0,
-      "price": 158.02,
+      "price": 158.03,
       "tp": null,
       "sl": null,
-      "rsi": 50.4,
-      "adx": 10.8,
+      "rsi": 50.8,
+      "adx": 9.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 11 ไซด์เวย์",
-        "RSI 50"
+        "ADX 9 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม ญี่ปุ่นแทรกแซง แต่ส่วนต่างดอกเบี้ยยังหนุน"
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "เยนแข็งจากคาดแทรกแซง แต่สัญญาณผสม"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 11,
-      "price": 4164.64,
+      "confidence": 0,
+      "price": 4164.67,
       "tp": null,
       "sl": null,
       "rsi": 48.8,
-      "adx": 13.5,
+      "adx": 9.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 14 ไซด์เวย์",
+        "ADX 10 ไซด์เวย์",
         "RSI 49"
       ],
       "ai": {
-        "score": 0.4,
+        "score": 0.5,
         "label": "bullish",
-        "reason": "ยืนแนวรับสำคัญ ลุ้นเบรกเอาท์ขึ้นทดสอบ 4,200"
+        "reason": "ทองดีดตัว ยields สหรัฐลด ดอลลาร์อ่อน"
       }
     }
   ]
