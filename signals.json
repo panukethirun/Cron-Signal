@@ -1,88 +1,88 @@
 {
-  "updated_utc": "2026-10-19T06:01:35+00:00",
-  "updated_th": "19 ต.ค. 2569, 13:01 น.",
+  "updated_utc": "2026-10-19T12:55:11+00:00",
+  "updated_th": "19 ต.ค. 2569, 19:55 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
       "confidence": 39,
-      "price": 82762.4,
-      "tp": 83544.4,
-      "sl": 82293.2,
-      "rsi": 67.4,
-      "adx": 27.8,
+      "price": 82600.0,
+      "tp": 83519.24,
+      "sl": 82048.46,
+      "rsi": 58.8,
+      "adx": 28.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
         "ADX 28 เทรนด์แข็ง",
-        "RSI 67"
-      ],
-      "ai": {
-        "score": -0.6,
-        "label": "bearish",
-        "reason": "ข่าวลบหนัก ETF ไหลออก หลุด 78,000 หวั่น Black Monday"
-      }
-    },
-    {
-      "symbol": "ETH/USD",
-      "signal": "NEUTRAL",
-      "confidence": 7,
-      "price": 2431.08,
-      "tp": null,
-      "sl": null,
-      "rsi": 61.4,
-      "adx": 23.5,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 61"
-      ],
-      "ai": {
-        "score": -0.4,
-        "label": "bearish",
-        "reason": "ETH ร่วงรายสัปดาห์ ใกล้โซนอันตรายตาม BTC"
-      }
-    },
-    {
-      "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 27,
-      "price": 158.12,
-      "tp": null,
-      "sl": null,
-      "rsi": 58.5,
-      "adx": 19.7,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 20 ไซด์เวย์",
         "RSI 59"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "เยนพุ่ง แบงก์ชาติญี่ปุ่นอาจแทรกแซง"
+        "reason": "ข่าวลบ ETF ไหลออก วิตกฟองสบู่ AI ราคาร่วง"
+      }
+    },
+    {
+      "symbol": "ETH/USD",
+      "signal": "LONG",
+      "confidence": 29,
+      "price": 2424.3,
+      "tp": 2463.53,
+      "sl": 2400.76,
+      "rsi": 55.3,
+      "adx": 20.9,
+      "reasons": [
+        "เทรนด์ขาขึ้น",
+        "สวนเทรนด์ใหญ่",
+        "ADX 21 เริ่มมีเทรนด์",
+        "RSI 55"
+      ],
+      "ai": {
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "ETH ร่วงรายสัปดาห์ กดดันจากบรรยากาศตลาดลบ"
+      }
+    },
+    {
+      "symbol": "USD/JPY",
+      "signal": "NEUTRAL",
+      "confidence": 23,
+      "price": 158.37,
+      "tp": null,
+      "sl": null,
+      "rsi": 66.8,
+      "adx": 16.8,
+      "reasons": [
+        "เทรนด์ขาขึ้น",
+        "ADX 17 ไซด์เวย์",
+        "RSI 67"
+      ],
+      "ai": {
+        "score": -0.4,
+        "label": "bearish",
+        "reason": "เยนพุ่ง นักวิเคราะห์สงสัยญี่ปุ่นแทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 83,
-      "price": 4184.79,
-      "tp": 4200.73,
-      "sl": 4175.23,
-      "rsi": 72.2,
-      "adx": 33.2,
+      "signal": "NEUTRAL",
+      "confidence": 7,
+      "price": 4161.46,
+      "tp": null,
+      "sl": null,
+      "rsi": 38.5,
+      "adx": 26.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 33 เทรนด์แข็ง",
-        "RSI 72"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 39"
       ],
       "ai": {
         "score": 0.4,
         "label": "bullish",
-        "reason": "ทองดีดตัว ผลตอบแทนพันธบัตรลด ดอลลาร์อ่อน"
+        "reason": "ทองดีดตัว ผลตอบแทนพันธบัตรสหรัฐร่วง ดอลลาร์อ่อน"
       }
     }
   ]
