@@ -1,89 +1,89 @@
 {
-  "updated_utc": "2026-10-20T19:07:42+00:00",
-  "updated_th": "21 ต.ค. 2569, 02:07 น.",
+  "updated_utc": "2026-10-20T23:05:53+00:00",
+  "updated_th": "21 ต.ค. 2569, 06:05 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 35,
-      "price": 82515.05,
-      "tp": 83607.22,
-      "sl": 81859.75,
-      "rsi": 55.9,
-      "adx": 25.5,
+      "confidence": 70,
+      "price": 83038.01,
+      "tp": 84010.46,
+      "sl": 82454.54,
+      "rsi": 62.3,
+      "adx": 28.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 56"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 28 เทรนด์แข็ง",
+        "RSI 62"
       ],
       "ai": {
-        "score": -0.35,
-        "label": "bearish",
-        "reason": "ข่าวลบ AI bubble และคำเตือนดิ่งแรงกดดันราคา"
+        "score": 0.25,
+        "label": "bullish",
+        "reason": "ETF inflows หนุน ราคารีบาวด์เหนือ 82,000"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
       "confidence": 39,
-      "price": 2436.11,
-      "tp": 2484.79,
-      "sl": 2406.9,
-      "rsi": 56.8,
-      "adx": 28.4,
+      "price": 2454.05,
+      "tp": 2498.15,
+      "sl": 2427.59,
+      "rsi": 61.3,
+      "adx": 28.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
         "ADX 28 เทรนด์แข็ง",
-        "RSI 57"
+        "RSI 61"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.35,
         "label": "bearish",
-        "reason": "หลุด 2,400 ETF ไหลออกหนัก กดดันต่อเนื่อง"
+        "reason": "หลุด 2,400 ETF ไหลออก กดดันราคา"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 14,
-      "price": 158.2,
+      "confidence": 12,
+      "price": 158.28,
       "tp": null,
       "sl": null,
-      "rsi": 49.7,
-      "adx": 25.6,
+      "rsi": 54.4,
+      "adx": 22.0,
       "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 50"
+        "เทรนด์ขาขึ้น",
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 54"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "เยนแข็งจากการแทรกแซง คาดเงินเยนฟื้นต่อ"
+        "reason": "เยนแข็ง คาดญี่ปุ่นแทรกแซงหนุนเยน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 56,
-      "price": 4124.83,
-      "tp": 4095.74,
-      "sl": 4142.28,
-      "rsi": 44.7,
-      "adx": 28.7,
+      "confidence": 46,
+      "price": 4120.64,
+      "tp": 4095.63,
+      "sl": 4135.64,
+      "rsi": 42.8,
+      "adx": 23.6,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 29 เทรนด์แข็ง",
-        "RSI 45"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 43"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ผู้ขายคุมเกมใต้ SMA21 แต่อาจรีบาวด์จำกัด"
+        "reason": "ผู้ขายคุมเกม ใต้ SMA21 กดดัน"
       }
     }
   ]
