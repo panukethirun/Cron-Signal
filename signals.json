@@ -1,88 +1,87 @@
 {
-  "updated_utc": "2026-10-21T04:28:35+00:00",
-  "updated_th": "21 ต.ค. 2569, 11:28 น.",
+  "updated_utc": "2026-10-21T10:00:02+00:00",
+  "updated_th": "21 ต.ค. 2569, 17:00 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 57,
-      "price": 82827.93,
-      "tp": 83710.43,
-      "sl": 82298.43,
-      "rsi": 56.7,
-      "adx": 29.4,
+      "confidence": 81,
+      "price": 83436.66,
+      "tp": 84387.3,
+      "sl": 82866.28,
+      "rsi": 66.4,
+      "adx": 32.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 29 เทรนด์แข็ง",
-        "RSI 57"
+        "ADX 32 เทรนด์แข็ง",
+        "RSI 66"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "ข่าวผสม มีทั้งบวกและลบ ไม่ชัดเจน"
+        "reason": "ข่าวผสม มีทั้งคำเตือนดิ่งและราคาพุ่ง ปัจจัยขัดแย้ง"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
       "confidence": 23,
-      "price": 2445.52,
+      "price": 2456.18,
       "tp": null,
       "sl": null,
-      "rsi": 55.9,
-      "adx": 27.6,
+      "rsi": 59.6,
+      "adx": 27.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 56"
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 60"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.2,
         "label": "bearish",
-        "reason": "หลุด 2400 ETF ไหลออก กดดันราคา"
+        "reason": "ETF ไหลออก ราคาหลุด 2400 แต่มีแรงซื้อกลับบ้าง"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 5,
-      "price": 158.13,
+      "confidence": 19,
+      "price": 158.14,
       "tp": null,
       "sl": null,
-      "rsi": 44.7,
-      "adx": 18.5,
+      "rsi": 46.3,
+      "adx": 17.1,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 18 ไซด์เวย์",
-        "RSI 45"
+        "เทรนด์ขาลง",
+        "ADX 17 ไซด์เวย์",
+        "RSI 46"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจากคาดการณ์แทรกแซง"
+        "reason": "เยนแข็ง คาดแทรกแซง เงินดอลลาร์อ่อนค่า"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "SHORT",
-      "confidence": 36,
-      "price": 4121.34,
-      "tp": 4095.06,
-      "sl": 4137.1,
-      "rsi": 45.6,
-      "adx": 21.6,
+      "signal": "NEUTRAL",
+      "confidence": 13,
+      "price": 4118.87,
+      "tp": null,
+      "sl": null,
+      "rsi": 46.0,
+      "adx": 16.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 22 เริ่มมีเทรนด์",
+        "ADX 16 ไซด์เวย์",
         "RSI 46"
       ],
       "ai": {
-        "score": -0.2,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ทองคำอ่อนตัว ผลตอบแทนพันธบัตรกดดัน"
+        "reason": "ทองคำร่วงต่อเนื่อง ผลตอบแทนพันธบัตรกดดัน"
       }
     }
   ]
