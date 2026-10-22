@@ -1,88 +1,90 @@
 {
-  "updated_utc": "2026-10-22T10:00:25+00:00",
-  "updated_th": "22 ต.ค. 2569, 17:00 น.",
+  "updated_utc": "2026-10-22T15:01:41+00:00",
+  "updated_th": "22 ต.ค. 2569, 22:01 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "NEUTRAL",
-      "confidence": 11,
-      "price": 81949.46,
-      "tp": null,
-      "sl": null,
-      "rsi": 28.8,
-      "adx": 39.7,
+      "signal": "SHORT",
+      "confidence": 56,
+      "price": 81842.0,
+      "tp": 80884.08,
+      "sl": 82416.75,
+      "rsi": 32.2,
+      "adx": 41.9,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 40 เทรนด์แข็ง",
-        "RSI 29"
-      ],
-      "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ราคาขึ้นแตะ 84.6K ตามตลาดหุ้นบวก"
-      }
-    },
-    {
-      "symbol": "ETH/USD",
-      "signal": "NEUTRAL",
-      "confidence": 9,
-      "price": 2408.1,
-      "tp": null,
-      "sl": null,
-      "rsi": 28.5,
-      "adx": 32.1,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 28"
+        "เทรนด์ขาลง",
+        "สวนเทรนด์ใหญ่",
+        "ADX 42 เทรนด์แข็ง",
+        "RSI 32"
       ],
       "ai": {
         "score": 0.2,
         "label": "neutral",
-        "reason": "ฟื้นเหนือ 2,500 แต่ ETF ไหลออกกดดัน"
+        "reason": "ข่าวผสม ทั้งคาดการณ์เชิงบวกและแรงกดดันจากน้ำมัน"
       }
     },
     {
-      "symbol": "USD/JPY",
+      "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 83,
-      "price": 156.82,
-      "tp": 156.29,
-      "sl": 157.15,
-      "rsi": 20.4,
-      "adx": 33.1,
+      "confidence": 84,
+      "price": 2412.22,
+      "tp": 2375.39,
+      "sl": 2434.32,
+      "rsi": 35.4,
+      "adx": 33.7,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 33 เทรนด์แข็ง",
-        "RSI 20"
-      ],
-      "ai": {
-        "score": -0.4,
-        "label": "bearish",
-        "reason": "เยนพุ่งหลังญี่ปุ่นแทรกแซง คาดอ่อนค่าต่อ"
-      }
-    },
-    {
-      "symbol": "XAU/USD",
-      "signal": "SHORT",
-      "confidence": 81,
-      "price": 4086.11,
-      "tp": 4051.57,
-      "sl": 4106.84,
-      "rsi": 35.3,
-      "adx": 32.5,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 32 เทรนด์แข็ง",
+        "ADX 34 เทรนด์แข็ง",
         "RSI 35"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ทองอ่อนลงจากยีลด์และดอลลาร์แข็ง"
+        "reason": "คำเตือน sell-off และราคาร่วง 12% รายเดือน"
+      }
+    },
+    {
+      "symbol": "USD/JPY",
+      "signal": "SHORT",
+      "confidence": 92,
+      "price": 157.25,
+      "tp": 156.69,
+      "sl": 157.59,
+      "rsi": 40.3,
+      "adx": 36.8,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 37 เทรนด์แข็ง",
+        "RSI 40"
+      ],
+      "ai": {
+        "score": -0.4,
+        "label": "bearish",
+        "reason": "เยนแข็ง คาดญี่ปุ่นแทรกแซงหนุนเยน"
+      }
+    },
+    {
+      "symbol": "XAU/USD",
+      "signal": "SHORT",
+      "confidence": 93,
+      "price": 4060.27,
+      "tp": 4019.48,
+      "sl": 4084.75,
+      "rsi": 36.3,
+      "adx": 37.4,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 37 เทรนด์แข็ง",
+        "RSI 36"
+      ],
+      "ai": {
+        "score": -0.4,
+        "label": "bearish",
+        "reason": "ทองอ่อนลงจากยีลด์และดอลลาร์แข็งค่า"
       }
     }
   ]
