@@ -1,74 +1,90 @@
 {
-  "updated_utc": "2026-10-24T18:01:34+00:00",
-  "updated_th": "25 ต.ค. 2569, 01:01 น.",
+  "updated_utc": "2026-10-24T20:38:20+00:00",
+  "updated_th": "25 ต.ค. 2569, 03:38 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 100,
-      "price": 80294.54,
-      "tp": 79379.3,
-      "sl": 80843.68,
-      "rsi": 39.0,
-      "adx": 53.1,
+      "confidence": 67,
+      "price": 80582.34,
+      "tp": 79692.01,
+      "sl": 81116.54,
+      "rsi": 45.9,
+      "adx": 50.4,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 53 แรงมาก ระวังกลับตัว",
-        "RSI 39"
+        "ADX 50 แรงมาก ระวังกลับตัว",
+        "RSI 46"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.6,
+        "label": "bearish",
+        "reason": "หลุด 80,000 ดอลลาร์ กังวลตะวันออกกลาง กดดันระยะสั้น"
+      }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
       "confidence": 100,
-      "price": 2323.29,
-      "tp": 2281.56,
-      "sl": 2348.33,
-      "rsi": 30.5,
-      "adx": 46.6,
+      "price": 2345.62,
+      "tp": 2303.8,
+      "sl": 2370.71,
+      "rsi": 42.4,
+      "adx": 44.7,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 47 เทรนด์แข็ง",
-        "RSI 31"
+        "ADX 45 เทรนด์แข็ง",
+        "RSI 42"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.5,
+        "label": "bearish",
+        "reason": "อ่อนแอกว่า BTC เสี่ยงทดสอบแนวรับ 2,000 ดอลลาร์"
+      }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 27,
-      "price": 156.84,
+      "confidence": 28,
+      "price": 156.85,
       "tp": null,
       "sl": null,
-      "rsi": 48.3,
-      "adx": 16.3,
+      "rsi": 49.7,
+      "adx": 16.6,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 16 ไซด์เวย์",
-        "RSI 48"
+        "ADX 17 ไซด์เวย์",
+        "RSI 50"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.5,
+        "label": "bearish",
+        "reason": "เยนแข็งค่าจาก risk aversion พันธบัตรสหรัฐฯ ลดลง"
+      }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
       "confidence": 78,
-      "price": 3993.6,
-      "tp": 3986.07,
-      "sl": 3998.12,
-      "rsi": 34.7,
-      "adx": 56.9,
+      "price": 3993.66,
+      "tp": 3987.07,
+      "sl": 3997.61,
+      "rsi": 34.8,
+      "adx": 57.1,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
         "ADX 57 แรงมาก ระวังกลับตัว",
         "RSI 35"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "โมเมนตัมขาลง เสี่ยงหลุดแนวรับสำคัญ แม้มีแรงพยุง"
+      }
     }
   ]
 }
