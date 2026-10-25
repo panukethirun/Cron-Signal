@@ -1,88 +1,89 @@
 {
-  "updated_utc": "2026-10-25T18:53:05+00:00",
-  "updated_th": "26 ต.ค. 2569, 01:53 น.",
+  "updated_utc": "2026-10-25T21:38:19+00:00",
+  "updated_th": "26 ต.ค. 2569, 04:38 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 44,
-      "price": 80657.39,
-      "tp": 79967.57,
-      "sl": 81071.28,
-      "rsi": 50.1,
-      "adx": 26.6,
+      "confidence": 47,
+      "price": 80455.14,
+      "tp": 79826.13,
+      "sl": 80832.55,
+      "rsi": 44.7,
+      "adx": 24.2,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 50"
-      ],
-      "ai": {
-        "score": -0.55,
-        "label": "bearish",
-        "reason": "ข่าวลบเด่น ETF ไหลออก ล้างพอร์ต ราคาหลุด 80k"
-      }
-    },
-    {
-      "symbol": "ETH/USD",
-      "signal": "NEUTRAL",
-      "confidence": 22,
-      "price": 2356.09,
-      "tp": null,
-      "sl": null,
-      "rsi": 53.3,
-      "adx": 26.5,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 53"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 45"
       ],
       "ai": {
         "score": -0.45,
         "label": "bearish",
-        "reason": "ETF ไหลออก 1 พันล้าน ราคาร่วงตามน้ำมัน"
+        "reason": "หลุด 80,000 เหตุตึงเครียดตะวันออกกลาง ETF ไหลออกหนัก"
+      }
+    },
+    {
+      "symbol": "ETH/USD",
+      "signal": "SHORT",
+      "confidence": 45,
+      "price": 2341.08,
+      "tp": 2309.79,
+      "sl": 2359.86,
+      "rsi": 44.8,
+      "adx": 23.1,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 45"
+      ],
+      "ai": {
+        "score": -0.4,
+        "label": "bearish",
+        "reason": "หลุด 2,300 ETF ไหลออก 1 พันล้านดอลล์"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 156.84,
+      "confidence": 7,
+      "price": 157.03,
       "tp": null,
       "sl": null,
-      "rsi": 45.5,
-      "adx": 18.4,
+      "rsi": 71.3,
+      "adx": 26.3,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 18 ไซด์เวย์",
-        "RSI 45"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 71"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "เยนแข็งค่า เงินเฟ้อญี่ปุ่นพุ่ง risk aversion"
+        "reason": "เยนแข็งค่าสุดรอบ 5 สัปดาห์ เงินทุนหนีเสี่ยง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 78,
-      "price": 3993.6,
-      "tp": 3991.83,
-      "sl": 3994.67,
-      "rsi": 35.1,
-      "adx": 58.3,
+      "confidence": 44,
+      "price": 3993.56,
+      "tp": 3990.98,
+      "sl": 3995.1,
+      "rsi": 36.1,
+      "adx": 51.9,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 58 แรงมาก ระวังกลับตัว",
-        "RSI 35"
+        "ADX 52 แรงมาก ระวังกลับตัว",
+        "RSI 36"
       ],
       "ai": {
-        "score": -0.4,
-        "label": "bearish",
-        "reason": "ทองร่วงแรง หลุดแนวรับ น้ำมันแข็งกดดัน"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ทรงตัวแถว 4,000-4,110 สัญญาณผสม"
       }
     }
   ]
