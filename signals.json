@@ -1,85 +1,84 @@
 {
-  "updated_utc": "2026-10-26T17:15:40+00:00",
-  "updated_th": "27 ต.ค. 2569, 00:15 น.",
+  "updated_utc": "2026-10-26T22:34:50+00:00",
+  "updated_th": "27 ต.ค. 2569, 05:34 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 50,
-      "price": 80498.0,
-      "tp": 79387.93,
-      "sl": 81164.04,
-      "rsi": 53.3,
-      "adx": 30.2,
+      "confidence": 79,
+      "price": 79942.36,
+      "tp": 78945.35,
+      "sl": 80540.57,
+      "rsi": 45.0,
+      "adx": 31.6,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 53"
+        "ADX 32 เทรนด์แข็ง",
+        "RSI 45"
       ],
       "ai": {
-        "score": -0.55,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "ข่าวลบ Musk กระตุ้นความกลัว, หลุด 80K, ETF ไหลออก"
+        "reason": "ข่าวลบ Musk กระตุ้นความกลัว ราคาหลุด 80K"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 61,
-      "price": 2332.39,
-      "tp": 2286.38,
-      "sl": 2360.0,
-      "rsi": 51.1,
-      "adx": 36.4,
+      "confidence": 91,
+      "price": 2309.37,
+      "tp": 2267.61,
+      "sl": 2334.42,
+      "rsi": 43.0,
+      "adx": 36.3,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
         "ADX 36 เทรนด์แข็ง",
-        "RSI 51"
+        "RSI 43"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ข่าวลบ Glamsterdam ล่าช้า, หมีคุมตลาด, เสี่ยงหลุด 2K"
+        "reason": "หลุดเส้น 200 วัน เสี่ยงลงทดสอบ 2K"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 56,
-      "price": 157.45,
-      "tp": 157.86,
-      "sl": 157.2,
-      "rsi": 61.7,
-      "adx": 40.9,
+      "confidence": 54,
+      "price": 157.55,
+      "tp": 157.92,
+      "sl": 157.33,
+      "rsi": 64.5,
+      "adx": 39.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
-        "ADX 41 เทรนด์แข็ง",
-        "RSI 62"
+        "ADX 39 เทรนด์แข็ง",
+        "RSI 64"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจาก risk aversion, yield สหรัฐลด, หลุด 154"
+        "reason": "เยนแข็งค่าจาก risk aversion และเงินเฟ้อญี่ปุ่น"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 42,
-      "price": 4029.63,
-      "tp": 4057.76,
-      "sl": 4012.74,
-      "rsi": 61.8,
-      "adx": 30.1,
+      "signal": "NEUTRAL",
+      "confidence": 6,
+      "price": 4014.5,
+      "tp": null,
+      "sl": null,
+      "rsi": 53.0,
+      "adx": 21.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 62"
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 53"
       ],
       "ai": {
         "score": 0.3,
