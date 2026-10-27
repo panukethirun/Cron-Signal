@@ -1,89 +1,88 @@
 {
-  "updated_utc": "2026-10-27T07:39:54+00:00",
-  "updated_th": "27 ต.ค. 2569, 14:39 น.",
+  "updated_utc": "2026-10-27T14:20:08+00:00",
+  "updated_th": "27 ต.ค. 2569, 21:20 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "SHORT",
-      "confidence": 80,
-      "price": 79699.27,
-      "tp": 78802.22,
-      "sl": 80237.5,
-      "rsi": 42.0,
-      "adx": 32.0,
+      "signal": "NEUTRAL",
+      "confidence": 20,
+      "price": 80072.01,
+      "tp": null,
+      "sl": null,
+      "rsi": 50.7,
+      "adx": 24.1,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 42"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 51"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "ข่าวลบ Musk กระตุ้นความกลัว, หลุด 80,000"
+        "reason": "ข่าวลบ Musk, ETF ขาย, หลุด 80,000"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 77,
-      "price": 2309.61,
-      "tp": 2273.33,
-      "sl": 2331.38,
-      "rsi": 44.0,
-      "adx": 30.6,
+      "confidence": 39,
+      "price": 2322.85,
+      "tp": 2282.26,
+      "sl": 2347.21,
+      "rsi": 51.4,
+      "adx": 23.1,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 44"
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 51"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "ETH หลุด 2,355 และต่ำกว่าเส้น 200 วัน"
+        "reason": "ETH อ่อนแอใกล้ 2,300 มีเงินไหลออก"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 56,
-      "price": 157.75,
-      "tp": 158.13,
-      "sl": 157.52,
-      "rsi": 64.9,
-      "adx": 40.5,
+      "confidence": 71,
+      "price": 157.86,
+      "tp": 158.22,
+      "sl": 157.64,
+      "rsi": 63.9,
+      "adx": 36.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 40 เทรนด์แข็ง",
-        "RSI 65"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 37 เทรนด์แข็ง",
+        "RSI 64"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจาก risk aversion และคาดแทรกแซง"
+        "reason": "เยนแข็งค่าจากคาดการณ์แทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 18,
-      "price": 4003.47,
+      "confidence": 25,
+      "price": 4035.74,
       "tp": null,
       "sl": null,
-      "rsi": 45.3,
-      "adx": 16.1,
+      "rsi": 66.0,
+      "adx": 18.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 16 ไซด์เวย์",
-        "RSI 45"
+        "ADX 18 ไซด์เวย์",
+        "RSI 66"
       ],
       "ai": {
-        "score": 0.1,
+        "score": 0.0,
         "label": "neutral",
-        "reason": "ทองแกว่งตัวรอ Fed สัญญาณผสม"
+        "reason": "ข่าวผสม รอผลประชุม Fed"
       }
     }
   ]
