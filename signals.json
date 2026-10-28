@@ -1,90 +1,88 @@
 {
-  "updated_utc": "2026-10-27T23:41:20+00:00",
-  "updated_th": "28 ต.ค. 2569, 06:41 น.",
+  "updated_utc": "2026-10-28T05:23:07+00:00",
+  "updated_th": "28 ต.ค. 2569, 12:23 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 35,
-      "price": 80895.01,
-      "tp": 81784.33,
-      "sl": 80361.42,
-      "rsi": 62.9,
-      "adx": 25.5,
+      "confidence": 42,
+      "price": 80934.97,
+      "tp": 81730.35,
+      "sl": 80457.74,
+      "rsi": 59.2,
+      "adx": 30.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
-        "ADX 25 เทรนด์แข็ง",
-        "RSI 63"
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 59"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ข่าวลบ Musk กระตุ้นความกลัว ขาดทุนหลุด 80,000"
+        "reason": "ข่าวชี้สัญญาณอ่อนตัว รอผลประชุมเฟด กดดันราคา"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 35,
-      "price": 2349.92,
-      "tp": 2386.56,
-      "sl": 2327.93,
-      "rsi": 60.5,
-      "adx": 25.0,
+      "confidence": 43,
+      "price": 2355.02,
+      "tp": 2387.82,
+      "sl": 2335.34,
+      "rsi": 60.1,
+      "adx": 31.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
-        "ADX 25 เริ่มมีเทรนด์",
-        "RSI 61"
+        "ADX 31 เทรนด์แข็ง",
+        "RSI 60"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ETF ไหลออกหนัก จับตา 2,310"
+        "reason": "ETF ไหลออกหนัก ทดสอบแนวรับ 2,300 โมเมนตัมลบ"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "LONG",
-      "confidence": 55,
-      "price": 157.99,
-      "tp": 158.29,
-      "sl": 157.81,
-      "rsi": 66.1,
-      "adx": 28.5,
+      "signal": "NEUTRAL",
+      "confidence": 17,
+      "price": 157.79,
+      "tp": null,
+      "sl": null,
+      "rsi": 48.8,
+      "adx": 20.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 66"
+        "ADX 20 เริ่มมีเทรนด์",
+        "RSI 49"
       ],
       "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "เยนแข็ง คาดญี่ปุ่นแทรกแซง"
+        "score": 0.2,
+        "label": "neutral",
+        "reason": "เยนอ่อนแต่รัฐบาลขู่แทรกแซง รอเฟดและ BoJ"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 47,
-      "price": 4058.42,
-      "tp": 4084.19,
-      "sl": 4042.96,
-      "rsi": 65.8,
-      "adx": 34.0,
+      "signal": "NEUTRAL",
+      "confidence": 17,
+      "price": 4036.66,
+      "tp": null,
+      "sl": null,
+      "rsi": 48.0,
+      "adx": 30.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 34 เทรนด์แข็ง",
-        "RSI 66"
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 48"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ทรงตัวเหนือแนวรับ รอผลประชุม Fed"
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "ทองคำย่อจากน้ำมันดีด รอผลประชุมเฟดก่อน"
       }
     }
   ]
