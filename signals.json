@@ -1,89 +1,90 @@
 {
-  "updated_utc": "2026-10-30T08:29:13+00:00",
-  "updated_th": "30 ต.ค. 2569, 15:29 น.",
+  "updated_utc": "2026-10-30T15:47:42+00:00",
+  "updated_th": "30 ต.ค. 2569, 22:47 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 73,
-      "price": 78024.0,
-      "tp": 76327.65,
-      "sl": 79041.81,
-      "rsi": 38.8,
-      "adx": 29.2,
+      "confidence": 81,
+      "price": 77458.01,
+      "tp": 75806.19,
+      "sl": 78449.1,
+      "rsi": 37.9,
+      "adx": 32.3,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 29 เทรนด์แข็ง",
-        "RSI 39"
+        "ADX 32 เทรนด์แข็ง",
+        "RSI 38"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.85,
         "label": "bearish",
-        "reason": "แฮก Binance กดดัน ราคาหลุด 80K"
+        "reason": "แฮก Binance 6.3 พันล้าน ราคาร่วงหนัก"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 83,
-      "price": 2227.48,
-      "tp": 2159.25,
-      "sl": 2268.42,
-      "rsi": 37.3,
-      "adx": 33.4,
+      "confidence": 58,
+      "price": 2227.88,
+      "tp": 2162.73,
+      "sl": 2266.97,
+      "rsi": 40.4,
+      "adx": 30.1,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 33 เทรนด์แข็ง",
-        "RSI 37"
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 40"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "แฮกเกอร์ถือ ETH มูลค่ามหาศาล กดดันราคา"
+        "reason": "ตามตลาดจากแฮก Binance และเงินเฟ้อกดดัน"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 38,
-      "price": 157.24,
-      "tp": 156.63,
-      "sl": 157.6,
-      "rsi": 37.0,
-      "adx": 27.5,
+      "confidence": 48,
+      "price": 157.21,
+      "tp": 156.61,
+      "sl": 157.57,
+      "rsi": 40.7,
+      "adx": 34.8,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 37"
+        "ADX 35 เทรนด์แข็ง",
+        "RSI 41"
       ],
       "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "เยนแข็งค่า จาก risk aversion"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสม ญี่ปุ่นแทรกแซงแต่ยังมีแรงซื้อ"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 36,
-      "price": 3989.12,
-      "tp": null,
-      "sl": null,
-      "rsi": 38.3,
-      "adx": 14.3,
+      "signal": "SHORT",
+      "confidence": 66,
+      "price": 3898.79,
+      "tp": 3851.83,
+      "sl": 3926.96,
+      "rsi": 18.8,
+      "adx": 26.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 14 ไซด์เวย์",
-        "RSI 38"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 19"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "หลุด 4,000 หลังข้อมูล PCE แข็ง"
+        "reason": "ข้อมูลสหรัฐแข็ง หนุนเฟดขึ้นดอกเบี้ย กดทอง"
       }
     }
   ]
