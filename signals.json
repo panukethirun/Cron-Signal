@@ -1,87 +1,89 @@
 {
-  "updated_utc": "2026-10-29T21:43:26+00:00",
-  "updated_th": "30 ต.ค. 2569, 04:43 น.",
+  "updated_utc": "2026-10-30T01:50:11+00:00",
+  "updated_th": "30 ต.ค. 2569, 08:50 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 58,
-      "price": 79375.93,
-      "tp": 77755.0,
-      "sl": 80348.49,
-      "rsi": 39.1,
-      "adx": 23.3,
+      "confidence": 75,
+      "price": 76816.61,
+      "tp": 74969.07,
+      "sl": 77925.13,
+      "rsi": 22.7,
+      "adx": 30.0,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 39"
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 23"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "GDP แข็ง, ราคาทะลุ 81.5K แม้มีข่าวลบจีน"
+        "score": -0.6,
+        "label": "bearish",
+        "reason": "ข่าวแฮก Binance หนัก ราคาหลุดต่ำกว่า EMA"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "NEUTRAL",
-      "confidence": 49,
-      "price": 2278.98,
-      "tp": null,
-      "sl": null,
-      "rsi": 37.1,
-      "adx": 19.6,
+      "signal": "SHORT",
+      "confidence": 71,
+      "price": 2197.28,
+      "tp": 2120.85,
+      "sl": 2243.14,
+      "rsi": 23.9,
+      "adx": 28.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 20 ไซด์เวย์",
-        "RSI 37"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 28 เทรนด์แข็ง",
+        "RSI 24"
       ],
       "ai": {
-        "score": -0.2,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "บทวิเคราะห์ชี้ต้องลงถึง 1,970 ก่อนเด้ง"
+        "reason": "ETH หลุด 2300 เงินทุนไหลออก-แฮกเกอร์ถือ ETH"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 4,
-      "price": 157.7,
-      "tp": null,
-      "sl": null,
-      "rsi": 41.1,
-      "adx": 14.2,
+      "signal": "SHORT",
+      "confidence": 28,
+      "price": 157.51,
+      "tp": 156.98,
+      "sl": 157.83,
+      "rsi": 40.4,
+      "adx": 20.2,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 14 ไซด์เวย์",
-        "RSI 41"
+        "เทรนด์ขาลง",
+        "สวนเทรนด์ใหญ่",
+        "ADX 20 เริ่มมีเทรนด์",
+        "RSI 40"
       ],
       "ai": {
-        "score": 0.1,
+        "score": 0.0,
         "label": "neutral",
-        "reason": "ข่าวก้ำกึ่ง มีทั้งคาด 159 และสัญญาณแทรกแซง"
+        "reason": "ข่าวก้ำกึ่ง ญี่ปุ่นอาจแทรกแซง แต่ดอลลาร์ยังแข็ง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 10,
-      "price": 4021.61,
+      "confidence": 27,
+      "price": 3997.37,
       "tp": null,
       "sl": null,
-      "rsi": 45.3,
-      "adx": 11.5,
+      "rsi": 34.2,
+      "adx": 11.0,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 11 ไซด์เวย์",
-        "RSI 45"
+        "RSI 34"
       ],
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "ถูกปฏิเสธที่ 4,074 หลัง Fed สายเหยี่ยว"
+        "reason": "ทองถูกกดดันจาก Fed สายเหยี่ยวและน้ำมันดีด"
       }
     }
   ]
