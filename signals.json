@@ -1,87 +1,88 @@
 {
-  "updated_utc": "2026-10-31T13:32:37+00:00",
-  "updated_th": "31 ต.ค. 2569, 20:32 น.",
+  "updated_utc": "2026-10-31T18:25:49+00:00",
+  "updated_th": "1 พ.ย. 2569, 01:25 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 15,
-      "price": 77492.01,
+      "confidence": 11,
+      "price": 77737.51,
       "tp": null,
       "sl": null,
-      "rsi": 48.4,
-      "adx": 17.5,
+      "rsi": 54.2,
+      "adx": 13.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 17 ไซด์เวย์",
-        "RSI 48"
+        "ADX 13 ไซด์เวย์",
+        "RSI 54"
       ],
       "ai": {
         "score": -0.6,
         "label": "bearish",
-        "reason": "แฮก Binance ครั้งใหญ่ ราคาร่วงหนัก"
+        "reason": "แฮก Binance 6.3 พันล้าน ดันราคาร่วง-ล้างพอร์ต"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 11,
-      "price": 2248.51,
+      "confidence": 3,
+      "price": 2256.56,
       "tp": null,
       "sl": null,
-      "rsi": 50.7,
-      "adx": 13.2,
+      "rsi": 56.2,
+      "adx": 10.8,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 13 ไซด์เวย์",
-        "RSI 51"
+        "ADX 11 ไซด์เวย์",
+        "RSI 56"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ETH ร่วงตามตลาดหลังแฮก Binance"
+        "reason": "แรงกดดันจากแฮก Binance และ PCE หนุนขึ้นดอกเบี้ย"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 5,
-      "price": 157.58,
-      "tp": null,
-      "sl": null,
-      "rsi": 52.5,
-      "adx": 19.7,
+      "signal": "SHORT",
+      "confidence": 35,
+      "price": 157.56,
+      "tp": 157.16,
+      "sl": 157.81,
+      "rsi": 51.3,
+      "adx": 25.4,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 20 ไซด์เวย์",
-        "RSI 52"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 25 เทรนด์แข็ง",
+        "RSI 51"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจาก risk aversion กดดอลลาร์"
+        "reason": "เยนแข็งค่าจาก risk aversion หุ้นญี่ปุ่นร่วง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
       "confidence": 78,
-      "price": 3875.34,
-      "tp": 3862.7,
-      "sl": 3882.93,
-      "rsi": 17.4,
-      "adx": 59.3,
+      "price": 3875.43,
+      "tp": 3866.52,
+      "sl": 3880.78,
+      "rsi": 17.7,
+      "adx": 61.7,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 59 แรงมาก ระวังกลับตัว",
-        "RSI 17"
+        "ADX 62 แรงมาก ระวังกลับตัว",
+        "RSI 18"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "ทองหลุดแนวรับ เสี่ยงลงต่อ"
+        "reason": "ทองหลุดแนวรับ เสี่ยงลงต่อแม้ oversold"
       }
     }
   ]
