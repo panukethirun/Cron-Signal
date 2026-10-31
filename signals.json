@@ -1,90 +1,88 @@
 {
-  "updated_utc": "2026-10-31T00:38:32+00:00",
-  "updated_th": "31 ต.ค. 2569, 07:38 น.",
+  "updated_utc": "2026-10-31T06:52:58+00:00",
+  "updated_th": "31 ต.ค. 2569, 13:52 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 60,
-      "price": 77380.09,
-      "tp": 75989.28,
-      "sl": 78214.58,
-      "rsi": 44.4,
-      "adx": 30.8,
+      "confidence": 43,
+      "price": 77458.1,
+      "tp": 76338.39,
+      "sl": 78129.93,
+      "rsi": 47.2,
+      "adx": 25.7,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 44"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 47"
       ],
       "ai": {
-        "score": -0.7,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "แฮก Binance มูลค่ามหาศาล ราคาร่วงหนักและมี liquidation สูง"
+        "reason": "แฮก Binance 6.3 พันล้าน ดิ่ง 76,400$"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "SHORT",
-      "confidence": 36,
-      "price": 2247.72,
-      "tp": 2196.88,
-      "sl": 2278.23,
-      "rsi": 49.0,
-      "adx": 21.6,
+      "signal": "NEUTRAL",
+      "confidence": 30,
+      "price": 2247.95,
+      "tp": null,
+      "sl": null,
+      "rsi": 50.0,
+      "adx": 18.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 49"
+        "ADX 18 ไซด์เวย์",
+        "RSI 50"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "ETH ร่วงตามแฮก Binance และ Coinbase Premium ต่ำสุด"
+        "reason": "ETH ร่วงตามแฮก Binance ใกล้ 2,200$"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "SHORT",
-      "confidence": 39,
+      "signal": "NEUTRAL",
+      "confidence": 6,
       "price": 157.58,
-      "tp": 157.01,
-      "sl": 157.92,
-      "rsi": 52.9,
-      "adx": 23.5,
+      "tp": null,
+      "sl": null,
+      "rsi": 53.0,
+      "adx": 20.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 24 เริ่มมีเทรนด์",
+        "ADX 20 ไซด์เวย์",
         "RSI 53"
       ],
       "ai": {
-        "score": -0.5,
-        "label": "bearish",
-        "reason": "เยนแข็งค่าหลัง BOJ คงดอกเบี้ย USD/JPY ร่วงสามวันติด"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสม แทรกแซงญี่ปุ่นกับมุมมองขาขึ้น"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 100,
-      "price": 3875.41,
-      "tp": 3843.24,
-      "sl": 3894.71,
-      "rsi": 17.4,
-      "adx": 46.5,
+      "confidence": 78,
+      "price": 3875.39,
+      "tp": 3854.55,
+      "sl": 3887.89,
+      "rsi": 17.5,
+      "adx": 53.9,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 46 เทรนด์แข็ง",
+        "ADX 54 แรงมาก ระวังกลับตัว",
         "RSI 17"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "ทองคำหลุด 4,000 ดอลลาร์ กดดันจากข้อมูลสหรัฐแข็งแกร่ง"
+        "reason": "ทองหลุด 3,900$ จุดต่ำสุดรอบปี"
       }
     }
   ]
