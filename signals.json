@@ -1,88 +1,89 @@
 {
-  "updated_utc": "2026-11-02T07:33:31+00:00",
-  "updated_th": "2 พ.ย. 2569, 14:33 น.",
+  "updated_utc": "2026-11-02T18:10:29+00:00",
+  "updated_th": "3 พ.ย. 2569, 01:10 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 11,
-      "price": 78110.0,
+      "confidence": 48,
+      "price": 77370.01,
       "tp": null,
       "sl": null,
-      "rsi": 50.3,
-      "adx": 20.5,
+      "rsi": 37.4,
+      "adx": 19.2,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 21 เริ่มมีเทรนด์",
-        "RSI 50"
+        "เทรนด์ขาลง",
+        "ADX 19 ไซด์เวย์",
+        "RSI 37"
       ],
       "ai": {
         "score": -0.35,
         "label": "bearish",
-        "reason": "ข่าวแฮก Binance กดดัน ราคาร่วงแตะจุดต่ำ 5 สัปดาห์"
+        "reason": "ข่าวลบจากแรงขายทำกำไรและราคาต่ำกว่าเส้นค่าเฉลี่ย"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "LONG",
-      "confidence": 27,
-      "price": 2282.6,
-      "tp": 2311.58,
-      "sl": 2265.21,
-      "rsi": 54.4,
-      "adx": 24.4,
+      "signal": "SHORT",
+      "confidence": 32,
+      "price": 2267.22,
+      "tp": 2228.69,
+      "sl": 2290.34,
+      "rsi": 43.6,
+      "adx": 22.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 54"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 44"
       ],
       "ai": {
-        "score": -0.25,
+        "score": -0.2,
         "label": "bearish",
-        "reason": "ทำจุดต่ำสุดปี 2026 จากแรงขายหุ้นเทค แต่มีสัญญาณรีบาวด์"
+        "reason": "ETF ไหลออกหนัก แต่มีข่าววาฬซื้อและ BitMine สะสม"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 100,
-      "price": 157.78,
-      "tp": 158.11,
+      "confidence": 55,
+      "price": 157.81,
+      "tp": 158.18,
       "sl": 157.59,
-      "rsi": 58.0,
-      "adx": 45.1,
+      "rsi": 52.1,
+      "adx": 33.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 45 เทรนด์แข็ง",
-        "RSI 58"
+        "ADX 33 เทรนด์แข็ง",
+        "RSI 52"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.2,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจาก risk aversion และคาด BoJ ขึ้นดอกเบี้ย"
+        "reason": "เยนแข็งค่าจาก risk aversion แต่ส่วนต่างดอกเบี้ยยังหนุน"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 11,
-      "price": 3903.86,
-      "tp": null,
-      "sl": null,
-      "rsi": 63.0,
-      "adx": 75.4,
+      "signal": "LONG",
+      "confidence": 56,
+      "price": 3964.31,
+      "tp": 3998.47,
+      "sl": 3943.81,
+      "rsi": 73.3,
+      "adx": 65.2,
       "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 75 แรงมาก ระวังกลับตัว",
-        "RSI 63"
+        "เทรนด์ขาขึ้น",
+        "สวนเทรนด์ใหญ่",
+        "ADX 65 แรงมาก ระวังกลับตัว",
+        "RSI 73"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม ทั้งฟื้นตัวเล็กน้อยและเสี่ยงหลุดแนวรับสำคัญ"
+        "score": -0.25,
+        "label": "bearish",
+        "reason": "หลุด 4,000 จากข้อมูลสหรัฐแข็ง หนุนคาดการณ์ขึ้นดอกเบี้ย"
       }
     }
   ]
