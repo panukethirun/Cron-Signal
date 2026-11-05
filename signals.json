@@ -1,89 +1,88 @@
 {
-  "updated_utc": "2026-11-05T10:41:31+00:00",
-  "updated_th": "5 พ.ย. 2569, 17:41 น.",
+  "updated_utc": "2026-11-05T18:39:18+00:00",
+  "updated_th": "6 พ.ย. 2569, 01:39 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "LONG",
-      "confidence": 69,
-      "price": 80336.0,
-      "tp": 81378.96,
-      "sl": 79710.22,
-      "rsi": 59.3,
-      "adx": 35.7,
+      "signal": "SHORT",
+      "confidence": 56,
+      "price": 76047.3,
+      "tp": 74283.1,
+      "sl": 77105.82,
+      "rsi": 23.8,
+      "adx": 40.3,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 36 เทรนด์แข็ง",
-        "RSI 59"
+        "เทรนด์ขาลง",
+        "สวนเทรนด์ใหญ่",
+        "ADX 40 เทรนด์แข็ง",
+        "RSI 24"
       ],
       "ai": {
-        "score": 0.15,
-        "label": "neutral",
-        "reason": "ถือเหนือ 76-80K แต่สัญญาณผสม"
+        "score": -0.55,
+        "label": "bearish",
+        "reason": "ราคาดิ่งต่ำกว่า 80K เหตุเทขายสินทรัพย์เสี่ยง"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "LONG",
-      "confidence": 68,
-      "price": 2417.73,
-      "tp": 2463.26,
-      "sl": 2390.41,
-      "rsi": 60.4,
-      "adx": 34.8,
+      "signal": "NEUTRAL",
+      "confidence": 11,
+      "price": 2250.0,
+      "tp": null,
+      "sl": null,
+      "rsi": 23.8,
+      "adx": 39.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 35 เทรนด์แข็ง",
-        "RSI 60"
+        "ADX 40 เทรนด์แข็ง",
+        "RSI 24"
       ],
       "ai": {
-        "score": 0.35,
-        "label": "bullish",
-        "reason": "ดีดกลับเหนือ 2,400 และ 200EMA"
+        "score": 0.15,
+        "label": "neutral",
+        "reason": "ฟื้นเหนือ 2,400 แต่ยังติดแนวต้าน"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 29,
-      "price": 158.4,
-      "tp": null,
-      "sl": null,
-      "rsi": 57.9,
-      "adx": 17.4,
+      "signal": "SHORT",
+      "confidence": 31,
+      "price": 157.69,
+      "tp": 157.17,
+      "sl": 158.01,
+      "rsi": 32.7,
+      "adx": 22.4,
       "reasons": [
-        "เทรนด์ขาขึ้น",
-        "ADX 17 ไซด์เวย์",
-        "RSI 58"
+        "เทรนด์ขาลง",
+        "สวนเทรนด์ใหญ่",
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 33"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.35,
         "label": "bearish",
-        "reason": "ญี่ปุ่นแทรกแซงค่าเงินเยน เสี่ยงผันผวน"
+        "reason": "เยนพุ่งจากคาดการณ์แทรกแซงญี่ปุ่น"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 78,
-      "price": 4127.36,
-      "tp": 4169.07,
-      "sl": 4102.33,
-      "rsi": 71.4,
-      "adx": 56.2,
+      "signal": "NEUTRAL",
+      "confidence": 32,
+      "price": 4100.59,
+      "tp": null,
+      "sl": null,
+      "rsi": 51.9,
+      "adx": 38.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 56 แรงมาก ระวังกลับตัว",
-        "RSI 71"
+        "ADX 38 เทรนด์แข็ง",
+        "RSI 52"
       ],
       "ai": {
-        "score": 0.4,
+        "score": 0.45,
         "label": "bullish",
-        "reason": "ดีดเหนือ 4,000 จากผลเลือกตั้ง"
+        "reason": "ทองคำทะลุ 4,000 จากบอนด์ยีลด์อ่อน"
       }
     }
   ]
