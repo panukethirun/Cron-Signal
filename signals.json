@@ -1,89 +1,89 @@
 {
-  "updated_utc": "2026-11-05T02:12:22+00:00",
-  "updated_th": "5 พ.ย. 2569, 09:12 น.",
+  "updated_utc": "2026-11-05T10:41:31+00:00",
+  "updated_th": "5 พ.ย. 2569, 17:41 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "LONG",
-      "confidence": 89,
-      "price": 80820.0,
-      "tp": 82087.59,
-      "sl": 80059.45,
-      "rsi": 71.9,
-      "adx": 35.6,
+      "confidence": 69,
+      "price": 80336.0,
+      "tp": 81378.96,
+      "sl": 79710.22,
+      "rsi": 59.3,
+      "adx": 35.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 36 เทรนด์แข็ง",
-        "RSI 72"
+        "RSI 59"
       ],
       "ai": {
-        "score": 0.1,
+        "score": 0.15,
         "label": "neutral",
-        "reason": "ทรงตัวเหนือแนวรับ แต่โมเมนตัมอ่อน ไม่มีปัจจัยใหม่"
+        "reason": "ถือเหนือ 76-80K แต่สัญญาณผสม"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 100,
-      "price": 2434.91,
-      "tp": 2491.7,
-      "sl": 2400.84,
-      "rsi": 70.7,
-      "adx": 40.1,
+      "confidence": 68,
+      "price": 2417.73,
+      "tp": 2463.26,
+      "sl": 2390.41,
+      "rsi": 60.4,
+      "adx": 34.8,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 40 เทรนด์แข็ง",
-        "RSI 71"
+        "ADX 35 เทรนด์แข็ง",
+        "RSI 60"
       ],
       "ai": {
-        "score": 0.2,
-        "label": "neutral",
-        "reason": "รีเคลม 2,400 หลังเลือกตั้งกลางเทอม แต่ยังกดดันจากแรงขาย"
+        "score": 0.35,
+        "label": "bullish",
+        "reason": "ดีดกลับเหนือ 2,400 และ 200EMA"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 4,
-      "price": 158.0,
+      "confidence": 29,
+      "price": 158.4,
       "tp": null,
       "sl": null,
-      "rsi": 38.6,
-      "adx": 16.1,
+      "rsi": 57.9,
+      "adx": 17.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 16 ไซด์เวย์",
-        "RSI 39"
+        "ADX 17 ไซด์เวย์",
+        "RSI 58"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "neutral",
-        "reason": "เยนอ่อนจากบอนด์ยีลด์สูง แต่เสี่ยงแทรกแซง"
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "ญี่ปุ่นแทรกแซงค่าเงินเยน เสี่ยงผันผวน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 100,
-      "price": 4135.55,
-      "tp": 4181.41,
-      "sl": 4108.03,
-      "rsi": 85.3,
-      "adx": 56.0,
+      "confidence": 78,
+      "price": 4127.36,
+      "tp": 4169.07,
+      "sl": 4102.33,
+      "rsi": 71.4,
+      "adx": 56.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
         "ADX 56 แรงมาก ระวังกลับตัว",
-        "RSI 85"
+        "RSI 71"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ยืนแนวรับสำคัญ ทิศทางผสมจากความหวังดีลสหรัฐ-อิหร่าน"
+        "score": 0.4,
+        "label": "bullish",
+        "reason": "ดีดเหนือ 4,000 จากผลเลือกตั้ง"
       }
     }
   ]
