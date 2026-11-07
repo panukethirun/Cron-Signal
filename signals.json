@@ -1,88 +1,88 @@
 {
-  "updated_utc": "2026-11-07T06:59:32+00:00",
-  "updated_th": "7 พ.ย. 2569, 13:59 น.",
+  "updated_utc": "2026-11-07T13:52:50+00:00",
+  "updated_th": "7 พ.ย. 2569, 20:52 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 58,
-      "price": 76056.12,
-      "tp": 75238.34,
-      "sl": 76546.79,
-      "rsi": 47.5,
-      "adx": 34.6,
+      "confidence": 53,
+      "price": 75936.01,
+      "tp": 75299.72,
+      "sl": 76317.78,
+      "rsi": 44.3,
+      "adx": 27.4,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 35 เทรนด์แข็ง",
-        "RSI 48"
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 44"
       ],
       "ai": {
-        "score": -0.7,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "ข่าวร่วงหนัก ทิ้งยาว risk-off กดดันระยะสั้น"
+        "reason": "ข่าวร่วงหนัก ทะลุ 80k long ถูกบังคับขาย"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 51,
-      "price": 2246.94,
-      "tp": 2214.55,
-      "sl": 2266.38,
-      "rsi": 49.1,
-      "adx": 30.7,
+      "confidence": 38,
+      "price": 2245.78,
+      "tp": 2220.24,
+      "sl": 2261.1,
+      "rsi": 48.7,
+      "adx": 23.0,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 31 เทรนด์แข็ง",
+        "ADX 23 เริ่มมีเทรนด์",
         "RSI 49"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "ETF ไหลออก ราคาร่วงตาม BTC"
+        "reason": "ETF ไหลออก ราคาร่วงตามตลาดคริปโต"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 10,
-      "price": 158.48,
+      "confidence": 7,
+      "price": 158.49,
       "tp": null,
       "sl": null,
-      "rsi": 61.3,
-      "adx": 9.2,
+      "rsi": 61.5,
+      "adx": 6.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 9 ไซด์เวย์",
-        "RSI 61"
+        "ADX 7 ไซด์เวย์",
+        "RSI 62"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจาก risk-off กดดันคู่เงิน"
+        "reason": "ญี่ปุ่นแทรกแซง เยนแข็งค่ากะทันหัน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 7,
-      "price": 4066.03,
+      "confidence": 6,
+      "price": 4066.04,
       "tp": null,
       "sl": null,
       "rsi": 48.9,
-      "adx": 13.3,
+      "adx": 10.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 13 ไซด์เวย์",
+        "ADX 10 ไซด์เวย์",
         "RSI 49"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "ข่าวผสม ทั้งแรงซื้อและแรงขาย รอ NFP"
+        "reason": "ข่าวผสม ทั้งย่อตัวและสัญญาณเบรกเอาต์"
       }
     }
   ]
