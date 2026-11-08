@@ -1,48 +1,48 @@
 {
-  "updated_utc": "2026-11-07T22:38:23+00:00",
-  "updated_th": "8 พ.ย. 2569, 05:38 น.",
+  "updated_utc": "2026-11-08T02:16:37+00:00",
+  "updated_th": "8 พ.ย. 2569, 09:16 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 61,
-      "price": 75788.36,
-      "tp": 75292.15,
-      "sl": 76086.09,
-      "rsi": 42.9,
-      "adx": 31.3,
+      "confidence": 58,
+      "price": 75670.48,
+      "tp": 75224.42,
+      "sl": 75938.12,
+      "rsi": 39.0,
+      "adx": 29.6,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 43"
+        "ADX 30 เทรนด์แข็ง",
+        "RSI 39"
       ],
       "ai": {
         "score": -0.6,
         "label": "bearish",
-        "reason": "ข่าวราคาร่วงหนัก ทะลุ 80k ล้าง long"
+        "reason": "ราคาร่วงต่ำกว่า 80,000 เหตุ liquidation และ macro กดดัน"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 73,
-      "price": 2234.78,
-      "tp": 2213.39,
-      "sl": 2247.61,
-      "rsi": 43.3,
-      "adx": 29.2,
+      "confidence": 70,
+      "price": 2231.35,
+      "tp": 2212.05,
+      "sl": 2242.93,
+      "rsi": 41.2,
+      "adx": 28.1,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 29 เทรนด์แข็ง",
-        "RSI 43"
+        "ADX 28 เทรนด์แข็ง",
+        "RSI 41"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "โมเมนตัมอ่อน ยังต้องฝ่าแนวต้าน"
+        "reason": "ETF ไหลออกต่อเนื่อง ราคาอ่อนแอตามตลาด"
       }
     },
     {
@@ -52,37 +52,37 @@
       "price": 158.48,
       "tp": null,
       "sl": null,
-      "rsi": 59.1,
-      "adx": 8.5,
+      "rsi": 58.6,
+      "adx": 8.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 8 ไซด์เวย์",
         "RSI 59"
       ],
       "ai": {
-        "score": -0.2,
-        "label": "neutral",
-        "reason": "ข่าวผสม มีแทรกแซงหนุนเยน"
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "ญี่ปุ่นอาจแทรกแซงค่าเงิน เยนแข็งค่าขึ้น"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 5,
-      "price": 4066.06,
+      "confidence": 4,
+      "price": 4066.05,
       "tp": null,
       "sl": null,
-      "rsi": 49.1,
-      "adx": 8.2,
+      "rsi": 49.0,
+      "adx": 7.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "ADX 8 ไซด์เวย์",
         "RSI 49"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม ปรับฐานรอ NFP"
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "ทองคำย่อตัวก่อนตัวเลข NFP แนวโน้มผันผวน"
       }
     }
   ]
