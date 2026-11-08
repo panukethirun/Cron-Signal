@@ -1,88 +1,87 @@
 {
-  "updated_utc": "2026-11-08T02:16:37+00:00",
-  "updated_th": "8 พ.ย. 2569, 09:16 น.",
+  "updated_utc": "2026-11-08T10:07:51+00:00",
+  "updated_th": "8 พ.ย. 2569, 17:07 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "SHORT",
-      "confidence": 58,
-      "price": 75670.48,
-      "tp": 75224.42,
-      "sl": 75938.12,
-      "rsi": 39.0,
-      "adx": 29.6,
+      "signal": "NEUTRAL",
+      "confidence": 32,
+      "price": 75890.01,
+      "tp": null,
+      "sl": null,
+      "rsi": 49.3,
+      "adx": 18.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 39"
+        "ADX 19 ไซด์เวย์",
+        "RSI 49"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.55,
         "label": "bearish",
-        "reason": "ราคาร่วงต่ำกว่า 80,000 เหตุ liquidation และ macro กดดัน"
+        "reason": "ราคาหลุด 80,000 หลังข้อมูลจ้างงานแข็งแกร่ง กดดันสินทรัพย์เสี่ยง"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 70,
-      "price": 2231.35,
-      "tp": 2212.05,
-      "sl": 2242.93,
-      "rsi": 41.2,
-      "adx": 28.1,
+      "confidence": 40,
+      "price": 2235.7,
+      "tp": 2219.74,
+      "sl": 2245.28,
+      "rsi": 46.1,
+      "adx": 23.9,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 41"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 46"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.45,
         "label": "bearish",
-        "reason": "ETF ไหลออกต่อเนื่อง ราคาอ่อนแอตามตลาด"
+        "reason": "ETF ไหลออกต่อเนื่องสัปดาห์ที่ 6 ยังต้องยืนเหนือแนวรับสำคัญ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 9,
-      "price": 158.48,
+      "confidence": 13,
+      "price": 158.49,
       "tp": null,
       "sl": null,
-      "rsi": 58.6,
-      "adx": 8.3,
+      "rsi": 58.3,
+      "adx": 11.4,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 8 ไซด์เวย์",
-        "RSI 59"
+        "ADX 11 ไซด์เวย์",
+        "RSI 58"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.35,
         "label": "bearish",
-        "reason": "ญี่ปุ่นอาจแทรกแซงค่าเงิน เยนแข็งค่าขึ้น"
+        "reason": "เยนพุ่งจากคาดการณ์แทรกแซงญี่ปุ่น กดดันคู่เงินขาลง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
       "confidence": 4,
-      "price": 4066.05,
+      "price": 4065.96,
       "tp": null,
       "sl": null,
-      "rsi": 49.0,
-      "adx": 7.6,
+      "rsi": 48.5,
+      "adx": 6.9,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 8 ไซด์เวย์",
-        "RSI 49"
+        "ADX 7 ไซด์เวย์",
+        "RSI 48"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ทองคำย่อตัวก่อนตัวเลข NFP แนวโน้มผันผวน"
+        "reason": "ทองคำย่อรอข้อมูล NFP แต่ยังมีแรงหนุนจากแนวรับสำคัญ"
       }
     }
   ]
