@@ -1,90 +1,88 @@
 {
-  "updated_utc": "2026-11-09T07:51:10+00:00",
-  "updated_th": "9 พ.ย. 2569, 14:51 น.",
+  "updated_utc": "2026-11-09T18:39:53+00:00",
+  "updated_th": "10 พ.ย. 2569, 01:39 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "SHORT",
-      "confidence": 63,
-      "price": 74019.51,
-      "tp": 72807.03,
-      "sl": 74747.0,
-      "rsi": 29.5,
-      "adx": 25.3,
+      "signal": "NEUTRAL",
+      "confidence": 29,
+      "price": 74651.57,
+      "tp": null,
+      "sl": null,
+      "rsi": 45.9,
+      "adx": 17.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 25 เทรนด์แข็ง",
-        "RSI 30"
+        "ADX 17 ไซด์เวย์",
+        "RSI 46"
       ],
       "ai": {
         "score": -0.35,
         "label": "bearish",
-        "reason": "ข่าวล้างพอร์ตและตลาดร่วงกดดัน"
+        "reason": " liquidation 1 พันล้านดอลล์ ราคาต่ำกว่าแนวรับสำคัญ"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 100,
-      "price": 2094.06,
-      "tp": 2038.41,
-      "sl": 2127.45,
-      "rsi": 17.0,
-      "adx": 40.9,
+      "confidence": 65,
+      "price": 2126.33,
+      "tp": 2072.34,
+      "sl": 2158.73,
+      "rsi": 41.0,
+      "adx": 33.3,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 41 เทรนด์แข็ง",
-        "RSI 17"
-      ],
-      "ai": {
-        "score": -0.45,
-        "label": "bearish",
-        "reason": "ล้าง long หนัก ราคาเสี่ยงหลุดแนวรับ"
-      }
-    },
-    {
-      "symbol": "USD/JPY",
-      "signal": "SHORT",
-      "confidence": 30,
-      "price": 158.0,
-      "tp": 157.66,
-      "sl": 158.2,
-      "rsi": 23.7,
-      "adx": 21.6,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "สวนเทรนด์ใหญ่",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 24"
+        "ADX 33 เทรนด์แข็ง",
+        "RSI 41"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "ญี่ปุ่นแทรกแซง เยนแข็งค่าฉับพลัน"
+        "reason": "ETH ร่วง 5% หลุด 2,100 จุด อ่อนแอกว่า BTC"
+      }
+    },
+    {
+      "symbol": "USD/JPY",
+      "signal": "NEUTRAL",
+      "confidence": 26,
+      "price": 158.01,
+      "tp": null,
+      "sl": null,
+      "rsi": 40.7,
+      "adx": 30.7,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "ADX 31 เทรนด์แข็ง",
+        "RSI 41"
+      ],
+      "ai": {
+        "score": -0.4,
+        "label": "bearish",
+        "reason": "เยนพุ่งหลังญี่ปุ่นแทรกแซง กดดอลลาร์/เยนลง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "LONG",
-      "confidence": 67,
-      "price": 4089.49,
-      "tp": 4114.88,
-      "sl": 4074.26,
-      "rsi": 51.4,
-      "adx": 30.2,
+      "confidence": 34,
+      "price": 4106.33,
+      "tp": 4136.38,
+      "sl": 4088.3,
+      "rsi": 53.6,
+      "adx": 20.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 51"
+        "ADX 20 เริ่มมีเทรนด์",
+        "RSI 54"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ทรงตัวเหนือ 4,000 แต่เสี่ยงขาลง"
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "ทองยืนเหนือ 4,000-4,100 ได้ อ่อนค่าดอลลาร์หนุน"
       }
     }
   ]
