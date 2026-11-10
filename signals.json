@@ -1,88 +1,87 @@
 {
-  "updated_utc": "2026-11-10T01:57:52+00:00",
-  "updated_th": "10 พ.ย. 2569, 08:57 น.",
+  "updated_utc": "2026-11-10T09:37:11+00:00",
+  "updated_th": "10 พ.ย. 2569, 16:37 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 75131.73,
+      "confidence": 32,
+      "price": 74344.51,
       "tp": null,
       "sl": null,
-      "rsi": 51.8,
-      "adx": 14.4,
+      "rsi": 40.7,
+      "adx": 12.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 14 ไซด์เวย์",
-        "RSI 52"
+        "ADX 13 ไซด์เวย์",
+        "RSI 41"
       ],
       "ai": {
-        "score": -0.35,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "ข่าวลบ ราคาร่วง แรงขาย liquidation กดดัน"
+        "reason": "ข่าวลบหนัก หลุด 75K และ 50-week MA"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
-      "confidence": 45,
-      "price": 2128.23,
-      "tp": 2083.01,
-      "sl": 2155.36,
-      "rsi": 42.9,
-      "adx": 23.1,
+      "confidence": 46,
+      "price": 2099.39,
+      "tp": 2058.95,
+      "sl": 2123.65,
+      "rsi": 32.9,
+      "adx": 23.7,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 43"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 33"
       ],
       "ai": {
-        "score": -0.45,
+        "score": -0.6,
         "label": "bearish",
-        "reason": "ETH ร่วง 5% แตะ 2,100 put มากกว่า call"
+        "reason": " liquidation พันล้านดอลล์ puts มากกว่า calls"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 17,
-      "price": 158.06,
+      "confidence": 19,
+      "price": 158.01,
       "tp": null,
       "sl": null,
-      "rsi": 49.1,
-      "adx": 31.1,
+      "rsi": 47.8,
+      "adx": 22.8,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 49"
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 48"
       ],
       "ai": {
-        "score": -0.4,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "เยนพุ่ง นักวิเคราะห์คาดญี่ปุ่นแทรกแซง"
+        "reason": "เยนพุ่ง คาดญี่ปุ่นแทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 51,
-      "price": 4127.93,
-      "tp": 4162.48,
-      "sl": 4107.2,
-      "rsi": 57.4,
-      "adx": 26.0,
+      "signal": "NEUTRAL",
+      "confidence": 11,
+      "price": 4087.55,
+      "tp": null,
+      "sl": null,
+      "rsi": 37.6,
+      "adx": 20.6,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 26 เทรนด์แข็ง",
-        "RSI 57"
+        "ADX 21 เริ่มมีเทรนด์",
+        "RSI 38"
       ],
       "ai": {
-        "score": 0.25,
-        "label": "neutral",
-        "reason": "ทองทรงตัวใกล้ 4,100 รอ CPI ผสมกัน"
+        "score": 0.3,
+        "label": "bullish",
+        "reason": "ทองยืนเหนือ 4,100 ดอลลาร์ก่อน CPI"
       }
     }
   ]
