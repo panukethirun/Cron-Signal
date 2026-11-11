@@ -1,89 +1,88 @@
 {
-  "updated_utc": "2026-11-11T05:54:43+00:00",
-  "updated_th": "11 พ.ย. 2569, 12:54 น.",
+  "updated_utc": "2026-11-11T21:13:47+00:00",
+  "updated_th": "12 พ.ย. 2569, 04:13 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "SHORT",
-      "confidence": 37,
-      "price": 73930.01,
-      "tp": 72708.37,
-      "sl": 74662.99,
-      "rsi": 49.1,
-      "adx": 22.3,
+      "signal": "NEUTRAL",
+      "confidence": 4,
+      "price": 74648.0,
+      "tp": null,
+      "sl": null,
+      "rsi": 60.1,
+      "adx": 14.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 49"
+        "ADX 15 ไซด์เวย์",
+        "RSI 60"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.35,
         "label": "bearish",
-        "reason": "CPI แรงกดดันเฟดขึ้นดอกเบี้ย ราคาร่วงต่ำสุดรอบ 11 สัปดาห์"
+        "reason": "ข่าวลบ Fed ขึ้นดอกเบี้ย-ความเสี่ยงบังคับขาย"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "SHORT",
-      "confidence": 63,
-      "price": 2071.01,
-      "tp": 2022.8,
-      "sl": 2099.94,
-      "rsi": 48.6,
-      "adx": 37.8,
+      "signal": "NEUTRAL",
+      "confidence": 0,
+      "price": 2080.88,
+      "tp": null,
+      "sl": null,
+      "rsi": 54.7,
+      "adx": 25.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 38 เทรนด์แข็ง",
-        "RSI 49"
+        "ADX 25 เริ่มมีเทรนด์",
+        "RSI 55"
       ],
       "ai": {
-        "score": -0.5,
-        "label": "bearish",
-        "reason": " liquidation พันล้าน ราคาต่ำสุดตั้งแต่สิงหา แม้ staking เพิ่ม"
+        "score": -0.1,
+        "label": "neutral",
+        "reason": "สัญญาณผสม ETF ไหลออกลดแต่ราคายังอ่อน"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "LONG",
-      "confidence": 78,
-      "price": 158.79,
-      "tp": 159.12,
-      "sl": 158.59,
-      "rsi": 63.2,
-      "adx": 40.6,
+      "confidence": 100,
+      "price": 159.86,
+      "tp": 160.18,
+      "sl": 159.66,
+      "rsi": 84.8,
+      "adx": 62.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "เทรนด์ใหญ่หนุน",
-        "ADX 41 เทรนด์แข็ง",
-        "RSI 63"
+        "ADX 62 แรงมาก ระวังกลับตัว",
+        "RSI 85"
       ],
       "ai": {
-        "score": -0.6,
-        "label": "bearish",
-        "reason": "เยนพุ่ง นักวิเคราะห์คาดญี่ปุ่นแทรกแซง ความเสี่ยงสองทาง"
+        "score": 0.55,
+        "label": "bullish",
+        "reason": "เยนอ่อน ดอลลาร์แข็ง จากเดิมพัน Fed ขึ้นดอกเบี้ย"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 8,
-      "price": 4058.41,
-      "tp": null,
-      "sl": null,
-      "rsi": 50.2,
-      "adx": 27.6,
+      "signal": "SHORT",
+      "confidence": 83,
+      "price": 3984.16,
+      "tp": 3955.11,
+      "sl": 4001.6,
+      "rsi": 21.1,
+      "adx": 33.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 50"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 33 เทรนด์แข็ง",
+        "RSI 21"
       ],
       "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ทองยืนเหนือ 4,000 ได้ breakout จับตา CPI"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ทองทรงตัวก่อน CPI กรอบบนจำกัด"
       }
     }
   ]
