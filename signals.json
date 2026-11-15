@@ -1,78 +1,78 @@
 {
-  "updated_utc": "2026-11-14T21:17:51+00:00",
-  "updated_th": "15 พ.ย. 2569, 04:17 น.",
+  "updated_utc": "2026-11-15T01:43:54+00:00",
+  "updated_th": "15 พ.ย. 2569, 08:43 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
       "confidence": 100,
-      "price": 64286.05,
-      "tp": 62564.39,
-      "sl": 65319.04,
-      "rsi": 22.5,
-      "adx": 54.4,
+      "price": 62246.53,
+      "tp": 60201.37,
+      "sl": 63473.63,
+      "rsi": 20.3,
+      "adx": 57.8,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 54 แรงมาก ระวังกลับตัว",
-        "RSI 23"
+        "ADX 58 แรงมาก ระวังกลับตัว",
+        "RSI 20"
       ],
       "ai": {
         "score": -0.7,
         "label": "bearish",
-        "reason": "ข่าวลบหนัก ETF ไหลออก ราคาร่วงแรง"
+        "reason": "ข่าวลบหนัก BTC ร่วงต่ำกว่า 67K"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "SHORT",
       "confidence": 100,
-      "price": 1765.45,
-      "tp": 1698.15,
-      "sl": 1805.83,
-      "rsi": 20.4,
-      "adx": 46.8,
+      "price": 1719.63,
+      "tp": 1644.07,
+      "sl": 1764.96,
+      "rsi": 21.9,
+      "adx": 52.9,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 47 เทรนด์แข็ง",
-        "RSI 20"
+        "ADX 53 แรงมาก ระวังกลับตัว",
+        "RSI 22"
       ],
       "ai": {
         "score": -0.6,
         "label": "bearish",
-        "reason": "Death cross ETF ไหลออก ราคาร่วงกว่า 5%"
+        "reason": "หลุด 2,000 ETF ไหลออก ถูกบังคับขาย"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 4,
-      "price": 159.69,
+      "confidence": 7,
+      "price": 159.68,
       "tp": null,
       "sl": null,
-      "rsi": 44.6,
-      "adx": 12.7,
+      "rsi": 45.0,
+      "adx": 12.0,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 13 ไซด์เวย์",
+        "ADX 12 ไซด์เวย์",
         "RSI 45"
       ],
       "ai": {
-        "score": 0.5,
+        "score": 0.6,
         "label": "bullish",
-        "reason": "ดอลลาร์แข็ง เยนอ่อนใกล้ 160"
+        "reason": "เยนอ่อนใกล้ 160 ดอลลาร์แข็งค่า"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
       "confidence": 74,
-      "price": 3874.52,
-      "tp": 3867.51,
-      "sl": 3878.73,
-      "rsi": 38.9,
+      "price": 3874.5,
+      "tp": 3869.13,
+      "sl": 3877.71,
+      "rsi": 39.1,
       "adx": 37.9,
       "reasons": [
         "เทรนด์ขาลง",
@@ -83,7 +83,7 @@
       "ai": {
         "score": -0.4,
         "label": "bearish",
-        "reason": "ดอลลาร์แข็ง กดทองคำเสี่ยงลงต่อ"
+        "reason": "ดอลลาร์แข็ง กดทองลง แนวโน้มอ่อน"
       }
     }
   ]
