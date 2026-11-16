@@ -1,88 +1,88 @@
 {
-  "updated_utc": "2026-11-16T09:25:21+00:00",
-  "updated_th": "16 พ.ย. 2569, 16:25 น.",
+  "updated_utc": "2026-11-16T20:15:56+00:00",
+  "updated_th": "17 พ.ย. 2569, 03:15 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 32,
-      "price": 64334.64,
+      "confidence": 13,
+      "price": 65032.01,
       "tp": null,
       "sl": null,
-      "rsi": 42.3,
-      "adx": 12.7,
+      "rsi": 52.4,
+      "adx": 15.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 13 ไซด์เวย์",
-        "RSI 42"
+        "ADX 15 ไซด์เวย์",
+        "RSI 52"
       ],
       "ai": {
-        "score": -0.35,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "ข่าวกดดันแนวรับ 65K เสี่ยง liquidation 60-62K"
+        "reason": "ข่าวลบรุนแรง ราคาร่วงแตะจุดต่ำ 18 สัปดาห์"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 29,
-      "price": 1798.75,
+      "confidence": 0,
+      "price": 1820.65,
       "tp": null,
       "sl": null,
-      "rsi": 42.1,
-      "adx": 11.5,
+      "rsi": 50.5,
+      "adx": 16.8,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 12 ไซด์เวย์",
-        "RSI 42"
+        "ADX 17 ไซด์เวย์",
+        "RSI 51"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.5,
         "label": "bearish",
-        "reason": "ยังอยู่ในเทรนด์ขาลง แม้ Binance ถือ ETH น้อยสุด"
+        "reason": "อีเธอร์ร่วง 14% แนวรับสำคัญถูกทดสอบ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "SHORT",
-      "confidence": 37,
-      "price": 159.48,
-      "tp": 159.0,
-      "sl": 159.76,
-      "rsi": 35.8,
-      "adx": 26.9,
+      "confidence": 30,
+      "price": 159.45,
+      "tp": 159.03,
+      "sl": 159.71,
+      "rsi": 40.8,
+      "adx": 21.7,
       "reasons": [
         "เทรนด์ขาลง",
         "สวนเทรนด์ใหญ่",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 36"
+        "ADX 22 เริ่มมีเทรนด์",
+        "RSI 41"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "ข่าวผสม yen แข็งจากการแทรกแซง แต่ breakout ยังสูง"
+        "score": -0.4,
+        "label": "bearish",
+        "reason": "เยนแข็งค่าจากมาตรการแทรกแซงและความเสี่ยงต่ำ"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 99,
-      "price": 3861.67,
-      "tp": 3833.34,
-      "sl": 3878.66,
-      "rsi": 44.1,
-      "adx": 39.7,
+      "confidence": 51,
+      "price": 3862.51,
+      "tp": 3829.84,
+      "sl": 3882.1,
+      "rsi": 47.4,
+      "adx": 22.8,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 40 เทรนด์แข็ง",
-        "RSI 44"
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 47"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ดอลลาร์แข็ง กดทองหลุด 3,851 มองลงต่อ"
+        "reason": "ทองคำอ่อนตัวจากดอลลาร์แข็ง คาดยังลงต่อ"
       }
     }
   ]
