@@ -1,87 +1,88 @@
 {
-  "updated_utc": "2026-11-16T01:48:42+00:00",
-  "updated_th": "16 พ.ย. 2569, 08:48 น.",
+  "updated_utc": "2026-11-16T09:25:21+00:00",
+  "updated_th": "16 พ.ย. 2569, 16:25 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 29,
-      "price": 64796.49,
+      "confidence": 32,
+      "price": 64334.64,
       "tp": null,
       "sl": null,
-      "rsi": 45.3,
-      "adx": 17.6,
+      "rsi": 42.3,
+      "adx": 12.7,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 18 ไซด์เวย์",
-        "RSI 45"
+        "ADX 13 ไซด์เวย์",
+        "RSI 42"
       ],
       "ai": {
-        "score": -0.7,
+        "score": -0.35,
         "label": "bearish",
-        "reason": "ข่าวลบหนัก หลุดแนวรับ ETF ไหลออกต่อเนื่อง"
+        "reason": "ข่าวกดดันแนวรับ 65K เสี่ยง liquidation 60-62K"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 12,
-      "price": 1809.62,
+      "confidence": 29,
+      "price": 1798.75,
       "tp": null,
       "sl": null,
-      "rsi": 45.4,
-      "adx": 14.7,
+      "rsi": 42.1,
+      "adx": 11.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 15 ไซด์เวย์",
-        "RSI 45"
+        "ADX 12 ไซด์เวย์",
+        "RSI 42"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "คำเตือนเสี่ยงหลุดแนวรับ เสี่ยงผันผวนสูง"
+        "reason": "ยังอยู่ในเทรนด์ขาลง แม้ Binance ถือ ETH น้อยสุด"
       }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "LONG",
-      "confidence": 74,
-      "price": 159.7,
-      "tp": 160.2,
-      "sl": 159.4,
-      "rsi": 50.0,
-      "adx": 33.1,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 33 เทรนด์แข็ง",
-        "RSI 50"
-      ],
-      "ai": {
-        "score": -0.6,
-        "label": "bearish",
-        "reason": "เยนพุ่งจาก risk aversion และคาดแทรกแซง"
-      }
-    },
-    {
-      "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 3877.74,
-      "tp": null,
-      "sl": null,
-      "rsi": 47.1,
-      "adx": 47.1,
+      "signal": "SHORT",
+      "confidence": 37,
+      "price": 159.48,
+      "tp": 159.0,
+      "sl": 159.76,
+      "rsi": 35.8,
+      "adx": 26.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 47 เทรนด์แข็ง",
-        "RSI 47"
+        "สวนเทรนด์ใหญ่",
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 36"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "ทองแกว่งใต้ 4,000 ดอลลาร์ ข่าวกึ่งบวกกึ่งลบ"
+        "reason": "ข่าวผสม yen แข็งจากการแทรกแซง แต่ breakout ยังสูง"
+      }
+    },
+    {
+      "symbol": "XAU/USD",
+      "signal": "SHORT",
+      "confidence": 99,
+      "price": 3861.67,
+      "tp": 3833.34,
+      "sl": 3878.66,
+      "rsi": 44.1,
+      "adx": 39.7,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 40 เทรนด์แข็ง",
+        "RSI 44"
+      ],
+      "ai": {
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "ดอลลาร์แข็ง กดทองหลุด 3,851 มองลงต่อ"
       }
     }
   ]
