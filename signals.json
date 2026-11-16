@@ -1,87 +1,87 @@
 {
-  "updated_utc": "2026-11-15T21:38:41+00:00",
-  "updated_th": "16 พ.ย. 2569, 04:38 น.",
+  "updated_utc": "2026-11-16T01:48:42+00:00",
+  "updated_th": "16 พ.ย. 2569, 08:48 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "SHORT",
-      "confidence": 38,
-      "price": 65004.02,
-      "tp": 63362.35,
-      "sl": 65989.02,
-      "rsi": 47.8,
-      "adx": 22.9,
+      "signal": "NEUTRAL",
+      "confidence": 29,
+      "price": 64796.49,
+      "tp": null,
+      "sl": null,
+      "rsi": 45.3,
+      "adx": 17.6,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 48"
+        "ADX 18 ไซด์เวย์",
+        "RSI 45"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.7,
         "label": "bearish",
-        "reason": "ข่าวลบรุนแรง ราคาดิ่งลงต่อเนื่อง"
+        "reason": "ข่าวลบหนัก หลุดแนวรับ ETF ไหลออกต่อเนื่อง"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 31,
-      "price": 1817.56,
+      "confidence": 12,
+      "price": 1809.62,
       "tp": null,
       "sl": null,
-      "rsi": 48.1,
-      "adx": 18.7,
+      "rsi": 45.4,
+      "adx": 14.7,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 19 ไซด์เวย์",
-        "RSI 48"
-      ],
-      "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "Binance ถือ ETH น้อยสุด ผันผวนสูง"
-      }
-    },
-    {
-      "symbol": "USD/JPY",
-      "signal": "NEUTRAL",
-      "confidence": 15,
-      "price": 159.65,
-      "tp": null,
-      "sl": null,
-      "rsi": 43.0,
-      "adx": 26.8,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 27 เทรนด์แข็ง",
-        "RSI 43"
+        "ADX 15 ไซด์เวย์",
+        "RSI 45"
       ],
       "ai": {
         "score": -0.5,
         "label": "bearish",
-        "reason": "เยนพุ่ง แทรกแซงญี่ปุ่น คาดหวัง"
+        "reason": "คำเตือนเสี่ยงหลุดแนวรับ เสี่ยงผันผวนสูง"
+      }
+    },
+    {
+      "symbol": "USD/JPY",
+      "signal": "LONG",
+      "confidence": 74,
+      "price": 159.7,
+      "tp": 160.2,
+      "sl": 159.4,
+      "rsi": 50.0,
+      "adx": 33.1,
+      "reasons": [
+        "เทรนด์ขาขึ้น",
+        "เทรนด์ใหญ่หนุน",
+        "ADX 33 เทรนด์แข็ง",
+        "RSI 50"
+      ],
+      "ai": {
+        "score": -0.6,
+        "label": "bearish",
+        "reason": "เยนพุ่งจาก risk aversion และคาดแทรกแซง"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 11,
-      "price": 3880.41,
+      "confidence": 0,
+      "price": 3877.74,
       "tp": null,
       "sl": null,
-      "rsi": 70.7,
-      "adx": 45.2,
+      "rsi": 47.1,
+      "adx": 47.1,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 45 เทรนด์แข็ง",
-        "RSI 71"
+        "ADX 47 เทรนด์แข็ง",
+        "RSI 47"
       ],
       "ai": {
-        "score": -0.4,
-        "label": "bearish",
-        "reason": "ทองร่วง คาดเฟดขึ้นดอกเบี้ย กดดัน"
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ทองแกว่งใต้ 4,000 ดอลลาร์ ข่าวกึ่งบวกกึ่งลบ"
       }
     }
   ]
