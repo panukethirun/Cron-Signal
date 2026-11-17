@@ -1,72 +1,87 @@
 {
-  "updated_utc": "2026-11-17T03:40:02+00:00",
-  "updated_th": "17 พ.ย. 2569, 10:40 น.",
+  "updated_utc": "2026-11-17T13:03:46+00:00",
+  "updated_th": "17 พ.ย. 2569, 20:03 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 11,
-      "price": 65059.67,
+      "confidence": 21,
+      "price": 65042.87,
       "tp": null,
       "sl": null,
-      "rsi": 52.6,
-      "adx": 13.3,
+      "rsi": 53.7,
+      "adx": 12.7,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 13 ไซด์เวย์",
-        "RSI 53"
+        "RSI 54"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.35,
+        "label": "bearish",
+        "reason": "Wintermute เตือนราคาอาจลงถึง 50,000s กดดัน"
+      }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 5,
-      "price": 1833.76,
+      "confidence": 36,
+      "price": 1823.92,
       "tp": null,
       "sl": null,
-      "rsi": 55.5,
-      "adx": 18.1,
+      "rsi": 51.3,
+      "adx": 16.1,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 18 ไซด์เวย์",
-        "RSI 55"
+        "ADX 16 ไซด์เวย์",
+        "RSI 51"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "ETF ไหลออกต่อเนื่อง แม้ whale รับซื้อ"
+      }
     },
     {
       "symbol": "USD/JPY",
-      "signal": "SHORT",
-      "confidence": 31,
-      "price": 159.38,
-      "tp": 159.0,
-      "sl": 159.62,
-      "rsi": 40.4,
-      "adx": 22.5,
+      "signal": "NEUTRAL",
+      "confidence": 17,
+      "price": 159.3,
+      "tp": null,
+      "sl": null,
+      "rsi": 46.7,
+      "adx": 31.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "สวนเทรนด์ใหญ่",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 40"
+        "ADX 31 เทรนด์แข็ง",
+        "RSI 47"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.15,
+        "label": "neutral",
+        "reason": "เงินเยนแข็งจากความเสี่ยงแทรกแซง แต่ BOJ อาจขึ้นดอกเบี้ย"
+      }
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 14,
-      "price": 3873.44,
+      "confidence": 28,
+      "price": 3862.53,
       "tp": null,
       "sl": null,
-      "rsi": 54.6,
-      "adx": 16.3,
+      "rsi": 48.1,
+      "adx": 12.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 16 ไซด์เวย์",
-        "RSI 55"
+        "ADX 13 ไซด์เวย์",
+        "RSI 48"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "ดอลลาร์แข็งและเดิมพัน Fed ขึ้นดอกเบี้ย กดดันทอง"
+      }
     }
   ]
 }
