@@ -1,71 +1,88 @@
 {
-  "updated_utc": "2026-11-18T03:35:29+00:00",
-  "updated_th": "18 พ.ย. 2569, 10:35 น.",
+  "updated_utc": "2026-11-18T12:55:22+00:00",
+  "updated_th": "18 พ.ย. 2569, 19:55 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 22,
-      "price": 64533.19,
+      "confidence": 27,
+      "price": 64121.05,
       "tp": null,
       "sl": null,
-      "rsi": 50.4,
-      "adx": 13.2,
+      "rsi": 42.9,
+      "adx": 10.8,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 13 ไซด์เวย์",
-        "RSI 50"
+        "ADX 11 ไซด์เวย์",
+        "RSI 43"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "ข่าวลบเรื่องราคาร่วงและไร้แรงหนุน"
+      }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 28,
-      "price": 1807.34,
+      "confidence": 34,
+      "price": 1796.33,
       "tp": null,
       "sl": null,
-      "rsi": 48.7,
-      "adx": 17.0,
+      "rsi": 42.9,
+      "adx": 13.7,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 17 ไซด์เวย์",
-        "RSI 49"
+        "ADX 14 ไซด์เวย์",
+        "RSI 43"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "ข่าวระบุ waterfall decline และ ETH ชะงัก"
+      }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 5,
-      "price": 159.41,
+      "confidence": 10,
+      "price": 159.47,
       "tp": null,
       "sl": null,
-      "rsi": 51.1,
-      "adx": 18.2,
+      "rsi": 55.9,
+      "adx": 17.5,
       "reasons": [
         "เทรนด์ขาลง",
         "ADX 18 ไซด์เวย์",
-        "RSI 51"
+        "RSI 56"
       ],
-      "ai": null
+      "ai": {
+        "score": 0.1,
+        "label": "neutral",
+        "reason": "ข่าวผสม เงินเยนแข็งบ้างแต่ยังใกล้ 160"
+      }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "NEUTRAL",
-      "confidence": 46,
-      "price": 3791.76,
-      "tp": null,
-      "sl": null,
-      "rsi": 25.1,
-      "adx": 18.5,
+      "signal": "SHORT",
+      "confidence": 80,
+      "price": 3747.87,
+      "tp": 3705.31,
+      "sl": 3773.41,
+      "rsi": 22.3,
+      "adx": 31.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 18 ไซด์เวย์",
-        "RSI 25"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 32 เทรนด์แข็ง",
+        "RSI 22"
       ],
-      "ai": null
+      "ai": {
+        "score": -0.5,
+        "label": "bearish",
+        "reason": "ทองหลุด 3,800 แนวโน้มลบชัดเจน"
+      }
     }
   ]
 }
