@@ -1,88 +1,71 @@
 {
-  "updated_utc": "2026-11-17T21:42:14+00:00",
-  "updated_th": "18 พ.ย. 2569, 04:42 น.",
+  "updated_utc": "2026-11-18T03:35:29+00:00",
+  "updated_th": "18 พ.ย. 2569, 10:35 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 37,
-      "price": 64451.49,
+      "confidence": 22,
+      "price": 64533.19,
       "tp": null,
       "sl": null,
-      "rsi": 49.7,
-      "adx": 16.7,
+      "rsi": 50.4,
+      "adx": 13.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 17 ไซด์เวย์",
+        "ADX 13 ไซด์เวย์",
         "RSI 50"
       ],
-      "ai": {
-        "score": -0.35,
-        "label": "bearish",
-        "reason": "ข่าวลบเรื่องราคาร่วงและความเสี่ยงขาดทุนหนัก"
-      }
+      "ai": null
     },
     {
       "symbol": "ETH/USD",
-      "signal": "SHORT",
-      "confidence": 49,
-      "price": 1811.32,
-      "tp": 1758.45,
-      "sl": 1843.04,
-      "rsi": 50.6,
-      "adx": 22.0,
+      "signal": "NEUTRAL",
+      "confidence": 28,
+      "price": 1807.34,
+      "tp": null,
+      "sl": null,
+      "rsi": 48.7,
+      "adx": 17.0,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 51"
+        "ADX 17 ไซด์เวย์",
+        "RSI 49"
       ],
-      "ai": {
-        "score": -0.3,
-        "label": "bearish",
-        "reason": "ราคาร่วงแรง ETF ไหลออก กดดันต่อเนื่อง"
-      }
+      "ai": null
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 13,
-      "price": 159.38,
+      "confidence": 5,
+      "price": 159.41,
       "tp": null,
       "sl": null,
-      "rsi": 51.5,
-      "adx": 23.3,
+      "rsi": 51.1,
+      "adx": 18.2,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 23 เริ่มมีเทรนด์",
+        "ADX 18 ไซด์เวย์",
         "RSI 51"
       ],
-      "ai": {
-        "score": 0.3,
-        "label": "bullish",
-        "reason": "ดอลลาร์แข็ง เฟดสายฮอว์ก แตะ 160 เสี่ยงแทรกแซง"
-      }
+      "ai": null
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 30,
-      "price": 3852.02,
+      "confidence": 46,
+      "price": 3791.76,
       "tp": null,
       "sl": null,
-      "rsi": 44.7,
-      "adx": 12.2,
+      "rsi": 25.1,
+      "adx": 18.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 12 ไซด์เวย์",
-        "RSI 45"
+        "ADX 18 ไซด์เวย์",
+        "RSI 25"
       ],
-      "ai": {
-        "score": -0.4,
-        "label": "bearish",
-        "reason": "ดอลลาร์แข็งและเดิมพันเฟดขึ้นดอกเบี้ย กดทองคำ"
-      }
+      "ai": null
     }
   ]
 }
