@@ -1,87 +1,87 @@
 {
-  "updated_utc": "2026-11-22T02:58:20+00:00",
-  "updated_th": "22 พ.ย. 2569, 09:58 น.",
+  "updated_utc": "2026-11-22T11:01:26+00:00",
+  "updated_th": "22 พ.ย. 2569, 18:01 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "NEUTRAL",
-      "confidence": 19,
-      "price": 59542.26,
+      "confidence": 6,
+      "price": 60876.22,
       "tp": null,
       "sl": null,
-      "rsi": 47.8,
-      "adx": 22.6,
+      "rsi": 61.7,
+      "adx": 21.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 23 เริ่มมีเทรนด์",
-        "RSI 48"
+        "ADX 21 เริ่มมีเทรนด์",
+        "RSI 62"
       ],
       "ai": {
         "score": -0.6,
         "label": "bearish",
-        "reason": "ข่าวลบเด่น ราคาร่วง 60K เสี่ยง panic ขายต่อ"
+        "reason": "ข่าวลบหนัก ทิ้งตัวหลุด 57,000 ขาดทุนมหาศาล"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 18,
-      "price": 1672.0,
+      "confidence": 6,
+      "price": 1709.5,
       "tp": null,
       "sl": null,
-      "rsi": 49.7,
-      "adx": 21.7,
+      "rsi": 62.5,
+      "adx": 20.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 50"
+        "ADX 20 เริ่มมีเทรนด์",
+        "RSI 63"
       ],
       "ai": {
-        "score": -0.5,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "ETH ร่วง 9% ตามตลาด แต่ RSI oversold อาจรีบาวด์"
+        "reason": "ราคาร่วง 9% แต่ RSI oversold อาจเด้งสั้น"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 21,
-      "price": 158.57,
+      "confidence": 16,
+      "price": 158.56,
       "tp": null,
       "sl": null,
-      "rsi": 39.8,
-      "adx": 18.5,
+      "rsi": 40.1,
+      "adx": 14.6,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 19 ไซด์เวย์",
+        "ADX 15 ไซด์เวย์",
         "RSI 40"
       ],
       "ai": {
-        "score": -0.3,
+        "score": -0.4,
         "label": "bearish",
-        "reason": "เยนแข็งจากการแทรกแซง ราคาสะดุดใกล้ 160"
+        "reason": "ญี่ปุ่นแทรกแซง เยนพุ่ง เงินดอลลาร์อ่อน"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 77,
-      "price": 3537.36,
-      "tp": 3528.03,
-      "sl": 3542.96,
-      "rsi": 42.2,
-      "adx": 39.4,
+      "confidence": 63,
+      "price": 3537.28,
+      "tp": 3531.88,
+      "sl": 3540.51,
+      "rsi": 42.0,
+      "adx": 32.5,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 39 เทรนด์แข็ง",
+        "ADX 32 เทรนด์แข็ง",
         "RSI 42"
       ],
       "ai": {
-        "score": -0.6,
+        "score": -0.7,
         "label": "bearish",
-        "reason": "ทองหลุดแนวโน้มขาขึ้น ทรุดหนักสุดรอบสัปดาห์"
+        "reason": "ทองร่วงแรงสุดรอบหลายปี หลุดแนวโน้มขาขึ้น"
       }
     }
   ]
