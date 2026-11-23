@@ -1,89 +1,86 @@
 {
-  "updated_utc": "2026-11-23T08:52:40+00:00",
-  "updated_th": "23 พ.ย. 2569, 15:52 น.",
+  "updated_utc": "2026-11-23T21:10:58+00:00",
+  "updated_th": "24 พ.ย. 2569, 04:10 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "LONG",
-      "confidence": 44,
-      "price": 61546.88,
-      "tp": 62884.2,
-      "sl": 60744.49,
-      "rsi": 60.4,
-      "adx": 31.5,
+      "signal": "NEUTRAL",
+      "confidence": 18,
+      "price": 61370.9,
+      "tp": null,
+      "sl": null,
+      "rsi": 48.8,
+      "adx": 33.1,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 31 เทรนด์แข็ง",
-        "RSI 60"
+        "ADX 33 เทรนด์แข็ง",
+        "RSI 49"
       ],
       "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ข่าวลบเด่น แต่มีสัญญาณรีบาวด์จากจุดต่ำ"
+        "score": 0.2,
+        "label": "neutral",
+        "reason": "ข่าวผสม มีทั้งเด้งขึ้นและยังเสี่ยงทำจุดต่ำใหม่"
       }
     },
     {
       "symbol": "ETH/USD",
       "signal": "NEUTRAL",
-      "confidence": 27,
-      "price": 1725.86,
+      "confidence": 19,
+      "price": 1727.31,
       "tp": null,
       "sl": null,
-      "rsi": 58.0,
-      "adx": 31.9,
+      "rsi": 48.1,
+      "adx": 34.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 58"
-      ],
-      "ai": {
-        "score": -0.2,
-        "label": "bearish",
-        "reason": "ข่าวกังวลลงต่อ แต่ RSI oversold อาจรีบาวด์"
-      }
-    },
-    {
-      "symbol": "USD/JPY",
-      "signal": "LONG",
-      "confidence": 56,
-      "price": 159.16,
-      "tp": 159.46,
-      "sl": 158.98,
-      "rsi": 81.0,
-      "adx": 44.8,
-      "reasons": [
-        "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 45 เทรนด์แข็ง",
-        "RSI 81"
+        "ADX 34 เทรนด์แข็ง",
+        "RSI 48"
       ],
       "ai": {
         "score": 0.1,
         "label": "neutral",
-        "reason": "ข่าวผสม เงินเยนอ่อนแต่เสี่ยง carry unwind"
+        "reason": "ฟื้นตัวบ้างแต่ยังอ่อนแอ ข่าวก้ำกึ่ง"
+      }
+    },
+    {
+      "symbol": "USD/JPY",
+      "signal": "NEUTRAL",
+      "confidence": 22,
+      "price": 158.93,
+      "tp": null,
+      "sl": null,
+      "rsi": 45.9,
+      "adx": 38.7,
+      "reasons": [
+        "เทรนด์ขาขึ้น",
+        "ADX 39 เทรนด์แข็ง",
+        "RSI 46"
+      ],
+      "ai": {
+        "score": -0.3,
+        "label": "bearish",
+        "reason": "เยนพุ่งจากการแทรกแซง ญี่ปุ่นกดค่าเงิน"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "LONG",
-      "confidence": 56,
-      "price": 3612.95,
-      "tp": 3647.38,
-      "sl": 3592.29,
-      "rsi": 72.7,
-      "adx": 58.6,
+      "signal": "NEUTRAL",
+      "confidence": 33,
+      "price": 3636.19,
+      "tp": null,
+      "sl": null,
+      "rsi": 59.9,
+      "adx": 56.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 59 แรงมาก ระวังกลับตัว",
-        "RSI 73"
+        "ADX 56 แรงมาก ระวังกลับตัว",
+        "RSI 60"
       ],
       "ai": {
         "score": -0.2,
         "label": "bearish",
-        "reason": "ทองทำจุดต่ำสุดรอบสัปดาห์ แตะแนวรับสำคัญ"
+        "reason": "ทองร่วงหนักหลุดแนวโน้มขาขึ้นหลายปี"
       }
     }
   ]
