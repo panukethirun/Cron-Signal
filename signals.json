@@ -1,88 +1,89 @@
 {
-  "updated_utc": "2026-11-24T17:27:50+00:00",
-  "updated_th": "25 พ.ย. 2569, 00:27 น.",
+  "updated_utc": "2026-11-25T02:12:41+00:00",
+  "updated_th": "25 พ.ย. 2569, 09:12 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
       "signal": "SHORT",
-      "confidence": 51,
-      "price": 59751.25,
-      "tp": 58082.28,
-      "sl": 60752.63,
-      "rsi": 41.2,
-      "adx": 20.6,
+      "confidence": 57,
+      "price": 59085.52,
+      "tp": 57755.63,
+      "sl": 59883.45,
+      "rsi": 35.7,
+      "adx": 22.9,
       "reasons": [
         "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 21 เริ่มมีเทรนด์",
-        "RSI 41"
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 36"
       ],
       "ai": {
         "score": -0.35,
         "label": "bearish",
-        "reason": "ข่าวลบ ราคาร่วงต่ำกว่า 60K ลบกำไร"
+        "reason": "ราคาหลุด 60,000 ดอลลาร์ ข่าวลบกดดัน"
       }
     },
     {
       "symbol": "ETH/USD",
-      "signal": "NEUTRAL",
-      "confidence": 46,
-      "price": 1676.76,
-      "tp": null,
-      "sl": null,
-      "rsi": 39.7,
-      "adx": 18.3,
+      "signal": "SHORT",
+      "confidence": 57,
+      "price": 1655.64,
+      "tp": 1614.94,
+      "sl": 1680.06,
+      "rsi": 34.6,
+      "adx": 22.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "ADX 18 ไซด์เวย์",
-        "RSI 40"
+        "เทรนด์ใหญ่หนุน",
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 35"
       ],
       "ai": {
         "score": -0.3,
         "label": "bearish",
-        "reason": "ETF ไหลออก ขาย ETH ชำระหนี้ ราคาชะงัก"
+        "reason": "หลุด 1,700 ดอลลาร์ จากความกังวลภาษี"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 18,
-      "price": 159.26,
+      "confidence": 13,
+      "price": 159.31,
       "tp": null,
       "sl": null,
-      "rsi": 55.2,
-      "adx": 21.6,
+      "rsi": 56.7,
+      "adx": 15.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 22 เริ่มมีเทรนด์",
-        "RSI 55"
+        "ADX 15 ไซด์เวย์",
+        "RSI 57"
       ],
       "ai": {
-        "score": 0.1,
+        "score": 0.0,
         "label": "neutral",
-        "reason": "ข่าวผสม เสี่ยงแทรกแซง แต่ดอกเบี้ยหนุนดอลลาร์"
+        "reason": "ข่าวผสม ทั้ง risk-off และดีมานด์ดอลลาร์"
       }
     },
     {
       "symbol": "XAU/USD",
       "signal": "SHORT",
-      "confidence": 35,
-      "price": 3564.39,
-      "tp": 3514.01,
-      "sl": 3594.61,
-      "rsi": 31.7,
-      "adx": 25.3,
+      "confidence": 77,
+      "price": 3554.89,
+      "tp": 3513.03,
+      "sl": 3580.01,
+      "rsi": 35.0,
+      "adx": 30.6,
       "reasons": [
-        "เทรนด์ขาขึ้น",
+        "เทรนด์ขาลง",
         "เทรนด์ใหญ่หนุน",
-        "ADX 25 เทรนด์แข็ง",
-        "RSI 32"
+        "ADX 31 เทรนด์แข็ง",
+        "RSI 35"
       ],
       "ai": {
         "score": 0.15,
         "label": "neutral",
-        "reason": "รีบาวด์แต่ยังอ่อน ข่าวผสมทิศทาง"
+        "reason": "รีบาวด์แต่ยังอ่อนหลังหลุดแนวโน้ม"
       }
     }
   ]
