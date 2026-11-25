@@ -1,89 +1,86 @@
 {
-  "updated_utc": "2026-11-25T12:33:11+00:00",
-  "updated_th": "25 พ.ย. 2569, 19:33 น.",
+  "updated_utc": "2026-11-25T22:22:03+00:00",
+  "updated_th": "26 พ.ย. 2569, 05:22 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "SHORT",
-      "confidence": 69,
-      "price": 58661.04,
-      "tp": 57362.74,
-      "sl": 59440.02,
-      "rsi": 37.0,
-      "adx": 27.8,
+      "signal": "NEUTRAL",
+      "confidence": 7,
+      "price": 60093.15,
+      "tp": null,
+      "sl": null,
+      "rsi": 58.3,
+      "adx": 23.5,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 37"
-      ],
-      "ai": {
-        "score": -0.5,
-        "label": "bearish",
-        "reason": "ราคาหลุด 60,000 ดอลลาร์ ข่าวลบและแรงขายจาก AI"
-      }
-    },
-    {
-      "symbol": "ETH/USD",
-      "signal": "SHORT",
-      "confidence": 80,
-      "price": 1645.51,
-      "tp": 1605.38,
-      "sl": 1669.59,
-      "rsi": 39.1,
-      "adx": 31.9,
-      "reasons": [
-        "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 32 เทรนด์แข็ง",
-        "RSI 39"
+        "ADX 24 เริ่มมีเทรนด์",
+        "RSI 58"
       ],
       "ai": {
         "score": -0.6,
         "label": "bearish",
-        "reason": "หลุด 1,700 ดอลลาร์ ETF ไหลออก คาดการณ์ดิ่งแรง"
+        "reason": "ราคาร่วงต่ำกว่า 57.500 เหรียญ ETF ไหลออก นักขุดกดดัน"
+      }
+    },
+    {
+      "symbol": "ETH/USD",
+      "signal": "NEUTRAL",
+      "confidence": 7,
+      "price": 1683.52,
+      "tp": null,
+      "sl": null,
+      "rsi": 56.7,
+      "adx": 24.8,
+      "reasons": [
+        "เทรนด์ขาลง",
+        "ADX 25 เริ่มมีเทรนด์",
+        "RSI 57"
+      ],
+      "ai": {
+        "score": -0.7,
+        "label": "bearish",
+        "reason": "นักวิเคราะห์เตือนดิ่งหนัก ETF ไหลออก หลุดแนวรับสำคัญ"
       }
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 12,
-      "price": 159.26,
+      "confidence": 0,
+      "price": 159.17,
       "tp": null,
       "sl": null,
-      "rsi": 49.8,
-      "adx": 13.9,
+      "rsi": 48.5,
+      "adx": 22.7,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 14 ไซด์เวย์",
-        "RSI 50"
+        "ADX 23 เริ่มมีเทรนด์",
+        "RSI 49"
       ],
       "ai": {
-        "score": -0.2,
+        "score": -0.3,
         "label": "bearish",
-        "reason": "เยนแข็งค่าจาก risk-off แต่ดอกเบี้ยยังหนุนดอลลาร์"
+        "reason": "ญี่ปุ่นแทรกแซงหนุนเยน แต่ส่วนต่างดอกเบี้ยยังกดดัน"
       }
     },
     {
       "symbol": "XAU/USD",
-      "signal": "SHORT",
-      "confidence": 75,
-      "price": 3522.86,
-      "tp": 3471.03,
-      "sl": 3553.95,
-      "rsi": 39.0,
-      "adx": 30.2,
+      "signal": "NEUTRAL",
+      "confidence": 16,
+      "price": 3589.45,
+      "tp": null,
+      "sl": null,
+      "rsi": 61.8,
+      "adx": 28.9,
       "reasons": [
         "เทรนด์ขาลง",
-        "เทรนด์ใหญ่หนุน",
-        "ADX 30 เทรนด์แข็ง",
-        "RSI 39"
+        "ADX 29 เทรนด์แข็ง",
+        "RSI 62"
       ],
       "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "รีบาวด์แต่ยังหลุดแนวโน้มขาขึ้นระยะยาว สัญญาณผสม"
+        "score": -0.2,
+        "label": "bearish",
+        "reason": "ทองแตะจุดต่ำสุดรอบ 15 เดือน แต่อาจมีแรงรับกลับ"
       }
     }
   ]
