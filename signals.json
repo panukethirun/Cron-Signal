@@ -1,89 +1,72 @@
 {
-  "updated_utc": "2026-11-26T04:53:37+00:00",
-  "updated_th": "26 พ.ย. 2569, 11:53 น.",
+  "updated_utc": "2026-11-26T14:57:05+00:00",
+  "updated_th": "26 พ.ย. 2569, 21:57 น.",
   "timeframe": "1H",
   "signals": [
     {
       "symbol": "BTC/USD",
-      "signal": "LONG",
-      "confidence": 38,
-      "price": 60965.68,
-      "tp": 62490.28,
-      "sl": 60050.92,
-      "rsi": 66.2,
-      "adx": 27.5,
+      "signal": "NEUTRAL",
+      "confidence": 23,
+      "price": 60806.32,
+      "tp": null,
+      "sl": null,
+      "rsi": 58.3,
+      "adx": 27.3,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "สวนเทรนด์ใหญ่",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 66"
+        "ADX 27 เทรนด์แข็ง",
+        "RSI 58"
       ],
-      "ai": {
-        "score": -0.6,
-        "label": "bearish",
-        "reason": "ราคาต่ำกว่า 60K มีแรงขายและ ETF ไหลออก"
-      }
+      "ai": null
     },
     {
       "symbol": "ETH/USD",
       "signal": "LONG",
-      "confidence": 38,
-      "price": 1703.09,
-      "tp": 1749.58,
-      "sl": 1675.2,
-      "rsi": 63.4,
-      "adx": 27.7,
+      "confidence": 35,
+      "price": 1699.06,
+      "tp": 1734.74,
+      "sl": 1677.65,
+      "rsi": 55.6,
+      "adx": 25.5,
       "reasons": [
         "เทรนด์ขาขึ้น",
         "สวนเทรนด์ใหญ่",
-        "ADX 28 เทรนด์แข็ง",
-        "RSI 63"
+        "ADX 26 เทรนด์แข็ง",
+        "RSI 56"
       ],
-      "ai": {
-        "score": -0.6,
-        "label": "bearish",
-        "reason": "ETH หลุด 1,700 เงินเฟ้อร้อน แนวโน้มลงต่อ"
-      }
+      "ai": null
     },
     {
       "symbol": "USD/JPY",
       "signal": "NEUTRAL",
-      "confidence": 0,
-      "price": 159.14,
+      "confidence": 22,
+      "price": 159.23,
       "tp": null,
       "sl": null,
-      "rsi": 48.3,
-      "adx": 24.0,
+      "rsi": 51.6,
+      "adx": 16.2,
       "reasons": [
         "เทรนด์ขาขึ้น",
-        "ADX 24 เริ่มมีเทรนด์",
-        "RSI 48"
+        "ADX 16 ไซด์เวย์",
+        "RSI 52"
       ],
-      "ai": {
-        "score": 0.1,
-        "label": "neutral",
-        "reason": "เยนอ่อนจาก risk-on แต่มีแรงต้านและสัญญาณผสม"
-      }
+      "ai": null
     },
     {
       "symbol": "XAU/USD",
       "signal": "NEUTRAL",
-      "confidence": 6,
-      "price": 3595.56,
+      "confidence": 10,
+      "price": 3580.09,
       "tp": null,
       "sl": null,
-      "rsi": 60.0,
-      "adx": 20.5,
+      "rsi": 55.6,
+      "adx": 12.5,
       "reasons": [
-        "เทรนด์ขาลง",
-        "ADX 21 เริ่มมีเทรนด์",
-        "RSI 60"
+        "เทรนด์ขาขึ้น",
+        "ADX 13 ไซด์เวย์",
+        "RSI 56"
       ],
-      "ai": {
-        "score": -0.5,
-        "label": "bearish",
-        "reason": "ทองแตะจุดต่ำสุด 15 เดือน หลุดแนวโน้มขาขึ้น"
-      }
+      "ai": null
     }
   ]
 }
